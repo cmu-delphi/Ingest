@@ -20,19 +20,19 @@
       }
     }
   ],
-  "checked": "2026-03-06 14:57:41",
+  "checked": "2026-03-13 14:35:03",
   "check_results": {
-    "data/vaccine_exemptions_kiang/standard/data_county.csv.gz": [],
-    "data/vaccine_exemptions_kiang/standard/data_state.csv.gz": [],
-    "data/vaccine_exemptions_kiang/standard/data.csv.gz": []
+    "data/vaccine_exemptions_fattah/standard/data_county.csv.gz": [],
+    "data/vaccine_exemptions_fattah/standard/data_state.csv.gz": [],
+    "data/vaccine_exemptions_fattah/standard/data.csv.gz": []
   },
   "raw_state": {
     "raw/exemptions.csv.xz": "ca500980b60382ae7aed6f758de385e4"
   },
   "standard_state": {
-    "./data/vaccine_exemptions_kiang/measure_info.json": "4037399967d83dcf9b8b06d5e4de3713",
-    "./data/vaccine_exemptions_kiang/standard/data_county.csv.gz": "74a0fa162267ca42cb2c915a63e8fb68",
-    "./data/vaccine_exemptions_kiang/standard/data_state.csv.gz": "614116d531a1bc16258b6e4a8eb2af8a",
-    "./data/vaccine_exemptions_kiang/standard/data.csv.gz": "614116d531a1bc16258b6e4a8eb2af8a"
+    "./data/vaccine_exemptions_fattah/measure_info.json": "e0e2eaea5c6ee121af794ec58e63d6f6",
+    "./data/vaccine_exemptions_fattah/standard/data_county.csv.gz": "7d4ced075e1cf79ee9c0f87c4144f962",
+    "./data/vaccine_exemptions_fattah/standard/data_state.csv.gz": "36ebfed8589fd4df642318882499f34e",
+    "./data/vaccine_exemptions_fattah/standard/data.csv.gz": "36ebfed8589fd4df642318882499f34e"
   }
 }
