@@ -4,14 +4,15 @@
   "licenses": [],
   "resources": [
     {
-      "bytes": 578,
+      "bytes": 726,
       "encoding": "windows-1252",
-      "md5": "c196a206418e985ce0b450f794f38364",
+      "md5": "b1346f48df0addcce980e4773c44b2dd",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "62e190f20331a6d981c7bdb806aeba36d54b477e",
           "4c7185ef76c6475c726d8f36af3ce19b8fd9a152",
           "e04e898196a4b8b1be71bafbcce7a5a7a5756a20",
           "fca5414dae4c1baf95f9bd80eec5780d0c7141b2",
@@ -23,9 +24,11 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>"
         ],
         "date": [
+          "Tue Aug 4 07:57:39 2026 +0000",
           "Mon Aug 3 10:41:05 2026 +0000",
           "Sun Aug 2 09:12:03 2026 +0000",
           "Sat Aug 1 09:07:19 2026 +0000",
@@ -33,6 +36,7 @@
           "Thu Jul 16 12:53:03 2026 -0400"
         ],
         "message": [
+          "scheduled daily data update",
           "scheduled daily data update",
           "scheduled daily data update",
           "scheduled daily data update",
@@ -50,39 +54,49 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-04 07:57:18.179993",
-      "last_modified": "2026-08-04 07:57:18.179993",
+      "created": "2026-08-05 08:00:22.109344",
+      "last_modified": "2026-08-05 08:00:22.109344",
       "vintage": {},
-      "row_count": 44,
-      "entity_count": 13,
+      "row_count": 57,
+      "entity_count": 23,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 31,
+            "duplicates": 34,
             "info": [],
             "time_range": [0, 2],
             "type": "string",
             "missing": 0,
             "table": {
+              "05": 1,
+              "06": 1,
               "06037": 3,
-              "12": 3,
-              "18": 3,
+              "10": 1,
+              "12": 4,
+              "17": 1,
+              "18": 4,
+              "19": 1,
               "19155": 3,
-              "21": 3,
+              "20": 1,
+              "21": 4,
               "26": 6,
               "26125": 3,
+              "29": 1,
               "31055": 3,
               "31153": 3,
+              "37": 1,
               "39": 6,
               "39095": 3,
+              "42": 1,
+              "48": 1,
               "55": 3,
               "55055": 2
             }
           },
           {
             "name": "time",
-            "duplicates": 41,
+            "duplicates": 54,
             "info": [],
             "time_range": [0, 2],
             "type": "string",
@@ -90,12 +104,12 @@
             "table": {
               "07-18-2026": 14,
               "08-01-2026": 15,
-              "08-08-2026": 15
+              "08-08-2026": 28
             }
           },
           {
             "name": "condition",
-            "duplicates": 38,
+            "duplicates": 50,
             "info": {
               "id": "condition",
               "short_name": "Alerted Condition",
@@ -116,16 +130,17 @@
             "missing": 0,
             "table": {
               "Acute Pharyngitis": 5,
-              "Cyclosporiasis": 6,
+              "Cyclosporiasis": 18,
               "Hand, Foot, and Mouth Disease": 6,
               "Heat Illness": 18,
+              "Salmonellosis": 1,
               "Toxic Effect of Smoke": 3,
               "Viral Gastroenteritis": 6
             }
           },
           {
             "name": "estimated_onset",
-            "duplicates": 41,
+            "duplicates": 52,
             "info": {
               "id": "estimated_onset",
               "short_name": "Estimated Onset Date",
@@ -146,13 +161,15 @@
             "missing": 0,
             "table": {
               "05-04-2026": 5,
-              "06-22-2026": 21,
-              "06-29-2026": 18
+              "06-22-2026": 22,
+              "06-29-2026": 21,
+              "07-06-2026": 7,
+              "07-13-2026": 2
             }
           },
           {
             "name": "value",
-            "duplicates": 29,
+            "duplicates": 23,
             "info": {
               "id": "value",
               "short_name": "Health Alert Rate (Cases per 100k)",
@@ -173,14 +190,14 @@
             "time_range": [0, 2],
             "type": "float",
             "missing": 0,
-            "mean": 129.688636,
-            "sd": 250.860468,
-            "min": 7.7,
+            "mean": 107.524561,
+            "sd": 225.031031,
+            "min": 1.3,
             "max": 1010.7
           },
           {
             "name": "partial_week_flag",
-            "duplicates": 42,
+            "duplicates": 55,
             "info": {
               "id": "partial_week_flag",
               "short_name": "Partial Week?",
@@ -199,14 +216,14 @@
             "time_range": [0, 2],
             "type": "integer",
             "missing": 0,
-            "mean": 0.25,
-            "sd": 0.438019,
+            "mean": 0.280702,
+            "sd": 0.453336,
             "min": 0,
             "max": 1
           },
           {
             "name": "date_scraped",
-            "duplicates": 41,
+            "duplicates": 53,
             "info": {
               "id": "date_scraped",
               "short_name": "Date Scraped",
@@ -228,12 +245,13 @@
             "table": {
               "07-16-2026": 14,
               "08-01-2026": 15,
-              "08-04-2026": 15
+              "08-04-2026": 9,
+              "08-05-2026": 19
             }
           },
           {
             "name": "date_epic_updated",
-            "duplicates": 42,
+            "duplicates": 54,
             "info": {
               "id": "date_epic_updated",
               "short_name": "Date Epic Updated",
@@ -253,13 +271,14 @@
             "type": "string",
             "missing": 0,
             "table": {
-              "07-13-2026": 30,
-              "07-15-2026": 14
+              "07-13-2026": 24,
+              "07-15-2026": 14,
+              "08-04-2026": 19
             }
           }
         ]
       },
-      "sha512": "a22c6c87e2b3f1a2ae3a34e378d41ae98dd9dd5a88d3c4b8632722b7cc9f49832fca1e306049cbeef57f64f2036d27ae71f1e5db947377da646754f911b41d41"
+      "sha512": "e402612b16fa2e6d46d23c12d8db496057a2e2e2619049d117c1637fa6e4f24e92c2a3a6818a5865c1125fc2f6bbfbb7ec4ca00f07fc0e6cca0dd7402e507cff"
     }
   ],
   "measure_info": {
@@ -381,7 +400,7 @@
         "geography": {
           "status": "present",
           "same_type": true,
-          "added_levels": [],
+          "added_levels": ["05", "06", "10", "17", "19", "20", "29", "37", "42", "48"],
           "dropped_levels": []
         },
         "time": {
@@ -393,13 +412,13 @@
         "condition": {
           "status": "present",
           "same_type": true,
-          "added_levels": [],
+          "added_levels": "Salmonellosis",
           "dropped_levels": []
         },
         "estimated_onset": {
           "status": "present",
           "same_type": true,
-          "added_levels": [],
+          "added_levels": ["07-06-2026", "07-13-2026"],
           "dropped_levels": []
         },
         "value": {
@@ -413,13 +432,13 @@
         "date_scraped": {
           "status": "present",
           "same_type": true,
-          "added_levels": "08-04-2026",
-          "dropped_levels": "08-03-2026"
+          "added_levels": "08-05-2026",
+          "dropped_levels": []
         },
         "date_epic_updated": {
           "status": "present",
           "same_type": true,
-          "added_levels": [],
+          "added_levels": "08-04-2026",
           "dropped_levels": []
         }
       }
