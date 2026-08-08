@@ -148,7 +148,7 @@ flowchart LR
         direction LR
         n32["`monthly_tests.csv.gz`"]:::pass
         n33["`no_geo.csv.gz`"]:::pass
-        n34["`quarterly_gas.csv.gz<br/><br/><ul><li><code>missing_info: state_name</code></li></ul>`"]:::warn
+        n34["`quarterly_gas.csv.gz<br/><br/><ul><li><code>levels_changed: time</code></li></ul>`"]:::warn
         n35["`weekly.csv.gz`"]:::pass
     end
     subgraph gtrends["`<strong><a href="https://github.com/PopHIVE/Ingest/tree/main/data/gtrends" target="_blank" rel="noreferrer">gtrends</a></strong>`"]
