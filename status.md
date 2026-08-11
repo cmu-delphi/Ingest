@@ -116,7 +116,7 @@ flowchart LR
     end
     subgraph delphi_nhsn["`<strong><a href="https://github.com/PopHIVE/Ingest/tree/main/data/delphi_nhsn" target="_blank" rel="noreferrer">delphi_nhsn</a></strong>`"]
         direction LR
-        n20["`data.csv.gz`"]:::pass
+        n20["`data.csv.gz<br /><br />Script Failed:<br />Unauthorized (HTTP 401). Failed to fetch data from API : Requested too many multiples for anonymous queries. To remove this limit, register a free API key at https://api.delphi.cmu.edu/epidata/admin/registration_form.`"]:::fail
     end
     subgraph epic_chronic["`<strong><a href="https://github.com/PopHIVE/Ingest/tree/main/data/epic_chronic" target="_blank" rel="noreferrer">epic_chronic</a></strong>`"]
         direction LR
@@ -148,7 +148,7 @@ flowchart LR
         direction LR
         n32["`monthly_tests.csv.gz`"]:::pass
         n33["`no_geo.csv.gz`"]:::pass
-        n34["`quarterly_gas.csv.gz<br/><br/><ul><li><code>levels_changed: time</code></li></ul>`"]:::warn
+        n34["`quarterly_gas.csv.gz`"]:::pass
         n35["`weekly.csv.gz`"]:::pass
     end
     subgraph gtrends["`<strong><a href="https://github.com/PopHIVE/Ingest/tree/main/data/gtrends" target="_blank" rel="noreferrer">gtrends</a></strong>`"]
