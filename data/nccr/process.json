@@ -14,7 +14,7 @@
       }
     }
   ],
-  "checked": "2026-08-11 19:37:17",
+  "checked": "2026-08-14 19:42:18",
   "check_results": {
     "data/nccr/standard/data.csv.gz": {
       "measures": ["missing_info: age", "missing_info: sex", "missing_info: race_ethnicity"]
