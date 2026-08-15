@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-14T07:36:42Z",
+  "generated": "2026-08-15T07:17:13Z",
   "repository": "PopHIVE/Ingest",
   "github_raw_base": "https://raw.githubusercontent.com/PopHIVE/Ingest/main",
   "bundles": {
@@ -17113,53 +17113,6 @@
               "description": "Binary indicator: 1 if the RSV test encounter count was suppressed (fewer than 10), 0 otherwise.",
               "measure_type": "binary",
               "unit": ""
-            }
-          ]
-        },
-        {
-          "filename": "no_geo.csv.gz",
-          "columns": [
-            {
-              "name": "time",
-              "short_name": "Time",
-              "description": "Date in MM-DD-YYYY format (Saturday for weekly data)",
-              "measure_type": "date",
-              "unit": "date"
-            },
-            {
-              "name": "age",
-              "short_name": "Age",
-              "description": "Age group.",
-              "measure_type": "integer",
-              "unit": "years"
-            },
-            {
-              "name": "geography",
-              "short_name": "Geography",
-              "description": "FIPS code identifier (00 = national, 2-digit = state, 5-digit = county)",
-              "measure_type": "identifier",
-              "unit": "FIPS code"
-            },
-            {
-              "name": "positive_rsv_tests_(%)",
-              "short_name": "RSV Positive Test Rate (%) [raw]",
-              "description": "Raw export column: percent of RSV tests positive among J12-J18 pneumonia admissions.",
-              "measure_type": "percent",
-              "unit": "%"
-            },
-            {
-              "name": "rsv_tests",
-              "short_name": "RSV Test Rate (%) [raw]",
-              "description": "Raw export column: percent of J12-J18 pneumonia admissions receiving an RSV test.",
-              "measure_type": "percent",
-              "unit": "%"
-            },
-            {
-              "name": "n_rsv_tests",
-              "short_name": "RSV Tests: Positive",
-              "description": "Number of ER encounters with positive RSV tests.",
-              "measure_type": "integer",
-              "unit": "encounter"
             }
           ]
         },
