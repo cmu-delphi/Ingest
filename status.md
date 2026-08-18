@@ -63,7 +63,7 @@ flowchart LR
     end
     subgraph area_health_resource_file["`<strong><a href="https://github.com/PopHIVE/Ingest/tree/main/data/area_health_resource_file" target="_blank" rel="noreferrer">area_health_resource_file</a></strong>`"]
         direction LR
-        n3["`data.csv.gz`"]:::pass
+        n3["`data.csv.gz<br/><br/><ul><li><code>type_changed: ahrf_ed_per_1k_medicare</code></li></ul>`"]:::warn
     end
     subgraph atlas_amr["`<strong><a href="https://github.com/PopHIVE/Ingest/tree/main/data/atlas_amr" target="_blank" rel="noreferrer">atlas_amr</a></strong>`"]
         direction LR
@@ -255,8 +255,8 @@ flowchart LR
     end
     subgraph schoolvaxview["`<strong><a href="https://github.com/PopHIVE/Ingest/tree/main/data/schoolvaxview" target="_blank" rel="noreferrer">schoolvaxview</a></strong>`"]
         direction LR
-        n81["`data_exemptions.csv.gz`"]:::pass
-        n82["`data.csv.gz`"]:::pass
+        n81["`data_exemptions.csv.gz<br/><br/><ul><li><code>type_changed: N, percent_surveyed</code></li></ul>`"]:::warn
+        n82["`data.csv.gz<br/><br/><ul><li><code>type_changed: N, percent_surveyed</code></li></ul>`"]:::warn
     end
     subgraph vaccine_exemptions_fattah["`<strong><a href="https://github.com/PopHIVE/Ingest/tree/main/data/vaccine_exemptions_fattah" target="_blank" rel="noreferrer">vaccine_exemptions_fattah</a></strong>`"]
         direction LR

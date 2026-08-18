@@ -4,14 +4,15 @@
   "licenses": [],
   "resources": [
     {
-      "bytes": 217487,
+      "bytes": 219309,
       "encoding": "windows-1252",
-      "md5": "592e01e8eb5201ccb19e966d4c08f0ce",
+      "md5": "4b66d14229ba848d461eb1a0ca4ce47f",
       "format": "parquet",
       "name": "enteric_diseases",
       "filename": "enteric_diseases.parquet",
       "versions": {
         "hash": [
+          "b80d2ede2f1dce22729467107fef9fdff2eac7f8",
           "febbc4cba45d1dcdc4bf4cdbae03353299e435ae",
           "27a234dc0fdc758f4b37df938781a3de2f05b5f0",
           "5478cf62f99068b87141ba18c1c3c264d3820e09",
@@ -26,6 +27,7 @@
         "author": [
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -36,6 +38,7 @@
           "anshap32 <73296024+anshap32@users.noreply.github.com>"
         ],
         "date": [
+          "Fri Aug 14 19:42:48 2026 +0000",
           "Sat Aug 8 00:02:04 2026 +0000",
           "Fri Jul 31 20:48:09 2026 +0000",
           "Wed Jul 29 10:33:30 2026 -0400",
@@ -48,6 +51,7 @@
           "Mon Jul 6 15:12:48 2026 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "scheduled data build",
           "add epic to enterics bundle",
@@ -70,78 +74,78 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-14 19:39:27.097648",
-      "last_modified": "2026-08-14 19:39:27.097648",
+      "created": "2026-08-18 19:49:06.402619",
+      "last_modified": "2026-08-18 19:49:06.402619",
       "vintage": {},
-      "row_count": 203565,
+      "row_count": 205125,
       "entity_count": 52,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 203513,
+            "duplicates": 205073,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
-              "Alabama": 3915,
-              "Alaska": 3900,
-              "Arizona": 3915,
-              "Arkansas": 3915,
-              "California": 3915,
-              "Colorado": 3915,
-              "Connecticut": 3915,
-              "Delaware": 3915,
-              "District of Columbia": 3915,
-              "Florida": 3915,
-              "Georgia": 3915,
-              "Hawaii": 3915,
-              "Idaho": 3915,
-              "Illinois": 3915,
-              "Indiana": 3915,
-              "Iowa": 3915,
-              "Kansas": 3915,
-              "Kentucky": 3915,
-              "Louisiana": 3915,
-              "Maine": 3915,
-              "Maryland": 3915,
-              "Massachusetts": 3915,
-              "Michigan": 3915,
-              "Minnesota": 3915,
-              "Mississippi": 3915,
-              "Missouri": 3915,
-              "Montana": 3915,
-              "Nebraska": 3915,
-              "Nevada": 3915,
-              "New Hampshire": 3915,
-              "New Jersey": 3915,
-              "New Mexico": 3915,
-              "New York": 3915,
-              "North Carolina": 3915,
-              "North Dakota": 3915,
-              "Ohio": 3915,
-              "Oklahoma": 3915,
-              "Oregon": 3915,
-              "Pennsylvania": 3915,
-              "Rhode Island": 3915,
-              "South Carolina": 3915,
-              "South Dakota": 3915,
-              "Tennessee": 3915,
-              "Texas": 3915,
-              "United States": 3915,
-              "Utah": 3915,
-              "Vermont": 3915,
-              "Virginia": 3915,
-              "Washington": 3915,
-              "West Virginia": 3915,
-              "Wisconsin": 3915,
-              "Wyoming": 3915
+              "Alabama": 3945,
+              "Alaska": 3930,
+              "Arizona": 3945,
+              "Arkansas": 3945,
+              "California": 3945,
+              "Colorado": 3945,
+              "Connecticut": 3945,
+              "Delaware": 3945,
+              "District of Columbia": 3945,
+              "Florida": 3945,
+              "Georgia": 3945,
+              "Hawaii": 3945,
+              "Idaho": 3945,
+              "Illinois": 3945,
+              "Indiana": 3945,
+              "Iowa": 3945,
+              "Kansas": 3945,
+              "Kentucky": 3945,
+              "Louisiana": 3945,
+              "Maine": 3945,
+              "Maryland": 3945,
+              "Massachusetts": 3945,
+              "Michigan": 3945,
+              "Minnesota": 3945,
+              "Mississippi": 3945,
+              "Missouri": 3945,
+              "Montana": 3945,
+              "Nebraska": 3945,
+              "Nevada": 3945,
+              "New Hampshire": 3945,
+              "New Jersey": 3945,
+              "New Mexico": 3945,
+              "New York": 3945,
+              "North Carolina": 3945,
+              "North Dakota": 3945,
+              "Ohio": 3945,
+              "Oklahoma": 3945,
+              "Oregon": 3945,
+              "Pennsylvania": 3945,
+              "Rhode Island": 3945,
+              "South Carolina": 3945,
+              "South Dakota": 3945,
+              "Tennessee": 3945,
+              "Texas": 3945,
+              "United States": 3945,
+              "Utah": 3945,
+              "Vermont": 3945,
+              "Virginia": 3945,
+              "Washington": 3945,
+              "West Virginia": 3945,
+              "Wisconsin": 3945,
+              "Wyoming": 3945
             }
           },
           {
             "name": "date",
-            "duplicates": 203232,
+            "duplicates": 204790,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
@@ -474,17 +478,19 @@
               "2026-06-13": 520,
               "2026-06-20": 520,
               "2026-06-27": 520,
+              "2026-06-30": 780,
               "2026-07-04": 520,
               "2026-07-11": 520,
               "2026-07-18": 520,
               "2026-07-25": 520,
+              "2026-07-31": 780,
               "2026-08-01": 520,
               "2026-08-08": 520
             }
           },
           {
             "name": "measure",
-            "duplicates": 203540,
+            "duplicates": 205100,
             "info": {
               "levels": {
                 "campylobacteriosis": {
@@ -840,7 +846,7 @@
                 "beam_isolates_campylobacter": {
                   "id": "beam_isolates_campylobacter",
                   "name": "beam_isolates_campylobacter",
-                  "duplicates": 5150,
+                  "duplicates": 5252,
                   "info": {
                     "full_name": "beam_isolates_campylobacter",
                     "measure": "beam_isolates_campylobacter",
@@ -867,19 +873,19 @@
                   },
                   "time_range": [
                     0,
-                    100
+                    102
                   ],
                   "type": "integer",
                   "missing": 0,
-                  "mean": 29.265436,
-                  "sd": 108.062172,
+                  "mean": 29.532102,
+                  "sd": 108.872651,
                   "min": 0,
                   "max": 1206
                 },
                 "beam_isolates_salmonella": {
                   "id": "beam_isolates_salmonella",
                   "name": "beam_isolates_salmonella",
-                  "duplicates": 4761,
+                  "duplicates": 4860,
                   "info": {
                     "full_name": "beam_isolates_salmonella",
                     "measure": "beam_isolates_salmonella",
@@ -906,19 +912,19 @@
                   },
                   "time_range": [
                     0,
-                    100
+                    102
                   ],
                   "type": "integer",
                   "missing": 0,
-                  "mean": 173.297146,
-                  "sd": 663.154956,
+                  "mean": 175.368941,
+                  "sd": 670.138422,
                   "min": 0,
-                  "max": 7794
+                  "max": 7804
                 },
                 "beam_isolates_shigella": {
                   "id": "beam_isolates_shigella",
                   "name": "beam_isolates_shigella",
-                  "duplicates": 5153,
+                  "duplicates": 5255,
                   "info": {
                     "full_name": "beam_isolates_shigella",
                     "measure": "beam_isolates_shigella",
@@ -945,19 +951,19 @@
                   },
                   "time_range": [
                     0,
-                    100
+                    102
                   ],
                   "type": "integer",
                   "missing": 0,
-                  "mean": 12.536094,
-                  "sd": 52.637594,
+                  "mean": 12.53887,
+                  "sd": 52.54195,
                   "min": 0,
                   "max": 739
                 },
                 "beam_isolates_stec": {
                   "id": "beam_isolates_stec",
                   "name": "beam_isolates_stec",
-                  "duplicates": 5134,
+                  "duplicates": 5239,
                   "info": {
                     "full_name": "beam_isolates_stec",
                     "measure": "beam_isolates_stec",
@@ -984,19 +990,19 @@
                   },
                   "time_range": [
                     0,
-                    100
+                    102
                   ],
                   "type": "integer",
                   "missing": 0,
-                  "mean": 26.66704,
-                  "sd": 102.554407,
+                  "mean": 26.978965,
+                  "sd": 103.632662,
                   "min": 0,
-                  "max": 1252
+                  "max": 1347
                 },
                 "beam_isolates_vibrio": {
                   "id": "beam_isolates_vibrio",
                   "name": "beam_isolates_vibrio",
-                  "duplicates": 5284,
+                  "duplicates": 5390,
                   "info": {
                     "full_name": "beam_isolates_vibrio",
                     "measure": "beam_isolates_vibrio",
@@ -1023,19 +1029,19 @@
                   },
                   "time_range": [
                     0,
-                    100
+                    102
                   ],
                   "type": "integer",
                   "missing": 0,
-                  "mean": 1.752285,
-                  "sd": 9.481748,
+                  "mean": 1.796598,
+                  "sd": 9.589716,
                   "min": 0,
                   "max": 192
                 },
                 "beam_outbreak_isolates_campylobacter": {
                   "id": "beam_outbreak_isolates_campylobacter",
                   "name": "beam_outbreak_isolates_campylobacter",
-                  "duplicates": 5339,
+                  "duplicates": 5443,
                   "info": {
                     "full_name": "beam_outbreak_isolates_campylobacter",
                     "measure": "beam_outbreak_isolates_campylobacter",
@@ -1062,19 +1068,19 @@
                   },
                   "time_range": [
                     0,
-                    100
+                    102
                   ],
                   "type": "integer",
                   "missing": 0,
-                  "mean": 0.210035,
-                  "sd": 1.3018,
+                  "mean": 0.221694,
+                  "sd": 1.449687,
                   "min": 0,
-                  "max": 40
+                  "max": 41
                 },
                 "beam_outbreak_isolates_salmonella": {
                   "id": "beam_outbreak_isolates_salmonella",
                   "name": "beam_outbreak_isolates_salmonella",
-                  "duplicates": 5184,
+                  "duplicates": 5288,
                   "info": {
                     "full_name": "beam_outbreak_isolates_salmonella",
                     "measure": "beam_outbreak_isolates_salmonella",
@@ -1101,19 +1107,19 @@
                   },
                   "time_range": [
                     0,
-                    100
+                    102
                   ],
                   "type": "integer",
                   "missing": 0,
-                  "mean": 13.333333,
-                  "sd": 57.904469,
+                  "mean": 13.731114,
+                  "sd": 59.56128,
                   "min": 0,
                   "max": 1452
                 },
                 "beam_outbreak_isolates_shigella": {
                   "id": "beam_outbreak_isolates_shigella",
                   "name": "beam_outbreak_isolates_shigella",
-                  "duplicates": 5270,
+                  "duplicates": 5376,
                   "info": {
                     "full_name": "beam_outbreak_isolates_shigella",
                     "measure": "beam_outbreak_isolates_shigella",
@@ -1140,19 +1146,19 @@
                   },
                   "time_range": [
                     0,
-                    100
+                    102
                   ],
                   "type": "integer",
                   "missing": 0,
-                  "mean": 2.231673,
-                  "sd": 12.218031,
+                  "mean": 2.192061,
+                  "sd": 12.104318,
                   "min": 0,
                   "max": 282
                 },
                 "beam_outbreak_isolates_stec": {
                   "id": "beam_outbreak_isolates_stec",
                   "name": "beam_outbreak_isolates_stec",
-                  "duplicates": 5287,
+                  "duplicates": 5392,
                   "info": {
                     "full_name": "beam_outbreak_isolates_stec",
                     "measure": "beam_outbreak_isolates_stec",
@@ -1179,19 +1185,19 @@
                   },
                   "time_range": [
                     0,
-                    100
+                    102
                   ],
                   "type": "integer",
                   "missing": 0,
-                  "mean": 1.591121,
-                  "sd": 8.676823,
+                  "mean": 1.603073,
+                  "sd": 8.661655,
                   "min": 0,
                   "max": 239
                 },
                 "beam_outbreak_isolates_vibrio": {
                   "id": "beam_outbreak_isolates_vibrio",
                   "name": "beam_outbreak_isolates_vibrio",
-                  "duplicates": 5345,
+                  "duplicates": 5451,
                   "info": {
                     "full_name": "beam_outbreak_isolates_vibrio",
                     "measure": "beam_outbreak_isolates_vibrio",
@@ -1218,19 +1224,19 @@
                   },
                   "time_range": [
                     0,
-                    100
+                    102
                   ],
                   "type": "integer",
                   "missing": 0,
-                  "mean": 0.08394,
-                  "sd": 1.238697,
+                  "mean": 0.082312,
+                  "sd": 1.226682,
                   "min": 0,
                   "max": 61
                 },
                 "beam_isolates_rate_campylobacter": {
                   "id": "beam_isolates_rate_campylobacter",
                   "name": "beam_isolates_rate_campylobacter",
-                  "duplicates": 5118,
+                  "duplicates": 5218,
                   "info": {
                     "full_name": "beam_isolates_rate_campylobacter",
                     "measure": "beam_isolates_rate_campylobacter",
@@ -1257,19 +1263,19 @@
                   },
                   "time_range": [
                     0,
-                    100
+                    102
                   ],
                   "type": "float",
                   "missing": 9,
-                  "mean": 0.382805,
-                  "sd": 0.549341,
+                  "mean": 0.385898,
+                  "sd": 0.552687,
                   "min": 0,
                   "max": 5.72
                 },
                 "beam_isolates_rate_salmonella": {
                   "id": "beam_isolates_rate_salmonella",
                   "name": "beam_isolates_rate_salmonella",
-                  "duplicates": 4923,
+                  "duplicates": 5023,
                   "info": {
                     "full_name": "beam_isolates_rate_salmonella",
                     "measure": "beam_isolates_rate_salmonella",
@@ -1296,19 +1302,19 @@
                   },
                   "time_range": [
                     0,
-                    100
+                    102
                   ],
                   "type": "float",
                   "missing": 9,
-                  "mean": 1.375688,
-                  "sd": 0.872276,
+                  "mean": 1.392213,
+                  "sd": 0.881704,
                   "min": 0,
                   "max": 9.35
                 },
                 "beam_isolates_rate_shigella": {
                   "id": "beam_isolates_rate_shigella",
                   "name": "beam_isolates_rate_shigella",
-                  "duplicates": 5258,
+                  "duplicates": 5364,
                   "info": {
                     "full_name": "beam_isolates_rate_shigella",
                     "measure": "beam_isolates_rate_shigella",
@@ -1335,19 +1341,19 @@
                   },
                   "time_range": [
                     0,
-                    100
+                    102
                   ],
                   "type": "float",
                   "missing": 9,
-                  "mean": 0.099922,
-                  "sd": 0.164539,
+                  "mean": 0.099967,
+                  "sd": 0.163933,
                   "min": 0,
                   "max": 3.58
                 },
                 "beam_isolates_rate_stec": {
                   "id": "beam_isolates_rate_stec",
                   "name": "beam_isolates_rate_stec",
-                  "duplicates": 5182,
+                  "duplicates": 5288,
                   "info": {
                     "full_name": "beam_isolates_rate_stec",
                     "measure": "beam_isolates_rate_stec",
@@ -1374,19 +1380,19 @@
                   },
                   "time_range": [
                     0,
-                    100
+                    102
                   ],
                   "type": "float",
                   "missing": 9,
-                  "mean": 0.250598,
-                  "sd": 0.299301,
+                  "mean": 0.253228,
+                  "sd": 0.300107,
                   "min": 0,
                   "max": 4.05
                 },
                 "beam_isolates_rate_vibrio": {
                   "id": "beam_isolates_rate_vibrio",
                   "name": "beam_isolates_rate_vibrio",
-                  "duplicates": 5311,
+                  "duplicates": 5417,
                   "info": {
                     "full_name": "beam_isolates_rate_vibrio",
                     "measure": "beam_isolates_rate_vibrio",
@@ -1413,12 +1419,12 @@
                   },
                   "time_range": [
                     0,
-                    100
+                    102
                   ],
                   "type": "float",
                   "missing": 9,
-                  "mean": 0.016015,
-                  "sd": 0.053612,
+                  "mean": 0.016451,
+                  "sd": 0.053725,
                   "min": 0,
                   "max": 1.09
                 }
@@ -1429,21 +1435,21 @@
             "type": "string",
             "missing": 0,
             "table": {
-              "beam_isolates_campylobacter": 5251,
-              "beam_isolates_rate_campylobacter": 5251,
-              "beam_isolates_rate_salmonella": 5251,
-              "beam_isolates_rate_shigella": 5251,
-              "beam_isolates_rate_stec": 5251,
-              "beam_isolates_rate_vibrio": 5251,
-              "beam_isolates_salmonella": 5251,
-              "beam_isolates_shigella": 5251,
-              "beam_isolates_stec": 5251,
-              "beam_isolates_vibrio": 5251,
-              "beam_outbreak_isolates_campylobacter": 5251,
-              "beam_outbreak_isolates_salmonella": 5251,
-              "beam_outbreak_isolates_shigella": 5251,
-              "beam_outbreak_isolates_stec": 5251,
-              "beam_outbreak_isolates_vibrio": 5251,
+              "beam_isolates_campylobacter": 5355,
+              "beam_isolates_rate_campylobacter": 5355,
+              "beam_isolates_rate_salmonella": 5355,
+              "beam_isolates_rate_shigella": 5355,
+              "beam_isolates_rate_stec": 5355,
+              "beam_isolates_rate_vibrio": 5355,
+              "beam_isolates_salmonella": 5355,
+              "beam_isolates_shigella": 5355,
+              "beam_isolates_stec": 5355,
+              "beam_isolates_vibrio": 5355,
+              "beam_outbreak_isolates_campylobacter": 5355,
+              "beam_outbreak_isolates_salmonella": 5355,
+              "beam_outbreak_isolates_shigella": 5355,
+              "beam_outbreak_isolates_stec": 5355,
+              "beam_outbreak_isolates_vibrio": 5355,
               "campylobacteriosis": 12480,
               "cholera": 12480,
               "cyclosporiasis": 12480,
@@ -1458,7 +1464,7 @@
           },
           {
             "name": "value",
-            "duplicates": 199035,
+            "duplicates": 200588,
             "info": {
               "measure_column": "measure",
               "short_name": "Value",
@@ -1468,26 +1474,26 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 186.827614,
-            "sd": 1809.256724,
+            "mean": 185.624967,
+            "sd": 1802.564883,
             "min": 0,
             "max": 84966
           },
           {
             "name": "source",
-            "duplicates": 203563,
+            "duplicates": 205123,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
-              "CDC BEAM Dashboard": 78765,
+              "CDC BEAM Dashboard": 80325,
               "CDC NNDSS": 124800
             }
           }
         ]
       },
-      "sha512": "d85df6f8b601b32f777b1dcd025aefc32b98f411937bb15d1b2b93fef5d610f8106336db9beced5233ce7ddffbf3bf333a4a1e615baab164e1058d01493a9bad"
+      "sha512": "0c51270789043a158c3aae67d25b56bd3dc97be79ab39a6ef1552f6a60e17a7b57f88b15143fc14a9e65d99cdbef5475dce9019bb5d546dab6eac02dc9da7fe4"
     },
     {
       "bytes": 2392060,
@@ -1498,18 +1504,22 @@
       "filename": "epic_diarrhea.parquet",
       "versions": {
         "hash": [
+          "b80d2ede2f1dce22729467107fef9fdff2eac7f8",
           "27a234dc0fdc758f4b37df938781a3de2f05b5f0",
           "5478cf62f99068b87141ba18c1c3c264d3820e09"
         ],
         "author": [
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>"
         ],
         "date": [
+          "Fri Aug 14 19:42:48 2026 +0000",
           "Fri Jul 31 20:48:09 2026 +0000",
           "Wed Jul 29 10:33:30 2026 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "add epic to enterics bundle"
         ]
@@ -1524,8 +1534,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-14 19:39:36.200579",
-      "last_modified": "2026-08-14 19:39:36.200579",
+      "created": "2026-08-18 19:49:12.680766",
+      "last_modified": "2026-08-18 19:49:12.680766",
       "vintage": {},
       "row_count": 458388,
       "entity_count": 51,
@@ -2171,8 +2181,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-14 19:39:32.590606",
-      "last_modified": "2026-08-14 19:39:32.590606",
+      "created": "2026-08-18 19:49:09.583694",
+      "last_modified": "2026-08-18 19:49:09.583694",
       "vintage": {},
       "row_count": 1142032,
       "entity_count": 52,
@@ -3463,8 +3473,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-14 19:39:35.198586",
-      "last_modified": "2026-08-14 19:39:35.198586",
+      "created": "2026-08-18 19:49:11.844747",
+      "last_modified": "2026-08-18 19:49:11.844747",
       "vintage": {},
       "row_count": 1144329,
       "entity_count": 52,
@@ -4116,7 +4126,7 @@
         "beam_isolates_campylobacter": {
           "id": "beam_isolates_campylobacter",
           "name": "beam_isolates_campylobacter",
-          "duplicates": 5150,
+          "duplicates": 5252,
           "info": {
             "full_name": "beam_isolates_campylobacter",
             "measure": "beam_isolates_campylobacter",
@@ -4143,19 +4153,19 @@
           },
           "time_range": [
             0,
-            100
+            102
           ],
           "type": "integer",
           "missing": 0,
-          "mean": 29.265436,
-          "sd": 108.062172,
+          "mean": 29.532102,
+          "sd": 108.872651,
           "min": 0,
           "max": 1206
         },
         "beam_isolates_salmonella": {
           "id": "beam_isolates_salmonella",
           "name": "beam_isolates_salmonella",
-          "duplicates": 4761,
+          "duplicates": 4860,
           "info": {
             "full_name": "beam_isolates_salmonella",
             "measure": "beam_isolates_salmonella",
@@ -4182,19 +4192,19 @@
           },
           "time_range": [
             0,
-            100
+            102
           ],
           "type": "integer",
           "missing": 0,
-          "mean": 173.297146,
-          "sd": 663.154956,
+          "mean": 175.368941,
+          "sd": 670.138422,
           "min": 0,
-          "max": 7794
+          "max": 7804
         },
         "beam_isolates_shigella": {
           "id": "beam_isolates_shigella",
           "name": "beam_isolates_shigella",
-          "duplicates": 5153,
+          "duplicates": 5255,
           "info": {
             "full_name": "beam_isolates_shigella",
             "measure": "beam_isolates_shigella",
@@ -4221,19 +4231,19 @@
           },
           "time_range": [
             0,
-            100
+            102
           ],
           "type": "integer",
           "missing": 0,
-          "mean": 12.536094,
-          "sd": 52.637594,
+          "mean": 12.53887,
+          "sd": 52.54195,
           "min": 0,
           "max": 739
         },
         "beam_isolates_stec": {
           "id": "beam_isolates_stec",
           "name": "beam_isolates_stec",
-          "duplicates": 5134,
+          "duplicates": 5239,
           "info": {
             "full_name": "beam_isolates_stec",
             "measure": "beam_isolates_stec",
@@ -4260,19 +4270,19 @@
           },
           "time_range": [
             0,
-            100
+            102
           ],
           "type": "integer",
           "missing": 0,
-          "mean": 26.66704,
-          "sd": 102.554407,
+          "mean": 26.978965,
+          "sd": 103.632662,
           "min": 0,
-          "max": 1252
+          "max": 1347
         },
         "beam_isolates_vibrio": {
           "id": "beam_isolates_vibrio",
           "name": "beam_isolates_vibrio",
-          "duplicates": 5284,
+          "duplicates": 5390,
           "info": {
             "full_name": "beam_isolates_vibrio",
             "measure": "beam_isolates_vibrio",
@@ -4299,19 +4309,19 @@
           },
           "time_range": [
             0,
-            100
+            102
           ],
           "type": "integer",
           "missing": 0,
-          "mean": 1.752285,
-          "sd": 9.481748,
+          "mean": 1.796598,
+          "sd": 9.589716,
           "min": 0,
           "max": 192
         },
         "beam_outbreak_isolates_campylobacter": {
           "id": "beam_outbreak_isolates_campylobacter",
           "name": "beam_outbreak_isolates_campylobacter",
-          "duplicates": 5339,
+          "duplicates": 5443,
           "info": {
             "full_name": "beam_outbreak_isolates_campylobacter",
             "measure": "beam_outbreak_isolates_campylobacter",
@@ -4338,19 +4348,19 @@
           },
           "time_range": [
             0,
-            100
+            102
           ],
           "type": "integer",
           "missing": 0,
-          "mean": 0.210035,
-          "sd": 1.3018,
+          "mean": 0.221694,
+          "sd": 1.449687,
           "min": 0,
-          "max": 40
+          "max": 41
         },
         "beam_outbreak_isolates_salmonella": {
           "id": "beam_outbreak_isolates_salmonella",
           "name": "beam_outbreak_isolates_salmonella",
-          "duplicates": 5184,
+          "duplicates": 5288,
           "info": {
             "full_name": "beam_outbreak_isolates_salmonella",
             "measure": "beam_outbreak_isolates_salmonella",
@@ -4377,19 +4387,19 @@
           },
           "time_range": [
             0,
-            100
+            102
           ],
           "type": "integer",
           "missing": 0,
-          "mean": 13.333333,
-          "sd": 57.904469,
+          "mean": 13.731114,
+          "sd": 59.56128,
           "min": 0,
           "max": 1452
         },
         "beam_outbreak_isolates_shigella": {
           "id": "beam_outbreak_isolates_shigella",
           "name": "beam_outbreak_isolates_shigella",
-          "duplicates": 5270,
+          "duplicates": 5376,
           "info": {
             "full_name": "beam_outbreak_isolates_shigella",
             "measure": "beam_outbreak_isolates_shigella",
@@ -4416,19 +4426,19 @@
           },
           "time_range": [
             0,
-            100
+            102
           ],
           "type": "integer",
           "missing": 0,
-          "mean": 2.231673,
-          "sd": 12.218031,
+          "mean": 2.192061,
+          "sd": 12.104318,
           "min": 0,
           "max": 282
         },
         "beam_outbreak_isolates_stec": {
           "id": "beam_outbreak_isolates_stec",
           "name": "beam_outbreak_isolates_stec",
-          "duplicates": 5287,
+          "duplicates": 5392,
           "info": {
             "full_name": "beam_outbreak_isolates_stec",
             "measure": "beam_outbreak_isolates_stec",
@@ -4455,19 +4465,19 @@
           },
           "time_range": [
             0,
-            100
+            102
           ],
           "type": "integer",
           "missing": 0,
-          "mean": 1.591121,
-          "sd": 8.676823,
+          "mean": 1.603073,
+          "sd": 8.661655,
           "min": 0,
           "max": 239
         },
         "beam_outbreak_isolates_vibrio": {
           "id": "beam_outbreak_isolates_vibrio",
           "name": "beam_outbreak_isolates_vibrio",
-          "duplicates": 5345,
+          "duplicates": 5451,
           "info": {
             "full_name": "beam_outbreak_isolates_vibrio",
             "measure": "beam_outbreak_isolates_vibrio",
@@ -4494,19 +4504,19 @@
           },
           "time_range": [
             0,
-            100
+            102
           ],
           "type": "integer",
           "missing": 0,
-          "mean": 0.08394,
-          "sd": 1.238697,
+          "mean": 0.082312,
+          "sd": 1.226682,
           "min": 0,
           "max": 61
         },
         "beam_isolates_rate_campylobacter": {
           "id": "beam_isolates_rate_campylobacter",
           "name": "beam_isolates_rate_campylobacter",
-          "duplicates": 5118,
+          "duplicates": 5218,
           "info": {
             "full_name": "beam_isolates_rate_campylobacter",
             "measure": "beam_isolates_rate_campylobacter",
@@ -4533,19 +4543,19 @@
           },
           "time_range": [
             0,
-            100
+            102
           ],
           "type": "float",
           "missing": 9,
-          "mean": 0.382805,
-          "sd": 0.549341,
+          "mean": 0.385898,
+          "sd": 0.552687,
           "min": 0,
           "max": 5.72
         },
         "beam_isolates_rate_salmonella": {
           "id": "beam_isolates_rate_salmonella",
           "name": "beam_isolates_rate_salmonella",
-          "duplicates": 4923,
+          "duplicates": 5023,
           "info": {
             "full_name": "beam_isolates_rate_salmonella",
             "measure": "beam_isolates_rate_salmonella",
@@ -4572,19 +4582,19 @@
           },
           "time_range": [
             0,
-            100
+            102
           ],
           "type": "float",
           "missing": 9,
-          "mean": 1.375688,
-          "sd": 0.872276,
+          "mean": 1.392213,
+          "sd": 0.881704,
           "min": 0,
           "max": 9.35
         },
         "beam_isolates_rate_shigella": {
           "id": "beam_isolates_rate_shigella",
           "name": "beam_isolates_rate_shigella",
-          "duplicates": 5258,
+          "duplicates": 5364,
           "info": {
             "full_name": "beam_isolates_rate_shigella",
             "measure": "beam_isolates_rate_shigella",
@@ -4611,19 +4621,19 @@
           },
           "time_range": [
             0,
-            100
+            102
           ],
           "type": "float",
           "missing": 9,
-          "mean": 0.099922,
-          "sd": 0.164539,
+          "mean": 0.099967,
+          "sd": 0.163933,
           "min": 0,
           "max": 3.58
         },
         "beam_isolates_rate_stec": {
           "id": "beam_isolates_rate_stec",
           "name": "beam_isolates_rate_stec",
-          "duplicates": 5182,
+          "duplicates": 5288,
           "info": {
             "full_name": "beam_isolates_rate_stec",
             "measure": "beam_isolates_rate_stec",
@@ -4650,19 +4660,19 @@
           },
           "time_range": [
             0,
-            100
+            102
           ],
           "type": "float",
           "missing": 9,
-          "mean": 0.250598,
-          "sd": 0.299301,
+          "mean": 0.253228,
+          "sd": 0.300107,
           "min": 0,
           "max": 4.05
         },
         "beam_isolates_rate_vibrio": {
           "id": "beam_isolates_rate_vibrio",
           "name": "beam_isolates_rate_vibrio",
-          "duplicates": 5311,
+          "duplicates": 5417,
           "info": {
             "full_name": "beam_isolates_rate_vibrio",
             "measure": "beam_isolates_rate_vibrio",
@@ -4689,12 +4699,12 @@
           },
           "time_range": [
             0,
-            100
+            102
           ],
           "type": "float",
           "missing": 9,
-          "mean": 0.016015,
-          "sd": 0.053612,
+          "mean": 0.016451,
+          "sd": 0.053725,
           "min": 0,
           "max": 1.09
         }
@@ -5178,7 +5188,7 @@
         "date": {
           "status": "present",
           "same_type": true,
-          "added_levels": "2026-08-08",
+          "added_levels": ["2026-06-30", "2026-07-31"],
           "dropped_levels": []
         },
         "measure": {
@@ -5200,47 +5210,7 @@
       }
     },
     "epic_diarrhea.parquet": {
-      "state": "changed",
-      "variables": {
-        "geography": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "date": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": ["2026-07-25", "2026-08-01"],
-          "dropped_levels": []
-        },
-        "age": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "measure": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "value": {
-          "status": "present",
-          "same_type": true
-        },
-        "suppressed_flag": {
-          "status": "present",
-          "same_type": true
-        },
-        "source": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        }
-      }
+      "state": "unchanged"
     },
     "resistance_by_agent.parquet": {
       "state": "unchanged"
