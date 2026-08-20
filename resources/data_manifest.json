@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18T07:21:33Z",
+  "generated": "2026-08-20T07:26:11Z",
   "repository": "PopHIVE/Ingest",
   "github_raw_base": "https://raw.githubusercontent.com/PopHIVE/Ingest/main",
   "bundles": {
@@ -16541,6 +16541,13 @@
               "unit": "encounters"
             },
             {
+              "name": "epic_n_ed_vomiting",
+              "short_name": "Nausea and Vomiting ED Encounters (Weekly)",
+              "description": "Number of ED encounters with nausea and vomiting diagnoses, weekly.",
+              "measure_type": "Count",
+              "unit": "encounters"
+            },
+            {
               "name": "epic_n_ed_encounters_weekly",
               "short_name": "All-Cause ED Encounters (Weekly)",
               "description": "Total number of weekly emergency department encounters for any cause.",
@@ -16555,9 +16562,23 @@
               "unit": "%"
             },
             {
+              "name": "epic_pct_ed_vomiting",
+              "short_name": "Nausea and Vomiting ED Encounters (%, Weekly)",
+              "description": "Percentage of ED encounters attributable to nausea and vomiting, weekly.",
+              "measure_type": "Percent",
+              "unit": "%"
+            },
+            {
               "name": "epic_suppressed_flag_ed_diarrhea",
               "short_name": "Diarrhea Count Suppressed? (Weekly)",
               "description": "Binary indicator: 1 if the weekly diarrhea ED encounter count was suppressed, 0 otherwise.",
+              "measure_type": "binary",
+              "unit": ""
+            },
+            {
+              "name": "epic_suppressed_flag_ed_vomiting",
+              "short_name": "Nausea and Vomiting Count Suppressed? (Weekly)",
+              "description": "Binary indicator: 1 if the weekly nausea and vomiting ED encounter count was suppressed, 0 otherwise.",
               "measure_type": "binary",
               "unit": ""
             },
@@ -24633,6 +24654,13 @@
               "description": "Cumulative year-to-date case count of varicella (chickenpox) disease.",
               "measure_type": "Cumulative Count",
               "unit": "Cumulative cases"
+            },
+            {
+              "name": "cronobacter_invasive_infection_infants_confirmed",
+              "short_name": "cronobacter_invasive_infection_infants_confirmed",
+              "description": "",
+              "measure_type": "",
+              "unit": ""
             },
             {
               "name": "hepatitis_b_acute_confirmed",

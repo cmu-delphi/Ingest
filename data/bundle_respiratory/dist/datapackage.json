@@ -3,9 +3,9 @@
   "title": "Bundle Respiratory",
   "resources": [
     {
-      "bytes": 1723311,
+      "bytes": 1739487,
       "encoding": "windows-1252",
-      "md5": "9cc11fc03a0e869f54a307faf380a780",
+      "md5": "c04ea40fb550803ad158d9f8cf8eca95",
       "format": "parquet",
       "name": "covid_ed_visits_by_county",
       "filename": "covid_ed_visits_by_county.parquet",
@@ -465,8 +465,8 @@
       "id_length": "NA",
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:50:55.956182",
-      "last_modified": "2026-08-18 19:50:55.956182",
+      "created": "2026-08-20 07:25:53.066137",
+      "last_modified": "2026-08-20 07:25:53.066137",
       "vintage": {},
       "row_count": 634482,
       "entity_count": 0,
@@ -821,17 +821,18 @@
           }
         ]
       },
-      "sha512": "52b2faefd10359c1dc8935d9d759bbd3db4e34844b5a90607df2b4eff27d087a29c5154045fdc8e8a78a3677a8ea27b8f40997464fb6ab6d94674b6de877fc8d"
+      "sha512": "53860064a8341ed1725080a14eb7baacb2b46f3aab2d3abc0b95ec7f0a24a57bc8747da4e1a68a4ca4bf781b81b94137c5d4cabe9a5eed813753e8321ca0995d"
     },
     {
-      "bytes": 1023712,
+      "bytes": 1020085,
       "encoding": "windows-1252",
-      "md5": "ea4dec32a0a3d03947507b6eeb2114df",
+      "md5": "94a10e195030187cb3e05c322c3627fc",
       "format": "parquet",
       "name": "covid_overall_trends",
       "filename": "covid_overall_trends.parquet",
       "versions": {
         "hash": [
+          "1d8dc48fc1e6a1d0494b8a69c94903bc6d29a4cb",
           "b80d2ede2f1dce22729467107fef9fdff2eac7f8",
           "0267178fad559ffec2b5c5af7fe2994e2a3bf924",
           "c1e4e7b92a84371ce28163577ac3a9db1be07cdf",
@@ -1019,6 +1020,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -1194,6 +1196,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Tue Aug 18 19:52:40 2026 +0000",
           "Fri Aug 14 19:42:48 2026 +0000",
           "Thu Aug 13 07:38:24 2026 +0000",
           "Tue Aug 11 19:37:43 2026 +0000",
@@ -1375,6 +1378,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
@@ -1566,8 +1570,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:50:54.918158",
-      "last_modified": "2026-08-18 19:50:54.918158",
+      "created": "2026-08-20 07:25:52.033109",
+      "last_modified": "2026-08-20 07:25:52.033109",
       "vintage": {},
       "row_count": 32017,
       "entity_count": 52,
@@ -2130,12 +2134,12 @@
           }
         ]
       },
-      "sha512": "c20a70479db2b3386e324344a839dc02277b68b70feb7be2f98bda070448af580acc1a9ad5f8e07026b2b501ffcb2090e26c52275ceab9a05d88e3987918a5bc"
+      "sha512": "0c6623c95dff415edb56ca995e675f74e575510765e5e6610d78cce80b3eda0817a95817fb063f3fa5fd35f4b1cce1104a1dce3a2825bce2d94351b94ce55583"
     },
     {
-      "bytes": 1515637,
+      "bytes": 1504492,
       "encoding": "UTF-16BE",
-      "md5": "f1806f4f5d37fc82966dafc9bcc7d687",
+      "md5": "dbc6edafd9254fe439b228c18b4f66e6",
       "format": "parquet",
       "name": "covid_trends_by_age",
       "filename": "covid_trends_by_age.parquet",
@@ -2635,8 +2639,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:50:59.376262",
-      "last_modified": "2026-08-18 19:50:59.376262",
+      "created": "2026-08-20 07:25:55.610206",
+      "last_modified": "2026-08-20 07:25:55.610206",
       "vintage": {},
       "row_count": 135921,
       "entity_count": 53,
@@ -3257,12 +3261,12 @@
           }
         ]
       },
-      "sha512": "4aafbec16a7037e05a267f53e365c3c81058a7c3ffba1991c1df390075db5d1dd288086a53b67e552498da739b81509883279c91625b588dd8382292518b051e"
+      "sha512": "1043cd9bf80710d04bb0ab7de400c6eccbb19b55ac8b39c1d690bdc31f1d49aea3660937bd4bce9d13e5e7a228b0523b467ff81f74d3a0bb67795105d0275d9e"
     },
     {
-      "bytes": 1749988,
+      "bytes": 1774994,
       "encoding": "windows-1252",
-      "md5": "1ad04f2fbbdfa866f0441ffaee3b779f",
+      "md5": "ecd6369582338e2bc5d4995a9629dda9",
       "format": "parquet",
       "name": "flu_ed_visits_by_county",
       "filename": "flu_ed_visits_by_county.parquet",
@@ -3722,8 +3726,8 @@
       "id_length": "NA",
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:50:55.771178",
-      "last_modified": "2026-08-18 19:50:55.771178",
+      "created": "2026-08-20 07:25:52.843131",
+      "last_modified": "2026-08-20 07:25:52.843131",
       "vintage": {},
       "row_count": 634482,
       "entity_count": 0,
@@ -4078,17 +4082,18 @@
           }
         ]
       },
-      "sha512": "1bff20b1fabb1f4b8d289a86bc205986d75bab3632578d6db8d1a83ed416fdd92a764d95616065e8252cf493cfb4e585049cade3b2e2540b96751ba6f5e34578"
+      "sha512": "44529075ec51830c2ead113bddfa22113a61dd8394d9f9e69c4867353d1e7cff5764095439df0a6ed002069d8a07d6fa9263dfe2826c61b48653c95a183b108e"
     },
     {
-      "bytes": 1017315,
+      "bytes": 1011106,
       "encoding": "windows-1252",
-      "md5": "0c3574717cece77ad69f1519f1afe3b2",
+      "md5": "acddc928d2b6f9b172e470607f207353",
       "format": "parquet",
       "name": "flu_overall_trends",
       "filename": "flu_overall_trends.parquet",
       "versions": {
         "hash": [
+          "1d8dc48fc1e6a1d0494b8a69c94903bc6d29a4cb",
           "b80d2ede2f1dce22729467107fef9fdff2eac7f8",
           "0267178fad559ffec2b5c5af7fe2994e2a3bf924",
           "c1e4e7b92a84371ce28163577ac3a9db1be07cdf",
@@ -4291,6 +4296,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -4477,6 +4483,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Tue Aug 18 19:52:40 2026 +0000",
           "Fri Aug 14 19:42:48 2026 +0000",
           "Thu Aug 13 07:38:24 2026 +0000",
           "Tue Aug 11 19:37:43 2026 +0000",
@@ -4671,6 +4678,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
@@ -4875,8 +4883,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:50:54.820156",
-      "last_modified": "2026-08-18 19:50:54.820156",
+      "created": "2026-08-20 07:25:51.962107",
+      "last_modified": "2026-08-20 07:25:51.962107",
       "vintage": {},
       "row_count": 32366,
       "entity_count": 52,
@@ -6102,12 +6110,12 @@
           }
         ]
       },
-      "sha512": "94a826bd00b8a98ad67941b757884601c14c53dabbde274eeec2085594a0bae5bfe95c984b87013412f3bd0fef8732868ac124510ed6ae8adc3ba7a7c901734d"
+      "sha512": "48012770d0fe5bd1effad30fb2575b38c4b7d2341d05d048594cb04ea1115ad2c6a9d842780b5c6ed328eecb738ff5bb15109c9d5014fe785e14b4bcaa4a5f38"
     },
     {
-      "bytes": 1386620,
+      "bytes": 1378018,
       "encoding": "UTF-16BE",
-      "md5": "ae2ba70c53f93e3ea134ee146da942a8",
+      "md5": "ed977f60401f57839f25e7e2711955f4",
       "format": "parquet",
       "name": "flu_trends_by_age",
       "filename": "flu_trends_by_age.parquet",
@@ -6607,8 +6615,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:50:59.28926",
-      "last_modified": "2026-08-18 19:50:59.28926",
+      "created": "2026-08-20 07:25:55.542205",
+      "last_modified": "2026-08-20 07:25:55.542205",
       "vintage": {},
       "row_count": 39405,
       "entity_count": 52,
@@ -6989,12 +6997,12 @@
           }
         ]
       },
-      "sha512": "ca5cf8e4e0291c00f82fa52df14fb9d0a414a60cdfb99acf42c258ee1af9b8a51bdec2faa22acb143b9be3e0268e80f3255df13e530c17137744e1596e939bd1"
+      "sha512": "eb75cbf11c7b8397b8c06c90aeca143c9adbfbec05bdd231c87ce096aba05ed88772463f2b4616d2c17fcbb56aebdc7cdcf2d447a27143dd0cc3ba13f1efbb74"
     },
     {
-      "bytes": 82519,
-      "encoding": "windows-1252",
-      "md5": "67b4683b48108dbd4f49b79d48a909c8",
+      "bytes": 196338,
+      "encoding": "windows-1251",
+      "md5": "8ecb6ee5e80fd5ce1db76e4433bd35e1",
       "format": "parquet",
       "name": "other_measures_trends",
       "filename": "other_measures_trends.parquet",
@@ -7082,78 +7090,78 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:51:01.368309",
-      "last_modified": "2026-08-18 19:51:01.368309",
+      "created": "2026-08-20 07:25:56.944243",
+      "last_modified": "2026-08-20 07:25:56.944243",
       "vintage": {},
-      "row_count": 118857,
+      "row_count": 119325,
       "entity_count": 52,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 118805,
+            "duplicates": 119273,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
-              "Alabama": 2280,
-              "Alaska": 2280,
-              "Arizona": 2280,
-              "Arkansas": 2280,
-              "California": 2280,
-              "Colorado": 2280,
-              "Connecticut": 2280,
-              "Delaware": 2280,
-              "District of Columbia": 2247,
-              "Florida": 2280,
-              "Georgia": 2280,
-              "Hawaii": 2280,
-              "Idaho": 2280,
-              "Illinois": 2280,
-              "Indiana": 2280,
-              "Iowa": 2193,
-              "Kansas": 2280,
-              "Kentucky": 2280,
-              "Louisiana": 2280,
-              "Maine": 2280,
-              "Maryland": 2280,
-              "Massachusetts": 2280,
-              "Michigan": 2280,
-              "Minnesota": 2280,
-              "Mississippi": 2280,
-              "Missouri": 2280,
-              "Montana": 2280,
-              "Nebraska": 2280,
-              "Nevada": 2280,
-              "New Hampshire": 2280,
-              "New Jersey": 2280,
-              "New Mexico": 2280,
-              "New York": 2280,
-              "North Carolina": 2280,
-              "North Dakota": 2280,
-              "Ohio": 2280,
-              "Oklahoma": 2280,
-              "Oregon": 2280,
-              "Pennsylvania": 2280,
-              "Rhode Island": 2280,
-              "South Carolina": 2280,
-              "South Dakota": 2280,
-              "Tennessee": 2280,
-              "Texas": 2280,
-              "United States": 2697,
-              "Utah": 2280,
-              "Vermont": 2280,
-              "Virginia": 2280,
-              "Washington": 2280,
-              "West Virginia": 2280,
-              "Wisconsin": 2280,
-              "Wyoming": 2280
+              "Alabama": 2289,
+              "Alaska": 2289,
+              "Arizona": 2289,
+              "Arkansas": 2289,
+              "California": 2289,
+              "Colorado": 2289,
+              "Connecticut": 2289,
+              "Delaware": 2289,
+              "District of Columbia": 2256,
+              "Florida": 2289,
+              "Georgia": 2289,
+              "Hawaii": 2289,
+              "Idaho": 2289,
+              "Illinois": 2289,
+              "Indiana": 2289,
+              "Iowa": 2202,
+              "Kansas": 2289,
+              "Kentucky": 2289,
+              "Louisiana": 2289,
+              "Maine": 2289,
+              "Maryland": 2289,
+              "Massachusetts": 2289,
+              "Michigan": 2289,
+              "Minnesota": 2289,
+              "Mississippi": 2289,
+              "Missouri": 2289,
+              "Montana": 2289,
+              "Nebraska": 2289,
+              "Nevada": 2289,
+              "New Hampshire": 2289,
+              "New Jersey": 2289,
+              "New Mexico": 2289,
+              "New York": 2289,
+              "North Carolina": 2289,
+              "North Dakota": 2289,
+              "Ohio": 2289,
+              "Oklahoma": 2289,
+              "Oregon": 2289,
+              "Pennsylvania": 2289,
+              "Rhode Island": 2289,
+              "South Carolina": 2289,
+              "South Dakota": 2289,
+              "Tennessee": 2289,
+              "Texas": 2289,
+              "United States": 2706,
+              "Utah": 2289,
+              "Vermont": 2289,
+              "Virginia": 2289,
+              "Washington": 2289,
+              "West Virginia": 2289,
+              "Wisconsin": 2289,
+              "Wyoming": 2289
             }
           },
           {
             "name": "date",
-            "duplicates": 118535,
+            "duplicates": 119002,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
@@ -7480,12 +7488,13 @@
               "2026-08-08": 618,
               "2026-08-09": 150,
               "2026-08-10": 150,
-              "2026-08-11": 150
+              "2026-08-11": 150,
+              "2026-08-15": 468
             }
           },
           {
             "name": "source",
-            "duplicates": 118854,
+            "duplicates": 119322,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
@@ -7493,12 +7502,12 @@
             "table": {
               "CDC CFA Rt": 4854,
               "CDC NCHS Mortality": 1683,
-              "CDC NNDSS": 112320
+              "CDC NNDSS": 112788
             }
           },
           {
             "name": "variable",
-            "duplicates": 118836,
+            "duplicates": 119304,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
@@ -7513,15 +7522,15 @@
               "cdc_rt_rsv": 56,
               "cdc_rt_rsv_lower": 56,
               "cdc_rt_rsv_upper": 56,
-              "haemophilus_influenzae_invasive_disease_age_5_years_non_b_serotype": 12480,
-              "haemophilus_influenzae_invasive_disease_age_5_years_nontypeable": 12480,
-              "haemophilus_influenzae_invasive_disease_age_5_years_serotype_b": 12480,
-              "haemophilus_influenzae_invasive_disease_age_5_years_unknown_serotype": 12480,
-              "haemophilus_influenzae_invasive_disease_all_ages_all_serotypes": 12480,
-              "influenza_associated_pediatric_mortality": 12480,
-              "novel_influenza_a_virus_infections_confirmed": 12480,
-              "novel_influenza_a_virus_infections_total": 12480,
-              "pertussis": 12480,
+              "haemophilus_influenzae_invasive_disease_age_5_years_non_b_serotype": 12532,
+              "haemophilus_influenzae_invasive_disease_age_5_years_nontypeable": 12532,
+              "haemophilus_influenzae_invasive_disease_age_5_years_serotype_b": 12532,
+              "haemophilus_influenzae_invasive_disease_age_5_years_unknown_serotype": 12532,
+              "haemophilus_influenzae_invasive_disease_all_ages_all_serotypes": 12532,
+              "influenza_associated_pediatric_mortality": 12532,
+              "novel_influenza_a_virus_infections_confirmed": 12532,
+              "novel_influenza_a_virus_infections_total": 12532,
+              "pertussis": 12532,
               "rate_chronic_lower_respiratory_diseases": 561,
               "rate_covid_19": 561,
               "rate_influenza_and_pneumonia": 561
@@ -7529,24 +7538,24 @@
           },
           {
             "name": "value",
-            "duplicates": 114833,
+            "duplicates": 115298,
             "info": [],
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 39.611226,
-            "sd": 514.012169,
+            "mean": 39.653807,
+            "sd": 513.62896,
             "min": 0,
             "max": 35493
           }
         ]
       },
-      "sha512": "f9d6821b389185afda15bf05e6f4a93d4f7713bdaa788591d38437be62630163873ae29ac6ee574f3a77a7c4d9c16443bd537d997b6d491ab6d117b4de6ce057"
+      "sha512": "2610ea74e9e10da599a996698f04ad2cbfbb17cc4d0a8afb9597b3ae87f73f37efd0aa9d57433322ba8fd31fdad5b070434acb4cbd03e27c14ce5c50dca822ab"
     },
     {
-      "bytes": 140891,
+      "bytes": 140812,
       "encoding": "UTF-16BE",
-      "md5": "4ae52f67551a8c5cbf64c1325b9b7866",
+      "md5": "643793075818019db581c147646dd324",
       "format": "parquet",
       "name": "pneumococcus_by_geography_year",
       "filename": "pneumococcus_by_geography_year.parquet",
@@ -7826,8 +7835,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:51:01.090302",
-      "last_modified": "2026-08-18 19:51:01.090302",
+      "created": "2026-08-20 07:25:56.741237",
+      "last_modified": "2026-08-20 07:25:56.741237",
       "vintage": {},
       "row_count": 23760,
       "entity_count": 10,
@@ -8055,12 +8064,12 @@
           }
         ]
       },
-      "sha512": "eb4391ddd317d1c9eacd964ef9beffcf210fe00f44a3367d0a9872ff1eb750661538099122c68f24253c9759a163b1533032673356da6b5b50a57a852e082857"
+      "sha512": "4f84e3f91fcda89474a710aa1f94e86b561ff6d0dd958475d3873c6d9302f08f442339dadec2b4b45f97d8e7fcf960adeac72c5d28192fb6546e9d721e7b625a"
     },
     {
-      "bytes": 4752,
+      "bytes": 4756,
       "encoding": "UTF-16BE",
-      "md5": "db606f14cbec5ef3cc7c6ecf137d7d76",
+      "md5": "8237b5d7eaf01460b3df3fc8a53b2075",
       "format": "parquet",
       "name": "pneumococcus_by_geography",
       "filename": "pneumococcus_by_geography.parquet",
@@ -8392,8 +8401,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:51:00.711294",
-      "last_modified": "2026-08-18 19:51:00.711294",
+      "created": "2026-08-20 07:25:56.49523",
+      "last_modified": "2026-08-20 07:25:56.49523",
       "vintage": {},
       "row_count": 880,
       "entity_count": 10,
@@ -8594,12 +8603,12 @@
           }
         ]
       },
-      "sha512": "9d7263439878c07f72678a64611018d6171121cdef2e4b9c74ca43a8dddc4862e2dc86551d74fb9716cb51f20c226507f1b305a7fbf7925e33f396ab6fa85f5b"
+      "sha512": "fd02b02a73d119058c08ccaff3ad710af9da6627bc621520f434b830544e4610167bd191dd1d6fc49fb9abd5493b9c4bc6189c8c3efb1411f3b5730a51f9876a"
     },
     {
-      "bytes": 1847,
+      "bytes": 1857,
       "encoding": "windows-1252",
-      "md5": "5bd128f5875aa7beef9e9c995766fbe0",
+      "md5": "f6f9a3ccb0768b320cb848d12580a2ea",
       "format": "parquet",
       "name": "pneumococcus_comparison",
       "filename": "pneumococcus_comparison.parquet",
@@ -8779,8 +8788,8 @@
       "id_length": 11,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:51:01.142304",
-      "last_modified": "2026-08-18 19:51:01.142304",
+      "created": "2026-08-20 07:25:56.779238",
+      "last_modified": "2026-08-20 07:25:56.779238",
       "vintage": {},
       "row_count": 15,
       "entity_count": 1,
@@ -8892,12 +8901,12 @@
           }
         ]
       },
-      "sha512": "749e86c834370d1bae9e9bd835f3412fb86e80f76c6e53fe26d71d7218afc3a032f25c37ba21659006a09c48ba674feffcd2bff1cba59aa1f76a74ce4b9c4bfe"
+      "sha512": "ce13c2892164e1ccf02ccb77f3abff7b4c58bc8d1788421dbc264cbb872ef6f75a7d33b6d6a9297a169f27a231bf60a3e30d97d46e4fe1a6314299e3642ce5ad"
     },
     {
-      "bytes": 41805,
+      "bytes": 41787,
       "encoding": "windows-1252",
-      "md5": "eeef8921e750e6abc7a268e06c38a0cb",
+      "md5": "682cb1e3dbfebb4ce9de58020ed04610",
       "format": "parquet",
       "name": "pneumococcus_serotype_trends",
       "filename": "pneumococcus_serotype_trends.parquet",
@@ -9241,8 +9250,8 @@
       "id_length": "NA",
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:51:00.594291",
-      "last_modified": "2026-08-18 19:51:00.594291",
+      "created": "2026-08-20 07:25:56.426229",
+      "last_modified": "2026-08-20 07:25:56.426229",
       "vintage": {},
       "row_count": 9504,
       "entity_count": 0,
@@ -9434,12 +9443,12 @@
           }
         ]
       },
-      "sha512": "9cb669882d26051a04e56ce8d2fdb306e6fb25160f1cf507ff0f10b51800072c34e94928c2e052b84c102da313acd75e36fc7b620e7144917f5dfdeaa95c7a24"
+      "sha512": "7147b11678c020f3269e61752272a7da7a8a83bf8cacbd99f37d95d4a3bdd62642f1a429779e931a3bcec4f1ae32bf103ad08507c8ea0f259896175dc69a3e3b"
     },
     {
-      "bytes": 1593036,
+      "bytes": 1615122,
       "encoding": "windows-1252",
-      "md5": "b9246a6deb4f27d4be22de6c611a4bfc",
+      "md5": "ef4436aae733b4b5a8232eb234418d4c",
       "format": "parquet",
       "name": "rsv_ed_visits_by_county",
       "filename": "rsv_ed_visits_by_county.parquet",
@@ -9899,8 +9908,8 @@
       "id_length": "NA",
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:50:55.580174",
-      "last_modified": "2026-08-18 19:50:55.580174",
+      "created": "2026-08-20 07:25:52.619125",
+      "last_modified": "2026-08-20 07:25:52.619125",
       "vintage": {},
       "row_count": 634482,
       "entity_count": 0,
@@ -10255,17 +10264,18 @@
           }
         ]
       },
-      "sha512": "12fa778a4ca05f90f6465a118a685bd9f9263133ebf55c17b2f7a8bc945c2a6ffe8b797b76821b0c9e5f88f2627ac720d6b1a9651511e55ec8c17182802d59e5"
+      "sha512": "0c332ab000f4597fd1f8984a9ed2862543bd9933f32b1afab4563d6d583f5440642a4268240f57ccdd50d51c9c9d4d9c5f81e153e6658242cf1a540991f9a466"
     },
     {
-      "bytes": 848305,
+      "bytes": 850787,
       "encoding": "windows-1252",
-      "md5": "2c05c7dde9ae01fa712ecea007c90066",
+      "md5": "64d3aa64d8e6b714eb96b72c4011c591",
       "format": "parquet",
       "name": "rsv_google_dma",
       "filename": "rsv_google_dma.parquet",
       "versions": {
         "hash": [
+          "1d8dc48fc1e6a1d0494b8a69c94903bc6d29a4cb",
           "b80d2ede2f1dce22729467107fef9fdff2eac7f8",
           "0267178fad559ffec2b5c5af7fe2994e2a3bf924",
           "c1e4e7b92a84371ce28163577ac3a9db1be07cdf",
@@ -10374,6 +10384,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -10470,6 +10481,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Tue Aug 18 19:52:40 2026 +0000",
           "Fri Aug 14 19:42:48 2026 +0000",
           "Thu Aug 13 07:38:24 2026 +0000",
           "Tue Aug 11 19:37:43 2026 +0000",
@@ -10572,6 +10584,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
@@ -10684,8 +10697,8 @@
       "id_length": "NA",
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:51:00.499289",
-      "last_modified": "2026-08-18 19:51:00.499289",
+      "created": "2026-08-20 07:25:56.371227",
+      "last_modified": "2026-08-20 07:25:56.371227",
       "vintage": {},
       "row_count": 322350,
       "entity_count": 0,
@@ -10858,17 +10871,18 @@
           }
         ]
       },
-      "sha512": "7544bfc1adbfce3970d5065dc6226cbd0a983e98c7fc9392b847e770461ab73d53099455690571f230dd93e8949a1f5e6c32e73512200304ba32ae954585acfb"
+      "sha512": "6895d821c00ee11b9d22894389ca4ee5590438ea776b7aa6c01afb5cf0dd11db0479f2ad949e53382a728b19143a7a9b70dac1d57848fdd229a297f38f5a6e79"
     },
     {
-      "bytes": 728361,
+      "bytes": 723269,
       "encoding": "windows-1252",
-      "md5": "df0ad9b5963e15565969a4c062e35b82",
+      "md5": "e6074c1c657adc3d77614dee88afd12d",
       "format": "parquet",
       "name": "rsv_overall_trends",
       "filename": "rsv_overall_trends.parquet",
       "versions": {
         "hash": [
+          "1d8dc48fc1e6a1d0494b8a69c94903bc6d29a4cb",
           "b80d2ede2f1dce22729467107fef9fdff2eac7f8",
           "0267178fad559ffec2b5c5af7fe2994e2a3bf924",
           "c1e4e7b92a84371ce28163577ac3a9db1be07cdf",
@@ -11039,6 +11053,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -11197,6 +11212,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Tue Aug 18 19:52:40 2026 +0000",
           "Fri Aug 14 19:42:48 2026 +0000",
           "Thu Aug 13 07:38:24 2026 +0000",
           "Tue Aug 11 19:37:43 2026 +0000",
@@ -11361,6 +11377,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
@@ -11535,8 +11552,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:50:54.721153",
-      "last_modified": "2026-08-18 19:50:54.721153",
+      "created": "2026-08-20 07:25:51.890105",
+      "last_modified": "2026-08-20 07:25:51.890105",
       "vintage": {},
       "row_count": 27428,
       "entity_count": 52,
@@ -12064,12 +12081,12 @@
           }
         ]
       },
-      "sha512": "3bb77c2066d16a1be150fd04e2221b261415cf8dd8399ac79581f762247cae89f133774a032f70aae32daf8b7aaff731015bcb3b6064cf756b8863bc2fa0deef"
+      "sha512": "953ebbcb716ba02f0c81f0bc85cd9847a2b5e6da67b586fdcd7543998fa1a199becb15af069e958887a7847eaa8cb286dbdfaaa57a0cba42aa9269152098bd2f"
     },
     {
-      "bytes": 44548,
+      "bytes": 44628,
       "encoding": "windows-1252",
-      "md5": "06aff5aa1219642c4631ad6bd3d8e6c3",
+      "md5": "2f8a4e56b63e9dfdccb7858e7a734f1e",
       "format": "parquet",
       "name": "rsv_positive_tests",
       "filename": "rsv_positive_tests.parquet",
@@ -12573,8 +12590,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:50:54.959159",
-      "last_modified": "2026-08-18 19:50:54.959159",
+      "created": "2026-08-20 07:25:52.07611",
+      "last_modified": "2026-08-20 07:25:52.07611",
       "vintage": {},
       "row_count": 3586,
       "entity_count": 11,
@@ -13131,12 +13148,12 @@
           }
         ]
       },
-      "sha512": "4f4cfe03d239117bd490b001b06ee510a626e95d6ed878b6eceb144ab9875a228f55e91865e9b6a3f2919bcae0058cd7aa98e2b516c43c251fe42ba1518d5abc"
+      "sha512": "5054819fc0aecb3545121ee812eeb74e6330a115da495ef0a88a4d54af601e2cdccd97eb8c6ba22bf37f6f2c715c6203f9837671732745e7d020c9206e936df7"
     },
     {
-      "bytes": 130044,
+      "bytes": 130064,
       "encoding": "windows-1252",
-      "md5": "f5834a02245ca04bec310bd2bd8dc3ea",
+      "md5": "341b3beb27986f03570d397b36614551",
       "format": "parquet",
       "name": "rsv_testing_pct",
       "filename": "rsv_testing_pct.parquet",
@@ -13512,8 +13529,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:50:55.034161",
-      "last_modified": "2026-08-18 19:50:55.034161",
+      "created": "2026-08-20 07:25:52.141112",
+      "last_modified": "2026-08-20 07:25:52.141112",
       "vintage": {},
       "row_count": 16442,
       "entity_count": 53,
@@ -13811,12 +13828,12 @@
           }
         ]
       },
-      "sha512": "5429c6d4674d3273bbcb77d7421b75e5ff0b257564c8af5190e4a2666da0988a5aa556675a9c159b909c3ab04ff7a7472e5bb5b156b40351ff575b2b35d535e0"
+      "sha512": "07323715ed9eb7190a345c5570ed47eee3727955f6433fcb665f044de7a626587cda7959b387eb9c258f2baebd320de05adef6a059a0f6e3d8e8560e412481f6"
     },
     {
-      "bytes": 1432401,
+      "bytes": 1418269,
       "encoding": "UTF-16BE",
-      "md5": "e8cfa5e6f61768d4af1a7344a0a37713",
+      "md5": "8dc7afe1c6f5296361ca0df7f9f81a53",
       "format": "parquet",
       "name": "rsv_trends_by_age",
       "filename": "rsv_trends_by_age.parquet",
@@ -14316,8 +14333,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:50:59.236259",
-      "last_modified": "2026-08-18 19:50:59.236259",
+      "created": "2026-08-20 07:25:55.501204",
+      "last_modified": "2026-08-20 07:25:55.501204",
       "vintage": {},
       "row_count": 48495,
       "entity_count": 52,
@@ -14698,7 +14715,7 @@
           }
         ]
       },
-      "sha512": "39eb3980caa04d3aef0875a270eec0d49521f483ea62488e7ce9785d3ab61600ed599996cbb24df2c01ae03b482b76564480bd3ef5ec15ff95ef891bf16a05af"
+      "sha512": "c0f228af41d3b8b6eee02f12172c99583c89f05c42382b35cea3f27afc93dbbf919fe99ec49cbf76426756167c84e4b2429e56c6834b340ce71c11f072764b8e"
     }
   ],
   "measure_info": {
@@ -17242,7 +17259,33 @@
   },
   "change_report": {
     "covid_ed_visits_by_county.parquet": {
-      "state": "unchanged"
+      "state": "changed",
+      "variables": {
+        "source": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "fips": {
+          "status": "present",
+          "same_type": true
+        },
+        "week_end": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "percent_visits_covid": {
+          "status": "present",
+          "same_type": true
+        },
+        "is_state_estimate": {
+          "status": "present",
+          "same_type": true
+        }
+      }
     },
     "covid_overall_trends.parquet": {
       "state": "changed",
@@ -17257,7 +17300,7 @@
           "status": "present",
           "same_type": true,
           "added_levels": [],
-          "dropped_levels": "2024-08-10"
+          "dropped_levels": []
         },
         "value": {
           "status": "present",
@@ -17288,10 +17331,82 @@
       }
     },
     "covid_trends_by_age.parquet": {
-      "state": "unchanged"
+      "state": "changed",
+      "variables": {
+        "date": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "geography": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "age": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "source": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "value": {
+          "status": "present",
+          "same_type": true
+        },
+        "value_smooth": {
+          "status": "present",
+          "same_type": true
+        },
+        "value_scale": {
+          "status": "present",
+          "same_type": true
+        },
+        "value_smooth_scale": {
+          "status": "present",
+          "same_type": true
+        },
+        "suppressed_flag": {
+          "status": "present",
+          "same_type": true
+        }
+      }
     },
     "flu_ed_visits_by_county.parquet": {
-      "state": "unchanged"
+      "state": "changed",
+      "variables": {
+        "source": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "fips": {
+          "status": "present",
+          "same_type": true
+        },
+        "week_end": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "percent_visits_flu": {
+          "status": "present",
+          "same_type": true
+        },
+        "is_state_estimate": {
+          "status": "present",
+          "same_type": true
+        }
+      }
     },
     "flu_overall_trends.parquet": {
       "state": "changed",
@@ -17306,7 +17421,7 @@
           "status": "present",
           "same_type": true,
           "added_levels": [],
-          "dropped_levels": ["2024-08-08", "2024-08-09", "2024-08-10", "2024-08-11", "2024-08-12", "2024-08-13", "2024-08-14"]
+          "dropped_levels": []
         },
         "value": {
           "status": "present",
@@ -17337,25 +17452,237 @@
       }
     },
     "flu_trends_by_age.parquet": {
-      "state": "unchanged"
+      "state": "changed",
+      "variables": {
+        "date": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "geography": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "age": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "source": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "value": {
+          "status": "present",
+          "same_type": true
+        },
+        "value_smooth": {
+          "status": "present",
+          "same_type": true
+        },
+        "value_scale": {
+          "status": "present",
+          "same_type": true
+        },
+        "value_smooth_scale": {
+          "status": "present",
+          "same_type": true
+        },
+        "suppressed_flag": {
+          "status": "present",
+          "same_type": true
+        }
+      }
     },
     "other_measures_trends.parquet": {
-      "state": "unchanged"
+      "state": "changed",
+      "variables": {
+        "geography": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "date": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": "2026-08-15",
+          "dropped_levels": []
+        },
+        "source": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "variable": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "value": {
+          "status": "present",
+          "same_type": true
+        }
+      }
     },
     "pneumococcus_by_geography_year.parquet": {
-      "state": "unchanged"
+      "state": "changed",
+      "variables": {
+        "serotype": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "geography": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "year": {
+          "status": "present",
+          "same_type": true
+        },
+        "value": {
+          "status": "present",
+          "same_type": true
+        },
+        "value_N": {
+          "status": "present",
+          "same_type": true
+        },
+        "value_smooth": {
+          "status": "present",
+          "same_type": true
+        }
+      }
     },
     "pneumococcus_by_geography.parquet": {
-      "state": "unchanged"
+      "state": "changed",
+      "variables": {
+        "serotype": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "geography": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "year": {
+          "status": "present",
+          "same_type": true
+        },
+        "value": {
+          "status": "present",
+          "same_type": true
+        },
+        "value_N": {
+          "status": "present",
+          "same_type": true
+        }
+      }
     },
     "pneumococcus_comparison.parquet": {
-      "state": "unchanged"
+      "state": "changed",
+      "variables": {
+        "geography": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "year": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "serotype": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "pneumonia": {
+          "status": "present",
+          "same_type": true
+        },
+        "ipd": {
+          "status": "present",
+          "same_type": true
+        }
+      }
     },
     "pneumococcus_serotype_trends.parquet": {
-      "state": "unchanged"
+      "state": "changed",
+      "variables": {
+        "serotype": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "year": {
+          "status": "present",
+          "same_type": true
+        },
+        "age": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "value": {
+          "status": "present",
+          "same_type": true
+        },
+        "value_incidence": {
+          "status": "present",
+          "same_type": true
+        }
+      }
     },
     "rsv_ed_visits_by_county.parquet": {
-      "state": "unchanged"
+      "state": "changed",
+      "variables": {
+        "source": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "fips": {
+          "status": "present",
+          "same_type": true
+        },
+        "week_end": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "percent_visits_rsv": {
+          "status": "present",
+          "same_type": true
+        },
+        "is_state_estimate": {
+          "status": "present",
+          "same_type": true
+        }
+      }
     },
     "rsv_google_dma.parquet": {
       "state": "changed",
@@ -17367,8 +17694,8 @@
         "date": {
           "status": "present",
           "same_type": true,
-          "added_levels": "2026-08-15",
-          "dropped_levels": "2024-08-10"
+          "added_levels": [],
+          "dropped_levels": []
         },
         "value": {
           "status": "present",
@@ -17388,8 +17715,8 @@
         "date": {
           "status": "present",
           "same_type": true,
-          "added_levels": "2026-08-15",
-          "dropped_levels": "2024-08-10"
+          "added_levels": [],
+          "dropped_levels": []
         },
         "value": {
           "status": "present",
@@ -17420,13 +17747,147 @@
       }
     },
     "rsv_positive_tests.parquet": {
-      "state": "unchanged"
+      "state": "changed",
+      "variables": {
+        "source": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "geography": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "date": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "scaled_cases": {
+          "status": "present",
+          "same_type": true
+        },
+        "value": {
+          "status": "present",
+          "same_type": true
+        },
+        "epiyr": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "epiwk": {
+          "status": "present",
+          "same_type": true
+        },
+        "week": {
+          "status": "present",
+          "same_type": true
+        },
+        "year": {
+          "status": "present",
+          "same_type": true
+        }
+      }
     },
     "rsv_testing_pct.parquet": {
-      "state": "unchanged"
+      "state": "changed",
+      "variables": {
+        "source": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "geography": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "age": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "date": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "epic_pct_rsv_pos_tests": {
+          "status": "present",
+          "same_type": true
+        },
+        "epic_pct_j12_j18_tested_rsv": {
+          "status": "present",
+          "same_type": true
+        },
+        "epic_n_ed_j12_j18": {
+          "status": "present",
+          "same_type": true
+        },
+        "suppressed_flag": {
+          "status": "present",
+          "same_type": true
+        }
+      }
     },
     "rsv_trends_by_age.parquet": {
-      "state": "unchanged"
+      "state": "changed",
+      "variables": {
+        "date": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "geography": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "age": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "source": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "value": {
+          "status": "present",
+          "same_type": true
+        },
+        "value_smooth": {
+          "status": "present",
+          "same_type": true
+        },
+        "value_scale": {
+          "status": "present",
+          "same_type": true
+        },
+        "value_smooth_scale": {
+          "status": "present",
+          "same_type": true
+        },
+        "suppressed_flag": {
+          "status": "present",
+          "same_type": true
+        }
+      }
     }
   }
 }
