@@ -6,12 +6,13 @@
     {
       "bytes": 1276,
       "encoding": "windows-1252",
-      "md5": "9425e00a1772f649da8ce24c43f18735",
+      "md5": "8f9852adf825e99e4330c26865ec2ad4",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "a77430cc9ea39b26a4dc6bdcd7c420a76834ee66",
           "950970904f79f0da43fde16479bbf51f9da19a1e",
           "d77864156144fca7227dcbefab140826c676e54c",
           "7f0668d2cf95d96cb3f51a9cbdf5dcf9e1f792e2",
@@ -59,9 +60,11 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>"
         ],
         "date": [
+          "Thu Aug 20 07:26:15 2026 +0000",
           "Tue Aug 18 07:21:36 2026 +0000",
           "Mon Aug 17 07:33:04 2026 +0000",
           "Sun Aug 16 07:17:56 2026 +0000",
@@ -87,6 +90,7 @@
           "Thu Jul 16 12:53:03 2026 -0400"
         ],
         "message": [
+          "scheduled daily data update",
           "scheduled daily data update",
           "scheduled daily data update",
           "scheduled daily data update",
@@ -122,8 +126,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-20 07:22:53.96831",
-      "last_modified": "2026-08-20 07:22:53.96831",
+      "created": "2026-08-21 07:24:12.120008",
+      "last_modified": "2026-08-21 07:24:12.120008",
       "vintage": {},
       "row_count": 126,
       "entity_count": 32,
@@ -330,7 +334,7 @@
               "08-08-2026": 29,
               "08-15-2026": 29,
               "08-18-2026": 5,
-              "08-20-2026": 25
+              "08-21-2026": 25
             }
           },
           {
@@ -364,7 +368,7 @@
           }
         ]
       },
-      "sha512": "64bf2a1fe9ce20b89291622f2201d26affdf6fcd6092dff453c560a8cd1266a6f1ef72165c77cbb18985d17f44f5d036a599c51229bb0297412cefe9a2b23caa"
+      "sha512": "2d1618536219eb744c490816e081d4abf32f94338277b1d6bd50929b9d46ad71cb3c69c2bb32259ed61ac29722e1bf66890bd05376218dca9b36927b336ba2f6"
     }
   ],
   "measure_info": {
@@ -498,7 +502,7 @@
         "condition": {
           "status": "present",
           "same_type": true,
-          "added_levels": "Campylobacteriosis",
+          "added_levels": [],
           "dropped_levels": []
         },
         "estimated_onset": {
@@ -518,13 +522,13 @@
         "date_scraped": {
           "status": "present",
           "same_type": true,
-          "added_levels": "08-20-2026",
-          "dropped_levels": []
+          "added_levels": "08-21-2026",
+          "dropped_levels": "08-20-2026"
         },
         "date_epic_updated": {
           "status": "present",
           "same_type": true,
-          "added_levels": "08-19-2026",
+          "added_levels": [],
           "dropped_levels": []
         }
       }
