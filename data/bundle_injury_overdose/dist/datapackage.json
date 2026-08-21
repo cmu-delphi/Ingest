@@ -217,8 +217,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:49:39.710398",
-      "last_modified": "2026-08-18 19:49:39.710398",
+      "created": "2026-08-21 18:10:49.637751",
+      "last_modified": "2026-08-21 18:10:49.637751",
       "vintage": {},
       "row_count": 9848,
       "entity_count": 3298,
@@ -3808,8 +3808,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:49:39.33139",
-      "last_modified": "2026-08-18 19:49:39.33139",
+      "created": "2026-08-21 18:10:49.649751",
+      "last_modified": "2026-08-21 18:10:49.649751",
       "vintage": {},
       "row_count": 2437734,
       "entity_count": 52,
@@ -4877,8 +4877,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:49:32.50323",
-      "last_modified": "2026-08-18 19:49:32.50323",
+      "created": "2026-08-21 18:10:49.640751",
+      "last_modified": "2026-08-21 18:10:49.640751",
       "vintage": {},
       "row_count": 112320,
       "entity_count": 52,
@@ -5789,8 +5789,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:49:42.985475",
-      "last_modified": "2026-08-18 19:49:42.985475",
+      "created": "2026-08-21 18:10:49.651752",
+      "last_modified": "2026-08-21 18:10:49.651752",
       "vintage": {},
       "row_count": 468795,
       "entity_count": 52,
@@ -6222,6 +6222,7 @@
       "filename": "firearms_by_geography_and_source_state_year.parquet",
       "versions": {
         "hash": [
+          "1d8dc48fc1e6a1d0494b8a69c94903bc6d29a4cb",
           "febbc4cba45d1dcdc4bf4cdbae03353299e435ae",
           "27a234dc0fdc758f4b37df938781a3de2f05b5f0",
           "823294fc53d8e3cd5a73be1a84f54278c6f69edb",
@@ -6290,6 +6291,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "weinbergerlab <dweinber@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "weinbergerlab <dweinber@gmail.com>",
@@ -6338,6 +6340,7 @@
           "weinbergerlab <dweinber@gmail.com>"
         ],
         "date": [
+          "Tue Aug 18 19:52:40 2026 +0000",
           "Sat Aug 8 00:02:04 2026 +0000",
           "Fri Jul 31 20:48:09 2026 +0000",
           "Mon Jul 20 13:42:40 2026 +0000",
@@ -6406,6 +6409,7 @@
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
+          "scheduled data build",
           "Add CDC CFA RT (respiratory tract) data source",
           "scheduled data build",
           " update gtrends",
@@ -6464,8 +6468,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:49:43.557488",
-      "last_modified": "2026-08-18 19:49:43.557488",
+      "created": "2026-08-21 18:10:49.652751",
+      "last_modified": "2026-08-21 18:10:49.652751",
       "vintage": {},
       "row_count": 41288,
       "entity_count": 52,
@@ -6892,6 +6896,7 @@
       "filename": "firearms_geography_source.parquet",
       "versions": {
         "hash": [
+          "1d8dc48fc1e6a1d0494b8a69c94903bc6d29a4cb",
           "febbc4cba45d1dcdc4bf4cdbae03353299e435ae",
           "27a234dc0fdc758f4b37df938781a3de2f05b5f0",
           "823294fc53d8e3cd5a73be1a84f54278c6f69edb",
@@ -6969,6 +6974,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "weinbergerlab <dweinber@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "weinbergerlab <dweinber@gmail.com>",
@@ -7026,6 +7032,7 @@
           "weinbergerlab <dweinber@gmail.com>"
         ],
         "date": [
+          "Tue Aug 18 19:52:40 2026 +0000",
           "Sat Aug 8 00:02:04 2026 +0000",
           "Fri Jul 31 20:48:09 2026 +0000",
           "Mon Jul 20 13:42:40 2026 +0000",
@@ -7103,6 +7110,7 @@
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
+          "scheduled data build",
           "Add CDC CFA RT (respiratory tract) data source",
           "scheduled data build",
           " update gtrends",
@@ -7170,8 +7178,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:49:43.058477",
-      "last_modified": "2026-08-18 19:49:43.058477",
+      "created": "2026-08-21 18:10:49.654752",
+      "last_modified": "2026-08-21 18:10:49.654752",
       "vintage": {},
       "row_count": 67808,
       "entity_count": 52,
@@ -7891,6 +7899,7 @@
       "filename": "google_dma.parquet",
       "versions": {
         "hash": [
+          "1d8dc48fc1e6a1d0494b8a69c94903bc6d29a4cb",
           "c1e4e7b92a84371ce28163577ac3a9db1be07cdf",
           "febbc4cba45d1dcdc4bf4cdbae03353299e435ae",
           "27a234dc0fdc758f4b37df938781a3de2f05b5f0",
@@ -7957,6 +7966,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "weinbergerlab <dweinber@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "weinbergerlab <dweinber@gmail.com>",
@@ -8003,6 +8013,7 @@
           "weinbergerlab <dweinber@gmail.com>"
         ],
         "date": [
+          "Tue Aug 18 19:52:40 2026 +0000",
           "Tue Aug 11 19:37:43 2026 +0000",
           "Sat Aug 8 00:02:04 2026 +0000",
           "Fri Jul 31 20:48:09 2026 +0000",
@@ -8069,6 +8080,7 @@
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
+          "scheduled data build",
           "Add CDC CFA RT (respiratory tract) data source",
           "scheduled data build",
           " update gtrends",
@@ -8125,8 +8137,8 @@
       "id_length": "NA",
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:49:43.691492",
-      "last_modified": "2026-08-18 19:49:43.691492",
+      "created": "2026-08-21 18:10:49.655751",
+      "last_modified": "2026-08-21 18:10:49.655751",
       "vintage": {},
       "row_count": 24560,
       "entity_count": 0,
@@ -8327,6 +8339,7 @@
       "filename": "heat_by_geography_and_source_state_year.parquet",
       "versions": {
         "hash": [
+          "1d8dc48fc1e6a1d0494b8a69c94903bc6d29a4cb",
           "febbc4cba45d1dcdc4bf4cdbae03353299e435ae",
           "27a234dc0fdc758f4b37df938781a3de2f05b5f0",
           "823294fc53d8e3cd5a73be1a84f54278c6f69edb",
@@ -8393,6 +8406,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "weinbergerlab <dweinber@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "weinbergerlab <dweinber@gmail.com>",
@@ -8441,6 +8455,7 @@
           "weinbergerlab <dweinber@gmail.com>"
         ],
         "date": [
+          "Tue Aug 18 19:52:40 2026 +0000",
           "Sat Aug 8 00:02:04 2026 +0000",
           "Fri Jul 31 20:48:09 2026 +0000",
           "Mon Jul 20 13:42:40 2026 +0000",
@@ -8498,6 +8513,7 @@
           "Thu Dec 4 10:42:25 2025 -0500"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
@@ -8565,8 +8581,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:49:43.62049",
-      "last_modified": "2026-08-18 19:49:43.62049",
+      "created": "2026-08-21 18:10:49.655751",
+      "last_modified": "2026-08-21 18:10:49.655751",
       "vintage": {},
       "row_count": 3848,
       "entity_count": 52,
@@ -8855,14 +8871,17 @@
       "sha512": "85c4375e5120a4a3acc2b5aed0ff56bfb2a622522d9b4d613f6fda24947ace2c137e5724349b5afdd2a23e62030d0b218b8acebf9b21511b40245417f89f38d5"
     },
     {
-      "bytes": 101107,
+      "bytes": 97927,
       "encoding": "IBM420_rtl",
-      "md5": "e7d56510062d1b2bc83ea3d5135b7fc8",
+      "md5": "b338d2aacf2ebc694c827dacc114367f",
       "format": "parquet",
       "name": "heat_risk",
       "filename": "heat_risk.parquet",
       "versions": {
         "hash": [
+          "9116f35dce8c3c457273880a21329ab918e36d15",
+          "a77430cc9ea39b26a4dc6bdcd7c420a76834ee66",
+          "1d8dc48fc1e6a1d0494b8a69c94903bc6d29a4cb",
           "950970904f79f0da43fde16479bbf51f9da19a1e",
           "d77864156144fca7227dcbefab140826c676e54c",
           "7f0668d2cf95d96cb3f51a9cbdf5dcf9e1f792e2",
@@ -9096,6 +9115,9 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -9215,6 +9237,9 @@
           "danweinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Aug 21 07:24:31 2026 +0000",
+          "Thu Aug 20 07:26:15 2026 +0000",
+          "Tue Aug 18 19:52:40 2026 +0000",
           "Tue Aug 18 07:21:36 2026 +0000",
           "Mon Aug 17 07:33:04 2026 +0000",
           "Sun Aug 16 07:17:56 2026 +0000",
@@ -9391,6 +9416,9 @@
           "Thu Mar 26 23:19:59 2026 -0400"
         ],
         "message": [
+          "scheduled daily data update",
+          "scheduled daily data update",
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled daily data update",
           "scheduled daily data update",
@@ -9577,8 +9605,8 @@
       "id_length": 5,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 18:54:07.410048",
-      "last_modified": "2026-08-18 18:54:07.410048",
+      "created": "2026-08-21 18:16:41.344017",
+      "last_modified": "2026-08-21 18:16:41.344017",
       "vintage": {},
       "row_count": 15545,
       "entity_count": 3109,
@@ -12711,16 +12739,16 @@
             "type": "string",
             "missing": 0,
             "table": {
-              "2026-08-19": 3109,
-              "2026-08-20": 3109,
-              "2026-08-21": 3109,
               "2026-08-22": 3109,
-              "2026-08-23": 3109
+              "2026-08-23": 3109,
+              "2026-08-24": 3109,
+              "2026-08-25": 3109,
+              "2026-08-26": 3109
             }
           },
           {
             "name": "value",
-            "duplicates": 8435,
+            "duplicates": 8952,
             "info": {
               "id": "value",
               "short_name": "Heat risk score",
@@ -12740,8 +12768,8 @@
             "time_range": [0, 4],
             "type": "float",
             "missing": 0,
-            "mean": 1.513654,
-            "sd": 0.906648,
+            "mean": 1.320933,
+            "sd": 0.913162,
             "min": 0,
             "max": 4
           },
@@ -12774,7 +12802,7 @@
           }
         ]
       },
-      "sha512": "5d76a623b19d8785ab509bd50ceff6c370494e95e8a1af2091ac871e64c9899637ad738fa8472858138cf8742a12d3551bdab8d30b3efde9d4603287c61b838e"
+      "sha512": "3b7ce40932a93919efdbccba3f2ee498595604833649d2ef222e6cd017ae86120e0567daa0f6808e7a14cf69171db96cf1871f50868d0bfd965053f0a2b63e02"
     },
     {
       "bytes": 7010,
@@ -12831,8 +12859,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:49:43.541488",
-      "last_modified": "2026-08-18 19:49:43.541488",
+      "created": "2026-08-21 18:10:49.656752",
+      "last_modified": "2026-08-21 18:10:49.656752",
       "vintage": {},
       "row_count": 745,
       "entity_count": 50,
@@ -13184,8 +13212,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:49:39.853402",
-      "last_modified": "2026-08-18 19:49:39.853402",
+      "created": "2026-08-21 18:10:49.657752",
+      "last_modified": "2026-08-21 18:10:49.657752",
       "vintage": {},
       "row_count": 93759,
       "entity_count": 52,
@@ -13599,8 +13627,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:49:42.527464",
-      "last_modified": "2026-08-18 19:49:42.527464",
+      "created": "2026-08-21 18:10:49.659752",
+      "last_modified": "2026-08-21 18:10:49.659752",
       "vintage": {},
       "row_count": 73426,
       "entity_count": 1955,
@@ -19141,6 +19169,7 @@
       "filename": "overdose_by_geography_and_source_state_year.parquet",
       "versions": {
         "hash": [
+          "1d8dc48fc1e6a1d0494b8a69c94903bc6d29a4cb",
           "febbc4cba45d1dcdc4bf4cdbae03353299e435ae",
           "27a234dc0fdc758f4b37df938781a3de2f05b5f0",
           "823294fc53d8e3cd5a73be1a84f54278c6f69edb",
@@ -19212,6 +19241,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "weinbergerlab <dweinber@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "weinbergerlab <dweinber@gmail.com>",
@@ -19263,6 +19293,7 @@
           "weinbergerlab <dweinber@gmail.com>"
         ],
         "date": [
+          "Tue Aug 18 19:52:40 2026 +0000",
           "Sat Aug 8 00:02:04 2026 +0000",
           "Fri Jul 31 20:48:09 2026 +0000",
           "Mon Jul 20 13:42:40 2026 +0000",
@@ -19334,6 +19365,7 @@
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
+          "scheduled data build",
           "Add CDC CFA RT (respiratory tract) data source",
           "scheduled data build",
           " update gtrends",
@@ -19395,8 +19427,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:49:42.706469",
-      "last_modified": "2026-08-18 19:49:42.706469",
+      "created": "2026-08-21 18:10:49.659752",
+      "last_modified": "2026-08-21 18:10:49.659752",
       "vintage": {},
       "row_count": 10225,
       "entity_count": 52,
@@ -19756,6 +19788,7 @@
       "filename": "overdose_by_geography_and_source.parquet",
       "versions": {
         "hash": [
+          "1d8dc48fc1e6a1d0494b8a69c94903bc6d29a4cb",
           "febbc4cba45d1dcdc4bf4cdbae03353299e435ae",
           "27a234dc0fdc758f4b37df938781a3de2f05b5f0",
           "823294fc53d8e3cd5a73be1a84f54278c6f69edb",
@@ -19846,6 +19879,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "weinbergerlab <dweinber@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "weinbergerlab <dweinber@gmail.com>",
@@ -19916,6 +19950,7 @@
           "weinbergerlab <dweinber@gmail.com>"
         ],
         "date": [
+          "Tue Aug 18 19:52:40 2026 +0000",
           "Sat Aug 8 00:02:04 2026 +0000",
           "Fri Jul 31 20:48:09 2026 +0000",
           "Mon Jul 20 13:42:40 2026 +0000",
@@ -20006,6 +20041,7 @@
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
+          "scheduled data build",
           "Add CDC CFA RT (respiratory tract) data source",
           "scheduled data build",
           " update gtrends",
@@ -20086,8 +20122,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:49:42.488463",
-      "last_modified": "2026-08-18 19:49:42.488463",
+      "created": "2026-08-21 18:10:49.658751",
+      "last_modified": "2026-08-21 18:10:49.658751",
       "vintage": {},
       "row_count": 10248,
       "entity_count": 52,
@@ -20790,8 +20826,8 @@
       "id_length": 5,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:49:42.033453",
-      "last_modified": "2026-08-18 19:49:42.033453",
+      "created": "2026-08-21 18:10:49.660752",
+      "last_modified": "2026-08-21 18:10:49.660752",
       "vintage": {},
       "row_count": 15710,
       "entity_count": 3142,
@@ -24257,8 +24293,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:49:39.903403",
-      "last_modified": "2026-08-18 19:49:39.903403",
+      "created": "2026-08-21 18:10:49.660752",
+      "last_modified": "2026-08-21 18:10:49.660752",
       "vintage": {},
       "row_count": 583,
       "entity_count": 53,
@@ -24600,8 +24636,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-18 19:49:39.724399",
-      "last_modified": "2026-08-18 19:49:39.724399",
+      "created": "2026-08-21 18:10:49.660752",
+      "last_modified": "2026-08-21 18:10:49.660752",
       "vintage": {},
       "row_count": 156,
       "entity_count": 52,
@@ -28542,156 +28578,16 @@
       "state": "unchanged"
     },
     "firearms_by_geography_and_source_state_year.parquet": {
-      "state": "changed",
-      "variables": {
-        "age": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "geography": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "source": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "year": {
-          "status": "present",
-          "same_type": true
-        },
-        "value": {
-          "status": "present",
-          "same_type": true
-        },
-        "epic_n_ed_firearm": {
-          "status": "present",
-          "same_type": true
-        },
-        "suppressed_firearm": {
-          "status": "present",
-          "same_type": true
-        }
-      }
+      "state": "unchanged"
     },
     "firearms_geography_source.parquet": {
-      "state": "changed",
-      "variables": {
-        "time": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "source": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "value": {
-          "status": "present",
-          "same_type": true
-        },
-        "age": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "epic_n_ed_firearm": {
-          "status": "present",
-          "same_type": true
-        },
-        "suppressed_firearm": {
-          "status": "present",
-          "same_type": true
-        },
-        "geography": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "state": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        }
-      }
+      "state": "unchanged"
     },
     "google_dma.parquet": {
-      "state": "changed",
-      "variables": {
-        "fips": {
-          "status": "present",
-          "same_type": true
-        },
-        "date": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "gtrends_narcan": {
-          "status": "present",
-          "same_type": true
-        },
-        "gtrends_9mm": {
-          "status": "present",
-          "same_type": true
-        },
-        "gtrends_shotgun": {
-          "status": "present",
-          "same_type": true
-        },
-        "gtrends_heat_exhaustion": {
-          "status": "present",
-          "same_type": true
-        }
-      }
+      "state": "unchanged"
     },
     "heat_by_geography_and_source_state_year.parquet": {
-      "state": "changed",
-      "variables": {
-        "year": {
-          "status": "present",
-          "same_type": true
-        },
-        "source": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "geography": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "age": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "value": {
-          "status": "present",
-          "same_type": true
-        },
-        "suppressed_heat": {
-          "status": "present",
-          "same_type": true
-        }
-      }
+      "state": "unchanged"
     },
     "heat_risk.parquet": {
       "state": "changed",
@@ -28705,8 +28601,8 @@
         "time": {
           "status": "present",
           "same_type": true,
-          "added_levels": ["2026-08-20", "2026-08-21", "2026-08-22", "2026-08-23"],
-          "dropped_levels": ["2026-08-15", "2026-08-16", "2026-08-17", "2026-08-18"]
+          "added_levels": ["2026-08-24", "2026-08-25", "2026-08-26"],
+          "dropped_levels": ["2026-08-19", "2026-08-20", "2026-08-21"]
         },
         "value": {
           "status": "present",
@@ -28728,76 +28624,10 @@
       "state": "unchanged"
     },
     "overdose_by_geography_and_source_state_year.parquet": {
-      "state": "changed",
-      "variables": {
-        "geography": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "age": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "year": {
-          "status": "present",
-          "same_type": true
-        },
-        "source": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "value": {
-          "status": "present",
-          "same_type": true
-        }
-      }
+      "state": "unchanged"
     },
     "overdose_by_geography_and_source.parquet": {
-      "state": "changed",
-      "variables": {
-        "geography": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "date": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "age": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "source": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "value": {
-          "status": "present",
-          "same_type": true
-        },
-        "value_scale": {
-          "status": "present",
-          "same_type": true
-        },
-        "suppressed": {
-          "status": "present",
-          "same_type": true
-        }
-      }
+      "state": "unchanged"
     },
     "overdose_deaths_county.parquet": {
       "state": "unchanged"

@@ -4,11 +4,11 @@
     {
       "path": "ingest.R",
       "manual": false,
-      "last_run": "2026-08-14 18:26:38",
+      "last_run": "2026-08-21 18:17:31",
       "frequency": 0,
-      "run_time": 73.079,
+      "run_time": 47.419,
       "last_status": {
-        "log": ["", "⠙ processing source nssp (./data/nssp/ingest.R)\r── downloading resource <https://data.cdc.gov/resource/rdmq-nq56> ──────────────", "⠙ processing source nssp (./data/nssp/ingest.R)\rℹ metadata: <https://data.cdc.gov/api/views/rdmq-nq56>", "✔ metadata: <https://data.cdc.gov/api/views/rdmq-nq56> [207ms]", "", "⠙ processing source nssp (./data/nssp/ingest.R)\rℹ data: <https://data.cdc.gov/api/v3/views/rdmq-nq56/export.csv>", "✔ data: <https://data.cdc.gov/api/v3/views/rdmq-nq56/export.csv> [25.5s]", "", "⠙ processing source nssp (./data/nssp/ingest.R)\rℹ compressing data", "✔ compressing data [40.5s]", "", "⠙ processing source nssp (./data/nssp/ingest.R)\r"],
+        "log": ["", "⠙ processing source nssp (./data/nssp/ingest.R)\r── downloading resource <https://data.cdc.gov/resource/rdmq-nq56> ──────────────", "⠙ processing source nssp (./data/nssp/ingest.R)\rℹ metadata: <https://data.cdc.gov/api/views/rdmq-nq56>", "✔ metadata: <https://data.cdc.gov/api/views/rdmq-nq56> [607ms]", "", "⠙ processing source nssp (./data/nssp/ingest.R)\rℹ data: <https://data.cdc.gov/api/v3/views/rdmq-nq56/export.csv>", "✔ data: <https://data.cdc.gov/api/v3/views/rdmq-nq56/export.csv> [13s]", "", "⠙ processing source nssp (./data/nssp/ingest.R)\rℹ compressing data", "✔ compressing data [28.7s]", "", "⠙ processing source nssp (./data/nssp/ingest.R)\r"],
         "success": true
       }
     }
@@ -17,10 +17,10 @@
   "check_results": {
     "data/nssp/standard/data.csv.gz": []
   },
-  "raw_state": "1786550579:644986",
+  "raw_state": "1787159254:648179",
   "standard_state": {
     "./data/nssp/measure_info.json": "93463a21ae4eabc46c68e0cf3d9d290d",
-    "./data/nssp/standard/data.csv.gz": "3279889059cd1d023dc6a4428250451a"
+    "./data/nssp/standard/data.csv.gz": "72b1fcc991d2db1e8797e8cd40d71279"
   },
   "type": "source"
 }

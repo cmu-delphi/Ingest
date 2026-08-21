@@ -3,14 +3,15 @@
   "title": "Measles Cdc",
   "resources": [
     {
-      "bytes": 946,
+      "bytes": 953,
       "encoding": "windows-1252",
-      "md5": "8659dadeafcae7c0c582af3418183c39",
+      "md5": "ae71187e2c7a4b61c97fbc72f00df587",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "b80d2ede2f1dce22729467107fef9fdff2eac7f8",
           "febbc4cba45d1dcdc4bf4cdbae03353299e435ae",
           "27a234dc0fdc758f4b37df938781a3de2f05b5f0",
           "046d565a3d9ec2fdd9207bb107276151c042816d",
@@ -55,6 +56,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "weinbergerlab <dweinber@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -81,6 +83,7 @@
           "danweinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Aug 14 19:42:48 2026 +0000",
           "Sat Aug 8 00:02:04 2026 +0000",
           "Fri Jul 31 20:48:09 2026 +0000",
           "Fri Jul 24 19:27:59 2026 +0000",
@@ -116,6 +119,7 @@
           "Tue Jan 20 23:07:23 2026 -0500"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
@@ -161,29 +165,29 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-14 18:24:31.365517",
-      "last_modified": "2026-08-14 18:24:31.365517",
+      "created": "2026-08-21 18:15:22.008324",
+      "last_modified": "2026-08-21 18:15:22.008324",
       "vintage": {},
-      "row_count": 241,
+      "row_count": 242,
       "entity_count": 1,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 240,
+            "duplicates": 241,
             "info": [],
-            "time_range": [0, 240],
+            "time_range": [0, 241],
             "type": "string",
             "missing": 0,
             "table": {
-              "00": 241
+              "00": 242
             }
           },
           {
             "name": "time",
             "duplicates": 0,
             "info": [],
-            "time_range": [0, 240],
+            "time_range": [0, 241],
             "type": "string",
             "missing": 0,
             "table": {
@@ -427,7 +431,8 @@
               "2026-07-25": 1,
               "2026-08-01": 1,
               "2026-08-08": 1,
-              "2026-08-15": 1
+              "2026-08-15": 1,
+              "2026-08-22": 1
             }
           },
           {
@@ -450,17 +455,17 @@
                 }
               ]
             },
-            "time_range": [0, 240],
+            "time_range": [0, 241],
             "type": "integer",
             "missing": 0,
-            "mean": 22.074689,
-            "sd": 39.410799,
+            "mean": 22.855372,
+            "sd": 40.387744,
             "min": 0,
             "max": 296
           }
         ]
       },
-      "sha512": "c42ae5ff6b6caa08356756f6a2ae23ae1980e6bc5d0f16114b1b27f16b490ecb8b128fc19265157de021bb0db194bd05f1cb559ab93ce92f44d12d8a373137f6"
+      "sha512": "26ee6de1a987fa118395a416b3c4ed0a5dbc63a8360d032d81e6a3bbd4226f4035f510b931ac2357a739a35e3ec24a47b37e8692706927c4aaedf465e1c015b6"
     }
   ],
   "measure_info": {
@@ -508,7 +513,7 @@
         "time": {
           "status": "present",
           "same_type": true,
-          "added_levels": "2026-08-15",
+          "added_levels": "2026-08-22",
           "dropped_levels": []
         },
         "value": {
