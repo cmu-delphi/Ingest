@@ -5,9 +5,9 @@
     {
       "path": "ingest.R",
       "manual": false,
-      "last_run": "2026-08-21 18:15:20",
+      "last_run": "2026-08-22 07:21:54",
       "frequency": 0,
-      "run_time": 0.032,
+      "run_time": 0.562,
       "last_status": {
         "log": "Kinsa credentials not found. Set KINSA_EMAIL and KINSA_PASSWORD.",
         "success": false
