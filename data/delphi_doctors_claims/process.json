@@ -5,11 +5,11 @@
     {
       "path": "ingest.R",
       "manual": false,
-      "last_run": "2026-08-21 18:15:07",
+      "last_run": "2026-08-25 18:15:08",
       "frequency": 0,
-      "run_time": 64.899,
+      "run_time": 66.598,
       "last_status": {
-        "log": ["", "Attaching package: ‘epidatr’", "", "The following object is masked from ‘package:censusapi’:", "", "    get_api_key", "", "Rows: 724884 Columns: 15", "⠙ processing source delphi_doctors_claims (./data/delphi_doctors_claims/ingest.…\r", "⠙ processing source delphi_doctors_claims (./data/delphi_doctors_claims/ingest.…\r── Column specification ────────────────────────────────────────────────────────", "⠙ processing source delphi_doctors_claims (./data/delphi_doctors_claims/ingest.…\rDelimiter: \",\"", "chr  (5): geo_value, signal, source, geo_type, time_type", "dbl  (5): lag, missing_value, missing_stderr, missing_sample_size, value", "lgl  (3): direction, stderr, sample_size", "date (2): time_value, issue", "", "⠙ processing source delphi_doctors_claims (./data/delphi_doctors_claims/ingest.…\r", "", "⠙ processing source delphi_doctors_claims (./data/delphi_doctors_claims/ingest.…\rℹ Use `spec()` to retrieve the full column specification for this data.", "⠙ processing source delphi_doctors_claims (./data/delphi_doctors_claims/ingest.…\rℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.", "⠙ processing source delphi_doctors_claims (./data/delphi_doctors_claims/ingest.…\r"],
+        "log": ["", "Attaching package: ‘epidatr’", "", "The following object is masked from ‘package:censusapi’:", "", "    get_api_key", "", "Rows: 725020 Columns: 15", "⠙ processing source delphi_doctors_claims (./data/delphi_doctors_claims/ingest.…\r", "⠙ processing source delphi_doctors_claims (./data/delphi_doctors_claims/ingest.…\r── Column specification ────────────────────────────────────────────────────────", "⠙ processing source delphi_doctors_claims (./data/delphi_doctors_claims/ingest.…\rDelimiter: \",\"", "chr  (5): geo_value, signal, source, geo_type, time_type", "dbl  (5): lag, missing_value, missing_stderr, missing_sample_size, value", "lgl  (3): direction, stderr, sample_size", "date (2): time_value, issue", "", "⠙ processing source delphi_doctors_claims (./data/delphi_doctors_claims/ingest.…\r", "", "⠙ processing source delphi_doctors_claims (./data/delphi_doctors_claims/ingest.…\rℹ Use `spec()` to retrieve the full column specification for this data.", "⠙ processing source delphi_doctors_claims (./data/delphi_doctors_claims/ingest.…\rℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.", "⠙ processing source delphi_doctors_claims (./data/delphi_doctors_claims/ingest.…\r"],
         "success": true
       }
     }
@@ -19,11 +19,11 @@
     "data/delphi_doctors_claims/standard/data.csv.gz": []
   },
   "raw_state": {
-    "raw/data.csv.xz": "4c12fb638e62a11c1ef2de4f0d005d2f"
+    "raw/data.csv.xz": "80f416206480fe063d37bfc9c11b680b"
   },
   "standard_state": {
     "./data/delphi_doctors_claims/measure_info.json": "1088d5ef251ba080df9ed8757f55ee02",
-    "./data/delphi_doctors_claims/standard/data.csv.gz": "a8f79559baf168ac84d0419c17f0f4a2"
+    "./data/delphi_doctors_claims/standard/data.csv.gz": "e452f12e9be43ca8fb778426f935f45d"
   },
-  "delphi_maxdate": "1787269710"
+  "delphi_maxdate": "1787615465"
 }

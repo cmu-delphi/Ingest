@@ -55,7 +55,7 @@
     "./data/nis/standard/datapackage.json": "1ffa0e4b418281957eb756a2634d552e",
     "./data/schoolvax_washpost/standard/datapackage.json": "b199d6e7edb23ab459ab4e9249335ea3"
   },
-  "checked": "2026-08-21 19:20:34",
+  "checked": "2026-08-25 19:21:47",
   "check_results": {
     "data/bundle_childhood_immunizations/dist/nis_insurance.parquet": [],
     "data/bundle_childhood_immunizations/dist/nis_overall.parquet": [],
