@@ -4,14 +4,15 @@
   "licenses": [],
   "resources": [
     {
-      "bytes": 1496,
+      "bytes": 1498,
       "encoding": "windows-1252",
-      "md5": "58ee94136270ee37890c8f66d7f1d1c9",
+      "md5": "b2f2e9bb1cebb9f64df34803353e1648",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "e15a2b6868fc5ee3bf923f032bd71877a486a509",
           "a0b5aad13448838f8b2313305238ad06a483bb31",
           "4b06da12855f1ba8a0576571a5e89e2b40e4d32c",
           "e6e7fbf1831307f8d1ca318749331913f3f1693a",
@@ -73,9 +74,11 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>"
         ],
         "date": [
+          "Tue Aug 25 19:22:23 2026 +0000",
           "Tue Aug 25 07:23:53 2026 +0000",
           "Mon Aug 24 07:29:50 2026 +0000",
           "Sun Aug 23 07:18:44 2026 +0000",
@@ -108,6 +111,7 @@
           "Thu Jul 16 12:53:03 2026 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled daily data update",
           "scheduled daily data update",
@@ -150,8 +154,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-08-25 18:15:27.776",
-      "last_modified": "2026-08-25 18:15:27.776",
+      "created": "2026-08-26 07:27:11.494752",
+      "last_modified": "2026-08-26 07:27:11.494752",
       "vintage": {},
       "row_count": 151,
       "entity_count": 32,
@@ -334,7 +338,7 @@
           },
           {
             "name": "date_scraped",
-            "duplicates": 142,
+            "duplicates": 141,
             "info": {
               "id": "date_scraped",
               "short_name": "Date Scraped",
@@ -362,7 +366,8 @@
               "08-18-2026": 5,
               "08-21-2026": 1,
               "08-22-2026": 24,
-              "08-25-2026": 25
+              "08-25-2026": 2,
+              "08-26-2026": 23
             }
           },
           {
@@ -399,7 +404,7 @@
           }
         ]
       },
-      "sha512": "ef0879ffd6109f882c4ebd63beb4583472360116475046b2b9d3072e15e40cf0a04bcdf6da925d32e55b1ecbd80738ffbc8ca9949f984d3048f0b997884c77c6"
+      "sha512": "4f7fd7699a246847773a317a0c6e4ad1666b921617a61cf2a243cd0753d44bbbedec77169e925e4eba33a19166a8fe90bad94f1df980a72173a4ac837120f39f"
     }
   ],
   "measure_info": {
@@ -533,7 +538,7 @@
         "condition": {
           "status": "present",
           "same_type": true,
-          "added_levels": "Measles",
+          "added_levels": [],
           "dropped_levels": []
         },
         "estimated_onset": {
@@ -553,13 +558,13 @@
         "date_scraped": {
           "status": "present",
           "same_type": true,
-          "added_levels": [],
+          "added_levels": "08-26-2026",
           "dropped_levels": []
         },
         "date_epic_updated": {
           "status": "present",
           "same_type": true,
-          "added_levels": "08-25-2026",
+          "added_levels": [],
           "dropped_levels": []
         }
       }
