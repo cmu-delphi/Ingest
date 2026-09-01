@@ -5,9 +5,9 @@
     {
       "path": "ingest.R",
       "manual": false,
-      "last_run": "2026-08-28 21:27:44",
+      "last_run": "2026-09-01 18:16:27",
       "frequency": 0,
-      "run_time": 0.027,
+      "run_time": 0.157,
       "last_status": {
         "log": ["", "Attaching package: ‘arrow’", "", "The following object is masked from ‘package:lubridate’:", "", "    duration", "", "The following object is masked from ‘package:utils’:", "", "    timestamp", ""],
         "success": true
