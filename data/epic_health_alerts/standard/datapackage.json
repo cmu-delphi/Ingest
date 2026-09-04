@@ -4,14 +4,15 @@
   "licenses": [],
   "resources": [
     {
-      "bytes": 1718,
+      "bytes": 1708,
       "encoding": "windows-1252",
-      "md5": "730565973ffda9a62c46be7948992901",
+      "md5": "428b35c7a576758f81e85e876c1e09ab",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "4ca941a20e8f9c61da7d339311279bf867720ea8",
           "762974e9d242246f0abc250f6c1c61b9e9378074",
           "72fba28fdc599259a8104fe6e6adae97dbebca59",
           "da24ea21b1c3fbd37a756b9d9b53d7a5113d0072",
@@ -95,9 +96,11 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>"
         ],
         "date": [
+          "Thu Sep 3 07:17:57 2026 +0000",
           "Wed Sep 2 07:15:56 2026 +0000",
           "Tue Sep 1 19:20:38 2026 +0000",
           "Tue Sep 1 07:13:54 2026 +0000",
@@ -141,6 +144,7 @@
           "Thu Jul 16 12:53:03 2026 -0400"
         ],
         "message": [
+          "scheduled daily data update",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
@@ -194,8 +198,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-03 07:14:49.690214",
-      "last_modified": "2026-09-03 07:14:49.690214",
+      "created": "2026-09-04 07:13:31.555071",
+      "last_modified": "2026-09-04 07:13:31.555071",
       "vintage": {},
       "row_count": 171,
       "entity_count": 34,
@@ -329,7 +333,7 @@
           },
           {
             "name": "value",
-            "duplicates": 70,
+            "duplicates": 69,
             "info": {
               "id": "value",
               "short_name": "Health Alert Rate (Cases per 100k)",
@@ -350,8 +354,8 @@
             "time_range": [0, 3],
             "type": "float",
             "missing": 0,
-            "mean": 70.665497,
-            "sd": 177.943565,
+            "mean": 76.474269,
+            "sd": 187.050582,
             "min": 0.6,
             "max": 1010.7
           },
@@ -376,8 +380,8 @@
             "time_range": [0, 3],
             "type": "integer",
             "missing": 0,
-            "mean": 0.28655,
-            "sd": 0.453477,
+            "mean": 0.280702,
+            "sd": 0.450662,
             "min": 0,
             "max": 1
           },
@@ -416,7 +420,7 @@
               "08-29-2026": 18,
               "08-31-2026": 7,
               "09-02-2026": 1,
-              "09-03-2026": 12
+              "09-04-2026": 12
             }
           },
           {
@@ -451,12 +455,12 @@
               "08-26-2026": 5,
               "08-28-2026": 25,
               "09-01-2026": 1,
-              "09-02-2026": 12
+              "09-03-2026": 12
             }
           }
         ]
       },
-      "sha512": "31876910410a8bdf012ca821079d02fcd5071f542a2ba1eef8300effad86c3dd029e45e71051a1b68ee4c2a96bccebee9147ea8b9eece6656e3c3c154af7a10b"
+      "sha512": "3bf81c46628daa105e57537c240bc3bd3e92ae1959ca6c78e9f6defb3b20e01ad2ae733bf43516c6edcbf6e65793e82ba2466a593dbbd187bbb2b8c8601ad1e1"
     }
   ],
   "measure_info": {
@@ -610,14 +614,14 @@
         "date_scraped": {
           "status": "present",
           "same_type": true,
-          "added_levels": "09-03-2026",
-          "dropped_levels": []
+          "added_levels": "09-04-2026",
+          "dropped_levels": "09-03-2026"
         },
         "date_epic_updated": {
           "status": "present",
           "same_type": true,
-          "added_levels": "09-02-2026",
-          "dropped_levels": []
+          "added_levels": "09-03-2026",
+          "dropped_levels": "09-02-2026"
         }
       }
     }
