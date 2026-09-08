@@ -5,11 +5,11 @@
     {
       "path": "ingest.R",
       "manual": false,
-      "last_run": "2026-09-04 18:28:27",
+      "last_run": "2026-09-08 22:57:59",
       "frequency": 0,
-      "run_time": 34.702,
+      "run_time": 35.967,
       "last_status": {
-        "log": ["", "⠙ processing source respnet (./data/respnet/ingest.R)\r── downloading resource <https://data.cdc.gov/resource/kvib-3txy> ──────────────", "⠙ processing source respnet (./data/respnet/ingest.R)\rℹ metadata: <https://data.cdc.gov/api/views/kvib-3txy>", "✔ metadata: <https://data.cdc.gov/api/views/kvib-3txy> [367ms]", "", "⠙ processing source respnet (./data/respnet/ingest.R)\rℹ data: <https://data.cdc.gov/api/v3/views/kvib-3txy/export.csv>", "✔ data: <https://data.cdc.gov/api/v3/views/kvib-3txy/export.csv> [1.3s]", "", "⠙ processing source respnet (./data/respnet/ingest.R)\rℹ compressing data", "✔ compressing data [2.6s]", "", "⠙ processing source respnet (./data/respnet/ingest.R)\r", "⠙ processing source respnet (./data/respnet/ingest.R)\r── downloading resource <https://data.cdc.gov/resource/29hc-w46k> ──────────────", "⠙ processing source respnet (./data/respnet/ingest.R)\rℹ metadata: <https://data.cdc.gov/api/views/29hc-w46k>", "✔ metadata: <https://data.cdc.gov/api/views/29hc-w46k> [345ms]", "", "⠙ processing source respnet (./data/respnet/ingest.R)\rℹ data: <https://data.cdc.gov/api/v3/views/29hc-w46k/export.csv>", "✔ data: <https://data.cdc.gov/api/v3/views/29hc-w46k/export.csv> [4.7s]", "", "⠙ processing source respnet (./data/respnet/ingest.R)\rℹ compressing data", "✔ compressing data [7.5s]", "", "⠙ processing source respnet (./data/respnet/ingest.R)\r", "⠙ processing source respnet (./data/respnet/ingest.R)\r── downloading resource <https://data.cdc.gov/resource/6jg4-xsqq> ──────────────", "⠙ processing source respnet (./data/respnet/ingest.R)\rℹ metadata: <https://data.cdc.gov/api/views/6jg4-xsqq>", "✔ metadata: <https://data.cdc.gov/api/views/6jg4-xsqq> [264ms]", "", "⠙ processing source respnet (./data/respnet/ingest.R)\rℹ data: <https://data.cdc.gov/api/v3/views/6jg4-xsqq/export.csv>", "✔ data: <https://data.cdc.gov/api/v3/views/6jg4-xsqq/export.csv> [4.5s]", "", "⠙ processing source respnet (./data/respnet/ingest.R)\rℹ compressing data", "✔ compressing data [9.9s]", "", "⠙ processing source respnet (./data/respnet/ingest.R)\r"],
+        "log": ["", "⠙ processing source respnet (./data/respnet/ingest.R)\r── downloading resource <https://data.cdc.gov/resource/kvib-3txy> ──────────────", "⠙ processing source respnet (./data/respnet/ingest.R)\rℹ metadata: <https://data.cdc.gov/api/views/kvib-3txy>", "✔ metadata: <https://data.cdc.gov/api/views/kvib-3txy> [1.9s]", "", "⠙ processing source respnet (./data/respnet/ingest.R)\rℹ data: <https://data.cdc.gov/api/v3/views/kvib-3txy/export.csv>", "✔ data: <https://data.cdc.gov/api/v3/views/kvib-3txy/export.csv> [1.7s]", "", "⠙ processing source respnet (./data/respnet/ingest.R)\rℹ compressing data", "✔ compressing data [2.6s]", "", "⠙ processing source respnet (./data/respnet/ingest.R)\r", "⠙ processing source respnet (./data/respnet/ingest.R)\r── downloading resource <https://data.cdc.gov/resource/29hc-w46k> ──────────────", "⠙ processing source respnet (./data/respnet/ingest.R)\rℹ metadata: <https://data.cdc.gov/api/views/29hc-w46k>", "✔ metadata: <https://data.cdc.gov/api/views/29hc-w46k> [678ms]", "", "⠙ processing source respnet (./data/respnet/ingest.R)\rℹ data: <https://data.cdc.gov/api/v3/views/29hc-w46k/export.csv>", "✔ data: <https://data.cdc.gov/api/v3/views/29hc-w46k/export.csv> [4.7s]", "", "⠙ processing source respnet (./data/respnet/ingest.R)\rℹ compressing data", "✔ compressing data [7.2s]", "", "⠙ processing source respnet (./data/respnet/ingest.R)\r", "⠙ processing source respnet (./data/respnet/ingest.R)\r── downloading resource <https://data.cdc.gov/resource/6jg4-xsqq> ──────────────", "⠙ processing source respnet (./data/respnet/ingest.R)\rℹ metadata: <https://data.cdc.gov/api/views/6jg4-xsqq>", "✔ metadata: <https://data.cdc.gov/api/views/6jg4-xsqq> [653ms]", "", "⠙ processing source respnet (./data/respnet/ingest.R)\rℹ data: <https://data.cdc.gov/api/v3/views/6jg4-xsqq/export.csv>", "✔ data: <https://data.cdc.gov/api/v3/views/6jg4-xsqq/export.csv> [4.4s]", "", "⠙ processing source respnet (./data/respnet/ingest.R)\rℹ compressing data", "✔ compressing data [9.5s]", "", "⠙ processing source respnet (./data/respnet/ingest.R)\r"],
         "success": true
       }
     }
@@ -24,8 +24,8 @@
       "measures": "type_changed: rate_flu"
     }
   },
-  "raw_state_combined": "1788529291:120398",
-  "raw_state_rsv": "1788457406:506454",
-  "raw_state_covid": "1788457439:493674",
-  "raw_state": "1788529291:1203981788457406:5064541788457439:493674"
+  "raw_state_combined": "1788892490:123788",
+  "raw_state_rsv": "1788890251:506454",
+  "raw_state_covid": "1788890181:493674",
+  "raw_state": "1788892490:1237881788890251:5064541788890181:493674"
 }

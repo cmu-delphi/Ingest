@@ -108,7 +108,7 @@ flowchart LR
     end
     subgraph delphi_hospital_claims["`<strong><a href="https://github.com/PopHIVE/Ingest/tree/main/data/delphi_hospital_claims" target="_blank" rel="noreferrer">delphi_hospital_claims</a></strong>`"]
         direction LR
-        n18["`data.csv.gz`"]:::pass
+        n18["`data.csv.gz<br /><br />Script Failed:<br />Unauthorized (HTTP 401). Failed to fetch data from API : Requested too many multiples for anonymous queries. To remove this limit, register a free API key at https://api.delphi.cmu.edu/epidata/admin/registration_form.`"]:::fail
     end
     subgraph delphi_ili_fluview["`<strong><a href="https://github.com/PopHIVE/Ingest/tree/main/data/delphi_ili_fluview" target="_blank" rel="noreferrer">delphi_ili_fluview</a></strong>`"]
         direction LR

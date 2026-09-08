@@ -3,9 +3,9 @@
   "title": "Bundle Measles",
   "resources": [
     {
-      "bytes": 10343,
+      "bytes": 10407,
       "encoding": "windows-1252",
-      "md5": "3b5349325f9cff74131e8f9a6ac95127",
+      "md5": "c8ef97f09495f5c224faa8bf41ee8c9e",
       "format": "parquet",
       "name": "measles_cases_by_age",
       "filename": "measles_cases_by_age.parquet",
@@ -229,16 +229,16 @@
       "id_length": 13,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-04 19:29:30.936304",
-      "last_modified": "2026-09-04 19:29:30.936304",
+      "created": "2026-09-08 23:52:10.05853",
+      "last_modified": "2026-09-08 23:52:10.05853",
       "vintage": {},
-      "row_count": 1646,
+      "row_count": 1668,
       "entity_count": 1,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 1645,
+            "duplicates": 1667,
             "info": {
               "id": "geography",
               "short_name": "Geography (national)",
@@ -248,12 +248,12 @@
             "type": "string",
             "missing": 0,
             "table": {
-              "United States": 1646
+              "United States": 1668
             }
           },
           {
             "name": "date",
-            "duplicates": 1569,
+            "duplicates": 1590,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
@@ -335,36 +335,37 @@
               "2026-08-01": 22,
               "2026-08-08": 22,
               "2026-08-15": 22,
-              "2026-08-22": 22
+              "2026-08-22": 22,
+              "2026-09-05": 22
             }
           },
           {
             "name": "year",
-            "duplicates": 1644,
+            "duplicates": 1666,
             "info": [],
             "time_range": [-1, -1],
             "type": "integer",
             "missing": 0,
-            "mean": 2025.409478,
-            "sd": 0.491887,
+            "mean": 2025.417266,
+            "sd": 0.493255,
             "min": 2025,
             "max": 2026
           },
           {
             "name": "week",
-            "duplicates": 1594,
+            "duplicates": 1616,
             "info": [],
             "time_range": [-1, -1],
             "type": "integer",
             "missing": 0,
-            "mean": 24.990279,
-            "sd": 13.302829,
+            "mean": 25.122302,
+            "sd": 13.264036,
             "min": 1,
             "max": 53
           },
           {
             "name": "type",
-            "duplicates": 1642,
+            "duplicates": 1664,
             "info": {
               "short_name": "Count type",
               "levels": {
@@ -372,7 +373,7 @@
                   "source_id": "cdc_cum_cases",
                   "id": "cumulative cases",
                   "name": "cdc_cum_cases",
-                  "duplicates": 98,
+                  "duplicates": 100,
                   "info": {
                     "id": "cdc_cum_cases",
                     "short_name": "Measles cumulative cases",
@@ -398,20 +399,20 @@
                   },
                   "time_range": [
                     0,
-                    76
+                    77
                   ],
                   "type": "float",
                   "missing": 9,
-                  "mean": 603.890113,
-                  "sd": 628.141599,
+                  "mean": 613.500484,
+                  "sd": 643.592946,
                   "min": 0,
-                  "max": 2777
+                  "max": 3134
                 },
                 "new cases": {
                   "source_id": "cdc_new_cases",
                   "id": "new cases",
                   "name": "cdc_new_cases",
-                  "duplicates": 290,
+                  "duplicates": 292,
                   "info": {
                     "id": "cdc_new_cases",
                     "short_name": "Measles new weekly cases",
@@ -437,20 +438,20 @@
                   },
                   "time_range": [
                     0,
-                    76
+                    77
                   ],
                   "type": "float",
                   "missing": 18,
-                  "mean": 27.026315,
-                  "sd": 37.362556,
+                  "mean": 28.688845,
+                  "sd": 42.774114,
                   "min": -21.62,
-                  "max": 245
+                  "max": 357
                 },
                 "new hospitalizations": {
                   "source_id": "cdc_new_hosp",
                   "id": "new hospitalizations",
                   "name": "cdc_new_hosp",
-                  "duplicates": 518,
+                  "duplicates": 523,
                   "info": {
                     "id": "cdc_new_hosp",
                     "short_name": "Measles new weekly hospitalizations",
@@ -476,20 +477,20 @@
                   },
                   "time_range": [
                     0,
-                    76
+                    77
                   ],
                   "type": "integer",
-                  "missing": 245,
-                  "mean": 2.823129,
-                  "sd": 3.625282,
+                  "missing": 248,
+                  "mean": 3.154362,
+                  "sd": 5.224553,
                   "min": -1,
-                  "max": 27
+                  "max": 55
                 },
                 "cumulative hospitalizations": {
                   "source_id": "cdc_cum_hosp",
                   "id": "cumulative hospitalizations",
                   "name": "cdc_cum_hosp",
-                  "duplicates": 402,
+                  "duplicates": 407,
                   "info": {
                     "id": "cdc_cum_hosp",
                     "short_name": "Measles cumulative hospitalizations",
@@ -515,14 +516,14 @@
                   },
                   "time_range": [
                     0,
-                    76
+                    77
                   ],
                   "type": "integer",
-                  "missing": 238,
-                  "mean": 64.44186,
-                  "sd": 52.539453,
+                  "missing": 241,
+                  "mean": 65.222951,
+                  "sd": 53.382028,
                   "min": 0,
-                  "max": 235
+                  "max": 248
                 }
               },
               "id": "type"
@@ -531,15 +532,15 @@
             "type": "string",
             "missing": 0,
             "table": {
-              "cumulative cases": 530,
-              "cumulative hospitalizations": 301,
-              "new cases": 521,
-              "new hospitalizations": 294
+              "cumulative cases": 537,
+              "cumulative hospitalizations": 305,
+              "new cases": 528,
+              "new hospitalizations": 298
             }
           },
           {
             "name": "age",
-            "duplicates": 1642,
+            "duplicates": 1664,
             "info": {
               "id": "age",
               "short_name": "Age group",
@@ -560,15 +561,15 @@
             "type": "string",
             "missing": 0,
             "table": {
-              "<5 years": 296,
-              "20+ years": 296,
-              "5-19 years": 296,
-              "Total": 758
+              "<5 years": 300,
+              "20+ years": 300,
+              "5-19 years": 300,
+              "Total": 768
             }
           },
           {
             "name": "vax_group",
-            "duplicates": 1642,
+            "duplicates": 1664,
             "info": {
               "id": "vax_group",
               "short_name": "Vaccination status group",
@@ -589,15 +590,15 @@
             "type": "string",
             "missing": 0,
             "table": {
-              "One dose MMR": 151,
-              "Total": 1193,
-              "Two doses MMR": 151,
-              "Unvaccinated/Unknown": 151
+              "One dose MMR": 153,
+              "Total": 1209,
+              "Two doses MMR": 153,
+              "Unvaccinated/Unknown": 153
             }
           },
           {
             "name": "value",
-            "duplicates": 922,
+            "duplicates": 934,
             "info": {
               "id": "value",
               "short_name": "Measles case/hospitalization count",
@@ -618,14 +619,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 215.291294,
-            "sd": 447.147963,
+            "mean": 219.083016,
+            "sd": 456.670333,
             "min": -21.62,
-            "max": 2777
+            "max": 3134
           },
           {
             "name": "source",
-            "duplicates": 1644,
+            "duplicates": 1666,
             "info": {
               "short_name": "Data source / measure",
               "levels": {
@@ -633,7 +634,7 @@
                   "source_id": "cdc_cum_cases",
                   "id": "cdc_measles_cases_age",
                   "name": "cdc_cum_cases",
-                  "duplicates": 98,
+                  "duplicates": 100,
                   "info": {
                     "id": "cdc_cum_cases",
                     "short_name": "Measles cumulative cases",
@@ -659,14 +660,14 @@
                   },
                   "time_range": [
                     0,
-                    76
+                    77
                   ],
                   "type": "float",
                   "missing": 9,
-                  "mean": 603.890113,
-                  "sd": 628.141599,
+                  "mean": 613.500484,
+                  "sd": 643.592946,
                   "min": 0,
-                  "max": 2777
+                  "max": 3134
                 },
                 "cdc_measles_cases_vax": {
                   "id": "cdc_measles_cases_vax",
@@ -685,23 +686,24 @@
             "type": "string",
             "missing": 0,
             "table": {
-              "cdc_measles_cases_age": 1193,
-              "cdc_measles_cases_vax": 453
+              "cdc_measles_cases_age": 1209,
+              "cdc_measles_cases_vax": 459
             }
           }
         ]
       },
-      "sha512": "e4ceea7693636b2ed115b94b0eb7ce4831e90d613f5a4a23f967950e91ba4d31288e8601ef8be0b841b7d4af0c3d788d11c414eba08d7a65ef89b1a90c6fec2f"
+      "sha512": "b4e431bbec351118f3d3f84ff39b07ff296ec123ab806d2df6c11b94e4efdf90efa062e57cf2e2d0fc73bae8abebf9d16dfecd5db409c8c6039106c8fddd887a"
     },
     {
-      "bytes": 171864,
+      "bytes": 171534,
       "encoding": "windows-1251",
-      "md5": "b0a30a9e7c3b02ea6f96505d46d2e42f",
+      "md5": "d0bfaf22e04cb60425fb6d67c18a497d",
       "format": "parquet",
       "name": "measles_county",
       "filename": "measles_county.parquet",
       "versions": {
         "hash": [
+          "4f414c16a4f925ee7be5bf060dab7488362b1688",
           "72fba28fdc599259a8104fe6e6adae97dbebca59",
           "cc7a298f7ec13b47e6c13537ec05e1f84b6d6103",
           "e15a2b6868fc5ee3bf923f032bd71877a486a509",
@@ -792,6 +794,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "weinbergerlab <dweinber@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -842,6 +845,7 @@
           "danweinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Sep 4 19:32:10 2026 +0000",
           "Tue Sep 1 19:20:38 2026 +0000",
           "Fri Aug 28 22:31:24 2026 +0000",
           "Tue Aug 25 19:22:23 2026 +0000",
@@ -932,6 +936,7 @@
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
+          "scheduled data build",
           "Add CDC CFA RT (respiratory tract) data source",
           "scheduled data build",
           "scheduled data build",
@@ -992,22 +997,24 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-04 19:29:30.914304",
-      "last_modified": "2026-09-04 19:29:30.914304",
+      "created": "2026-09-08 23:52:10.03453",
+      "last_modified": "2026-09-08 23:52:10.03453",
       "vintage": {},
-      "row_count": 114918,
-      "entity_count": 3173,
+      "row_count": 115692,
+      "entity_count": 3175,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 111745,
+            "duplicates": 112517,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
+              "00013": 86,
               "00019": 86,
+              "00023": 86,
               "00025": 86,
               "00036": 86,
               "00045": 86,
@@ -1645,7 +1652,7 @@
               "17035": 14,
               "17037": 14,
               "17039": 14,
-              "17041": 14,
+              "17041": 100,
               "17043": 100,
               "17045": 14,
               "17047": 14,
@@ -2028,7 +2035,7 @@
               "21003": 16,
               "21005": 17,
               "21007": 17,
-              "21009": 17,
+              "21009": 103,
               "21011": 16,
               "21013": 17,
               "21015": 17,
@@ -3102,7 +3109,7 @@
               "39047": 13,
               "39049": 99,
               "39051": 13,
-              "39053": 13,
+              "39053": 99,
               "39055": 99,
               "39057": 13,
               "39059": 13,
@@ -3133,7 +3140,7 @@
               "39109": 13,
               "39111": 13,
               "39113": 13,
-              "39115": 13,
+              "39115": 99,
               "39117": 13,
               "39119": 99,
               "39121": 13,
@@ -3281,7 +3288,7 @@
               "42": 86,
               "42001": 102,
               "42003": 102,
-              "42005": 16,
+              "42005": 102,
               "42007": 16,
               "42009": 102,
               "42011": 102,
@@ -3289,7 +3296,7 @@
               "42015": 16,
               "42017": 188,
               "42019": 102,
-              "42021": 16,
+              "42021": 102,
               "42023": 16,
               "42025": 16,
               "42027": 102,
@@ -3320,7 +3327,7 @@
               "42077": 188,
               "42079": 102,
               "42081": 102,
-              "42083": 102,
+              "42083": 188,
               "42085": 188,
               "42087": 102,
               "42089": 102,
@@ -4184,7 +4191,7 @@
           },
           {
             "name": "is_state_estimate",
-            "duplicates": 114916,
+            "duplicates": 115690,
             "info": {
               "id": "is_state_estimate",
               "short_name": "State estimate flag",
@@ -4205,14 +4212,14 @@
             "time_range": [-1, -1],
             "type": "integer",
             "missing": 0,
-            "mean": 0.017726,
-            "sd": 0.131953,
+            "mean": 0.017607,
+            "sd": 0.131519,
             "min": 0,
             "max": 1
           },
           {
             "name": "date",
-            "duplicates": 114812,
+            "duplicates": 115586,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
@@ -4237,122 +4244,122 @@
               "2024-12-14": 498,
               "2024-12-21": 498,
               "2024-12-31": 3109,
-              "2025-01-18": 384,
-              "2025-01-25": 384,
-              "2025-02-01": 882,
-              "2025-02-08": 882,
-              "2025-02-15": 882,
-              "2025-02-22": 882,
-              "2025-03-01": 882,
-              "2025-03-08": 882,
-              "2025-03-15": 882,
-              "2025-03-22": 882,
-              "2025-03-29": 882,
-              "2025-04-05": 882,
-              "2025-04-12": 882,
-              "2025-04-19": 882,
-              "2025-04-26": 882,
-              "2025-05-03": 882,
-              "2025-05-10": 882,
-              "2025-05-17": 882,
-              "2025-05-24": 882,
-              "2025-05-31": 882,
-              "2025-06-07": 882,
-              "2025-06-14": 882,
-              "2025-06-21": 882,
-              "2025-06-28": 882,
-              "2025-07-05": 882,
-              "2025-07-12": 882,
-              "2025-07-19": 882,
-              "2025-07-26": 882,
-              "2025-08-02": 882,
-              "2025-08-09": 882,
-              "2025-08-16": 882,
-              "2025-08-23": 882,
-              "2025-08-30": 882,
+              "2025-01-18": 393,
+              "2025-01-25": 393,
+              "2025-02-01": 891,
+              "2025-02-08": 891,
+              "2025-02-15": 891,
+              "2025-02-22": 891,
+              "2025-03-01": 891,
+              "2025-03-08": 891,
+              "2025-03-15": 891,
+              "2025-03-22": 891,
+              "2025-03-29": 891,
+              "2025-04-05": 891,
+              "2025-04-12": 891,
+              "2025-04-19": 891,
+              "2025-04-26": 891,
+              "2025-05-03": 891,
+              "2025-05-10": 891,
+              "2025-05-17": 891,
+              "2025-05-24": 891,
+              "2025-05-31": 891,
+              "2025-06-07": 891,
+              "2025-06-14": 891,
+              "2025-06-21": 891,
+              "2025-06-28": 891,
+              "2025-07-05": 891,
+              "2025-07-12": 891,
+              "2025-07-19": 891,
+              "2025-07-26": 891,
+              "2025-08-02": 891,
+              "2025-08-09": 891,
+              "2025-08-16": 891,
+              "2025-08-23": 891,
+              "2025-08-30": 891,
               "2025-09-01": 55,
-              "2025-09-06": 882,
-              "2025-09-13": 882,
-              "2025-09-20": 882,
-              "2025-09-27": 882,
-              "2025-10-04": 882,
-              "2025-10-11": 882,
-              "2025-10-18": 882,
-              "2025-10-25": 882,
-              "2025-11-01": 882,
-              "2025-11-08": 882,
-              "2025-11-15": 882,
-              "2025-11-22": 882,
-              "2025-11-29": 882,
-              "2025-12-06": 882,
-              "2025-12-13": 882,
-              "2025-12-20": 882,
-              "2025-12-27": 882,
-              "2026-01-03": 882,
-              "2026-01-10": 882,
-              "2026-01-17": 882,
-              "2026-01-24": 882,
-              "2026-01-31": 882,
-              "2026-02-07": 882,
-              "2026-02-14": 882,
-              "2026-02-21": 882,
-              "2026-02-28": 882,
-              "2026-03-07": 882,
-              "2026-03-14": 882,
-              "2026-03-21": 882,
-              "2026-03-28": 882,
-              "2026-04-04": 882,
-              "2026-04-11": 882,
-              "2026-04-18": 882,
-              "2026-04-25": 882,
-              "2026-05-02": 882,
-              "2026-05-09": 882,
-              "2026-05-16": 882,
-              "2026-05-23": 882,
-              "2026-05-30": 882,
-              "2026-06-06": 882,
-              "2026-06-13": 882,
-              "2026-06-20": 882,
-              "2026-06-27": 882,
-              "2026-07-04": 882,
-              "2026-07-11": 882,
-              "2026-07-18": 882,
-              "2026-07-25": 882,
-              "2026-08-01": 882,
-              "2026-08-08": 882,
-              "2026-08-15": 882,
-              "2026-08-22": 882,
-              "2026-08-29": 882,
-              "2026-09-05": 882
+              "2025-09-06": 891,
+              "2025-09-13": 891,
+              "2025-09-20": 891,
+              "2025-09-27": 891,
+              "2025-10-04": 891,
+              "2025-10-11": 891,
+              "2025-10-18": 891,
+              "2025-10-25": 891,
+              "2025-11-01": 891,
+              "2025-11-08": 891,
+              "2025-11-15": 891,
+              "2025-11-22": 891,
+              "2025-11-29": 891,
+              "2025-12-06": 891,
+              "2025-12-13": 891,
+              "2025-12-20": 891,
+              "2025-12-27": 891,
+              "2026-01-03": 891,
+              "2026-01-10": 891,
+              "2026-01-17": 891,
+              "2026-01-24": 891,
+              "2026-01-31": 891,
+              "2026-02-07": 891,
+              "2026-02-14": 891,
+              "2026-02-21": 891,
+              "2026-02-28": 891,
+              "2026-03-07": 891,
+              "2026-03-14": 891,
+              "2026-03-21": 891,
+              "2026-03-28": 891,
+              "2026-04-04": 891,
+              "2026-04-11": 891,
+              "2026-04-18": 891,
+              "2026-04-25": 891,
+              "2026-05-02": 891,
+              "2026-05-09": 891,
+              "2026-05-16": 891,
+              "2026-05-23": 891,
+              "2026-05-30": 891,
+              "2026-06-06": 891,
+              "2026-06-13": 891,
+              "2026-06-20": 891,
+              "2026-06-27": 891,
+              "2026-07-04": 891,
+              "2026-07-11": 891,
+              "2026-07-18": 891,
+              "2026-07-25": 891,
+              "2026-08-01": 891,
+              "2026-08-08": 891,
+              "2026-08-15": 891,
+              "2026-08-22": 891,
+              "2026-08-29": 891,
+              "2026-09-05": 891
             }
           },
           {
             "name": "year",
-            "duplicates": 114900,
+            "duplicates": 115674,
             "info": [],
             "time_range": [-1, -1],
             "type": "integer",
             "missing": 0,
-            "mean": 2023.285499,
-            "sd": 3.782225,
+            "mean": 2023.29977,
+            "sd": 3.773777,
             "min": 2009,
             "max": 2026
           },
           {
             "name": "week",
-            "duplicates": 114865,
+            "duplicates": 115639,
             "info": [],
             "time_range": [-1, -1],
             "type": "integer",
             "missing": 39066,
-            "mean": 24.349707,
-            "sd": 13.770185,
+            "mean": 24.343473,
+            "sd": 13.768982,
             "min": 1,
             "max": 52
           },
           {
             "name": "source",
-            "duplicates": 114913,
+            "duplicates": 115687,
             "info": {
               "short_name": "Data source / measure",
               "levels": {
@@ -4466,7 +4473,7 @@
             "type": "string",
             "missing": 0,
             "table": {
-              "jhu_measles_cases": 33024,
+              "jhu_measles_cases": 33798,
               "mmr_coverage_healthmap": 3109,
               "vaccine_exemption_rate": 30341,
               "wapo_county_vax_rate": 5616,
@@ -4475,7 +4482,7 @@
           },
           {
             "name": "value",
-            "duplicates": 107676,
+            "duplicates": 108450,
             "info": {
               "id": "value",
               "short_name": "County measles indicator value",
@@ -4507,24 +4514,25 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 19729,
-            "mean": 8.811363,
-            "sd": 24.763687,
+            "mean": 8.74217,
+            "sd": 24.676067,
             "min": 0,
             "max": 174
           }
         ]
       },
-      "sha512": "16e58f4a1fe698167a542d18fa734457f2a48ea4c5beba7793f53d268f64b2d884210b37a9bdeba526b8e5b223e655f97169d29753498cf1731133136ba5076e"
+      "sha512": "9344e6427a6d4880a4cd633954c42b7a105aa9a4bddb8f5644dfeeb4156abe1dc711058cdce2922a4fbde30f7cce7fe1cecf3af0c411586f4644e596c19e80db"
     },
     {
-      "bytes": 18204,
+      "bytes": 18228,
       "encoding": "windows-1252",
-      "md5": "81727789599d231d61da6a2165d6830f",
+      "md5": "4402896a95476defa397e0cf6c8cc3c2",
       "format": "parquet",
       "name": "measles_state",
       "filename": "measles_state.parquet",
       "versions": {
         "hash": [
+          "4f414c16a4f925ee7be5bf060dab7488362b1688",
           "72fba28fdc599259a8104fe6e6adae97dbebca59",
           "cc7a298f7ec13b47e6c13537ec05e1f84b6d6103",
           "e15a2b6868fc5ee3bf923f032bd71877a486a509",
@@ -4626,6 +4634,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "weinbergerlab <dweinber@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -4685,6 +4694,7 @@
           "danweinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Sep 4 19:32:10 2026 +0000",
           "Tue Sep 1 19:20:38 2026 +0000",
           "Fri Aug 28 22:31:24 2026 +0000",
           "Tue Aug 25 19:22:23 2026 +0000",
@@ -4786,6 +4796,7 @@
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
+          "scheduled data build",
           "Add CDC CFA RT (respiratory tract) data source",
           "scheduled data build",
           "scheduled data build",
@@ -4855,8 +4866,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-04 19:29:30.175287",
-      "last_modified": "2026-09-04 19:29:30.175287",
+      "created": "2026-09-08 23:52:09.232529",
+      "last_modified": "2026-09-08 23:52:09.232529",
       "vintage": {},
       "row_count": 20564,
       "entity_count": 53,
@@ -5328,7 +5339,7 @@
           },
           {
             "name": "value",
-            "duplicates": 20114,
+            "duplicates": 20111,
             "info": {
               "id": "value",
               "short_name": "State measles indicator value",
@@ -5363,14 +5374,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 6.558172,
-            "sd": 45.648941,
+            "mean": 6.57383,
+            "sd": 45.677995,
             "min": 0,
             "max": 803
           }
         ]
       },
-      "sha512": "860f109de20c7b13d39a679784f25a9e15d71e634c734fd78b02147003fd8c6478de2be01943fc48da6be1729def3528f3fcd504450bf288968e209820b8c243"
+      "sha512": "c5c38ec1070bdbd3276e4a8837e8bd2e52bda5061d94ee9b093671c36401a605241df90aa34249f4c241f952cd6456fa96d60ba66d535eface9a64b03817634d"
     }
   ],
   "measure_info": {
@@ -5606,7 +5617,7 @@
           "source_id": "cdc_cum_cases",
           "id": "cdc_measles_cases_age",
           "name": "cdc_cum_cases",
-          "duplicates": 98,
+          "duplicates": 100,
           "info": {
             "id": "cdc_cum_cases",
             "short_name": "Measles cumulative cases",
@@ -5632,14 +5643,14 @@
           },
           "time_range": [
             0,
-            76
+            77
           ],
           "type": "float",
           "missing": 9,
-          "mean": 603.890113,
-          "sd": 628.141599,
+          "mean": 613.500484,
+          "sd": 643.592946,
           "min": 0,
-          "max": 2777
+          "max": 3134
         },
         "cdc_measles_cases_vax": {
           "id": "cdc_measles_cases_vax",
@@ -5661,7 +5672,7 @@
           "source_id": "cdc_cum_cases",
           "id": "cumulative cases",
           "name": "cdc_cum_cases",
-          "duplicates": 98,
+          "duplicates": 100,
           "info": {
             "id": "cdc_cum_cases",
             "short_name": "Measles cumulative cases",
@@ -5687,20 +5698,20 @@
           },
           "time_range": [
             0,
-            76
+            77
           ],
           "type": "float",
           "missing": 9,
-          "mean": 603.890113,
-          "sd": 628.141599,
+          "mean": 613.500484,
+          "sd": 643.592946,
           "min": 0,
-          "max": 2777
+          "max": 3134
         },
         "new cases": {
           "source_id": "cdc_new_cases",
           "id": "new cases",
           "name": "cdc_new_cases",
-          "duplicates": 290,
+          "duplicates": 292,
           "info": {
             "id": "cdc_new_cases",
             "short_name": "Measles new weekly cases",
@@ -5726,20 +5737,20 @@
           },
           "time_range": [
             0,
-            76
+            77
           ],
           "type": "float",
           "missing": 18,
-          "mean": 27.026315,
-          "sd": 37.362556,
+          "mean": 28.688845,
+          "sd": 42.774114,
           "min": -21.62,
-          "max": 245
+          "max": 357
         },
         "new hospitalizations": {
           "source_id": "cdc_new_hosp",
           "id": "new hospitalizations",
           "name": "cdc_new_hosp",
-          "duplicates": 518,
+          "duplicates": 523,
           "info": {
             "id": "cdc_new_hosp",
             "short_name": "Measles new weekly hospitalizations",
@@ -5765,20 +5776,20 @@
           },
           "time_range": [
             0,
-            76
+            77
           ],
           "type": "integer",
-          "missing": 245,
-          "mean": 2.823129,
-          "sd": 3.625282,
+          "missing": 248,
+          "mean": 3.154362,
+          "sd": 5.224553,
           "min": -1,
-          "max": 27
+          "max": 55
         },
         "cumulative hospitalizations": {
           "source_id": "cdc_cum_hosp",
           "id": "cumulative hospitalizations",
           "name": "cdc_cum_hosp",
-          "duplicates": 402,
+          "duplicates": 407,
           "info": {
             "id": "cdc_cum_hosp",
             "short_name": "Measles cumulative hospitalizations",
@@ -5804,14 +5815,14 @@
           },
           "time_range": [
             0,
-            76
+            77
           ],
           "type": "integer",
-          "missing": 238,
-          "mean": 64.44186,
-          "sd": 52.539453,
+          "missing": 241,
+          "mean": 65.222951,
+          "sd": 53.382028,
           "min": 0,
-          "max": 235
+          "max": 248
         }
       },
       "id": "bundle_measles/dist/measles_cases_by_age.parquet|type"
@@ -5997,7 +6008,57 @@
   },
   "change_report": {
     "measles_cases_by_age.parquet": {
-      "state": "unchanged"
+      "state": "changed",
+      "variables": {
+        "geography": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "date": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": "2026-09-05",
+          "dropped_levels": []
+        },
+        "year": {
+          "status": "present",
+          "same_type": true
+        },
+        "week": {
+          "status": "present",
+          "same_type": true
+        },
+        "type": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "age": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "vax_group": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "value": {
+          "status": "present",
+          "same_type": true
+        },
+        "source": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        }
+      }
     },
     "measles_county.parquet": {
       "state": "changed",
@@ -6005,8 +6066,8 @@
         "geography": {
           "status": "present",
           "same_type": true,
-          "added_levels": [],
-          "dropped_levels": ["00000", "00005", "00010", "00017", "00027", "00055", "00061", "00073", "00089", "00093", "00139", "00155", "00355", "00500", "00501", "00502", "00503", "00507", "00510", "00513", "00514", "00550", "00551", "00555", "00755", "00875", "00955"]
+          "added_levels": ["00013", "00023"],
+          "dropped_levels": []
         },
         "is_state_estimate": {
           "status": "present",
