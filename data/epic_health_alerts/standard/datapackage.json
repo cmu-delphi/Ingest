@@ -4,14 +4,15 @@
   "licenses": [],
   "resources": [
     {
-      "bytes": 1909,
+      "bytes": 1910,
       "encoding": "windows-1252",
-      "md5": "0507f9b195d02284ca39cbf6391e0f56",
+      "md5": "96251402c50b1119c6f161da29cd5e02",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "8b120d19cba99ca83e79ed3a5d0333ac103f4b3d",
           "77371fc0177237f803c5348fa8ff5f8489a72629",
           "174a8bbee509c9a3f63d0a4e3d17c9a59b23a453",
           "6148f29f1454c399991258c83350a564a7fe2229",
@@ -111,9 +112,11 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>"
         ],
         "date": [
+          "Thu Sep 10 07:20:41 2026 +0000",
           "Wed Sep 9 07:15:31 2026 +0000",
           "Tue Sep 8 07:13:55 2026 +0000",
           "Mon Sep 7 07:23:42 2026 +0000",
@@ -165,6 +168,7 @@
           "Thu Jul 16 12:53:03 2026 -0400"
         ],
         "message": [
+          "scheduled daily data update",
           "scheduled daily data update",
           "scheduled daily data update",
           "scheduled daily data update",
@@ -226,8 +230,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-10 07:17:48.449757",
-      "last_modified": "2026-09-10 07:17:48.449757",
+      "created": "2026-09-11 07:13:08.65542",
+      "last_modified": "2026-09-11 07:13:08.65542",
       "vintage": {},
       "row_count": 187,
       "entity_count": 38,
@@ -457,7 +461,7 @@
               "08-31-2026": 7,
               "09-02-2026": 1,
               "09-05-2026": 12,
-              "09-10-2026": 16
+              "09-11-2026": 16
             }
           },
           {
@@ -498,7 +502,7 @@
           }
         ]
       },
-      "sha512": "1243fca3e36109e735c2bcd66bd50d78a0e3e2a4664b580d8edbe4cc67815f8ad224beb7d0bd4100ec7ff2b9b21f925ef6e35260c516d3e4ac74fdf8f9fa91fe"
+      "sha512": "760b6ee9b425de17798375255eac0a5cff3bcf2f0fd9c53b265ea1c69ff259220a09a29cee0e3f22cd885ea8979abb1f8121529725c6604f3e83a1b027733d78"
     }
   ],
   "measure_info": {
@@ -620,7 +624,7 @@
         "geography": {
           "status": "present",
           "same_type": true,
-          "added_levels": ["06095", "12057", "40145", "40147"],
+          "added_levels": [],
           "dropped_levels": []
         },
         "time": {
@@ -632,13 +636,13 @@
         "condition": {
           "status": "present",
           "same_type": true,
-          "added_levels": ["Dengue Fever", "Valley Fever"],
+          "added_levels": [],
           "dropped_levels": []
         },
         "estimated_onset": {
           "status": "present",
           "same_type": true,
-          "added_levels": "08-17-2026",
+          "added_levels": [],
           "dropped_levels": []
         },
         "value": {
@@ -652,14 +656,14 @@
         "date_scraped": {
           "status": "present",
           "same_type": true,
-          "added_levels": "09-10-2026",
-          "dropped_levels": "09-09-2026"
+          "added_levels": "09-11-2026",
+          "dropped_levels": "09-10-2026"
         },
         "date_epic_updated": {
           "status": "present",
           "same_type": true,
-          "added_levels": "09-09-2026",
-          "dropped_levels": "09-08-2026"
+          "added_levels": [],
+          "dropped_levels": []
         }
       }
     }
