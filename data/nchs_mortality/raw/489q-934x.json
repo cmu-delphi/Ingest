@@ -10,7 +10,7 @@
   "description" : "Provisional estimates of death rates. Estimates are presented for each of the 15 leading causes of death plus estimates for deaths attributed to drug overdose, falls (for persons aged 65 and over), human immunodeficiency virus (HIV) disease, homicide, and firearms-related deaths.",
   "diciBackend" : false,
   "displayType" : "table",
-  "downloadCount" : 85624,
+  "downloadCount" : 85734,
   "hideFromCatalog" : false,
   "hideFromDataJson" : false,
   "licenseId" : "USGOV_WORKS",
@@ -27,8 +27,8 @@
   "rowsUpdatedBy" : "xfvr-ns68",
   "tableId" : 17939633,
   "totalTimesRated" : 0,
-  "viewCount" : 86552,
-  "viewLastModified" : 1782223162,
+  "viewCount" : 86672,
+  "viewLastModified" : 1788999961,
   "viewType" : "tabular",
   "approvals" : [ {
     "reviewedAt" : 1527079131,
@@ -5545,6 +5545,17 @@
         "Publisher" : "National Center for Health Statistics",
         "Bureau Code" : "009:20",
         "Public Access Level" : "public"
+      },
+      "Common Core 3" : {
+        "Contact Email" : "cdcinfo@cdc.gov",
+        "Geographic Name" : "United States",
+        "Contact Name" : "National Center for Health Statistics",
+        "Update Frequency" : "R/P3M",
+        "Temporal Applicability" : "2023-01-01/2025-09-30",
+        "Program Code" : "009:020",
+        "Restriction Status" : "public",
+        "Publisher" : "National Center for Health Statistics",
+        "Bureau Code" : "009:20"
       }
     },
     "rowLabel" : "Mortality rate by state, rate type, year and quarter, and cause of death",
