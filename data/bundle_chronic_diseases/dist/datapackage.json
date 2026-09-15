@@ -273,8 +273,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-07-31 20:44:04.962856",
-      "last_modified": "2026-07-31 20:44:04.962856",
+      "created": "2026-09-15 18:15:13.236204",
+      "last_modified": "2026-09-15 18:15:13.236204",
       "vintage": {},
       "row_count": 5306,
       "entity_count": 55,
@@ -764,8 +764,8 @@
       "id_length": 5,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-07-31 20:44:11.282863",
-      "last_modified": "2026-07-31 20:44:11.282863",
+      "created": "2026-09-15 18:15:13.240204",
+      "last_modified": "2026-09-15 18:15:13.240204",
       "vintage": {},
       "row_count": 88714,
       "entity_count": 3257,
@@ -4079,16 +4079,6 @@
                   "id": "Epic Cosmos: BMI",
                   "name": "obesity_bmi",
                   "duplicates": 1602,
-                  "time_range": [
-                    0,
-                    9
-                  ],
-                  "type": "float",
-                  "missing": 0,
-                  "mean": 33.544171,
-                  "sd": 13.535966,
-                  "min": 2.66,
-                  "max": 60.25,
                   "info": {
                     "id": "obesity_bmi",
                     "short_name": "BMI >= 30",
@@ -4108,23 +4098,23 @@
                       "data_dir": "/data/epic_chronic/standard",
                       "file": "state_year.csv.gz"
                     }
-                  }
-                },
-                "Epic Cosmos: HbA1c": {
-                  "source_id": "diabetes_a1c_6_5",
-                  "id": "Epic Cosmos: HbA1c",
-                  "name": "diabetes_a1c_6_5",
-                  "duplicates": 2720,
+                  },
                   "time_range": [
                     0,
                     9
                   ],
                   "type": "float",
                   "missing": 0,
-                  "mean": 5.833695,
-                  "sd": 4.745256,
-                  "min": 0.08,
-                  "max": 19.46,
+                  "mean": 33.544171,
+                  "sd": 13.535966,
+                  "min": 2.66,
+                  "max": 60.25
+                },
+                "Epic Cosmos: HbA1c": {
+                  "source_id": "diabetes_a1c_6_5",
+                  "id": "Epic Cosmos: HbA1c",
+                  "name": "diabetes_a1c_6_5",
+                  "duplicates": 2720,
                   "info": {
                     "id": "diabetes_a1c_6_5",
                     "short_name": "Elevated hemoglobin A1c > 6.5%",
@@ -4144,7 +4134,17 @@
                       "data_dir": "/data/epic_chronic/standard",
                       "file": "state_year.csv.gz"
                     }
-                  }
+                  },
+                  "time_range": [
+                    0,
+                    9
+                  ],
+                  "type": "float",
+                  "missing": 0,
+                  "mean": 5.833695,
+                  "sd": 4.745256,
+                  "min": 0.08,
+                  "max": 19.46
                 },
                 "Medicare FFS": {
                   "source_id": "cms_diabetes",
@@ -4494,8 +4494,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-07-31 20:44:05.072856",
-      "last_modified": "2026-07-31 20:44:05.072856",
+      "created": "2026-09-15 18:15:13.241204",
+      "last_modified": "2026-09-15 18:15:13.241204",
       "vintage": {},
       "row_count": 16640,
       "entity_count": 52,
@@ -4705,16 +4705,6 @@
                   "id": "Epic Cosmos: BMI",
                   "name": "obesity_bmi",
                   "duplicates": 1602,
-                  "time_range": [
-                    0,
-                    9
-                  ],
-                  "type": "float",
-                  "missing": 0,
-                  "mean": 33.544171,
-                  "sd": 13.535966,
-                  "min": 2.66,
-                  "max": 60.25,
                   "info": {
                     "id": "obesity_bmi",
                     "short_name": "BMI >= 30",
@@ -4734,23 +4724,23 @@
                       "data_dir": "/data/epic_chronic/standard",
                       "file": "state_year.csv.gz"
                     }
-                  }
-                },
-                "Epic Cosmos: HbA1c": {
-                  "source_id": "diabetes_a1c_6_5",
-                  "id": "Epic Cosmos: HbA1c",
-                  "name": "diabetes_a1c_6_5",
-                  "duplicates": 2720,
+                  },
                   "time_range": [
                     0,
                     9
                   ],
                   "type": "float",
                   "missing": 0,
-                  "mean": 5.833695,
-                  "sd": 4.745256,
-                  "min": 0.08,
-                  "max": 19.46,
+                  "mean": 33.544171,
+                  "sd": 13.535966,
+                  "min": 2.66,
+                  "max": 60.25
+                },
+                "Epic Cosmos: HbA1c": {
+                  "source_id": "diabetes_a1c_6_5",
+                  "id": "Epic Cosmos: HbA1c",
+                  "name": "diabetes_a1c_6_5",
+                  "duplicates": 2720,
                   "info": {
                     "id": "diabetes_a1c_6_5",
                     "short_name": "Elevated hemoglobin A1c > 6.5%",
@@ -4770,23 +4760,23 @@
                       "data_dir": "/data/epic_chronic/standard",
                       "file": "state_year.csv.gz"
                     }
-                  }
-                },
-                "Epic Cosmos: ICD10": {
-                  "source_id": "diabetes_dx_ccw",
-                  "id": "Epic Cosmos: ICD10",
-                  "name": "diabetes_dx_ccw",
-                  "duplicates": 2231,
+                  },
                   "time_range": [
                     0,
                     9
                   ],
                   "type": "float",
                   "missing": 0,
-                  "mean": 9.927077,
-                  "sd": 8.063694,
-                  "min": 0.178891,
-                  "max": 33.12,
+                  "mean": 5.833695,
+                  "sd": 4.745256,
+                  "min": 0.08,
+                  "max": 19.46
+                },
+                "Epic Cosmos: ICD10": {
+                  "source_id": "diabetes_dx_ccw",
+                  "id": "Epic Cosmos: ICD10",
+                  "name": "diabetes_dx_ccw",
+                  "duplicates": 2231,
                   "info": {
                     "id": "diabetes_dx_ccw",
                     "short_name": "Diabetes CCW definition",
@@ -4806,7 +4796,17 @@
                       "data_dir": "/data/epic_chronic/standard",
                       "file": "state_year.csv.gz"
                     }
-                  }
+                  },
+                  "time_range": [
+                    0,
+                    9
+                  ],
+                  "type": "float",
+                  "missing": 0,
+                  "mean": 9.927077,
+                  "sd": 8.063694,
+                  "min": 0.178891,
+                  "max": 33.12
                 }
               },
               "id": "source"
@@ -4970,8 +4970,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-07-31 19:22:09.254889",
-      "last_modified": "2026-07-31 19:22:09.254889",
+      "created": "2026-09-15 18:15:13.242204",
+      "last_modified": "2026-09-15 18:15:13.242204",
       "vintage": {},
       "row_count": 2140,
       "entity_count": 51,
@@ -5308,8 +5308,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-07-31 20:44:05.609856",
-      "last_modified": "2026-07-31 20:44:05.609856",
+      "created": "2026-09-15 18:15:13.244204",
+      "last_modified": "2026-09-15 18:15:13.244204",
       "vintage": {},
       "row_count": 23112,
       "entity_count": 51,
@@ -5528,16 +5528,6 @@
                   "id": "Epic Cosmos: BMI",
                   "name": "obesity_bmi",
                   "duplicates": 1602,
-                  "time_range": [
-                    0,
-                    9
-                  ],
-                  "type": "float",
-                  "missing": 0,
-                  "mean": 33.544171,
-                  "sd": 13.535966,
-                  "min": 2.66,
-                  "max": 60.25,
                   "info": {
                     "id": "obesity_bmi",
                     "short_name": "BMI >= 30",
@@ -5557,23 +5547,23 @@
                       "data_dir": "/data/epic_chronic/standard",
                       "file": "state_year.csv.gz"
                     }
-                  }
-                },
-                "Epic Cosmos: HbA1c": {
-                  "source_id": "diabetes_a1c_6_5",
-                  "id": "Epic Cosmos: HbA1c",
-                  "name": "diabetes_a1c_6_5",
-                  "duplicates": 2720,
+                  },
                   "time_range": [
                     0,
                     9
                   ],
                   "type": "float",
                   "missing": 0,
-                  "mean": 5.833695,
-                  "sd": 4.745256,
-                  "min": 0.08,
-                  "max": 19.46,
+                  "mean": 33.544171,
+                  "sd": 13.535966,
+                  "min": 2.66,
+                  "max": 60.25
+                },
+                "Epic Cosmos: HbA1c": {
+                  "source_id": "diabetes_a1c_6_5",
+                  "id": "Epic Cosmos: HbA1c",
+                  "name": "diabetes_a1c_6_5",
+                  "duplicates": 2720,
                   "info": {
                     "id": "diabetes_a1c_6_5",
                     "short_name": "Elevated hemoglobin A1c > 6.5%",
@@ -5593,23 +5583,23 @@
                       "data_dir": "/data/epic_chronic/standard",
                       "file": "state_year.csv.gz"
                     }
-                  }
-                },
-                "Epic Cosmos: ICD10": {
-                  "source_id": "diabetes_dx_ccw",
-                  "id": "Epic Cosmos: ICD10",
-                  "name": "diabetes_dx_ccw",
-                  "duplicates": 2231,
+                  },
                   "time_range": [
                     0,
                     9
                   ],
                   "type": "float",
                   "missing": 0,
-                  "mean": 9.927077,
-                  "sd": 8.063694,
-                  "min": 0.178891,
-                  "max": 33.12,
+                  "mean": 5.833695,
+                  "sd": 4.745256,
+                  "min": 0.08,
+                  "max": 19.46
+                },
+                "Epic Cosmos: ICD10": {
+                  "source_id": "diabetes_dx_ccw",
+                  "id": "Epic Cosmos: ICD10",
+                  "name": "diabetes_dx_ccw",
+                  "duplicates": 2231,
                   "info": {
                     "id": "diabetes_dx_ccw",
                     "short_name": "Diabetes CCW definition",
@@ -5629,7 +5619,17 @@
                       "data_dir": "/data/epic_chronic/standard",
                       "file": "state_year.csv.gz"
                     }
-                  }
+                  },
+                  "time_range": [
+                    0,
+                    9
+                  ],
+                  "type": "float",
+                  "missing": 0,
+                  "mean": 9.927077,
+                  "sd": 8.063694,
+                  "min": 0.178891,
+                  "max": 33.12
                 },
                 "Medicare FFS": {
                   "source_id": "cms_diabetes",
@@ -6017,16 +6017,6 @@
           "id": "Epic Cosmos: BMI",
           "name": "obesity_bmi",
           "duplicates": 1602,
-          "time_range": [
-            0,
-            9
-          ],
-          "type": "float",
-          "missing": 0,
-          "mean": 33.544171,
-          "sd": 13.535966,
-          "min": 2.66,
-          "max": 60.25,
           "info": {
             "id": "obesity_bmi",
             "short_name": "BMI >= 30",
@@ -6046,23 +6036,23 @@
               "data_dir": "/data/epic_chronic/standard",
               "file": "state_year.csv.gz"
             }
-          }
-        },
-        "Epic Cosmos: HbA1c": {
-          "source_id": "diabetes_a1c_6_5",
-          "id": "Epic Cosmos: HbA1c",
-          "name": "diabetes_a1c_6_5",
-          "duplicates": 2720,
+          },
           "time_range": [
             0,
             9
           ],
           "type": "float",
           "missing": 0,
-          "mean": 5.833695,
-          "sd": 4.745256,
-          "min": 0.08,
-          "max": 19.46,
+          "mean": 33.544171,
+          "sd": 13.535966,
+          "min": 2.66,
+          "max": 60.25
+        },
+        "Epic Cosmos: HbA1c": {
+          "source_id": "diabetes_a1c_6_5",
+          "id": "Epic Cosmos: HbA1c",
+          "name": "diabetes_a1c_6_5",
+          "duplicates": 2720,
           "info": {
             "id": "diabetes_a1c_6_5",
             "short_name": "Elevated hemoglobin A1c > 6.5%",
@@ -6082,23 +6072,23 @@
               "data_dir": "/data/epic_chronic/standard",
               "file": "state_year.csv.gz"
             }
-          }
-        },
-        "Epic Cosmos: ICD10": {
-          "source_id": "diabetes_dx_ccw",
-          "id": "Epic Cosmos: ICD10",
-          "name": "diabetes_dx_ccw",
-          "duplicates": 2231,
+          },
           "time_range": [
             0,
             9
           ],
           "type": "float",
           "missing": 0,
-          "mean": 9.927077,
-          "sd": 8.063694,
-          "min": 0.178891,
-          "max": 33.12,
+          "mean": 5.833695,
+          "sd": 4.745256,
+          "min": 0.08,
+          "max": 19.46
+        },
+        "Epic Cosmos: ICD10": {
+          "source_id": "diabetes_dx_ccw",
+          "id": "Epic Cosmos: ICD10",
+          "name": "diabetes_dx_ccw",
+          "duplicates": 2231,
           "info": {
             "id": "diabetes_dx_ccw",
             "short_name": "Diabetes CCW definition",
@@ -6118,7 +6108,17 @@
               "data_dir": "/data/epic_chronic/standard",
               "file": "state_year.csv.gz"
             }
-          }
+          },
+          "time_range": [
+            0,
+            9
+          ],
+          "type": "float",
+          "missing": 0,
+          "mean": 9.927077,
+          "sd": 8.063694,
+          "min": 0.178891,
+          "max": 33.12
         }
       },
       "id": "bundle_chronic_diseases/dist/epic_prevalence_by_geography_year.parquet|source"
@@ -6276,16 +6276,6 @@
           "id": "Epic Cosmos: BMI",
           "name": "obesity_bmi",
           "duplicates": 1602,
-          "time_range": [
-            0,
-            9
-          ],
-          "type": "float",
-          "missing": 0,
-          "mean": 33.544171,
-          "sd": 13.535966,
-          "min": 2.66,
-          "max": 60.25,
           "info": {
             "id": "obesity_bmi",
             "short_name": "BMI >= 30",
@@ -6305,23 +6295,23 @@
               "data_dir": "/data/epic_chronic/standard",
               "file": "state_year.csv.gz"
             }
-          }
-        },
-        "Epic Cosmos: HbA1c": {
-          "source_id": "diabetes_a1c_6_5",
-          "id": "Epic Cosmos: HbA1c",
-          "name": "diabetes_a1c_6_5",
-          "duplicates": 2720,
+          },
           "time_range": [
             0,
             9
           ],
           "type": "float",
           "missing": 0,
-          "mean": 5.833695,
-          "sd": 4.745256,
-          "min": 0.08,
-          "max": 19.46,
+          "mean": 33.544171,
+          "sd": 13.535966,
+          "min": 2.66,
+          "max": 60.25
+        },
+        "Epic Cosmos: HbA1c": {
+          "source_id": "diabetes_a1c_6_5",
+          "id": "Epic Cosmos: HbA1c",
+          "name": "diabetes_a1c_6_5",
+          "duplicates": 2720,
           "info": {
             "id": "diabetes_a1c_6_5",
             "short_name": "Elevated hemoglobin A1c > 6.5%",
@@ -6341,23 +6331,23 @@
               "data_dir": "/data/epic_chronic/standard",
               "file": "state_year.csv.gz"
             }
-          }
-        },
-        "Epic Cosmos: ICD10": {
-          "source_id": "diabetes_dx_ccw",
-          "id": "Epic Cosmos: ICD10",
-          "name": "diabetes_dx_ccw",
-          "duplicates": 2231,
+          },
           "time_range": [
             0,
             9
           ],
           "type": "float",
           "missing": 0,
-          "mean": 9.927077,
-          "sd": 8.063694,
-          "min": 0.178891,
-          "max": 33.12,
+          "mean": 5.833695,
+          "sd": 4.745256,
+          "min": 0.08,
+          "max": 19.46
+        },
+        "Epic Cosmos: ICD10": {
+          "source_id": "diabetes_dx_ccw",
+          "id": "Epic Cosmos: ICD10",
+          "name": "diabetes_dx_ccw",
+          "duplicates": 2231,
           "info": {
             "id": "diabetes_dx_ccw",
             "short_name": "Diabetes CCW definition",
@@ -6377,7 +6367,17 @@
               "data_dir": "/data/epic_chronic/standard",
               "file": "state_year.csv.gz"
             }
-          }
+          },
+          "time_range": [
+            0,
+            9
+          ],
+          "type": "float",
+          "missing": 0,
+          "mean": 9.927077,
+          "sd": 8.063694,
+          "min": 0.178891,
+          "max": 33.12
         },
         "Medicare FFS": {
           "source_id": "cms_diabetes",
@@ -6542,16 +6542,6 @@
           "id": "Epic Cosmos: BMI",
           "name": "obesity_bmi",
           "duplicates": 1602,
-          "time_range": [
-            0,
-            9
-          ],
-          "type": "float",
-          "missing": 0,
-          "mean": 33.544171,
-          "sd": 13.535966,
-          "min": 2.66,
-          "max": 60.25,
           "info": {
             "id": "obesity_bmi",
             "short_name": "BMI >= 30",
@@ -6571,23 +6561,23 @@
               "data_dir": "/data/epic_chronic/standard",
               "file": "state_year.csv.gz"
             }
-          }
-        },
-        "Epic Cosmos: HbA1c": {
-          "source_id": "diabetes_a1c_6_5",
-          "id": "Epic Cosmos: HbA1c",
-          "name": "diabetes_a1c_6_5",
-          "duplicates": 2720,
+          },
           "time_range": [
             0,
             9
           ],
           "type": "float",
           "missing": 0,
-          "mean": 5.833695,
-          "sd": 4.745256,
-          "min": 0.08,
-          "max": 19.46,
+          "mean": 33.544171,
+          "sd": 13.535966,
+          "min": 2.66,
+          "max": 60.25
+        },
+        "Epic Cosmos: HbA1c": {
+          "source_id": "diabetes_a1c_6_5",
+          "id": "Epic Cosmos: HbA1c",
+          "name": "diabetes_a1c_6_5",
+          "duplicates": 2720,
           "info": {
             "id": "diabetes_a1c_6_5",
             "short_name": "Elevated hemoglobin A1c > 6.5%",
@@ -6607,7 +6597,17 @@
               "data_dir": "/data/epic_chronic/standard",
               "file": "state_year.csv.gz"
             }
-          }
+          },
+          "time_range": [
+            0,
+            9
+          ],
+          "type": "float",
+          "missing": 0,
+          "mean": 5.833695,
+          "sd": 4.745256,
+          "min": 0.08,
+          "max": 19.46
         },
         "Medicare FFS": {
           "source_id": "cms_diabetes",

@@ -132,11 +132,11 @@
     "./data/bundle_chronic_diseases/dist/epic_prevalence_by_geography_year.parquet": "542b074906c3e53aa0f911ad486e4dd4",
     "./data/bundle_chronic_diseases/dist/prevalence_by_geography_and_source.csv": "6a95a327bab3ebbb379c4637b56f09bd",
     "./data/bundle_chronic_diseases/dist/prevalence_by_geography_and_year_and_source.parquet": "9ca69c799893c6ce40d16cebf521942b",
-    "./data/brfss/standard/datapackage.json": "ddaba0fe96c879485d1f4429a21b44e3",
-    "./data/epic_chronic/standard/datapackage.json": "bde82a282df8ae2282276afa747d0918",
+    "./data/brfss/standard/datapackage.json": "142c2cc8a93e7cf8263fa4e4504f9b56",
+    "./data/epic_chronic/standard/datapackage.json": "f859537f86b2117c38ca5c2a8d32e7d9",
     "./data/cms_mmd/standard/datapackage.json": "f6ae03d00dc049e032d4d07495f785c3"
   },
-  "checked": "2026-09-11 19:28:52",
+  "checked": "2026-09-15 18:42:31",
   "check_results": {
     "data/bundle_chronic_diseases/dist/brfss_prevalence_by_geography.parquet": [],
     "data/bundle_chronic_diseases/dist/epic_prevalence_by_geography_county_and_source.parquet": [],

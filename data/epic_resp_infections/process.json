@@ -5,19 +5,11 @@
     {
       "path": "ingest.R",
       "manual": false,
-      "last_run": "2026-09-04 18:25:37",
+      "last_run": "2026-09-15 18:23:38",
       "frequency": 0,
-      "run_time": 0.77,
+      "run_time": 1.425,
       "last_status": {
-        "log": [
-          "",
-          "Attaching package: ‘jsonlite’",
-          "",
-          "The following object is masked from ‘package:purrr’:",
-          "",
-          "    flatten",
-          ""
-        ],
+        "log": ["", "Attaching package: ‘jsonlite’", "", "The following object is masked from ‘package:purrr’:", "", "    flatten", ""],
         "success": true
       }
     }
@@ -37,7 +29,7 @@
     "quarterly_gas.csv.gz": "e4c628211a213d25b38fc561d40d4563"
   },
   "standard_state": {
-    "./data/epic_resp_infections/measure_info.json": "8c3f6d3e08d7c8929b05b291713caf42",
+    "./data/epic_resp_infections/measure_info.json": "4a813037c99ce7533546d23583401c46",
     "./data/epic_resp_infections/standard/monthly_tests.csv.gz": "3cf5bc50883f6b5914d0a75e4e4b7e8a",
     "./data/epic_resp_infections/standard/no_geo.csv.gz": "e4582b26d9bf8ec815d39de50065572d",
     "./data/epic_resp_infections/standard/quarterly_gas.csv.gz": "e4c628211a213d25b38fc561d40d4563",

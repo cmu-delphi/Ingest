@@ -11,6 +11,7 @@
       "filename": "monthly_tests.csv.gz",
       "versions": {
         "hash": [
+          "4f414c16a4f925ee7be5bf060dab7488362b1688",
           "b80d2ede2f1dce22729467107fef9fdff2eac7f8",
           "423586a775dc25dcc3f7852bad81115fa44a7e2e",
           "574b9ae903f3fb1094521744acb82c28987bfd39",
@@ -18,17 +19,20 @@
         ],
         "author": [
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "danweinberger <daniel.weinberger@yale.edu>",
           "GitHub Actions <actions@github.com>",
           "weinbergerlab <dweinber@gmail.com>"
         ],
         "date": [
+          "Fri Sep 4 19:32:10 2026 +0000",
           "Fri Aug 14 19:42:48 2026 +0000",
           "Sun Mar 22 22:49:43 2026 -0400",
           "Fri Mar 20 15:09:39 2026 +0000",
           "Wed Mar 11 11:41:55 2026 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "update bundle to fix issue with national epic data",
           "scheduled data build",
@@ -45,8 +49,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-04 18:25:37.342264",
-      "last_modified": "2026-09-04 18:25:37.342264",
+      "created": "2026-09-15 18:23:37.863376",
+      "last_modified": "2026-09-15 18:23:37.863376",
       "vintage": {},
       "row_count": 18760,
       "entity_count": 54,
@@ -310,10 +314,34 @@
       "name": "no_geo.csv",
       "filename": "no_geo.csv.gz",
       "versions": {
-        "hash": ["b80d2ede2f1dce22729467107fef9fdff2eac7f8", "423586a775dc25dcc3f7852bad81115fa44a7e2e", "574b9ae903f3fb1094521744acb82c28987bfd39", "2fe58d28ac1246d06d417a92ddcf363f481f10f9"],
-        "author": ["GitHub Actions <actions@github.com>", "danweinberger <daniel.weinberger@yale.edu>", "GitHub Actions <actions@github.com>", "weinbergerlab <dweinber@gmail.com>"],
-        "date": ["Fri Aug 14 19:42:48 2026 +0000", "Sun Mar 22 22:49:43 2026 -0400", "Fri Mar 20 15:09:39 2026 +0000", "Wed Mar 11 11:41:55 2026 -0400"],
-        "message": ["scheduled data build", "update bundle to fix issue with national epic data", "scheduled data build", "Squashed commit of the following:"]
+        "hash": [
+          "4f414c16a4f925ee7be5bf060dab7488362b1688",
+          "b80d2ede2f1dce22729467107fef9fdff2eac7f8",
+          "423586a775dc25dcc3f7852bad81115fa44a7e2e",
+          "574b9ae903f3fb1094521744acb82c28987bfd39",
+          "2fe58d28ac1246d06d417a92ddcf363f481f10f9"
+        ],
+        "author": [
+          "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
+          "danweinberger <daniel.weinberger@yale.edu>",
+          "GitHub Actions <actions@github.com>",
+          "weinbergerlab <dweinber@gmail.com>"
+        ],
+        "date": [
+          "Fri Sep 4 19:32:10 2026 +0000",
+          "Fri Aug 14 19:42:48 2026 +0000",
+          "Sun Mar 22 22:49:43 2026 -0400",
+          "Fri Mar 20 15:09:39 2026 +0000",
+          "Wed Mar 11 11:41:55 2026 -0400"
+        ],
+        "message": [
+          "scheduled data build",
+          "scheduled data build",
+          "update bundle to fix issue with national epic data",
+          "scheduled data build",
+          "Squashed commit of the following:"
+        ]
       },
       "source": [],
       "data_format": "wide",
@@ -325,8 +353,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-04 18:25:37.488267",
-      "last_modified": "2026-09-04 18:25:37.488267",
+      "created": "2026-09-15 18:23:38.054376",
+      "last_modified": "2026-09-15 18:23:38.054376",
       "vintage": {},
       "row_count": 20650,
       "entity_count": 54,
@@ -2287,8 +2315,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-04 18:25:37.60127",
-      "last_modified": "2026-09-04 18:25:37.60127",
+      "created": "2026-09-15 18:23:38.365377",
+      "last_modified": "2026-09-15 18:23:38.365377",
       "vintage": {},
       "row_count": 13104,
       "entity_count": 52,
@@ -2583,6 +2611,7 @@
       "filename": "weekly.csv.gz",
       "versions": {
         "hash": [
+          "4f414c16a4f925ee7be5bf060dab7488362b1688",
           "b80d2ede2f1dce22729467107fef9fdff2eac7f8",
           "c1e4e7b92a84371ce28163577ac3a9db1be07cdf",
           "63d64528725b6c3af04017893e84702db0c4729f",
@@ -2601,6 +2630,7 @@
         "author": [
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -2615,6 +2645,7 @@
           "weinbergerlab <dweinber@gmail.com>"
         ],
         "date": [
+          "Fri Sep 4 19:32:10 2026 +0000",
           "Fri Aug 14 19:42:48 2026 +0000",
           "Tue Aug 11 19:37:43 2026 +0000",
           "Fri Jul 31 13:45:23 2026 -0400",
@@ -2631,6 +2662,7 @@
           "Wed Mar 11 11:41:55 2026 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "scheduled data build",
           "updated respiratory bundle and epic_resp_infections; fixed Rt bug",
@@ -2657,8 +2689,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-04 18:25:37.232262",
-      "last_modified": "2026-09-04 18:25:37.232262",
+      "created": "2026-09-15 18:23:37.666375",
+      "last_modified": "2026-09-15 18:23:37.666375",
       "vintage": {},
       "row_count": 163785,
       "entity_count": 52,
@@ -3973,120 +4005,39 @@
         "restrictions": "The data can be re-used with appropriate attribution. A suggested citation relating to this data is 'Results of research performed with Epic Cosmos were obtained from the PopHIVE platform (https://github.com/PopHIVE/Ingest).'"
       },
       "id": "_sources"
+    },
+    "_catalog": {
+      "name": "Epic Respiratory Infections",
+      "summary": "Healthcare visits for RSV, flu, and COVID-19 and RSV test positivity. Data come from Epic Cosmos, a collaborative research platform containing de-identified patient data from hospitals and health systems using Epic electronic health record systems.",
+      "search_terms": [
+        "Respiratory",
+        "rsv",
+        "flu",
+        "covid"
+      ],
+      "bucket": [
+        "Infectious disease"
+      ],
+      "files": {
+        "weekly.csv.gz": "Weekly RSV, flu, and COVID-19 ED encounters by age",
+        "monthly_tests.csv.gz": "Monthly RSV test positivity among pneumonia admissions",
+        "no_geo.csv.gz": "Raw national-level RSV test percentages before geography join"
+      },
+      "id": "_catalog"
     }
   },
   "change_report": {
     "monthly_tests.csv.gz": {
-      "state": "changed",
-      "variables": {
-        "time": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": "NA"
-        },
-        "geography": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "age": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "epic_pct_rsv_pos_tests": {
-          "status": "present",
-          "same_type": true
-        },
-        "epic_pct_j12_j18_tested_rsv": {
-          "status": "present",
-          "same_type": true
-        },
-        "epic_n_ed_j12_j18": {
-          "status": "present",
-          "same_type": true
-        },
-        "suppressed_rsv_test": {
-          "status": "present",
-          "same_type": true
-        }
-      }
+      "state": "unchanged"
     },
     "no_geo.csv.gz": {
-      "state": "new file"
+      "state": "unchanged"
     },
     "quarterly_gas.csv.gz": {
       "state": "unchanged"
     },
     "weekly.csv.gz": {
-      "state": "changed",
-      "variables": {
-        "geography": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "age": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "time": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": ["2026-08-08", "2026-08-15", "2026-08-22"],
-          "dropped_levels": []
-        },
-        "epic_n_rsv": {
-          "status": "present",
-          "same_type": true
-        },
-        "epic_n_covid": {
-          "status": "present",
-          "same_type": true
-        },
-        "epic_n_flu": {
-          "status": "present",
-          "same_type": true
-        },
-        "epic_n_all_encounters_weekly": {
-          "status": "present",
-          "same_type": true
-        },
-        "epic_pct_rsv": {
-          "status": "present",
-          "same_type": true
-        },
-        "epic_pct_flu": {
-          "status": "present",
-          "same_type": true
-        },
-        "epic_pct_covid": {
-          "status": "present",
-          "same_type": true
-        },
-        "epic_suppressed_flag_rsv": {
-          "status": "present",
-          "same_type": true
-        },
-        "epic_suppressed_flag_covid": {
-          "status": "present",
-          "same_type": true
-        },
-        "epic_suppressed_flag_flu": {
-          "status": "present",
-          "same_type": true
-        },
-        "epic_suppressed_flag_all_encounters_weekly": {
-          "status": "present",
-          "same_type": true
-        }
-      }
+      "state": "unchanged"
     }
   }
 }

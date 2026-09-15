@@ -75,7 +75,7 @@ flowchart LR
     subgraph brfss["`<strong><a href="https://github.com/PopHIVE/Ingest/tree/main/data/brfss" target="_blank" rel="noreferrer">brfss</a></strong>`"]
         direction LR
         n5["`data_survey.csv.gz`"]:::pass
-        n6["`data.csv.gz<br/><br/><ul><li><code>type_changed: pct_depression_sample_size, pct_diabetes_sample_size, pct_heavy_drink_sample_size, pct_obesity_sample_size</code></li></ul>`"]:::warn
+        n6["`data.csv.gz`"]:::pass
     end
     subgraph cdc_cfa_rt["`<strong><a href="https://github.com/PopHIVE/Ingest/tree/main/data/cdc_cfa_rt" target="_blank" rel="noreferrer">cdc_cfa_rt</a></strong>`"]
         direction LR
@@ -172,9 +172,9 @@ flowchart LR
     end
     subgraph measles_jhu["`<strong><a href="https://github.com/PopHIVE/Ingest/tree/main/data/measles_jhu" target="_blank" rel="noreferrer">measles_jhu</a></strong>`"]
         direction LR
-        n43["`data_county.csv.gz`"]:::pass
+        n43["`data_county.csv.gz<br/><br/><ul><li><code>geography_dropped</code></li></ul>`"]:::warn
         n44["`data_state.csv.gz`"]:::pass
-        n45["`data.csv.gz`"]:::pass
+        n45["`data.csv.gz<br/><br/><ul><li><code>geography_dropped</code></li></ul>`"]:::warn
     end
     subgraph medicaid_quality["`<strong><a href="https://github.com/PopHIVE/Ingest/tree/main/data/medicaid_quality" target="_blank" rel="noreferrer">medicaid_quality</a></strong>`"]
         direction LR

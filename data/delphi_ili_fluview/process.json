@@ -5,9 +5,9 @@
     {
       "path": "ingest.R",
       "manual": false,
-      "last_run": "2026-09-08 18:21:00",
+      "last_run": "2026-09-15 18:23:27",
       "frequency": 0,
-      "run_time": 11.715,
+      "run_time": 11.243,
       "last_status": {
         "log": [],
         "success": true
@@ -19,11 +19,11 @@
     "data/delphi_ili_fluview/standard/data.csv.gz": []
   },
   "raw_state": {
-    "raw/data.csv.xz": "f50b583af57f61a4f13e0f4ffb14f3fe"
+    "raw/data.csv.xz": "e6b81401a1f90deb335919c2864ea693"
   },
   "standard_state": {
     "./data/delphi_ili_fluview/measure_info.json": "941cfaafe689e362be7fe1cfa55c0142",
-    "./data/delphi_ili_fluview/standard/data.csv.gz": "315969bb309ffa37bea240b2725845d6"
+    "./data/delphi_ili_fluview/standard/data.csv.gz": "7ea2efab5ed3e599d23a5e9d42df4cd1"
   },
-  "delphi_maxdate": "2026-09-04"
+  "delphi_maxdate": "2026-09-11"
 }
