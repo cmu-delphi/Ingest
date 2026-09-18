@@ -32,7 +32,7 @@
     "./data/measles_age_cdc2/measure_info.json": "f3de10e30f444c619a81c89853401a5d",
     "./data/measles_age_cdc2/standard/data.csv.gz": "7be2c12d878d3b61cf62a3832794526f"
   },
-  "checked": "2026-09-15 18:42:45",
+  "checked": "2026-09-18 20:19:50",
   "check_results": {
     "data/measles_age_cdc2/raw/measles_structured.csv": {
       "data": "not_compressed"

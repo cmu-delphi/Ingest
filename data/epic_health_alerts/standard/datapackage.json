@@ -4,14 +4,15 @@
   "licenses": [],
   "resources": [
     {
-      "bytes": 2192,
+      "bytes": 2217,
       "encoding": "windows-1252",
-      "md5": "71dd531b04ef009dd5af0840c6a0bebb",
+      "md5": "2fa290f5c5b26ee69be189f17f7e3121",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "0f64f6b171dca738931c0a16e367ca9132b77ad9",
           "0fc48b08d7c822d8654e7eaca61e0c0b62d01daf",
           "622910599e98c65c046cec13cbab4f969a85dbc9",
           "57a91f61be56ab8141a30b215b2b0ee0c28941bc",
@@ -129,9 +130,11 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>"
         ],
         "date": [
+          "Fri Sep 18 07:16:33 2026 +0000",
           "Thu Sep 17 07:25:51 2026 +0000",
           "Wed Sep 16 07:15:18 2026 +0000",
           "Tue Sep 15 07:15:19 2026 +0000",
@@ -192,6 +195,7 @@
           "Thu Jul 16 12:53:03 2026 -0400"
         ],
         "message": [
+          "scheduled daily data update",
           "scheduled daily data update",
           "scheduled daily data update",
           "scheduled daily data update",
@@ -262,11 +266,11 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-18 07:16:10.713042",
-      "last_modified": "2026-09-18 07:16:10.713042",
+      "created": "2026-09-18 18:16:47.669393",
+      "last_modified": "2026-09-18 18:16:47.669393",
       "vintage": {},
-      "row_count": 212,
-      "entity_count": 45,
+      "row_count": 213,
+      "entity_count": 46,
       "schema": {
         "fields": [
           {
@@ -310,6 +314,7 @@
               "37067": 1,
               "39": 12,
               "39095": 9,
+              "39149": 1,
               "40": 5,
               "40145": 2,
               "40147": 2,
@@ -326,7 +331,7 @@
           },
           {
             "name": "time",
-            "duplicates": 203,
+            "duplicates": 204,
             "info": [],
             "time_range": [0, 1],
             "type": "string",
@@ -340,7 +345,7 @@
               "08-29-2026": 25,
               "09-05-2026": 20,
               "09-12-2026": 16,
-              "09-19-2026": 25
+              "09-19-2026": 26
             }
           },
           {
@@ -366,6 +371,7 @@
             "missing": 0,
             "table": {
               "Acute Pharyngitis": 14,
+              "Acute Tonsillitis": 1,
               "Campylobacteriosis": 5,
               "Cyclosporiasis": 126,
               "Dengue Fever": 2,
@@ -383,7 +389,7 @@
           },
           {
             "name": "estimated_onset",
-            "duplicates": 202,
+            "duplicates": 203,
             "info": {
               "id": "estimated_onset",
               "short_name": "Estimated Onset Date",
@@ -412,7 +418,7 @@
               "08-10-2026": 6,
               "08-17-2026": 8,
               "08-24-2026": 6,
-              "08-31-2026": 3
+              "08-31-2026": 4
             }
           },
           {
@@ -438,14 +444,14 @@
             "time_range": [0, 1],
             "type": "float",
             "missing": 0,
-            "mean": 301.067925,
-            "sd": 1201.149437,
+            "mean": 291.738498,
+            "sd": 1081.947505,
             "min": 0.6,
             "max": 10424.7
           },
           {
             "name": "partial_week_flag",
-            "duplicates": 210,
+            "duplicates": 211,
             "info": {
               "id": "partial_week_flag",
               "short_name": "Partial Week?",
@@ -464,14 +470,14 @@
             "time_range": [0, 1],
             "type": "integer",
             "missing": 0,
-            "mean": 0.353774,
-            "sd": 0.479272,
+            "mean": 0.333333,
+            "sd": 0.472515,
             "min": 0,
             "max": 1
           },
           {
             "name": "date_scraped",
-            "duplicates": 195,
+            "duplicates": 196,
             "info": {
               "id": "date_scraped",
               "short_name": "Date Scraped",
@@ -507,12 +513,12 @@
               "09-05-2026": 12,
               "09-12-2026": 16,
               "09-14-2026": 3,
-              "09-18-2026": 22
+              "09-18-2026": 23
             }
           },
           {
             "name": "date_epic_updated",
-            "duplicates": 199,
+            "duplicates": 200,
             "info": {
               "id": "date_epic_updated",
               "short_name": "Date Epic Updated",
@@ -544,12 +550,12 @@
               "09-01-2026": 1,
               "09-04-2026": 12,
               "09-11-2026": 19,
-              "09-16-2026": 22
+              "09-18-2026": 23
             }
           }
         ]
       },
-      "sha512": "2bb6dd8eea896b5660b7ecda84fba2be0ddce06f4d6b57b7750cf82a763293c7673960de2d20c94a01dc0f80c36e6e6f32b60728d8205c7848247e7b6b504a6a"
+      "sha512": "72161db64c462ad1aa394cb69371a07cecef9edc76572aaeeb058e5a64765088c8e2fe28e57f109fa49b22a54700e7e72f09dc55fd04a0aaf2d67d5c7d418daa"
     }
   ],
   "measure_info": {
@@ -671,7 +677,7 @@
         "geography": {
           "status": "present",
           "same_type": true,
-          "added_levels": [],
+          "added_levels": "39149",
           "dropped_levels": []
         },
         "time": {
@@ -683,7 +689,7 @@
         "condition": {
           "status": "present",
           "same_type": true,
-          "added_levels": [],
+          "added_levels": "Acute Tonsillitis",
           "dropped_levels": []
         },
         "estimated_onset": {
@@ -703,14 +709,14 @@
         "date_scraped": {
           "status": "present",
           "same_type": true,
-          "added_levels": "09-18-2026",
-          "dropped_levels": "09-17-2026"
+          "added_levels": [],
+          "dropped_levels": []
         },
         "date_epic_updated": {
           "status": "present",
           "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
+          "added_levels": "09-18-2026",
+          "dropped_levels": "09-16-2026"
         }
       }
     }

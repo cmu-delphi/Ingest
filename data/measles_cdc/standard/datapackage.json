@@ -3,14 +3,15 @@
   "title": "Measles Cdc",
   "resources": [
     {
-      "bytes": 967,
+      "bytes": 970,
       "encoding": "windows-1252",
-      "md5": "9e1ddb2e8da403db5444951461b2aa95",
+      "md5": "8ab8d9e00359f377295f11f14f57d77b",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "470c1d54908a4964f30e384f2030a4b3146c55e7",
           "4f414c16a4f925ee7be5bf060dab7488362b1688",
           "27ff3ba9c537113664317863dfe1215a95031b5b",
           "b80d2ede2f1dce22729467107fef9fdff2eac7f8",
@@ -61,6 +62,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "weinbergerlab <dweinber@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -87,6 +89,7 @@
           "danweinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Sep 11 19:29:31 2026 +0000",
           "Fri Sep 4 19:32:10 2026 +0000",
           "Fri Aug 21 19:21:03 2026 +0000",
           "Fri Aug 14 19:42:48 2026 +0000",
@@ -137,6 +140,7 @@
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
+          "scheduled data build",
           "Add CDC CFA RT (respiratory tract) data source",
           "scheduled data build",
           "scheduled data build",
@@ -173,29 +177,29 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-11 18:16:45.864305",
-      "last_modified": "2026-09-11 18:16:45.864305",
+      "created": "2026-09-18 18:16:52.431535",
+      "last_modified": "2026-09-18 18:16:52.431535",
       "vintage": {},
-      "row_count": 245,
+      "row_count": 246,
       "entity_count": 1,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 244,
+            "duplicates": 245,
             "info": [],
-            "time_range": [0, 244],
+            "time_range": [0, 245],
             "type": "string",
             "missing": 0,
             "table": {
-              "00": 245
+              "00": 246
             }
           },
           {
             "name": "time",
             "duplicates": 0,
             "info": [],
-            "time_range": [0, 244],
+            "time_range": [0, 245],
             "type": "string",
             "missing": 0,
             "table": {
@@ -443,7 +447,8 @@
               "2026-08-22": 1,
               "2026-08-29": 1,
               "2026-09-05": 1,
-              "2026-09-12": 1
+              "2026-09-12": 1,
+              "2026-09-19": 1
             }
           },
           {
@@ -466,17 +471,17 @@
                 }
               ]
             },
-            "time_range": [0, 244],
+            "time_range": [0, 245],
             "type": "integer",
             "missing": 0,
-            "mean": 24.685714,
-            "sd": 43.530788,
+            "mean": 25.304878,
+            "sd": 44.710869,
             "min": 0,
             "max": 296
           }
         ]
       },
-      "sha512": "23963c8848ba641940eb5b52e205ea08d17f14af83bf72ebab958d47c2ddcda76972a2c139cf8c53de83a4b66a9381a06a36e0ef0f352154ae74aa14308a5736"
+      "sha512": "8d59466f22f10b7106283b0b061dc32665b9669a77237c23ca50791912239e22d27f52978c1c30a4d8719c5a2b2624d33764965b8e77204194ab3555142b5ffd"
     }
   ],
   "measure_info": {
@@ -524,7 +529,7 @@
         "time": {
           "status": "present",
           "same_type": true,
-          "added_levels": "2026-09-12",
+          "added_levels": "2026-09-19",
           "dropped_levels": []
         },
         "value": {
