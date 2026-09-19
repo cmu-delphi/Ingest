@@ -24,7 +24,7 @@
     <nav class="navbar navbar-dark fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">PopHIVE Data Documentation</a>
-        <span class="navbar-text text-light">Last updated: September 18, 2026</span>
+        <span class="navbar-text text-light">Last updated: September 19, 2026</span>
       </div>
     </nav>
     <div class="container-fluid">
@@ -1189,6 +1189,15 @@
                     </tr>
                     <tr>
                       <td>
+                        <code>cdc_rt_covid</code>
+                      </td>
+                      <td>COVID-19</td>
+                      <td>Median estimate of the effective reproduction number (Rt) for COVID-19, indicating whether the epidemic is growing (Rt &gt; 1) or declining (Rt &lt; 1).</td>
+                      <td>Rate</td>
+                      <td>Reproduction number</td>
+                    </tr>
+                    <tr>
+                      <td>
                         <code>cdc_rt_rsv</code>
                       </td>
                       <td>RSV</td>
@@ -1207,10 +1216,10 @@
                     </tr>
                     <tr>
                       <td>
-                        <code>cdc_rt_covid</code>
+                        <code>cdc_rt_covid_lower</code>
                       </td>
                       <td>COVID-19</td>
-                      <td>Median estimate of the effective reproduction number (Rt) for COVID-19, indicating whether the epidemic is growing (Rt &gt; 1) or declining (Rt &lt; 1).</td>
+                      <td>Lower bound of the 95% credible interval for the Rt estimate for COVID-19.</td>
                       <td>Rate</td>
                       <td>Reproduction number</td>
                     </tr>
@@ -1234,10 +1243,10 @@
                     </tr>
                     <tr>
                       <td>
-                        <code>cdc_rt_covid_lower</code>
+                        <code>cdc_rt_covid_upper</code>
                       </td>
                       <td>COVID-19</td>
-                      <td>Lower bound of the 95% credible interval for the Rt estimate for COVID-19.</td>
+                      <td>Upper bound of the 95% credible interval for the Rt estimate for COVID-19.</td>
                       <td>Rate</td>
                       <td>Reproduction number</td>
                     </tr>
@@ -1261,12 +1270,12 @@
                     </tr>
                     <tr>
                       <td>
-                        <code>cdc_rt_covid_upper</code>
+                        <code>cdc_rt_covid_p_growing</code>
                       </td>
                       <td>COVID-19</td>
-                      <td>Upper bound of the 95% credible interval for the Rt estimate for COVID-19.</td>
-                      <td>Rate</td>
-                      <td>Reproduction number</td>
+                      <td>Probability that Rt is above 1.0, indicating epidemic growth, for COVID-19.</td>
+                      <td>Percent</td>
+                      <td>Probability (0-1)</td>
                     </tr>
                     <tr>
                       <td>
@@ -1283,15 +1292,6 @@
                       </td>
                       <td>Influenza</td>
                       <td>Probability that Rt is above 1.0, indicating epidemic growth, for Influenza.</td>
-                      <td>Percent</td>
-                      <td>Probability (0-1)</td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <code>cdc_rt_covid_p_growing</code>
-                      </td>
-                      <td>COVID-19</td>
-                      <td>Probability that Rt is above 1.0, indicating epidemic growth, for COVID-19.</td>
                       <td>Percent</td>
                       <td>Probability (0-1)</td>
                     </tr>

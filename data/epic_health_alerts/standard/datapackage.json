@@ -4,14 +4,15 @@
   "licenses": [],
   "resources": [
     {
-      "bytes": 2217,
+      "bytes": 2218,
       "encoding": "windows-1252",
-      "md5": "2fa290f5c5b26ee69be189f17f7e3121",
+      "md5": "6e96587c8796686276750416cecc0f10",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "92165ba0434215c18291da024df0b5686bb1dd4d",
           "0f64f6b171dca738931c0a16e367ca9132b77ad9",
           "0fc48b08d7c822d8654e7eaca61e0c0b62d01daf",
           "622910599e98c65c046cec13cbab4f969a85dbc9",
@@ -131,9 +132,11 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>"
         ],
         "date": [
+          "Fri Sep 18 20:20:20 2026 +0000",
           "Fri Sep 18 07:16:33 2026 +0000",
           "Thu Sep 17 07:25:51 2026 +0000",
           "Wed Sep 16 07:15:18 2026 +0000",
@@ -195,6 +198,7 @@
           "Thu Jul 16 12:53:03 2026 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled daily data update",
           "scheduled daily data update",
@@ -266,8 +270,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-18 18:16:47.669393",
-      "last_modified": "2026-09-18 18:16:47.669393",
+      "created": "2026-09-19 07:12:46.40258",
+      "last_modified": "2026-09-19 07:12:46.40258",
       "vintage": {},
       "row_count": 213,
       "entity_count": 46,
@@ -513,7 +517,7 @@
               "09-05-2026": 12,
               "09-12-2026": 16,
               "09-14-2026": 3,
-              "09-18-2026": 23
+              "09-19-2026": 23
             }
           },
           {
@@ -555,7 +559,7 @@
           }
         ]
       },
-      "sha512": "72161db64c462ad1aa394cb69371a07cecef9edc76572aaeeb058e5a64765088c8e2fe28e57f109fa49b22a54700e7e72f09dc55fd04a0aaf2d67d5c7d418daa"
+      "sha512": "3c91156b5d4de6a47f7f6d1ff4313865626fcac60901de2bb3dc8e5d40288e79002a9c1347c4c934d4e8d8807155301fe87f3bb8f760a509c550dcc42f9c0d3a"
     }
   ],
   "measure_info": {
@@ -677,7 +681,7 @@
         "geography": {
           "status": "present",
           "same_type": true,
-          "added_levels": "39149",
+          "added_levels": [],
           "dropped_levels": []
         },
         "time": {
@@ -689,7 +693,7 @@
         "condition": {
           "status": "present",
           "same_type": true,
-          "added_levels": "Acute Tonsillitis",
+          "added_levels": [],
           "dropped_levels": []
         },
         "estimated_onset": {
@@ -709,14 +713,14 @@
         "date_scraped": {
           "status": "present",
           "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
+          "added_levels": "09-19-2026",
+          "dropped_levels": "09-18-2026"
         },
         "date_epic_updated": {
           "status": "present",
           "same_type": true,
-          "added_levels": "09-18-2026",
-          "dropped_levels": "09-16-2026"
+          "added_levels": [],
+          "dropped_levels": []
         }
       }
     }
