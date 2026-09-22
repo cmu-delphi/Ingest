@@ -136,7 +136,7 @@
     "./data/epic_chronic/standard/datapackage.json": "f859537f86b2117c38ca5c2a8d32e7d9",
     "./data/cms_mmd/standard/datapackage.json": "f6ae03d00dc049e032d4d07495f785c3"
   },
-  "checked": "2026-09-18 20:19:41",
+  "checked": "2026-09-22 19:44:40",
   "check_results": {
     "data/bundle_chronic_diseases/dist/brfss_prevalence_by_geography.parquet": [],
     "data/bundle_chronic_diseases/dist/epic_prevalence_by_geography_county_and_source.parquet": [],

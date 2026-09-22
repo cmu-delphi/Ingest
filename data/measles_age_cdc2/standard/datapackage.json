@@ -4,14 +4,15 @@
   "licenses": [],
   "resources": [
     {
-      "bytes": 6006,
+      "bytes": 6088,
       "encoding": "windows-1252",
-      "md5": "7be2c12d878d3b61cf62a3832794526f",
+      "md5": "1ff34d1b1fe9dc9fae5f80e8465a04b6",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "6242bcb79c5819cfdec232f2458c5b564bec8ace",
           "2e3bfac1eacf08ea984f741214d216005b5c88fe",
           "27ff3ba9c537113664317863dfe1215a95031b5b",
           "b80d2ede2f1dce22729467107fef9fdff2eac7f8",
@@ -58,6 +59,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "weinbergerlab <dweinber@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -80,6 +82,7 @@
           "Shoa Moosavi <shoa.moosavi@yale.edu>"
         ],
         "date": [
+          "Tue Sep 15 18:43:20 2026 +0000",
           "Tue Sep 8 23:55:17 2026 +0000",
           "Fri Aug 21 19:21:03 2026 +0000",
           "Fri Aug 14 19:42:48 2026 +0000",
@@ -126,6 +129,7 @@
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
+          "scheduled data build",
           "Add CDC CFA RT (respiratory tract) data source",
           "scheduled data build",
           "scheduled data build",
@@ -158,18 +162,18 @@
       "id_length": "NA",
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-15 18:26:49.115776",
-      "last_modified": "2026-09-15 18:26:49.115776",
+      "created": "2026-09-22 18:23:30.420341",
+      "last_modified": "2026-09-22 18:23:30.420341",
       "vintage": {},
-      "row_count": 553,
+      "row_count": 560,
       "entity_count": 0,
       "schema": {
         "fields": [
           {
             "name": "time",
-            "duplicates": 474,
+            "duplicates": 480,
             "info": [],
-            "time_range": [0, 78],
+            "time_range": [0, 79],
             "type": "string",
             "missing": 0,
             "table": {
@@ -251,36 +255,37 @@
               "2026-08-15": 7,
               "2026-08-22": 7,
               "2026-09-05": 7,
-              "2026-09-12": 7
+              "2026-09-12": 7,
+              "2026-09-19": 7
             }
           },
           {
             "name": "year",
-            "duplicates": 551,
+            "duplicates": 558,
             "info": [],
-            "time_range": [0, 78],
+            "time_range": [0, 79],
             "type": "integer",
             "missing": 0,
-            "mean": 2025.43038,
-            "sd": 0.495578,
+            "mean": 2025.4375,
+            "sd": 0.496522,
             "min": 2025,
             "max": 2026
           },
           {
             "name": "week",
-            "duplicates": 501,
+            "duplicates": 508,
             "info": [],
-            "time_range": [0, 78],
+            "time_range": [0, 79],
             "type": "integer",
             "missing": 0,
-            "mean": 24.658228,
-            "sd": 13.552528,
+            "mean": 24.8125,
+            "sd": 13.537156,
             "min": 1,
             "max": 53
           },
           {
             "name": "age_group",
-            "duplicates": 549,
+            "duplicates": 556,
             "info": {
               "id": "age_group",
               "short_name": "Age group",
@@ -311,19 +316,19 @@
                 }
               ]
             },
-            "time_range": [0, 78],
+            "time_range": [0, 79],
             "type": "string",
             "missing": 0,
             "table": {
-              "<5 years": 79,
-              "20+ years": 79,
-              "5-19 years": 79,
-              "Total": 316
+              "<5 years": 80,
+              "20+ years": 80,
+              "5-19 years": 80,
+              "Total": 320
             }
           },
           {
             "name": "cdc_cum_cases",
-            "duplicates": 101,
+            "duplicates": 102,
             "info": {
               "id": "cdc_cum_cases",
               "short_name": "Measles cumulative cases",
@@ -341,17 +346,17 @@
                 }
               ]
             },
-            "time_range": [0, 78],
+            "time_range": [0, 79],
             "type": "float",
             "missing": 9,
-            "mean": 623.793566,
-            "sd": 660.785403,
+            "mean": 634.797477,
+            "sd": 679.689701,
             "min": 0,
-            "max": 3294
+            "max": 3471
           },
           {
             "name": "cdc_new_cases",
-            "duplicates": 294,
+            "duplicates": 299,
             "info": {
               "id": "cdc_new_cases",
               "short_name": "Measles new weekly cases",
@@ -369,17 +374,17 @@
                 }
               ]
             },
-            "time_range": [0, 78],
+            "time_range": [0, 79],
             "type": "float",
             "missing": 18,
-            "mean": 29.259159,
-            "sd": 43.494685,
+            "mean": 29.869779,
+            "sd": 44.196391,
             "min": -21.62,
             "max": 357
           },
           {
             "name": "cdc_cum_hosp",
-            "duplicates": 413,
+            "duplicates": 418,
             "info": {
               "id": "cdc_cum_hosp",
               "short_name": "Measles cumulative hospitalizations",
@@ -397,17 +402,17 @@
                 }
               ]
             },
-            "time_range": [0, 78],
+            "time_range": [0, 79],
             "type": "integer",
-            "missing": 244,
-            "mean": 66.106796,
-            "sd": 54.446372,
+            "missing": 247,
+            "mean": 67.185304,
+            "sd": 55.936985,
             "min": 0,
-            "max": 267
+            "max": 301
           },
           {
             "name": "cdc_new_hosp",
-            "duplicates": 529,
+            "duplicates": 535,
             "info": {
               "id": "cdc_new_hosp",
               "short_name": "Measles new weekly hospitalizations",
@@ -425,17 +430,17 @@
                 }
               ]
             },
-            "time_range": [0, 78],
+            "time_range": [0, 79],
             "type": "integer",
-            "missing": 251,
-            "mean": 3.238411,
-            "sd": 5.294903,
+            "missing": 254,
+            "mean": 3.418301,
+            "sd": 5.623271,
             "min": -1,
             "max": 55
           },
           {
             "name": "vax_group",
-            "duplicates": 549,
+            "duplicates": 556,
             "info": {
               "id": "vax_group",
               "short_name": "Vaccination status group",
@@ -466,19 +471,19 @@
                 }
               ]
             },
-            "time_range": [0, 78],
+            "time_range": [0, 79],
             "type": "string",
             "missing": 0,
             "table": {
-              "One dose MMR": 79,
-              "Total": 316,
-              "Two doses MMR": 79,
-              "Unvaccinated/Unknown": 79
+              "One dose MMR": 80,
+              "Total": 320,
+              "Two doses MMR": 80,
+              "Unvaccinated/Unknown": 80
             }
           }
         ]
       },
-      "sha512": "e570742fa148422bec543e140a858a01759c4c4eb32a1b3fc4752f32babc7df0d33cca677b882579429d98cee4b851e71e9e8b44380d8162cc60bf32b8563a8f"
+      "sha512": "4ce788f3f4deed4950b0a9a277a4cd536d518ac9b1023adc01146140eeebceb39807db37e691d807af2a0d507ebf9cf4852d7eb04ca3833679db62c447cf1f05"
     }
   ],
   "measure_info": {
@@ -636,7 +641,7 @@
         "time": {
           "status": "present",
           "same_type": true,
-          "added_levels": "2026-09-12",
+          "added_levels": "2026-09-19",
           "dropped_levels": []
         },
         "year": {

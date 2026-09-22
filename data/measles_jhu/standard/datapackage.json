@@ -3,14 +3,15 @@
   "title": "Measles Jhu",
   "resources": [
     {
-      "bytes": 91415,
+      "bytes": 91431,
       "encoding": "windows-1252",
-      "md5": "62f2019e4bf99df63d7ad7b9b5192613",
+      "md5": "cdded4a6db4eee8db2739ee0b33f4c40",
       "format": "csv",
       "name": "data_county.csv",
       "filename": "data_county.csv.gz",
       "versions": {
         "hash": [
+          "92165ba0434215c18291da024df0b5686bb1dd4d",
           "6242bcb79c5819cfdec232f2458c5b564bec8ace",
           "2e3bfac1eacf08ea984f741214d216005b5c88fe",
           "72fba28fdc599259a8104fe6e6adae97dbebca59",
@@ -62,6 +63,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "weinbergerlab <dweinber@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -87,6 +89,7 @@
           "danweinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Sep 18 20:20:20 2026 +0000",
           "Tue Sep 15 18:43:20 2026 +0000",
           "Tue Sep 8 23:55:17 2026 +0000",
           "Tue Sep 1 19:20:38 2026 +0000",
@@ -138,6 +141,7 @@
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
+          "scheduled data build",
           "Add CDC CFA RT (respiratory tract) data source",
           "scheduled data build",
           "scheduled data build",
@@ -173,8 +177,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-18 18:16:53.298559",
-      "last_modified": "2026-09-18 18:16:53.298559",
+      "created": "2026-09-22 18:23:31.55135",
+      "last_modified": "2026-09-22 18:23:31.55135",
       "vintage": {},
       "row_count": 35200,
       "entity_count": 400,
@@ -707,24 +711,25 @@
             "time_range": [0, 87],
             "type": "integer",
             "missing": 0,
-            "mean": 0.162244,
-            "sd": 2.312612,
+            "mean": 0.16358,
+            "sd": 2.319847,
             "min": 0,
             "max": 174
           }
         ]
       },
-      "sha512": "12d16b303dc62d5629f29e36113ce6a78f0adef5353b959393865a39b1e75e0081053dff0fc01423498fb2948f3d4269e62e41ba2b442ccb2386341240b2458a"
+      "sha512": "771d28dd051a3b6bed8a20c7bfd081691554a281ed493c5ce2ca9633ce56fa71599c42dd52b8479bd0a320b01a37afe30146bb2d1919671af606a0d97fbd39c8"
     },
     {
-      "bytes": 12027,
+      "bytes": 12028,
       "encoding": "windows-1252",
-      "md5": "2aa888a2aeb3d4f9d6196f9e261224ec",
+      "md5": "e8422c173b0fa18f97f4f50ba343de35",
       "format": "csv",
       "name": "data_state.csv",
       "filename": "data_state.csv.gz",
       "versions": {
         "hash": [
+          "92165ba0434215c18291da024df0b5686bb1dd4d",
           "6242bcb79c5819cfdec232f2458c5b564bec8ace",
           "2e3bfac1eacf08ea984f741214d216005b5c88fe",
           "72fba28fdc599259a8104fe6e6adae97dbebca59",
@@ -778,6 +783,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "weinbergerlab <dweinber@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -805,6 +811,7 @@
           "danweinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Sep 18 20:20:20 2026 +0000",
           "Tue Sep 15 18:43:20 2026 +0000",
           "Tue Sep 8 23:55:17 2026 +0000",
           "Tue Sep 1 19:20:38 2026 +0000",
@@ -858,6 +865,7 @@
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
+          "scheduled data build",
           "Add CDC CFA RT (respiratory tract) data source",
           "scheduled data build",
           "scheduled data build",
@@ -895,8 +903,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-18 18:16:53.244557",
-      "last_modified": "2026-09-18 18:16:53.244557",
+      "created": "2026-09-22 18:23:31.496349",
+      "last_modified": "2026-09-22 18:23:31.496349",
       "vintage": {},
       "row_count": 4450,
       "entity_count": 50,
@@ -1063,7 +1071,7 @@
           },
           {
             "name": "value",
-            "duplicates": 4349,
+            "duplicates": 4350,
             "info": {
               "id": "value",
               "short_name": "Measles Cases",
@@ -1080,24 +1088,25 @@
             "time_range": [0, 88],
             "type": "integer",
             "missing": 0,
-            "mean": 2.573034,
-            "sd": 14.132904,
+            "mean": 2.594157,
+            "sd": 14.251877,
             "min": 0,
             "max": 260
           }
         ]
       },
-      "sha512": "8612397826c5ebe61dc36ea3d593f3cfbd7c9f946c3813f816b410a54b6c63812562e15b15f7b483b0d9e19f0a92191f3cd7737d51b85fcea0a7f716d38d46e6"
+      "sha512": "740a435f87f43e7cb25d6c89e0a4fc4f321b9ad74754d1b5bbd491696c01b4440b5877da9c14cec9db79b579f6c609e4ce9b73d1b2697674820e54f6e5c20f6a"
     },
     {
-      "bytes": 104478,
+      "bytes": 104495,
       "encoding": "windows-1250",
-      "md5": "adb2317ba233439b2c7249259dbeeff4",
+      "md5": "736707b93523e821d6c345b1d7d4e971",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "92165ba0434215c18291da024df0b5686bb1dd4d",
           "6242bcb79c5819cfdec232f2458c5b564bec8ace",
           "2e3bfac1eacf08ea984f741214d216005b5c88fe",
           "72fba28fdc599259a8104fe6e6adae97dbebca59",
@@ -1150,6 +1159,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "weinbergerlab <dweinber@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -1176,6 +1186,7 @@
           "danweinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Sep 18 20:20:20 2026 +0000",
           "Tue Sep 15 18:43:20 2026 +0000",
           "Tue Sep 8 23:55:17 2026 +0000",
           "Tue Sep 1 19:20:38 2026 +0000",
@@ -1228,6 +1239,7 @@
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
+          "scheduled data build",
           "Add CDC CFA RT (respiratory tract) data source",
           "scheduled data build",
           "scheduled data build",
@@ -1264,8 +1276,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-18 18:16:53.376561",
-      "last_modified": "2026-09-18 18:16:53.376561",
+      "created": "2026-09-22 18:23:31.63035",
+      "last_modified": "2026-09-22 18:23:31.63035",
       "vintage": {},
       "row_count": 40041,
       "entity_count": 441,
@@ -1823,7 +1835,7 @@
           },
           {
             "name": "value",
-            "duplicates": 39937,
+            "duplicates": 39938,
             "info": {
               "id": "value",
               "short_name": "Measles Cases",
@@ -1840,14 +1852,14 @@
             "time_range": [0, 88],
             "type": "integer",
             "missing": 0,
-            "mean": 0.428586,
-            "sd": 5.241238,
+            "mean": 0.432107,
+            "sd": 5.280602,
             "min": 0,
             "max": 260
           }
         ]
       },
-      "sha512": "c89345a1041d735b9b04e12c6d447fac6f1bc7b28708433c13d6609035cdc2dc913c07dbb9c575fcb12f0c1a91dd7e5c2b92cff7da85dce638cd9aa3a9968519"
+      "sha512": "6054a86de0cd400ee7f992549c9a236f751471c2aba2f71e5a2dbd16ef3f26fc5867f91e5a54c4c82404d493f23ee85bfffa2584999601703a38c1c2aa2fc66e"
     }
   ],
   "measure_info": {
@@ -1957,13 +1969,13 @@
         "geography": {
           "status": "present",
           "same_type": true,
-          "added_levels": ["21135", "21223", "23025", "42015", "55073"],
+          "added_levels": [],
           "dropped_levels": []
         },
         "time": {
           "status": "present",
           "same_type": true,
-          "added_levels": "2026-09-19",
+          "added_levels": [],
           "dropped_levels": []
         },
         "value": {
@@ -1984,7 +1996,7 @@
         "time": {
           "status": "present",
           "same_type": true,
-          "added_levels": "2026-09-19",
+          "added_levels": [],
           "dropped_levels": []
         },
         "value": {
@@ -1999,13 +2011,13 @@
         "geography": {
           "status": "present",
           "same_type": true,
-          "added_levels": ["21135", "21223", "23025", "42015", "55073"],
+          "added_levels": [],
           "dropped_levels": []
         },
         "time": {
           "status": "present",
           "same_type": true,
-          "added_levels": "2026-09-19",
+          "added_levels": [],
           "dropped_levels": []
         },
         "value": {
