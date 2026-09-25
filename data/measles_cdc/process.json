@@ -5,9 +5,9 @@
     {
       "path": "ingest.R",
       "manual": false,
-      "last_run": "2026-09-18 18:16:52",
+      "last_run": "2026-09-25 18:18:14",
       "frequency": 0,
-      "run_time": 0.295,
+      "run_time": 0.296,
       "last_status": {
         "log": [],
         "success": true
@@ -16,7 +16,7 @@
   ],
   "standard_state": {
     "./data/measles_cdc/measure_info.json": "94460757bf6301ded7dfc733d23021ae",
-    "./data/measles_cdc/standard/data.csv.gz": "8ab8d9e00359f377295f11f14f57d77b"
+    "./data/measles_cdc/standard/data.csv.gz": "7f67791dd22539f9b864ecbe78a9b76f"
   },
   "checked": "2026-04-10 15:29:19",
   "check_results": {
@@ -26,6 +26,6 @@
     "data/measles_cdc/standard/data.csv.gz": []
   },
   "raw_state": {
-    "hash": "b82ad8c3a8062fb6eda85992550f4ad7"
+    "hash": "2b744c898c350f3564367006fc4c05a7"
   }
 }
