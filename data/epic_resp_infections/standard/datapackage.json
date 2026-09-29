@@ -5,7 +5,7 @@
     {
       "bytes": 157265,
       "encoding": "windows-1252",
-      "md5": "3cf5bc50883f6b5914d0a75e4e4b7e8a",
+      "md5": "c33c36f7165310eca570abb4367953aa",
       "format": "csv",
       "name": "monthly_tests.csv",
       "filename": "monthly_tests.csv.gz",
@@ -49,8 +49,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-15 18:23:37.863376",
-      "last_modified": "2026-09-15 18:23:37.863376",
+      "created": "2026-09-29 18:18:00.693014",
+      "last_modified": "2026-09-29 18:18:00.693014",
       "vintage": {},
       "row_count": 18760,
       "entity_count": 54,
@@ -304,12 +304,12 @@
           }
         ]
       },
-      "sha512": "d38c6f5a2db9405eaa1792a6e2481b54e5beba890921f4f4889915f1bfd92be5391063f8a560f2d450dacb3b1b9a4d7fc08ce8162f54224c70268812e3107421"
+      "sha512": "e8bbd2b9b604f10b7c75f6ef5d2ce4bc942c5ff6a49587b87ee1e4ffcaa888064a1bfcbb2f078bd50eb90887db9da9158f7c66168ddb76cc25d2126c90ad9600"
     },
     {
       "bytes": 168055,
       "encoding": "windows-1252",
-      "md5": "e4582b26d9bf8ec815d39de50065572d",
+      "md5": "511d823339dcf083feb9bc6cd50f3f5e",
       "format": "csv",
       "name": "no_geo.csv",
       "filename": "no_geo.csv.gz",
@@ -353,8 +353,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-15 18:23:38.054376",
-      "last_modified": "2026-09-15 18:23:38.054376",
+      "created": "2026-09-29 18:18:00.902014",
+      "last_modified": "2026-09-29 18:18:00.902014",
       "vintage": {},
       "row_count": 20650,
       "entity_count": 54,
@@ -2274,7 +2274,7 @@
           }
         ]
       },
-      "sha512": "ae3c7e4f00832c610551d23a3868a07fe5fe5b1b05669d9ab12f1aa5e33aeb63bfc3ef8232bbfe04ad666a8f63d310b533de09297ba967f88521d7063329d075"
+      "sha512": "dfdcbcd3bfd4e9b6addf4b3c11628eb4d1908eefbe8bf8587908c6549cb241f3e3aae76d82509c9cab4bf243ebbedd97b3802ac6df70ee8e7f687063c491b57e"
     },
     {
       "bytes": 252253,
@@ -2315,8 +2315,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-15 18:23:38.365377",
-      "last_modified": "2026-09-15 18:23:38.365377",
+      "created": "2026-09-29 18:18:01.824015",
+      "last_modified": "2026-09-29 18:18:01.824015",
       "vintage": {},
       "row_count": 13104,
       "entity_count": 52,
@@ -2603,9 +2603,9 @@
       "sha512": "4366271d98b21f5939ebdb590187e26f66c80ad47469f1f156d1e9ea7b3987eeeaea8581af2d258655704186d3afc2eb796687f732ca22909ba18bfe55e10693"
     },
     {
-      "bytes": 4211152,
+      "bytes": 4228463,
       "encoding": "windows-1252",
-      "md5": "528cc4a3b6502429a87a97cffe1dd23b",
+      "md5": "aafb0dc19b57a59b78dcb9b4c9ee7a90",
       "format": "csv",
       "name": "weekly.csv",
       "filename": "weekly.csv.gz",
@@ -2689,78 +2689,78 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-15 18:23:37.666375",
-      "last_modified": "2026-09-15 18:23:37.666375",
+      "created": "2026-09-29 18:17:59.525013",
+      "last_modified": "2026-09-29 18:17:59.525013",
       "vintage": {},
-      "row_count": 163785,
+      "row_count": 164515,
       "entity_count": 52,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 163733,
+            "duplicates": 164463,
             "info": [],
-            "time_range": [0, 449],
+            "time_range": [0, 451],
             "type": "string",
             "missing": 0,
             "table": {
-              "00": 3150,
-              "01": 3149,
-              "02": 3150,
-              "04": 3150,
-              "05": 3149,
-              "06": 3150,
-              "08": 3150,
-              "09": 3150,
-              "10": 3149,
-              "11": 3150,
-              "12": 3150,
-              "13": 3150,
-              "15": 3150,
-              "16": 3150,
-              "17": 3150,
-              "18": 3150,
-              "19": 3150,
-              "20": 3150,
-              "21": 3150,
-              "22": 3146,
-              "23": 3150,
-              "24": 3150,
-              "25": 3150,
-              "26": 3150,
-              "27": 3150,
-              "28": 3146,
-              "29": 3149,
-              "30": 3150,
-              "31": 3150,
-              "32": 3150,
-              "33": 3150,
-              "34": 3150,
-              "35": 3150,
-              "36": 3150,
-              "37": 3150,
-              "38": 3150,
-              "39": 3150,
-              "40": 3150,
-              "41": 3150,
-              "42": 3150,
-              "44": 3150,
-              "45": 3150,
-              "46": 3149,
-              "47": 3149,
-              "48": 3150,
-              "49": 3150,
-              "50": 3149,
-              "51": 3150,
-              "53": 3150,
-              "54": 3150,
-              "55": 3150,
-              "56": 3150
+              "00": 3164,
+              "01": 3163,
+              "02": 3164,
+              "04": 3164,
+              "05": 3163,
+              "06": 3164,
+              "08": 3164,
+              "09": 3164,
+              "10": 3164,
+              "11": 3162,
+              "12": 3164,
+              "13": 3164,
+              "15": 3164,
+              "16": 3164,
+              "17": 3164,
+              "18": 3164,
+              "19": 3164,
+              "20": 3164,
+              "21": 3164,
+              "22": 3164,
+              "23": 3164,
+              "24": 3164,
+              "25": 3164,
+              "26": 3164,
+              "27": 3164,
+              "28": 3160,
+              "29": 3164,
+              "30": 3164,
+              "31": 3164,
+              "32": 3164,
+              "33": 3163,
+              "34": 3163,
+              "35": 3164,
+              "36": 3164,
+              "37": 3164,
+              "38": 3164,
+              "39": 3164,
+              "40": 3164,
+              "41": 3164,
+              "42": 3164,
+              "44": 3163,
+              "45": 3164,
+              "46": 3164,
+              "47": 3163,
+              "48": 3164,
+              "49": 3164,
+              "50": 3164,
+              "51": 3164,
+              "53": 3164,
+              "54": 3164,
+              "55": 3164,
+              "56": 3163
             }
           },
           {
             "name": "age",
-            "duplicates": 163778,
+            "duplicates": 164508,
             "info": {
               "id": "age",
               "short_name": "Age",
@@ -2776,24 +2776,24 @@
                 }
               ]
             },
-            "time_range": [0, 449],
+            "time_range": [0, 451],
             "type": "string",
             "missing": 0,
             "table": {
-              "<1 Years": 23399,
-              "1-4 Years": 23399,
-              "18-49 Years": 23398,
-              "5-17 Years": 23400,
-              "50-64 Years": 23398,
-              "65+ Years": 23393,
-              "Total": 23398
+              "<1 Years": 23504,
+              "1-4 Years": 23501,
+              "18-49 Years": 23503,
+              "5-17 Years": 23503,
+              "50-64 Years": 23503,
+              "65+ Years": 23498,
+              "Total": 23503
             }
           },
           {
             "name": "time",
-            "duplicates": 163335,
+            "duplicates": 164063,
             "info": [],
-            "time_range": [0, 449],
+            "time_range": [0, 451],
             "type": "string",
             "missing": 0,
             "table": {
@@ -3246,12 +3246,14 @@
               "2026-08-01": 364,
               "2026-08-08": 364,
               "2026-08-15": 364,
-              "2026-08-22": 349
+              "2026-08-22": 364,
+              "2026-08-29": 364,
+              "2026-09-05": 351
             }
           },
           {
             "name": "epic_n_rsv",
-            "duplicates": 162556,
+            "duplicates": 163269,
             "info": {
               "id": "epic_n_rsv",
               "short_name": "RSV Patients",
@@ -3267,17 +3269,17 @@
               ],
               "category": "respiratory"
             },
-            "time_range": [0, 449],
+            "time_range": [0, 451],
             "type": "integer",
             "missing": 0,
-            "mean": 25.524492,
-            "sd": 220.882837,
+            "mean": 25.451108,
+            "sd": 220.441659,
             "min": 5,
-            "max": 15458
+            "max": 15456
           },
           {
             "name": "epic_n_covid",
-            "duplicates": 160340,
+            "duplicates": 161067,
             "info": {
               "id": "epic_n_covid",
               "short_name": "COVID Patients",
@@ -3293,17 +3295,17 @@
               ],
               "category": "respiratory"
             },
-            "time_range": [0, 449],
+            "time_range": [0, 451],
             "type": "integer",
             "missing": 0,
-            "mean": 166.610563,
-            "sd": 1456.154377,
+            "mean": 166.323679,
+            "sd": 1453.351978,
             "min": 5,
             "max": 142689
           },
           {
             "name": "epic_n_flu",
-            "duplicates": 160656,
+            "duplicates": 161387,
             "info": {
               "id": "epic_n_flu",
               "short_name": "Influenza Patients",
@@ -3319,17 +3321,17 @@
               ],
               "category": "respiratory"
             },
-            "time_range": [0, 449],
+            "time_range": [0, 451],
             "type": "integer",
             "missing": 0,
-            "mean": 134.880752,
-            "sd": 1463.168094,
+            "mean": 134.406826,
+            "sd": 1460.422765,
             "min": 5,
-            "max": 136957
+            "max": 136953
           },
           {
             "name": "epic_n_all_encounters_weekly",
-            "duplicates": 135098,
+            "duplicates": 135787,
             "info": {
               "id": "epic_n_all_encounters_weekly",
               "short_name": "All-Cause ED Encounters (Weekly)",
@@ -3345,17 +3347,17 @@
                 }
               ]
             },
-            "time_range": [0, 449],
+            "time_range": [0, 451],
             "type": "integer",
             "missing": 0,
-            "mean": 10789.16192,
-            "sd": 60217.951952,
+            "mean": 10814.488466,
+            "sd": 60374.377734,
             "min": 5,
-            "max": 1422673
+            "max": 1424080
           },
           {
             "name": "epic_pct_rsv",
-            "duplicates": 117664,
+            "duplicates": 118226,
             "info": {
               "id": "epic_pct_rsv",
               "short_name": "RSV Patients (%)",
@@ -3371,17 +3373,17 @@
               ],
               "category": "respiratory"
             },
-            "time_range": [0, 449],
+            "time_range": [0, 451],
             "type": "float",
             "missing": 0,
-            "mean": 2.62052,
-            "sd": 9.565654,
+            "mean": 2.61439,
+            "sd": 9.552554,
             "min": 0.000685,
             "max": 100
           },
           {
             "name": "epic_pct_flu",
-            "duplicates": 97440,
+            "duplicates": 97935,
             "info": {
               "id": "epic_pct_flu",
               "short_name": "Influenza Patients (%)",
@@ -3397,17 +3399,17 @@
               ],
               "category": "respiratory"
             },
-            "time_range": [0, 449],
+            "time_range": [0, 451],
             "type": "float",
             "missing": 0,
-            "mean": 3.345424,
-            "sd": 9.700088,
+            "mean": 3.336095,
+            "sd": 9.687024,
             "min": 0.003112,
             "max": 100
           },
           {
             "name": "epic_pct_covid",
-            "duplicates": 87967,
+            "duplicates": 88428,
             "info": {
               "id": "epic_pct_covid",
               "short_name": "COVID Patients (%)",
@@ -3423,17 +3425,17 @@
               ],
               "category": "respiratory"
             },
-            "time_range": [0, 449],
+            "time_range": [0, 451],
             "type": "float",
             "missing": 0,
-            "mean": 3.37326,
-            "sd": 9.529726,
+            "mean": 3.366032,
+            "sd": 9.516996,
             "min": 0.000549,
             "max": 100
           },
           {
             "name": "epic_suppressed_flag_rsv",
-            "duplicates": 163783,
+            "duplicates": 164513,
             "info": {
               "id": "epic_suppressed_flag_rsv",
               "short_name": "Fewer than 10 cases in the strata?",
@@ -3448,17 +3450,17 @@
               ],
               "category": "respiratory"
             },
-            "time_range": [0, 449],
+            "time_range": [0, 451],
             "type": "integer",
             "missing": 0,
-            "mean": 0.821388,
-            "sd": 0.383028,
+            "mean": 0.821913,
+            "sd": 0.382587,
             "min": 0,
             "max": 1
           },
           {
             "name": "epic_suppressed_flag_covid",
-            "duplicates": 163783,
+            "duplicates": 164513,
             "info": {
               "id": "epic_suppressed_flag_covid",
               "short_name": "Fewer than 10 cases in the strata?",
@@ -3473,17 +3475,17 @@
               ],
               "category": "respiratory"
             },
-            "time_range": [0, 449],
+            "time_range": [0, 451],
             "type": "integer",
             "missing": 0,
-            "mean": 0.542162,
-            "sd": 0.498221,
+            "mean": 0.541926,
+            "sd": 0.498241,
             "min": 0,
             "max": 1
           },
           {
             "name": "epic_suppressed_flag_flu",
-            "duplicates": 163783,
+            "duplicates": 164513,
             "info": {
               "id": "epic_suppressed_flag_flu",
               "short_name": "Fewer than 10 cases in the strata?",
@@ -3498,17 +3500,17 @@
               ],
               "category": "respiratory"
             },
-            "time_range": [0, 449],
+            "time_range": [0, 451],
             "type": "integer",
             "missing": 0,
-            "mean": 0.636005,
-            "sd": 0.481149,
+            "mean": 0.636598,
+            "sd": 0.480981,
             "min": 0,
             "max": 1
           },
           {
             "name": "epic_suppressed_flag_all_encounters_weekly",
-            "duplicates": 163783,
+            "duplicates": 164513,
             "info": {
               "id": "epic_suppressed_flag_all_encounters_weekly",
               "short_name": "All Encounters Count Suppressed? (Weekly)",
@@ -3523,17 +3525,17 @@
                 }
               ]
             },
-            "time_range": [0, 449],
+            "time_range": [0, 451],
             "type": "integer",
             "missing": 0,
-            "mean": 0.007583,
-            "sd": 0.086751,
+            "mean": 0.007562,
+            "sd": 0.086628,
             "min": 0,
             "max": 1
           }
         ]
       },
-      "sha512": "c34876b8ff47e9d9c3d02ed9635c0a0f29d8c286e0c20e667be5bfffad1d055b69f31fb5617dc4509f7de00764a62282b0deebdb5618ad0b69b468983e1aef3f"
+      "sha512": "d8b9a57fcb5fa928c77d024e395085021207cf83ef02b9efc7e7f6fedc5dceb999e2174f8fbb8f31e1ba454c34d379c54dcdca62405d36a6aff36c6b3a0d84ea"
     }
   ],
   "measure_info": {
@@ -4028,16 +4030,150 @@
   },
   "change_report": {
     "monthly_tests.csv.gz": {
-      "state": "unchanged"
+      "state": "changed",
+      "variables": {
+        "time": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "geography": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "age": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "epic_pct_rsv_pos_tests": {
+          "status": "present",
+          "same_type": true
+        },
+        "epic_pct_j12_j18_tested_rsv": {
+          "status": "present",
+          "same_type": true
+        },
+        "epic_n_ed_j12_j18": {
+          "status": "present",
+          "same_type": true
+        },
+        "suppressed_rsv_test": {
+          "status": "present",
+          "same_type": true
+        }
+      }
     },
     "no_geo.csv.gz": {
-      "state": "unchanged"
+      "state": "changed",
+      "variables": {
+        "time": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "age": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "geography": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "positive_rsv_tests_(%)": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "rsv_tests": {
+          "status": "present",
+          "same_type": true
+        },
+        "n_rsv_tests": {
+          "status": "present",
+          "same_type": true
+        }
+      }
     },
     "quarterly_gas.csv.gz": {
       "state": "unchanged"
     },
     "weekly.csv.gz": {
-      "state": "unchanged"
+      "state": "changed",
+      "variables": {
+        "geography": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "age": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "time": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": ["2026-08-29", "2026-09-05"],
+          "dropped_levels": []
+        },
+        "epic_n_rsv": {
+          "status": "present",
+          "same_type": true
+        },
+        "epic_n_covid": {
+          "status": "present",
+          "same_type": true
+        },
+        "epic_n_flu": {
+          "status": "present",
+          "same_type": true
+        },
+        "epic_n_all_encounters_weekly": {
+          "status": "present",
+          "same_type": true
+        },
+        "epic_pct_rsv": {
+          "status": "present",
+          "same_type": true
+        },
+        "epic_pct_flu": {
+          "status": "present",
+          "same_type": true
+        },
+        "epic_pct_covid": {
+          "status": "present",
+          "same_type": true
+        },
+        "epic_suppressed_flag_rsv": {
+          "status": "present",
+          "same_type": true
+        },
+        "epic_suppressed_flag_covid": {
+          "status": "present",
+          "same_type": true
+        },
+        "epic_suppressed_flag_flu": {
+          "status": "present",
+          "same_type": true
+        },
+        "epic_suppressed_flag_all_encounters_weekly": {
+          "status": "present",
+          "same_type": true
+        }
+      }
     }
   }
 }

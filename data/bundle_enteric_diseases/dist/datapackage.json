@@ -12,6 +12,7 @@
       "filename": "enteric_diseases.parquet",
       "versions": {
         "hash": [
+          "4f5f82b74fee87819b5256fbfbe28452f2ef0a96",
           "92165ba0434215c18291da024df0b5686bb1dd4d",
           "6242bcb79c5819cfdec232f2458c5b564bec8ace",
           "470c1d54908a4964f30e384f2030a4b3146c55e7",
@@ -42,6 +43,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -52,6 +54,7 @@
           "anshap32 <73296024+anshap32@users.noreply.github.com>"
         ],
         "date": [
+          "Fri Sep 25 19:25:48 2026 +0000",
           "Fri Sep 18 20:20:20 2026 +0000",
           "Tue Sep 15 18:43:20 2026 +0000",
           "Fri Sep 11 19:29:31 2026 +0000",
@@ -82,6 +85,7 @@
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
+          "scheduled data build",
           "add epic to enterics bundle",
           "scheduled data build",
           "scheduled data build",
@@ -102,8 +106,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-25 19:22:23.479594",
-      "last_modified": "2026-09-25 19:22:23.479594",
+      "created": "2026-09-29 19:46:56.418654",
+      "last_modified": "2026-09-29 19:46:56.418654",
       "vintage": {},
       "row_count": 209025,
       "entity_count": 52,
@@ -1531,9 +1535,9 @@
       "sha512": "c97d7cd3012eba6402e96929c3a7bfac41963ad2cb3b5597698be291741b1c9a5a7f7db216815b0f902dbe2e44abfc89892ab7b0f14ca1ecfcb7c397e28748db"
     },
     {
-      "bytes": 2394063,
+      "bytes": 2425082,
       "encoding": "windows-1252",
-      "md5": "a84b86feb60b9270f5593bdd10d058a1",
+      "md5": "a4141300c76e66884d619c4d912fd979",
       "format": "parquet",
       "name": "epic_diarrhea",
       "filename": "epic_diarrhea.parquet",
@@ -1573,77 +1577,77 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-25 19:22:31.526737",
-      "last_modified": "2026-09-25 19:22:31.526737",
+      "created": "2026-09-29 19:47:02.531658",
+      "last_modified": "2026-09-29 19:47:02.531658",
       "vintage": {},
-      "row_count": 464814,
+      "row_count": 469098,
       "entity_count": 51,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 464763,
+            "duplicates": 469047,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
-              "Alabama": 9114,
-              "Alaska": 9114,
-              "Arizona": 9114,
-              "Arkansas": 9114,
-              "California": 9114,
-              "Colorado": 9114,
-              "Connecticut": 9114,
-              "Delaware": 9114,
-              "Florida": 9114,
-              "Georgia": 9114,
-              "Hawaii": 9114,
-              "Idaho": 9114,
-              "Illinois": 9114,
-              "Indiana": 9114,
-              "Iowa": 9114,
-              "Kansas": 9114,
-              "Kentucky": 9114,
-              "Louisiana": 9114,
-              "Maine": 9114,
-              "Maryland": 9114,
-              "Massachusetts": 9114,
-              "Michigan": 9114,
-              "Minnesota": 9114,
-              "Mississippi": 9114,
-              "Missouri": 9114,
-              "Montana": 9114,
-              "Nebraska": 9114,
-              "Nevada": 9114,
-              "New Hampshire": 9114,
-              "New Jersey": 9114,
-              "New Mexico": 9114,
-              "New York": 9114,
-              "North Carolina": 9114,
-              "North Dakota": 9114,
-              "Ohio": 9114,
-              "Oklahoma": 9114,
-              "Oregon": 9114,
-              "Pennsylvania": 9114,
-              "Rhode Island": 9114,
-              "South Carolina": 9114,
-              "South Dakota": 9114,
-              "Tennessee": 9114,
-              "Texas": 9114,
-              "United States": 9114,
-              "Utah": 9114,
-              "Vermont": 9114,
-              "Virginia": 9114,
-              "Washington": 9114,
-              "West Virginia": 9114,
-              "Wisconsin": 9114,
-              "Wyoming": 9114
+              "Alabama": 9198,
+              "Alaska": 9198,
+              "Arizona": 9198,
+              "Arkansas": 9198,
+              "California": 9198,
+              "Colorado": 9198,
+              "Connecticut": 9198,
+              "Delaware": 9198,
+              "Florida": 9198,
+              "Georgia": 9198,
+              "Hawaii": 9198,
+              "Idaho": 9198,
+              "Illinois": 9198,
+              "Indiana": 9198,
+              "Iowa": 9198,
+              "Kansas": 9198,
+              "Kentucky": 9198,
+              "Louisiana": 9198,
+              "Maine": 9198,
+              "Maryland": 9198,
+              "Massachusetts": 9198,
+              "Michigan": 9198,
+              "Minnesota": 9198,
+              "Mississippi": 9198,
+              "Missouri": 9198,
+              "Montana": 9198,
+              "Nebraska": 9198,
+              "Nevada": 9198,
+              "New Hampshire": 9198,
+              "New Jersey": 9198,
+              "New Mexico": 9198,
+              "New York": 9198,
+              "North Carolina": 9198,
+              "North Dakota": 9198,
+              "Ohio": 9198,
+              "Oklahoma": 9198,
+              "Oregon": 9198,
+              "Pennsylvania": 9198,
+              "Rhode Island": 9198,
+              "South Carolina": 9198,
+              "South Dakota": 9198,
+              "Tennessee": 9198,
+              "Texas": 9198,
+              "United States": 9198,
+              "Utah": 9198,
+              "Vermont": 9198,
+              "Virginia": 9198,
+              "Washington": 9198,
+              "West Virginia": 9198,
+              "Wisconsin": 9198,
+              "Wyoming": 9198
             }
           },
           {
             "name": "date",
-            "duplicates": 464597,
+            "duplicates": 468879,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
@@ -1865,12 +1869,14 @@
               "2026-08-01": 2142,
               "2026-08-08": 2142,
               "2026-08-15": 2142,
-              "2026-08-22": 2142
+              "2026-08-22": 2142,
+              "2026-08-29": 2142,
+              "2026-09-05": 2142
             }
           },
           {
             "name": "age",
-            "duplicates": 464807,
+            "duplicates": 469091,
             "info": {
               "short_name": "Age",
               "long_name": "Age group",
@@ -1885,24 +1891,24 @@
             "type": "string",
             "missing": 0,
             "table": {
-              "<1 Years": 66402,
-              "1-4 Years": 66402,
-              "18-49 Years": 66402,
-              "5-17 Years": 66402,
-              "50-64 Years": 66402,
-              "65+ Years": 66402,
-              "Total": 66402
+              "<1 Years": 67014,
+              "1-4 Years": 67014,
+              "18-49 Years": 67014,
+              "5-17 Years": 67014,
+              "50-64 Years": 67014,
+              "65+ Years": 67014,
+              "Total": 67014
             }
           },
           {
             "name": "measure",
-            "duplicates": 464808,
+            "duplicates": 469092,
             "info": {
               "levels": {
                 "epic_n_ed_diarrhea": {
                   "id": "epic_n_ed_diarrhea",
                   "name": "epic_n_ed_diarrhea",
-                  "duplicates": 74479,
+                  "duplicates": 75172,
                   "info": {
                     "id": "epic_n_ed_diarrhea",
                     "short_name": "Diarrhea ED Encounters (Weekly)",
@@ -1925,19 +1931,19 @@
                   },
                   "time_range": [
                     0,
-                    216
+                    218
                   ],
                   "type": "integer",
                   "missing": 0,
-                  "mean": 266.405943,
-                  "sd": 1434.581269,
+                  "mean": 266.930727,
+                  "sd": 1437.398232,
                   "min": 5,
-                  "max": 36200
+                  "max": 36304
                 },
                 "epic_pct_ed_diarrhea": {
                   "id": "epic_pct_ed_diarrhea",
                   "name": "epic_pct_ed_diarrhea",
-                  "duplicates": 27321,
+                  "duplicates": 27675,
                   "info": {
                     "id": "epic_pct_ed_diarrhea",
                     "short_name": "Diarrhea ED Encounters (%, Weekly)",
@@ -1960,19 +1966,19 @@
                   },
                   "time_range": [
                     0,
-                    216
+                    218
                   ],
                   "type": "float",
                   "missing": 0,
-                  "mean": 2.857633,
-                  "sd": 4.370441,
-                  "min": 0.212044,
+                  "mean": 2.853447,
+                  "sd": 4.354902,
+                  "min": 0.211954,
                   "max": 100
                 },
                 "epic_n_ed_encounters_weekly": {
                   "id": "epic_n_ed_encounters_weekly",
                   "name": "epic_n_ed_encounters_weekly",
-                  "duplicates": 55687,
+                  "duplicates": 56288,
                   "info": {
                     "id": "epic_n_ed_encounters_weekly",
                     "short_name": "All-Cause ED Encounters (Weekly)",
@@ -1995,19 +2001,19 @@
                   },
                   "time_range": [
                     0,
-                    216
+                    218
                   ],
                   "type": "integer",
                   "missing": 0,
-                  "mean": 13596.337387,
-                  "sd": 72868.524069,
+                  "mean": 13635.157784,
+                  "sd": 73084.782629,
                   "min": 5,
-                  "max": 1422673
+                  "max": 1424080
                 },
                 "epic_n_all_diarrhea": {
                   "id": "epic_n_all_diarrhea",
                   "name": "epic_n_all_diarrhea",
-                  "duplicates": 4833,
+                  "duplicates": 4931,
                   "info": {
                     "id": "epic_n_all_diarrhea",
                     "short_name": "Diarrhea Encounters (All Encounters)",
@@ -2030,14 +2036,14 @@
                   },
                   "time_range": [
                     0,
-                    216
+                    218
                   ],
                   "type": "integer",
                   "missing": 0,
-                  "mean": 7454.053854,
-                  "sd": 26371.687243,
-                  "min": 42,
-                  "max": 303681
+                  "mean": 7482.281941,
+                  "sd": 26478.292693,
+                  "min": 41,
+                  "max": 307574
                 },
                 "epic_pct_all_diarrhea": {
                   "id": "epic_pct_all_diarrhea",
@@ -2065,19 +2071,19 @@
                   },
                   "time_range": [
                     0,
-                    216
+                    218
                   ],
                   "type": "float",
                   "missing": 0,
-                  "mean": 0.412709,
-                  "sd": 0.087613,
-                  "min": 0.14387,
-                  "max": 1.631997
+                  "mean": 0.411832,
+                  "sd": 0.086173,
+                  "min": 0.144132,
+                  "max": 1.420906
                 },
                 "epic_n_encounters_total_weekly": {
                   "id": "epic_n_encounters_total_weekly",
                   "name": "epic_n_encounters_total_weekly",
-                  "duplicates": 33,
+                  "duplicates": 40,
                   "info": {
                     "id": "epic_n_encounters_total_weekly",
                     "short_name": "All Encounters (Any Reason, Weekly)",
@@ -2100,14 +2106,14 @@
                   },
                   "time_range": [
                     0,
-                    216
+                    218
                   ],
                   "type": "integer",
                   "missing": 0,
-                  "mean": 1930542.528508,
-                  "sd": 6843389.572067,
-                  "min": 4624,
-                  "max": 61063139
+                  "mean": 1939856.872325,
+                  "sd": 6878168.217526,
+                  "min": 4655,
+                  "max": 61262123
                 }
               },
               "id": "measure"
@@ -2116,17 +2122,17 @@
             "type": "string",
             "missing": 0,
             "table": {
-              "epic_n_all_diarrhea": 77469,
-              "epic_n_ed_diarrhea": 77469,
-              "epic_n_ed_encounters_weekly": 77469,
-              "epic_n_encounters_total_weekly": 77469,
-              "epic_pct_all_diarrhea": 77469,
-              "epic_pct_ed_diarrhea": 77469
+              "epic_n_all_diarrhea": 78183,
+              "epic_n_ed_diarrhea": 78183,
+              "epic_n_ed_encounters_weekly": 78183,
+              "epic_n_encounters_total_weekly": 78183,
+              "epic_pct_all_diarrhea": 78183,
+              "epic_pct_ed_diarrhea": 78183
             }
           },
           {
             "name": "value",
-            "duplicates": 263222,
+            "duplicates": 265917,
             "info": {
               "measure_column": "measure",
               "short_name": "Value",
@@ -2136,14 +2142,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 94596.372521,
-            "sd": 1239482.885736,
-            "min": 0.06027,
-            "max": 61063139
+            "mean": 95047.809359,
+            "sd": 1245795.8311,
+            "min": 0.060372,
+            "max": 61262123
           },
           {
             "name": "suppressed_flag",
-            "duplicates": 464812,
+            "duplicates": 469096,
             "info": {
               "short_name": "Suppressed?",
               "long_name": "Suppression flag for the value in this row",
@@ -2156,25 +2162,25 @@
             "time_range": [-1, -1],
             "type": "integer",
             "missing": 0,
-            "mean": 0.066153,
-            "sd": 0.24855,
+            "mean": 0.066163,
+            "sd": 0.248567,
             "min": 0,
             "max": 1
           },
           {
             "name": "source",
-            "duplicates": 464813,
+            "duplicates": 469097,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
-              "Epic Cosmos": 464814
+              "Epic Cosmos": 469098
             }
           }
         ]
       },
-      "sha512": "2bc30c0506cb420babe6c9c0cae37a874085a54513fefcfd30b227e5274e2be0d030c4ade1232089a94bd8deb2c99d2f94068703c69cad84c04006aaf59475ee"
+      "sha512": "fafcc3f94bc2dfad9fcb029585c0688c42aee149785182979f68cb4b7fd421edca21c853a6455f84cff7d966525a1fad1ad98acd30d51885a17d2cb807b6f4f2"
     },
     {
       "bytes": 1772767,
@@ -2227,8 +2233,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-25 19:22:28.206685",
-      "last_modified": "2026-09-25 19:22:28.206685",
+      "created": "2026-09-29 19:46:59.597656",
+      "last_modified": "2026-09-29 19:46:59.597656",
       "vintage": {},
       "row_count": 1142032,
       "entity_count": 52,
@@ -3523,8 +3529,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-25 19:22:30.624723",
-      "last_modified": "2026-09-25 19:22:30.624723",
+      "created": "2026-09-29 19:47:01.543657",
+      "last_modified": "2026-09-29 19:47:01.543657",
       "vintage": {},
       "row_count": 1144329,
       "entity_count": 52,
@@ -4772,7 +4778,7 @@
         "epic_n_ed_diarrhea": {
           "id": "epic_n_ed_diarrhea",
           "name": "epic_n_ed_diarrhea",
-          "duplicates": 74479,
+          "duplicates": 75172,
           "info": {
             "id": "epic_n_ed_diarrhea",
             "short_name": "Diarrhea ED Encounters (Weekly)",
@@ -4795,19 +4801,19 @@
           },
           "time_range": [
             0,
-            216
+            218
           ],
           "type": "integer",
           "missing": 0,
-          "mean": 266.405943,
-          "sd": 1434.581269,
+          "mean": 266.930727,
+          "sd": 1437.398232,
           "min": 5,
-          "max": 36200
+          "max": 36304
         },
         "epic_pct_ed_diarrhea": {
           "id": "epic_pct_ed_diarrhea",
           "name": "epic_pct_ed_diarrhea",
-          "duplicates": 27321,
+          "duplicates": 27675,
           "info": {
             "id": "epic_pct_ed_diarrhea",
             "short_name": "Diarrhea ED Encounters (%, Weekly)",
@@ -4830,19 +4836,19 @@
           },
           "time_range": [
             0,
-            216
+            218
           ],
           "type": "float",
           "missing": 0,
-          "mean": 2.857633,
-          "sd": 4.370441,
-          "min": 0.212044,
+          "mean": 2.853447,
+          "sd": 4.354902,
+          "min": 0.211954,
           "max": 100
         },
         "epic_n_ed_encounters_weekly": {
           "id": "epic_n_ed_encounters_weekly",
           "name": "epic_n_ed_encounters_weekly",
-          "duplicates": 55687,
+          "duplicates": 56288,
           "info": {
             "id": "epic_n_ed_encounters_weekly",
             "short_name": "All-Cause ED Encounters (Weekly)",
@@ -4865,19 +4871,19 @@
           },
           "time_range": [
             0,
-            216
+            218
           ],
           "type": "integer",
           "missing": 0,
-          "mean": 13596.337387,
-          "sd": 72868.524069,
+          "mean": 13635.157784,
+          "sd": 73084.782629,
           "min": 5,
-          "max": 1422673
+          "max": 1424080
         },
         "epic_n_all_diarrhea": {
           "id": "epic_n_all_diarrhea",
           "name": "epic_n_all_diarrhea",
-          "duplicates": 4833,
+          "duplicates": 4931,
           "info": {
             "id": "epic_n_all_diarrhea",
             "short_name": "Diarrhea Encounters (All Encounters)",
@@ -4900,14 +4906,14 @@
           },
           "time_range": [
             0,
-            216
+            218
           ],
           "type": "integer",
           "missing": 0,
-          "mean": 7454.053854,
-          "sd": 26371.687243,
-          "min": 42,
-          "max": 303681
+          "mean": 7482.281941,
+          "sd": 26478.292693,
+          "min": 41,
+          "max": 307574
         },
         "epic_pct_all_diarrhea": {
           "id": "epic_pct_all_diarrhea",
@@ -4935,19 +4941,19 @@
           },
           "time_range": [
             0,
-            216
+            218
           ],
           "type": "float",
           "missing": 0,
-          "mean": 0.412709,
-          "sd": 0.087613,
-          "min": 0.14387,
-          "max": 1.631997
+          "mean": 0.411832,
+          "sd": 0.086173,
+          "min": 0.144132,
+          "max": 1.420906
         },
         "epic_n_encounters_total_weekly": {
           "id": "epic_n_encounters_total_weekly",
           "name": "epic_n_encounters_total_weekly",
-          "duplicates": 33,
+          "duplicates": 40,
           "info": {
             "id": "epic_n_encounters_total_weekly",
             "short_name": "All Encounters (Any Reason, Weekly)",
@@ -4970,14 +4976,14 @@
           },
           "time_range": [
             0,
-            216
+            218
           ],
           "type": "integer",
           "missing": 0,
-          "mean": 1930542.528508,
-          "sd": 6843389.572067,
-          "min": 4624,
-          "max": 61063139
+          "mean": 1939856.872325,
+          "sd": 6878168.217526,
+          "min": 4655,
+          "max": 61262123
         }
       },
       "id": "bundle_enteric_diseases/dist/epic_diarrhea.parquet|measure"
@@ -5227,6 +5233,9 @@
   },
   "change_report": {
     "enteric_diseases.parquet": {
+      "state": "unchanged"
+    },
+    "epic_diarrhea.parquet": {
       "state": "changed",
       "variables": {
         "geography": {
@@ -5238,7 +5247,13 @@
         "date": {
           "status": "present",
           "same_type": true,
-          "added_levels": "2026-09-19",
+          "added_levels": ["2026-08-29", "2026-09-05"],
+          "dropped_levels": []
+        },
+        "age": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
           "dropped_levels": []
         },
         "measure": {
@@ -5251,6 +5266,10 @@
           "status": "present",
           "same_type": true
         },
+        "suppressed_flag": {
+          "status": "present",
+          "same_type": true
+        },
         "source": {
           "status": "present",
           "same_type": true,
@@ -5258,9 +5277,6 @@
           "dropped_levels": []
         }
       }
-    },
-    "epic_diarrhea.parquet": {
-      "state": "unchanged"
     },
     "resistance_by_agent.parquet": {
       "state": "unchanged"
