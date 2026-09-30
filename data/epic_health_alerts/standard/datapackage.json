@@ -4,14 +4,15 @@
   "licenses": [],
   "resources": [
     {
-      "bytes": 2751,
+      "bytes": 2749,
       "encoding": "windows-1252",
-      "md5": "ac6ba1ed2b5f2ce88cb79edf0b8b0586",
+      "md5": "be41db7b492bf1cf721cf4497fb29d2d",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "7be80843e6f9215a3f9a05c062d1b63e5f5375d1",
           "b58f6779a1b24c6bd9a6c3f0588d35bac3af15f4",
           "3011f42c19a96bc9ec774dc4fc1f50522d7fb0a8",
           "b2aa23384f3db8bcae8732b641cfb2ad21f589c1",
@@ -157,9 +158,11 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>"
         ],
         "date": [
+          "Tue Sep 29 19:50:08 2026 +0000",
           "Tue Sep 29 07:33:40 2026 +0000",
           "Mon Sep 28 07:32:44 2026 +0000",
           "Sun Sep 27 07:14:56 2026 +0000",
@@ -234,6 +237,7 @@
           "Thu Jul 16 12:53:03 2026 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled daily data update",
           "scheduled daily data update",
@@ -318,8 +322,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-29 18:17:57.527012",
-      "last_modified": "2026-09-29 18:17:57.527012",
+      "created": "2026-09-30 07:20:35.056684",
+      "last_modified": "2026-09-30 07:20:35.056684",
       "vintage": {},
       "row_count": 263,
       "entity_count": 49,
@@ -537,7 +541,7 @@
           },
           {
             "name": "date_scraped",
-            "duplicates": 244,
+            "duplicates": 243,
             "info": {
               "id": "date_scraped",
               "short_name": "Date Scraped",
@@ -575,7 +579,8 @@
               "09-14-2026": 3,
               "09-19-2026": 23,
               "09-26-2026": 24,
-              "09-29-2026": 26
+              "09-29-2026": 1,
+              "09-30-2026": 25
             }
           },
           {
@@ -620,7 +625,7 @@
           }
         ]
       },
-      "sha512": "c3d9358cbe4eab97680f3a4507fdcc5b6a92ac474c78e0bdaeb8f4dbf6621a7b22f3678e8a066f7dea669bd15460cb868d449aeb9158d5b89f51591102ac6d88"
+      "sha512": "dbba33b3fb3dcee79fa1bb6c06abc2885e034a97d6a195c1945e8484e6952f86a3591a21c7a943e2c1c83a00ab3a11257aebd9cd0302e77c40db85e7c64edc1b"
     }
   ],
   "measure_info": {
@@ -742,7 +747,7 @@
         "geography": {
           "status": "present",
           "same_type": true,
-          "added_levels": ["12009", "29047"],
+          "added_levels": [],
           "dropped_levels": []
         },
         "time": {
@@ -754,13 +759,13 @@
         "condition": {
           "status": "present",
           "same_type": true,
-          "added_levels": ["Adenovirus", "Croup"],
+          "added_levels": [],
           "dropped_levels": []
         },
         "estimated_onset": {
           "status": "present",
           "same_type": true,
-          "added_levels": "09-14-2026",
+          "added_levels": [],
           "dropped_levels": []
         },
         "value": {
@@ -774,13 +779,13 @@
         "date_scraped": {
           "status": "present",
           "same_type": true,
-          "added_levels": [],
+          "added_levels": "09-30-2026",
           "dropped_levels": []
         },
         "date_epic_updated": {
           "status": "present",
           "same_type": true,
-          "added_levels": "09-29-2026",
+          "added_levels": [],
           "dropped_levels": []
         }
       }
