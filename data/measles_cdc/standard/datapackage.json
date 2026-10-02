@@ -3,14 +3,15 @@
   "title": "Measles Cdc",
   "resources": [
     {
-      "bytes": 975,
+      "bytes": 981,
       "encoding": "windows-1253",
-      "md5": "7f67791dd22539f9b864ecbe78a9b76f",
+      "md5": "77ea40a44f266409be65fb87d351c98a",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "4f5f82b74fee87819b5256fbfbe28452f2ef0a96",
           "92165ba0434215c18291da024df0b5686bb1dd4d",
           "470c1d54908a4964f30e384f2030a4b3146c55e7",
           "4f414c16a4f925ee7be5bf060dab7488362b1688",
@@ -65,6 +66,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "weinbergerlab <dweinber@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -91,6 +93,7 @@
           "danweinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Sep 25 19:25:48 2026 +0000",
           "Fri Sep 18 20:20:20 2026 +0000",
           "Fri Sep 11 19:29:31 2026 +0000",
           "Fri Sep 4 19:32:10 2026 +0000",
@@ -145,6 +148,7 @@
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
+          "scheduled data build",
           "Add CDC CFA RT (respiratory tract) data source",
           "scheduled data build",
           "scheduled data build",
@@ -181,29 +185,29 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-25 18:18:14.984007",
-      "last_modified": "2026-09-25 18:18:14.984007",
+      "created": "2026-10-02 18:17:27.772489",
+      "last_modified": "2026-10-02 18:17:27.772489",
       "vintage": {},
-      "row_count": 247,
+      "row_count": 248,
       "entity_count": 1,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 246,
+            "duplicates": 247,
             "info": [],
-            "time_range": [0, 246],
+            "time_range": [0, 247],
             "type": "string",
             "missing": 0,
             "table": {
-              "00": 247
+              "00": 248
             }
           },
           {
             "name": "time",
             "duplicates": 0,
             "info": [],
-            "time_range": [0, 246],
+            "time_range": [0, 247],
             "type": "string",
             "missing": 0,
             "table": {
@@ -453,12 +457,13 @@
               "2026-09-05": 1,
               "2026-09-12": 1,
               "2026-09-19": 1,
-              "2026-09-26": 1
+              "2026-09-26": 1,
+              "2026-10-03": 1
             }
           },
           {
             "name": "value",
-            "duplicates": 173,
+            "duplicates": 171,
             "info": {
               "id": "value",
               "short_name": "Measles Cases",
@@ -476,17 +481,17 @@
                 }
               ]
             },
-            "time_range": [0, 246],
+            "time_range": [0, 247],
             "type": "integer",
             "missing": 0,
-            "mean": 25.963563,
-            "sd": 45.792332,
+            "mean": 26.778226,
+            "sd": 46.972246,
             "min": 0,
             "max": 296
           }
         ]
       },
-      "sha512": "3f03f2eb2b132b88bfd0cd8256093161d2e0ae1b9a2255d97c8d1da810a310a72932a141fc1a5495f94aa25e68b3ba0ef3b7890422aa4e4a5b87b10c6aa3d845"
+      "sha512": "6fbd4427a6ec2f2e4580929a8a9d6e4311545c631f13147c33b5f2b2e203720aa98162c759d57cb28ffd688473bbcb09cf746fdc37c73901692e2a0278617c9d"
     }
   ],
   "measure_info": {
@@ -534,7 +539,7 @@
         "time": {
           "status": "present",
           "same_type": true,
-          "added_levels": "2026-09-26",
+          "added_levels": "2026-10-03",
           "dropped_levels": []
         },
         "value": {
