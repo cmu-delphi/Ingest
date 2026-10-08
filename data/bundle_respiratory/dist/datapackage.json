@@ -3,14 +3,15 @@
   "title": "Bundle Respiratory",
   "resources": [
     {
-      "bytes": 1778782,
+      "bytes": 1796100,
       "encoding": "windows-1252",
-      "md5": "9b975b3b20a43cde4076f967cf89d8e9",
+      "md5": "dc9f19d5e439fdc23583ef5101b1c53f",
       "format": "parquet",
       "name": "covid_ed_visits_by_county",
       "filename": "covid_ed_visits_by_county.parquet",
       "versions": {
         "hash": [
+          "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "4f5f82b74fee87819b5256fbfbe28452f2ef0a96",
           "87eb6a45f8cf51c8354a05408d1a81a68dcb0d39",
@@ -153,6 +154,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -259,6 +261,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Fri Sep 25 19:25:48 2026 +0000",
           "Thu Sep 24 07:19:34 2026 +0000",
@@ -383,6 +386,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
@@ -517,8 +521,8 @@
       "id_length": "NA",
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 19:46:37.235389",
-      "last_modified": "2026-10-02 19:46:37.235389",
+      "created": "2026-10-08 07:27:20.42234",
+      "last_modified": "2026-10-08 07:27:20.42234",
       "vintage": {},
       "row_count": 656469,
       "entity_count": 0,
@@ -880,17 +884,18 @@
           }
         ]
       },
-      "sha512": "d60e1ed12e0f3519d5e261f3aa5995ab75b22823c7145b4a1238315e9aa696f3116b1757bbcd159bb839697411038f2e9ebf9d6521116c30a52c32591ddc69f0"
+      "sha512": "4f8c109565388d0f523f4e93dcd562eaa13f18ca9b621443c7983411caff1d7b353b961e09ec0870d33c03f1d5ed936d2ff64ec8e9e4744e4ef6c1afd9c5e823"
     },
     {
-      "bytes": 1024732,
+      "bytes": 1018676,
       "encoding": "windows-1252",
-      "md5": "cf5fc572554194857d2f04e55ed26f3a",
+      "md5": "05b4897e0cbd2aef1fe60a607dc85250",
       "format": "parquet",
       "name": "covid_overall_trends",
       "filename": "covid_overall_trends.parquet",
       "versions": {
         "hash": [
+          "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "7be80843e6f9215a3f9a05c062d1b63e5f5375d1",
           "4f5f82b74fee87819b5256fbfbe28452f2ef0a96",
@@ -1118,6 +1123,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -1293,6 +1299,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Tue Sep 29 19:50:08 2026 +0000",
           "Fri Sep 25 19:25:48 2026 +0000",
@@ -1494,6 +1501,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled data build",
@@ -1705,8 +1713,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 19:46:36.062384",
-      "last_modified": "2026-10-02 19:46:36.062384",
+      "created": "2026-10-08 07:27:19.009337",
+      "last_modified": "2026-10-08 07:27:19.009337",
       "vintage": {},
       "row_count": 31917,
       "entity_count": 52,
@@ -2270,17 +2278,18 @@
           }
         ]
       },
-      "sha512": "148bfad4436e00365b0726713bb0008c534d237f0ae9cfcf9419f8cdb63a08a4538a9e81aeb12275cf1890151dc3cac1b5c65a57470bff501c974eb91eae5583"
+      "sha512": "8c375675a72c9a864e42f41a54decd0ed643b3b7f0887d6b6f944b65ea6a7eb9f47b48c7aa9c98fe96161d67f355daeb1c77569d1e2211fecb6bd356c4eaa958"
     },
     {
-      "bytes": 1493846,
+      "bytes": 1488911,
       "encoding": "UTF-16BE",
-      "md5": "bf518fe7456b4ebdf5720ea7fceff722",
+      "md5": "4a24427a3267dd3d5a33394a9f309921",
       "format": "parquet",
       "name": "covid_trends_by_age",
       "filename": "covid_trends_by_age.parquet",
       "versions": {
         "hash": [
+          "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "7be80843e6f9215a3f9a05c062d1b63e5f5375d1",
           "4f5f82b74fee87819b5256fbfbe28452f2ef0a96",
@@ -2438,6 +2447,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -2553,6 +2563,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Tue Sep 29 19:50:08 2026 +0000",
           "Fri Sep 25 19:25:48 2026 +0000",
@@ -2689,6 +2700,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled data build",
@@ -2835,8 +2847,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 19:46:40.985409",
-      "last_modified": "2026-10-02 19:46:40.985409",
+      "created": "2026-10-08 07:27:23.639345",
+      "last_modified": "2026-10-08 07:27:23.639345",
       "vintage": {},
       "row_count": 137881,
       "entity_count": 53,
@@ -3463,17 +3475,18 @@
           }
         ]
       },
-      "sha512": "f94f0eaf5a77b3462e66398faa680b59ba4ae8e952f6736a1bc0b73c7ebe3a8d3dff6b6ff28d8aebcd05182abe6bd4a4b257704fb1b3d0dac33243f6bed1d447"
+      "sha512": "888c5aacde42778bfbc75e13240945007e7e1dafcc8425078feb3c29283a662a4c69fecb3cbac8cbd2dce51835b28597410ff59cf8b314b885004dd7a2eb1569"
     },
     {
-      "bytes": 1814214,
+      "bytes": 1838406,
       "encoding": "windows-1252",
-      "md5": "889a4228661d3e325422641d3a652ba4",
+      "md5": "f814f9d5e61a22037f391268aac2ae07",
       "format": "parquet",
       "name": "flu_ed_visits_by_county",
       "filename": "flu_ed_visits_by_county.parquet",
       "versions": {
         "hash": [
+          "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "4f5f82b74fee87819b5256fbfbe28452f2ef0a96",
           "87eb6a45f8cf51c8354a05408d1a81a68dcb0d39",
@@ -3616,6 +3629,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -3722,6 +3736,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Fri Sep 25 19:25:48 2026 +0000",
           "Thu Sep 24 07:19:34 2026 +0000",
@@ -3846,6 +3861,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
@@ -3980,8 +3996,8 @@
       "id_length": "NA",
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 19:46:37.031389",
-      "last_modified": "2026-10-02 19:46:37.031389",
+      "created": "2026-10-08 07:27:20.121339",
+      "last_modified": "2026-10-08 07:27:20.121339",
       "vintage": {},
       "row_count": 656469,
       "entity_count": 0,
@@ -4343,17 +4359,18 @@
           }
         ]
       },
-      "sha512": "91b6bd5d8f94fa1c90163ad408d7310550a67d823857c13a911acf04abdf3723b7082638a8cf4e15a70f2029c9d1471a7f4390d7af77f9d939d8b14169b27501"
+      "sha512": "7832138219417aabd801dcdbadc6b5dd1f3e474b420fdde3f14ddcf77364419f22cf5014deed776935d6d5a07e2775d228745c0760bce34ee200ced342ed91ed"
     },
     {
-      "bytes": 999682,
+      "bytes": 993368,
       "encoding": "windows-1252",
-      "md5": "b04a8c0752f9e07eea1a5d49bbd387cd",
+      "md5": "a263d3e763fe8f897edb76a5c788ce68",
       "format": "parquet",
       "name": "flu_overall_trends",
       "filename": "flu_overall_trends.parquet",
       "versions": {
         "hash": [
+          "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "7be80843e6f9215a3f9a05c062d1b63e5f5375d1",
           "4f5f82b74fee87819b5256fbfbe28452f2ef0a96",
@@ -4596,6 +4613,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -4782,6 +4800,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Tue Sep 29 19:50:08 2026 +0000",
           "Fri Sep 25 19:25:48 2026 +0000",
@@ -4996,6 +5015,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled data build",
@@ -5220,8 +5240,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 19:46:35.909383",
-      "last_modified": "2026-10-02 19:46:35.909383",
+      "created": "2026-10-08 07:27:18.918337",
+      "last_modified": "2026-10-08 07:27:18.918337",
       "vintage": {},
       "row_count": 32006,
       "entity_count": 52,
@@ -6412,17 +6432,18 @@
           }
         ]
       },
-      "sha512": "5f23e77dc089987c201074a68b06d68946ebc599beb35220a7b10aafcee098b1cd71ed8584d786595db3cfa934d454dfe4ee2adfdd39516de11ead3678823065"
+      "sha512": "c64b5f59b16df0e5c1b69047ecff9d15d423b25f33adbec7443195ed3f3811d45dac26da7a803ee82ba539c9dfd2a989c7ece22407763770593ff4e5445ba0f2"
     },
     {
-      "bytes": 1375516,
+      "bytes": 1367298,
       "encoding": "UTF-16BE",
-      "md5": "22fa0856301d32265b2b91fbbecb0b7b",
+      "md5": "d240920d64468d928484f7e407e9f483",
       "format": "parquet",
       "name": "flu_trends_by_age",
       "filename": "flu_trends_by_age.parquet",
       "versions": {
         "hash": [
+          "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "7be80843e6f9215a3f9a05c062d1b63e5f5375d1",
           "4f5f82b74fee87819b5256fbfbe28452f2ef0a96",
@@ -6580,6 +6601,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -6695,6 +6717,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Tue Sep 29 19:50:08 2026 +0000",
           "Fri Sep 25 19:25:48 2026 +0000",
@@ -6831,6 +6854,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled data build",
@@ -6977,8 +7001,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 19:46:40.903408",
-      "last_modified": "2026-10-02 19:46:40.903408",
+      "created": "2026-10-08 07:27:23.556345",
+      "last_modified": "2026-10-08 07:27:23.556345",
       "vintage": {},
       "row_count": 39033,
       "entity_count": 52,
@@ -7359,17 +7383,18 @@
           }
         ]
       },
-      "sha512": "040de05168041db2618195585ce0559e64b05c78df18da3ad8aa0a0ab57130310fbe08417919d8b70d4f4fe98c237c5ce2820dcbdb743365a5332be5cd22a221"
+      "sha512": "94886e66938f14b857f4b22adeaef2486a9409d6a319d6301bdcb59a4676c30239f56bf6abdbfc621af1e7ab5b149fd623a91b05425452362ec3c7ba7bbb549d"
     },
     {
-      "bytes": 130635,
+      "bytes": 120470,
       "encoding": "windows-1252",
-      "md5": "c648776c963fc4caf5101b93a0d84630",
+      "md5": "85e51e6d587bb556b77145eaf863ed82",
       "format": "parquet",
       "name": "other_measures_trends",
       "filename": "other_measures_trends.parquet",
       "versions": {
         "hash": [
+          "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "4f5f82b74fee87819b5256fbfbe28452f2ef0a96",
           "87eb6a45f8cf51c8354a05408d1a81a68dcb0d39",
@@ -7420,6 +7445,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -7432,6 +7458,7 @@
           "anshap32 <73296024+anshap32@users.noreply.github.com>"
         ],
         "date": [
+          "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Fri Sep 25 19:25:48 2026 +0000",
           "Thu Sep 24 07:19:34 2026 +0000",
@@ -7463,6 +7490,7 @@
           "Mon Jul 6 14:46:24 2026 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
@@ -7504,78 +7532,78 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 19:46:43.03442",
-      "last_modified": "2026-10-02 19:46:43.03442",
+      "created": "2026-10-08 07:27:25.249347",
+      "last_modified": "2026-10-08 07:27:25.249347",
       "vintage": {},
-      "row_count": 129615,
+      "row_count": 130083,
       "entity_count": 52,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 129563,
+            "duplicates": 130031,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
-              "Alabama": 2517,
-              "Alaska": 2430,
-              "Arizona": 2517,
-              "Arkansas": 2517,
-              "California": 2517,
-              "Colorado": 2517,
-              "Connecticut": 2517,
-              "Delaware": 2517,
-              "District of Columbia": 2397,
-              "Florida": 2517,
-              "Georgia": 2517,
-              "Hawaii": 2430,
-              "Idaho": 2430,
-              "Illinois": 2517,
-              "Indiana": 2517,
-              "Iowa": 2256,
-              "Kansas": 2517,
-              "Kentucky": 2517,
-              "Louisiana": 2517,
-              "Maine": 2430,
-              "Maryland": 2517,
-              "Massachusetts": 2517,
-              "Michigan": 2517,
-              "Minnesota": 2517,
-              "Mississippi": 2517,
-              "Missouri": 2517,
-              "Montana": 2430,
-              "Nebraska": 2430,
-              "Nevada": 2517,
-              "New Hampshire": 2430,
-              "New Jersey": 2517,
-              "New Mexico": 2430,
-              "New York": 2517,
-              "North Carolina": 2517,
-              "North Dakota": 2430,
-              "Ohio": 2517,
-              "Oklahoma": 2517,
-              "Oregon": 2517,
-              "Pennsylvania": 2517,
-              "Rhode Island": 2430,
-              "South Carolina": 2517,
-              "South Dakota": 2430,
-              "Tennessee": 2517,
-              "Texas": 2517,
-              "United States": 2760,
-              "Utah": 2517,
-              "Vermont": 2430,
-              "Virginia": 2517,
-              "Washington": 2517,
-              "West Virginia": 2517,
-              "Wisconsin": 2517,
-              "Wyoming": 2430
+              "Alabama": 2526,
+              "Alaska": 2439,
+              "Arizona": 2526,
+              "Arkansas": 2526,
+              "California": 2526,
+              "Colorado": 2526,
+              "Connecticut": 2526,
+              "Delaware": 2526,
+              "District of Columbia": 2406,
+              "Florida": 2526,
+              "Georgia": 2526,
+              "Hawaii": 2439,
+              "Idaho": 2439,
+              "Illinois": 2526,
+              "Indiana": 2526,
+              "Iowa": 2265,
+              "Kansas": 2526,
+              "Kentucky": 2526,
+              "Louisiana": 2526,
+              "Maine": 2439,
+              "Maryland": 2526,
+              "Massachusetts": 2526,
+              "Michigan": 2526,
+              "Minnesota": 2526,
+              "Mississippi": 2526,
+              "Missouri": 2526,
+              "Montana": 2439,
+              "Nebraska": 2439,
+              "Nevada": 2526,
+              "New Hampshire": 2439,
+              "New Jersey": 2526,
+              "New Mexico": 2439,
+              "New York": 2526,
+              "North Carolina": 2526,
+              "North Dakota": 2439,
+              "Ohio": 2526,
+              "Oklahoma": 2526,
+              "Oregon": 2526,
+              "Pennsylvania": 2526,
+              "Rhode Island": 2439,
+              "South Carolina": 2526,
+              "South Dakota": 2439,
+              "Tennessee": 2526,
+              "Texas": 2526,
+              "United States": 2769,
+              "Utah": 2526,
+              "Vermont": 2439,
+              "Virginia": 2526,
+              "Washington": 2526,
+              "West Virginia": 2526,
+              "Wisconsin": 2526,
+              "Wyoming": 2439
             }
           },
           {
             "name": "date",
-            "duplicates": 129286,
+            "duplicates": 129753,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
@@ -7909,12 +7937,13 @@
               "2026-09-26": 876,
               "2026-09-27": 408,
               "2026-09-28": 408,
-              "2026-09-29": 408
+              "2026-09-29": 408,
+              "2026-10-03": 468
             }
           },
           {
             "name": "source",
-            "duplicates": 129612,
+            "duplicates": 130080,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
@@ -7922,12 +7951,12 @@
             "table": {
               "CDC CFA Rt": 12336,
               "CDC NCHS Mortality": 1683,
-              "CDC NNDSS": 115596
+              "CDC NNDSS": 116064
             }
           },
           {
             "name": "variable",
-            "duplicates": 129594,
+            "duplicates": 130062,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
@@ -7942,15 +7971,15 @@
               "cdc_rt_rsv": 1100,
               "cdc_rt_rsv_lower": 1100,
               "cdc_rt_rsv_upper": 1100,
-              "haemophilus_influenzae_invasive_disease_age_5_years_non_b_serotype": 12844,
-              "haemophilus_influenzae_invasive_disease_age_5_years_nontypeable": 12844,
-              "haemophilus_influenzae_invasive_disease_age_5_years_serotype_b": 12844,
-              "haemophilus_influenzae_invasive_disease_age_5_years_unknown_serotype": 12844,
-              "haemophilus_influenzae_invasive_disease_all_ages_all_serotypes": 12844,
-              "influenza_associated_pediatric_mortality": 12844,
-              "novel_influenza_a_virus_infections_confirmed": 12844,
-              "novel_influenza_a_virus_infections_total": 12844,
-              "pertussis": 12844,
+              "haemophilus_influenzae_invasive_disease_age_5_years_non_b_serotype": 12896,
+              "haemophilus_influenzae_invasive_disease_age_5_years_nontypeable": 12896,
+              "haemophilus_influenzae_invasive_disease_age_5_years_serotype_b": 12896,
+              "haemophilus_influenzae_invasive_disease_age_5_years_unknown_serotype": 12896,
+              "haemophilus_influenzae_invasive_disease_all_ages_all_serotypes": 12896,
+              "influenza_associated_pediatric_mortality": 12896,
+              "novel_influenza_a_virus_infections_confirmed": 12896,
+              "novel_influenza_a_virus_infections_total": 12896,
+              "pertussis": 12896,
               "rate_chronic_lower_respiratory_diseases": 561,
               "rate_covid_19": 561,
               "rate_influenza_and_pneumonia": 561
@@ -7958,29 +7987,30 @@
           },
           {
             "name": "value",
-            "duplicates": 123066,
+            "duplicates": 123531,
             "info": [],
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 37.7725,
-            "sd": 497.250072,
+            "mean": 37.867612,
+            "sd": 497.346368,
             "min": 0,
             "max": 35493
           }
         ]
       },
-      "sha512": "12ae332dea79073e1de763487d7c8cf511656d652d2eedf59aeac85ffeb2b327bf9265c061512cf92367c0022568164ebc07563b90f94ffec2e230d78b08d32d"
+      "sha512": "a5bd1db4481a05b87873624d535530c45e8430f80c1325a8b5a85ae5f2540c73122a955fa3ce6cf48fc107b4d0547f8d518cc708c5b416c48cbf1fddd5da0b49"
     },
     {
-      "bytes": 140891,
+      "bytes": 140812,
       "encoding": "UTF-16BE",
-      "md5": "4ae52f67551a8c5cbf64c1325b9b7866",
+      "md5": "f521dee47e6fd3d28b3908c4d15d7de7",
       "format": "parquet",
       "name": "pneumococcus_by_geography_year",
       "filename": "pneumococcus_by_geography_year.parquet",
       "versions": {
         "hash": [
+          "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "4f5f82b74fee87819b5256fbfbe28452f2ef0a96",
           "87eb6a45f8cf51c8354a05408d1a81a68dcb0d39",
@@ -8078,6 +8108,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -8139,6 +8170,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Fri Sep 25 19:25:48 2026 +0000",
           "Thu Sep 24 07:19:34 2026 +0000",
@@ -8218,6 +8250,7 @@
           "Wed Nov 26 09:28:06 2025 -0500"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
@@ -8307,8 +8340,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 19:46:42.760418",
-      "last_modified": "2026-10-02 19:46:42.760418",
+      "created": "2026-10-08 07:27:24.997347",
+      "last_modified": "2026-10-08 07:27:24.997347",
       "vintage": {},
       "row_count": 23760,
       "entity_count": 10,
@@ -8536,17 +8569,18 @@
           }
         ]
       },
-      "sha512": "eb4391ddd317d1c9eacd964ef9beffcf210fe00f44a3367d0a9872ff1eb750661538099122c68f24253c9759a163b1533032673356da6b5b50a57a852e082857"
+      "sha512": "5b1f42065d9de3be0180a173c9469ea666d6e9442702e65f7f06b8ca413d21650a871b95f8d87741c5b03767200607d02191e9d0b307798234a5010e95f3f3f2"
     },
     {
-      "bytes": 4752,
+      "bytes": 4756,
       "encoding": "UTF-16BE",
-      "md5": "db606f14cbec5ef3cc7c6ecf137d7d76",
+      "md5": "96166a3ff28a785f6cbbd4e16cecd1a9",
       "format": "parquet",
       "name": "pneumococcus_by_geography",
       "filename": "pneumococcus_by_geography.parquet",
       "versions": {
         "hash": [
+          "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "4f5f82b74fee87819b5256fbfbe28452f2ef0a96",
           "87eb6a45f8cf51c8354a05408d1a81a68dcb0d39",
@@ -8657,6 +8691,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -8731,6 +8766,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Fri Sep 25 19:25:48 2026 +0000",
           "Thu Sep 24 07:19:34 2026 +0000",
@@ -8823,6 +8859,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
@@ -8925,8 +8962,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 19:46:42.449416",
-      "last_modified": "2026-10-02 19:46:42.449416",
+      "created": "2026-10-08 07:27:24.674346",
+      "last_modified": "2026-10-08 07:27:24.674346",
       "vintage": {},
       "row_count": 880,
       "entity_count": 10,
@@ -9127,17 +9164,18 @@
           }
         ]
       },
-      "sha512": "9d7263439878c07f72678a64611018d6171121cdef2e4b9c74ca43a8dddc4862e2dc86551d74fb9716cb51f20c226507f1b305a7fbf7925e33f396ab6fa85f5b"
+      "sha512": "90aea9ef0d6741ccc111a9276d4051aa1b431379298265a6a8d970ffba44e6fb7a27d880469954472c649ccaa3e3f8e6cab233918ca4eb1c9e8e495d1b95511d"
     },
     {
-      "bytes": 1847,
+      "bytes": 1857,
       "encoding": "windows-1252",
-      "md5": "5bd128f5875aa7beef9e9c995766fbe0",
+      "md5": "d6643a56b041f7bfbd3a1b99e0de593d",
       "format": "parquet",
       "name": "pneumococcus_comparison",
       "filename": "pneumococcus_comparison.parquet",
       "versions": {
         "hash": [
+          "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "4f5f82b74fee87819b5256fbfbe28452f2ef0a96",
           "87eb6a45f8cf51c8354a05408d1a81a68dcb0d39",
@@ -9210,6 +9248,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -9246,6 +9285,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Fri Sep 25 19:25:48 2026 +0000",
           "Thu Sep 24 07:19:34 2026 +0000",
@@ -9300,6 +9340,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
@@ -9364,8 +9405,8 @@
       "id_length": 11,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 19:46:42.811418",
-      "last_modified": "2026-10-02 19:46:42.811418",
+      "created": "2026-10-08 07:27:25.043347",
+      "last_modified": "2026-10-08 07:27:25.043347",
       "vintage": {},
       "row_count": 15,
       "entity_count": 1,
@@ -9477,17 +9518,18 @@
           }
         ]
       },
-      "sha512": "749e86c834370d1bae9e9bd835f3412fb86e80f76c6e53fe26d71d7218afc3a032f25c37ba21659006a09c48ba674feffcd2bff1cba59aa1f76a74ce4b9c4bfe"
+      "sha512": "76f0da07dfd51bedb58a301e820d1f754b37c40ececb36cc9daea2a972d240c638c0b8b723bc1a802c79762779427aa9e7f1ced23c570841c55577803f2d8086"
     },
     {
-      "bytes": 41805,
+      "bytes": 41787,
       "encoding": "windows-1252",
-      "md5": "eeef8921e750e6abc7a268e06c38a0cb",
+      "md5": "4b68709332b6867c80bcc8c8d94e11c5",
       "format": "parquet",
       "name": "pneumococcus_serotype_trends",
       "filename": "pneumococcus_serotype_trends.parquet",
       "versions": {
         "hash": [
+          "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "4f5f82b74fee87819b5256fbfbe28452f2ef0a96",
           "87eb6a45f8cf51c8354a05408d1a81a68dcb0d39",
@@ -9601,6 +9643,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -9678,6 +9721,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Fri Sep 25 19:25:48 2026 +0000",
           "Thu Sep 24 07:19:34 2026 +0000",
@@ -9773,6 +9817,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
@@ -9878,8 +9923,8 @@
       "id_length": "NA",
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 19:46:42.331416",
-      "last_modified": "2026-10-02 19:46:42.331416",
+      "created": "2026-10-08 07:27:24.578346",
+      "last_modified": "2026-10-08 07:27:24.578346",
       "vintage": {},
       "row_count": 9504,
       "entity_count": 0,
@@ -10071,17 +10116,18 @@
           }
         ]
       },
-      "sha512": "9cb669882d26051a04e56ce8d2fdb306e6fb25160f1cf507ff0f10b51800072c34e94928c2e052b84c102da313acd75e36fc7b620e7144917f5dfdeaa95c7a24"
+      "sha512": "9f523a45508c8f6086e108f1ee4e3941bba86923899096c7fdbd7af34b17cb3493f528a1b11de3e0e7352798027d6c051eb2c9c402b8a3b528d60befb4d26812"
     },
     {
-      "bytes": 1632686,
+      "bytes": 1663356,
       "encoding": "windows-1252",
-      "md5": "43d41fd9536abb082113c8a7bc80932a",
+      "md5": "3f6f7019913beccd3cf54e4cfe327d8f",
       "format": "parquet",
       "name": "rsv_ed_visits_by_county",
       "filename": "rsv_ed_visits_by_county.parquet",
       "versions": {
         "hash": [
+          "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "4f5f82b74fee87819b5256fbfbe28452f2ef0a96",
           "87eb6a45f8cf51c8354a05408d1a81a68dcb0d39",
@@ -10224,6 +10270,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -10330,6 +10377,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Fri Sep 25 19:25:48 2026 +0000",
           "Thu Sep 24 07:19:34 2026 +0000",
@@ -10454,6 +10502,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
@@ -10588,8 +10637,8 @@
       "id_length": "NA",
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 19:46:36.818388",
-      "last_modified": "2026-10-02 19:46:36.818388",
+      "created": "2026-10-08 07:27:19.826339",
+      "last_modified": "2026-10-08 07:27:19.826339",
       "vintage": {},
       "row_count": 656469,
       "entity_count": 0,
@@ -10951,17 +11000,18 @@
           }
         ]
       },
-      "sha512": "ef5aad77a2c5781ff1af3ca66105693ef8edfd685c26aae2c00897c3335636bdcb98765b00c22c44b745d431ff62f1ffde51d69bf1f73a302e5312314c43d8ef"
+      "sha512": "43ea855896d6f36d1c9648439404da79c055a297679c690b48012957365da7d1f191f36c00f41d0eaf0afe67eabc32687778d7a870e004fcb42a59c6ac32d2fa"
     },
     {
-      "bytes": 865781,
+      "bytes": 867125,
       "encoding": "windows-1252",
-      "md5": "9f7e6c80fc510d47f004a121a091c010",
+      "md5": "32d14cd33ff3730729ebe55a3baf604c",
       "format": "parquet",
       "name": "rsv_google_dma",
       "filename": "rsv_google_dma.parquet",
       "versions": {
         "hash": [
+          "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "7be80843e6f9215a3f9a05c062d1b63e5f5375d1",
           "4f5f82b74fee87819b5256fbfbe28452f2ef0a96",
@@ -11110,6 +11160,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -11206,6 +11257,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Tue Sep 29 19:50:08 2026 +0000",
           "Fri Sep 25 19:25:48 2026 +0000",
@@ -11328,6 +11380,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled data build",
@@ -11460,8 +11513,8 @@
       "id_length": "NA",
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 19:46:42.237415",
-      "last_modified": "2026-10-02 19:46:42.237415",
+      "created": "2026-10-08 07:27:24.505346",
+      "last_modified": "2026-10-08 07:27:24.505346",
       "vintage": {},
       "row_count": 322350,
       "entity_count": 0,
@@ -11634,17 +11687,18 @@
           }
         ]
       },
-      "sha512": "578745d58a6bc43c2b544fae7511a49237d01c78a3163e3c1e866286e69cae43e4f6ba16d17805e0aa3a3c81c1c5d98710b384536c2d7129a1279253a5528347"
+      "sha512": "cba8d3c340fe70af029ce943137570cd046e7b93fdaf441faf4f56cfc7189e45292bb0c1a8719756859f55ee5dbe16990e4accb8544d27d1572e92e12441a9d4"
     },
     {
-      "bytes": 728479,
-      "encoding": "windows-1252",
-      "md5": "a51f9c8c56b998a2176c12f2c0b72c5f",
+      "bytes": 724928,
+      "encoding": "ISO-8859-5",
+      "md5": "1e6e29517e44a428a3e63965b4ec4c5a",
       "format": "parquet",
       "name": "rsv_overall_trends",
       "filename": "rsv_overall_trends.parquet",
       "versions": {
         "hash": [
+          "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "7be80843e6f9215a3f9a05c062d1b63e5f5375d1",
           "4f5f82b74fee87819b5256fbfbe28452f2ef0a96",
@@ -11855,6 +11909,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -12013,6 +12068,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Tue Sep 29 19:50:08 2026 +0000",
           "Fri Sep 25 19:25:48 2026 +0000",
@@ -12197,6 +12253,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled data build",
@@ -12391,8 +12448,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 19:46:35.789382",
-      "last_modified": "2026-10-02 19:46:35.789382",
+      "created": "2026-10-08 07:27:18.824337",
+      "last_modified": "2026-10-08 07:27:18.824337",
       "vintage": {},
       "row_count": 27456,
       "entity_count": 52,
@@ -12920,17 +12977,18 @@
           }
         ]
       },
-      "sha512": "3b4683504d29f2c7b5dbd04e955f65e94cb7f72b450a4a1d47bf95d50a4be08d144ae785f48ce10a719147ac15e65e6c946dc68df5e1153fa2de6bac7a13d1a0"
+      "sha512": "47094ce198c222ffd5d9dcda345b8775f78b5133218061fb8e40eb21d74f194385ae218369b5552089e44381bc020f20c99701688bc80c44442318efbb6ed01a"
     },
     {
-      "bytes": 44548,
+      "bytes": 44628,
       "encoding": "windows-1252",
-      "md5": "06aff5aa1219642c4631ad6bd3d8e6c3",
+      "md5": "fc898391742c5d37780da2a11597b8b0",
       "format": "parquet",
       "name": "rsv_positive_tests",
       "filename": "rsv_positive_tests.parquet",
       "versions": {
         "hash": [
+          "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "4f5f82b74fee87819b5256fbfbe28452f2ef0a96",
           "87eb6a45f8cf51c8354a05408d1a81a68dcb0d39",
@@ -13084,6 +13142,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -13201,6 +13260,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Fri Sep 25 19:25:48 2026 +0000",
           "Thu Sep 24 07:19:34 2026 +0000",
@@ -13336,6 +13396,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
@@ -13481,8 +13542,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 19:46:36.104384",
-      "last_modified": "2026-10-02 19:46:36.104384",
+      "created": "2026-10-08 07:27:19.090338",
+      "last_modified": "2026-10-08 07:27:19.090338",
       "vintage": {},
       "row_count": 3586,
       "entity_count": 11,
@@ -14039,17 +14100,18 @@
           }
         ]
       },
-      "sha512": "4f4cfe03d239117bd490b001b06ee510a626e95d6ed878b6eceb144ab9875a228f55e91865e9b6a3f2919bcae0058cd7aa98e2b516c43c251fe42ba1518d5abc"
+      "sha512": "8512f8c9dc5da7db50b95193ebe6606583a6b97f4adfa722d42cc7777e4eb7fab4b4548ca948a2448fd13c7a326642369835ca3462bdf5bf789004a0be8667af"
     },
     {
-      "bytes": 129999,
+      "bytes": 130012,
       "encoding": "windows-1252",
-      "md5": "82d1823d22a3888cfa77f44081d58440",
+      "md5": "632fb617e892b7eee951b706658d8b05",
       "format": "parquet",
       "name": "rsv_testing_pct",
       "filename": "rsv_testing_pct.parquet",
       "versions": {
         "hash": [
+          "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "4f5f82b74fee87819b5256fbfbe28452f2ef0a96",
           "87eb6a45f8cf51c8354a05408d1a81a68dcb0d39",
@@ -14171,6 +14233,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -14256,6 +14319,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Fri Sep 25 19:25:48 2026 +0000",
           "Thu Sep 24 07:19:34 2026 +0000",
@@ -14359,6 +14423,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
@@ -14472,8 +14537,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 19:46:36.187384",
-      "last_modified": "2026-10-02 19:46:36.187384",
+      "created": "2026-10-08 07:27:19.175338",
+      "last_modified": "2026-10-08 07:27:19.175338",
       "vintage": {},
       "row_count": 16433,
       "entity_count": 53,
@@ -14771,17 +14836,18 @@
           }
         ]
       },
-      "sha512": "02fe617188b20252004171ec86eb8b6e6d1cda0fbabccefc3a0b9447c9581e467f25565ae864d5b8d9e2d3e5b9911f11db53767937e480fb9712b89a29506cb5"
+      "sha512": "0d97f4892dac0192ec19fef3aba919473d2371c4a4bf3e1185fb88db74a9e4388e91789d2c31a235b2810b599562913501429c2e18ae87606edd8037c9199f8f"
     },
     {
-      "bytes": 1430506,
+      "bytes": 1415210,
       "encoding": "UTF-16BE",
-      "md5": "511a6948671a5ad9f0f4f4e29bcc6399",
+      "md5": "52b33ff65c87e34515c08b6a32e554ab",
       "format": "parquet",
       "name": "rsv_trends_by_age",
       "filename": "rsv_trends_by_age.parquet",
       "versions": {
         "hash": [
+          "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "7be80843e6f9215a3f9a05c062d1b63e5f5375d1",
           "4f5f82b74fee87819b5256fbfbe28452f2ef0a96",
@@ -14939,6 +15005,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -15054,6 +15121,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Tue Sep 29 19:50:08 2026 +0000",
           "Fri Sep 25 19:25:48 2026 +0000",
@@ -15190,6 +15258,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled data build",
@@ -15336,8 +15405,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 19:46:40.853408",
-      "last_modified": "2026-10-02 19:46:40.853408",
+      "created": "2026-10-08 07:27:23.505345",
+      "last_modified": "2026-10-08 07:27:23.505345",
       "vintage": {},
       "row_count": 48159,
       "entity_count": 52,
@@ -15718,7 +15787,7 @@
           }
         ]
       },
-      "sha512": "a8921f7dd0fffc60558e9a524e8113010901a1fed082b6a43105286d5b8ac9ed8346e69ea66cabee3fa255f4860b21a6e5617518e13f30cedc23a9269159e154"
+      "sha512": "ad37e18acf2e413ffdee4134047368c5a2c1d9e1a2acb4ee859d15247d01940dab7687c3421c585bc695246ed8a5533c36aad72a33097ecb014d41f2018e257f"
     }
   ],
   "measure_info": {
@@ -18277,7 +18346,7 @@
         "week_end": {
           "status": "present",
           "same_type": true,
-          "added_levels": "2026-09-26",
+          "added_levels": [],
           "dropped_levels": []
         },
         "percent_visits_covid": {
@@ -18302,7 +18371,7 @@
         "date": {
           "status": "present",
           "same_type": true,
-          "added_levels": "2026-09-26",
+          "added_levels": [],
           "dropped_levels": []
         },
         "value": {
@@ -18398,7 +18467,7 @@
         "week_end": {
           "status": "present",
           "same_type": true,
-          "added_levels": "2026-09-26",
+          "added_levels": [],
           "dropped_levels": []
         },
         "percent_visits_flu": {
@@ -18423,7 +18492,7 @@
         "date": {
           "status": "present",
           "same_type": true,
-          "added_levels": "2026-09-26",
+          "added_levels": [],
           "dropped_levels": []
         },
         "value": {
@@ -18515,8 +18584,8 @@
         "date": {
           "status": "present",
           "same_type": true,
-          "added_levels": ["2026-09-23", "2026-09-24", "2026-09-25", "2026-09-27", "2026-09-28", "2026-09-29"],
-          "dropped_levels": ["2026-08-25", "2026-08-26", "2026-08-27", "2026-08-28", "2026-08-30", "2026-08-31"]
+          "added_levels": "2026-10-03",
+          "dropped_levels": []
         },
         "source": {
           "status": "present",
@@ -18674,7 +18743,7 @@
         "week_end": {
           "status": "present",
           "same_type": true,
-          "added_levels": "2026-09-26",
+          "added_levels": [],
           "dropped_levels": []
         },
         "percent_visits_rsv": {

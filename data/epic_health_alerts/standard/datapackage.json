@@ -4,14 +4,15 @@
   "licenses": [],
   "resources": [
     {
-      "bytes": 3071,
+      "bytes": 3070,
       "encoding": "windows-1252",
-      "md5": "58392a988fafad20ed375ebd71643c3d",
+      "md5": "f10c4bcaafbf31f4fa16f0cfd092ffa0",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "9f5bb023ef3eb698461b0c84840076a987afd714",
           "56e9be1e1f7463751783921d395d25ad442b8253",
           "523433d32458a73e1ed962db9957be78bd4777a0",
           "4fa767cf7ca8d2a20176cc6708d6282bb91780d0",
@@ -173,9 +174,11 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>"
         ],
         "date": [
+          "Wed Oct 7 07:21:52 2026 +0000",
           "Tue Oct 6 07:20:04 2026 +0000",
           "Mon Oct 5 07:35:24 2026 +0000",
           "Sun Oct 4 09:09:06 2026 +0000",
@@ -258,6 +261,7 @@
           "Thu Jul 16 12:53:03 2026 -0400"
         ],
         "message": [
+          "scheduled daily data update",
           "scheduled daily data update",
           "scheduled daily data update",
           "scheduled daily data update",
@@ -350,8 +354,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-07 07:21:29.345426",
-      "last_modified": "2026-10-07 07:21:29.345426",
+      "created": "2026-10-08 07:23:53.112014",
+      "last_modified": "2026-10-08 07:23:53.112014",
       "vintage": {},
       "row_count": 293,
       "entity_count": 53,
@@ -543,8 +547,8 @@
             "time_range": [3, 4],
             "type": "float",
             "missing": 0,
-            "mean": 451.324915,
-            "sd": 1347.859259,
+            "mean": 451.326962,
+            "sd": 1347.858601,
             "min": 0,
             "max": 10424.7
           },
@@ -617,7 +621,7 @@
               "09-29-2026": 1,
               "10-03-2026": 25,
               "10-05-2026": 2,
-              "10-07-2026": 28
+              "10-08-2026": 28
             }
           },
           {
@@ -658,12 +662,12 @@
               "09-25-2026": 24,
               "09-28-2026": 1,
               "10-02-2026": 27,
-              "10-06-2026": 28
+              "10-07-2026": 28
             }
           }
         ]
       },
-      "sha512": "a6f021ec685c7d925293721caeb8f690ec07f722e169e355e7905d5ad9c7027a5fc0307c62686b1386d4ec4990f5b237901c86e1f8519695a624097c895d634f"
+      "sha512": "f74be5aa38ad55d7c5a3ea0470afa0e9241c56cb69ca47440dd6a93eae7c4314245a2514d8b3361d0f16e5296cb71cd0a50b596cc968075eadeeca8cea38a739"
     }
   ],
   "measure_info": {
@@ -785,7 +789,7 @@
         "geography": {
           "status": "present",
           "same_type": true,
-          "added_levels": ["18095", "19179", "24001", "54061"],
+          "added_levels": [],
           "dropped_levels": []
         },
         "time": {
@@ -797,13 +801,13 @@
         "condition": {
           "status": "present",
           "same_type": true,
-          "added_levels": "Legionellosis",
+          "added_levels": [],
           "dropped_levels": []
         },
         "estimated_onset": {
           "status": "present",
           "same_type": true,
-          "added_levels": "09-21-2026",
+          "added_levels": [],
           "dropped_levels": []
         },
         "value": {
@@ -817,14 +821,14 @@
         "date_scraped": {
           "status": "present",
           "same_type": true,
-          "added_levels": "10-07-2026",
-          "dropped_levels": "10-06-2026"
+          "added_levels": "10-08-2026",
+          "dropped_levels": "10-07-2026"
         },
         "date_epic_updated": {
           "status": "present",
           "same_type": true,
-          "added_levels": "10-06-2026",
-          "dropped_levels": "10-05-2026"
+          "added_levels": "10-07-2026",
+          "dropped_levels": "10-06-2026"
         }
       }
     }
