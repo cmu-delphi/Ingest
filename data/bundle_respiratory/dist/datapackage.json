@@ -3,14 +3,15 @@
   "title": "Bundle Respiratory",
   "resources": [
     {
-      "bytes": 1796100,
+      "bytes": 1787612,
       "encoding": "windows-1252",
-      "md5": "dc9f19d5e439fdc23583ef5101b1c53f",
+      "md5": "6e1ff4e0029cfe17473cffefd178eefb",
       "format": "parquet",
       "name": "covid_ed_visits_by_county",
       "filename": "covid_ed_visits_by_county.parquet",
       "versions": {
         "hash": [
+          "788fb5ea0423199a95277c49613256fe493f6582",
           "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "4f5f82b74fee87819b5256fbfbe28452f2ef0a96",
@@ -155,6 +156,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -261,6 +263,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Thu Oct 8 07:27:48 2026 +0000",
           "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Fri Sep 25 19:25:48 2026 +0000",
@@ -386,6 +389,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
@@ -521,16 +525,16 @@
       "id_length": "NA",
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-08 07:27:20.42234",
-      "last_modified": "2026-10-08 07:27:20.42234",
+      "created": "2026-10-10 00:06:45.131352",
+      "last_modified": "2026-10-10 00:06:45.131352",
       "vintage": {},
-      "row_count": 656469,
+      "row_count": 659610,
       "entity_count": 0,
       "schema": {
         "fields": [
           {
             "name": "source",
-            "duplicates": 656468,
+            "duplicates": 659609,
             "info": {
               "short_name": "Data source",
               "levels": {
@@ -538,7 +542,7 @@
                   "source_id": "percent_visits_covid",
                   "id": "CDC NSSP",
                   "name": "percent_visits_covid",
-                  "duplicates": 666356,
+                  "duplicates": 669549,
                   "info": {
                     "full_name": "Percent of Emergency department visits coded as being caused by covid",
                     "measure": "percent",
@@ -563,12 +567,12 @@
                   },
                   "time_range": [
                     0,
-                    208
+                    209
                   ],
                   "type": "float",
-                  "missing": 4108,
-                  "mean": 1.103902,
-                  "sd": 1.201292,
+                  "missing": 4232,
+                  "mean": 1.101806,
+                  "sd": 1.199813,
                   "min": 0,
                   "max": 100
                 }
@@ -579,24 +583,24 @@
             "type": "string",
             "missing": 0,
             "table": {
-              "CDC NSSP": 656469
+              "CDC NSSP": 659610
             }
           },
           {
             "name": "fips",
-            "duplicates": 653328,
+            "duplicates": 656469,
             "info": [],
             "time_range": [-1, -1],
             "type": "integer",
             "missing": 0,
             "mean": 30408.393187,
-            "sd": 15150.372966,
+            "sd": 15150.372911,
             "min": 1001,
             "max": 56045
           },
           {
             "name": "week_end",
-            "duplicates": 656260,
+            "duplicates": 659400,
             "info": {
               "short_name": "Week ending date",
               "short_description": "Saturday date marking the end of the reporting week.",
@@ -816,12 +820,13 @@
               "2026-09-05": 3141,
               "2026-09-12": 3141,
               "2026-09-19": 3141,
-              "2026-09-26": 3141
+              "2026-09-26": 3141,
+              "2026-10-03": 3141
             }
           },
           {
             "name": "percent_visits_covid",
-            "duplicates": 655488,
+            "duplicates": 658629,
             "info": {
               "full_name": "Percent of Emergency department visits coded as being caused by covid",
               "measure": "percent",
@@ -844,15 +849,15 @@
             },
             "time_range": [-1, -1],
             "type": "float",
-            "missing": 3978,
-            "mean": 1.104092,
-            "sd": 1.205037,
+            "missing": 4100,
+            "mean": 1.102002,
+            "sd": 1.203556,
             "min": 0,
             "max": 100
           },
           {
             "name": "is_state_estimate",
-            "duplicates": 656467,
+            "duplicates": 659608,
             "info": {
               "full_name": "Indicator that the county value was imputed from state-level data",
               "measure": "flag",
@@ -877,24 +882,25 @@
             "time_range": [-1, -1],
             "type": "integer",
             "missing": 0,
-            "mean": 0.252199,
-            "sd": 0.434275,
+            "mean": 0.25234,
+            "sd": 0.434356,
             "min": 0,
             "max": 1
           }
         ]
       },
-      "sha512": "4f8c109565388d0f523f4e93dcd562eaa13f18ca9b621443c7983411caff1d7b353b961e09ec0870d33c03f1d5ed936d2ff64ec8e9e4744e4ef6c1afd9c5e823"
+      "sha512": "7a0485664b5c327d7e99a2fccf8c71f66c802c73d34d31121474f893ddfc0db2554711bdcfb4ebb853f0a8642e1cf4065f79dc1aa4c0bcca7e6a9ad47daf0c5d"
     },
     {
-      "bytes": 1018676,
+      "bytes": 1017511,
       "encoding": "windows-1252",
-      "md5": "05b4897e0cbd2aef1fe60a607dc85250",
+      "md5": "e0f7c362db82b477b66c84653c9b936c",
       "format": "parquet",
       "name": "covid_overall_trends",
       "filename": "covid_overall_trends.parquet",
       "versions": {
         "hash": [
+          "788fb5ea0423199a95277c49613256fe493f6582",
           "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "7be80843e6f9215a3f9a05c062d1b63e5f5375d1",
@@ -1124,6 +1130,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -1299,6 +1306,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Thu Oct 8 07:27:48 2026 +0000",
           "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Tue Sep 29 19:50:08 2026 +0000",
@@ -1501,6 +1509,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
@@ -1713,84 +1722,83 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-08 07:27:19.009337",
-      "last_modified": "2026-10-08 07:27:19.009337",
+      "created": "2026-10-10 00:06:44.045335",
+      "last_modified": "2026-10-10 00:06:44.045335",
       "vintage": {},
-      "row_count": 31917,
+      "row_count": 31932,
       "entity_count": 52,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 31865,
+            "duplicates": 31880,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
-              "Alabama": 599,
-              "Alaska": 409,
-              "Arizona": 599,
-              "Arkansas": 599,
+              "Alabama": 598,
+              "Alaska": 407,
+              "Arizona": 598,
+              "Arkansas": 598,
               "California": 703,
               "Colorado": 703,
               "Connecticut": 703,
-              "Delaware": 599,
+              "Delaware": 598,
               "District of Columbia": 401,
-              "Florida": 599,
+              "Florida": 598,
               "Georgia": 703,
-              "Hawaii": 599,
-              "Idaho": 599,
-              "Illinois": 599,
-              "Indiana": 599,
-              "Iowa": 586,
-              "Kansas": 599,
-              "Kentucky": 598,
-              "Louisiana": 599,
-              "Maine": 599,
+              "Hawaii": 598,
+              "Idaho": 598,
+              "Illinois": 598,
+              "Indiana": 598,
+              "Iowa": 584,
+              "Kansas": 598,
+              "Kentucky": 597,
+              "Louisiana": 598,
+              "Maine": 598,
               "Maryland": 703,
               "Massachusetts": 597,
               "Michigan": 703,
               "Minnesota": 702,
               "Mississippi": 598,
-              "Missouri": 599,
-              "Montana": 592,
-              "Nebraska": 599,
-              "Nevada": 599,
-              "New Hampshire": 599,
-              "New Jersey": 599,
+              "Missouri": 598,
+              "Montana": 590,
+              "Nebraska": 598,
+              "Nevada": 598,
+              "New Hampshire": 598,
+              "New Jersey": 598,
               "New Mexico": 703,
               "New York": 703,
-              "North Carolina": 702,
-              "North Dakota": 461,
-              "Ohio": 599,
-              "Oklahoma": 598,
+              "North Carolina": 703,
+              "North Dakota": 460,
+              "Ohio": 598,
+              "Oklahoma": 597,
               "Oregon": 703,
-              "Pennsylvania": 599,
-              "Rhode Island": 599,
-              "South Carolina": 599,
-              "South Dakota": 592,
+              "Pennsylvania": 598,
+              "Rhode Island": 598,
+              "South Carolina": 598,
+              "South Dakota": 591,
               "Tennessee": 703,
-              "Texas": 599,
+              "Texas": 598,
               "United States": 703,
-              "Utah": 703,
-              "Vermont": 583,
-              "Virginia": 599,
-              "Washington": 599,
+              "Utah": 702,
+              "Vermont": 582,
+              "Virginia": 597,
+              "Washington": 651,
               "West Virginia": 597,
-              "Wisconsin": 599,
-              "Wyoming": 490
+              "Wisconsin": 598,
+              "Wyoming": 489
             }
           },
           {
             "name": "date",
-            "duplicates": 31812,
+            "duplicates": 31827,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
-              "2024-09-28": 317,
               "2024-10-05": 317,
               "2024-10-12": 320,
               "2024-10-19": 320,
@@ -1843,63 +1851,64 @@
               "2025-09-13": 320,
               "2025-09-20": 320,
               "2025-09-27": 320,
-              "2025-10-04": 319,
-              "2025-10-11": 319,
-              "2025-10-18": 319,
-              "2025-10-25": 319,
-              "2025-11-01": 319,
-              "2025-11-08": 320,
-              "2025-11-15": 320,
-              "2025-11-22": 319,
-              "2025-11-29": 319,
-              "2025-12-06": 319,
-              "2025-12-13": 319,
-              "2025-12-20": 320,
-              "2025-12-27": 320,
-              "2026-01-03": 319,
-              "2026-01-10": 320,
-              "2026-01-17": 320,
-              "2026-01-24": 318,
-              "2026-01-31": 318,
-              "2026-02-07": 319,
-              "2026-02-14": 319,
-              "2026-02-21": 317,
-              "2026-02-28": 318,
-              "2026-03-07": 319,
-              "2026-03-14": 318,
-              "2026-03-21": 317,
-              "2026-03-28": 316,
-              "2026-04-04": 317,
-              "2026-04-11": 318,
-              "2026-04-18": 319,
-              "2026-04-25": 318,
-              "2026-05-02": 319,
-              "2026-05-09": 316,
-              "2026-05-16": 315,
-              "2026-05-23": 315,
-              "2026-05-30": 315,
-              "2026-06-06": 270,
-              "2026-06-13": 270,
-              "2026-06-20": 270,
-              "2026-06-27": 270,
-              "2026-07-04": 269,
-              "2026-07-11": 269,
-              "2026-07-18": 269,
-              "2026-07-25": 269,
-              "2026-08-01": 217,
-              "2026-08-08": 217,
-              "2026-08-15": 217,
-              "2026-08-22": 217,
-              "2026-08-29": 217,
-              "2026-09-05": 216,
-              "2026-09-12": 166,
-              "2026-09-19": 114,
-              "2026-09-26": 99
+              "2025-10-04": 320,
+              "2025-10-11": 320,
+              "2025-10-18": 320,
+              "2025-10-25": 320,
+              "2025-11-01": 320,
+              "2025-11-08": 321,
+              "2025-11-15": 321,
+              "2025-11-22": 320,
+              "2025-11-29": 320,
+              "2025-12-06": 320,
+              "2025-12-13": 320,
+              "2025-12-20": 321,
+              "2025-12-27": 321,
+              "2026-01-03": 320,
+              "2026-01-10": 321,
+              "2026-01-17": 321,
+              "2026-01-24": 319,
+              "2026-01-31": 319,
+              "2026-02-07": 320,
+              "2026-02-14": 320,
+              "2026-02-21": 318,
+              "2026-02-28": 319,
+              "2026-03-07": 320,
+              "2026-03-14": 319,
+              "2026-03-21": 318,
+              "2026-03-28": 317,
+              "2026-04-04": 318,
+              "2026-04-11": 319,
+              "2026-04-18": 320,
+              "2026-04-25": 319,
+              "2026-05-02": 320,
+              "2026-05-09": 317,
+              "2026-05-16": 316,
+              "2026-05-23": 316,
+              "2026-05-30": 316,
+              "2026-06-06": 271,
+              "2026-06-13": 271,
+              "2026-06-20": 271,
+              "2026-06-27": 271,
+              "2026-07-04": 270,
+              "2026-07-11": 270,
+              "2026-07-18": 270,
+              "2026-07-25": 270,
+              "2026-08-01": 218,
+              "2026-08-08": 218,
+              "2026-08-15": 218,
+              "2026-08-22": 218,
+              "2026-08-29": 218,
+              "2026-09-05": 218,
+              "2026-09-12": 218,
+              "2026-09-19": 166,
+              "2026-09-26": 163,
+              "2026-10-03": 114
             }
           },
           {
             "name": "value",
-            "duplicates": 11520,
+            "duplicates": 11460,
             "info": {
               "measure_column": "source",
               "short_name": "Value",
@@ -1909,14 +1918,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 37.329325,
-            "sd": 402.039098,
+            "mean": 37.040558,
+            "sd": 400.772988,
             "min": 0,
             "max": 18839
           },
           {
             "name": "value_smooth",
-            "duplicates": 9130,
+            "duplicates": 9178,
             "info": {
               "measure_column": "source",
               "short_name": "Smoothed value",
@@ -1926,14 +1935,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 33.02835,
-            "sd": 362.238612,
+            "mean": 32.65762,
+            "sd": 361.183549,
             "min": 0,
             "max": 17961
           },
           {
             "name": "value_scale",
-            "duplicates": 6170,
+            "duplicates": 6160,
             "info": {
               "measure_column": "source",
               "short_name": "Scaled value (0–100)",
@@ -1943,14 +1952,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 25.98514,
-            "sd": 22.69766,
+            "mean": 25.936945,
+            "sd": 22.63439,
             "min": 0,
             "max": 100
           },
           {
             "name": "value_smooth_scale",
-            "duplicates": 3041,
+            "duplicates": 3143,
             "info": {
               "measure_column": "source",
               "short_name": "Smoothed scaled value (0–100)",
@@ -1960,14 +1969,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 28.429622,
-            "sd": 24.288207,
+            "mean": 28.477122,
+            "sd": 24.243484,
             "min": 0,
             "max": 100
           },
           {
             "name": "source",
-            "duplicates": 31910,
+            "duplicates": 31925,
             "info": {
               "short_name": "Data source",
               "levels": {
@@ -1975,7 +1984,7 @@
                   "source_id": "epic_pct_covid",
                   "id": "Epic Cosmos, ED",
                   "name": "epic_pct_covid",
-                  "duplicates": 88428,
+                  "duplicates": 88212,
                   "info": {
                     "id": "epic_pct_covid",
                     "short_name": "COVID Patients (%)",
@@ -1998,20 +2007,20 @@
                   },
                   "time_range": [
                     0,
-                    451
+                    454
                   ],
                   "type": "float",
                   "missing": 0,
-                  "mean": 3.366032,
-                  "sd": 9.516996,
-                  "min": 0.000549,
+                  "mean": 3.308189,
+                  "sd": 9.41105,
+                  "min": 0.000532,
                   "max": 100
                 },
                 "CDC NSSP": {
                   "source_id": "percent_visits_covid",
                   "id": "CDC NSSP",
                   "name": "percent_visits_covid",
-                  "duplicates": 666356,
+                  "duplicates": 669549,
                   "info": {
                     "full_name": "Percent of Emergency department visits coded as being caused by covid",
                     "measure": "percent",
@@ -2036,12 +2045,12 @@
                   },
                   "time_range": [
                     0,
-                    208
+                    209
                   ],
                   "type": "float",
-                  "missing": 4108,
-                  "mean": 1.103902,
-                  "sd": 1.201292,
+                  "missing": 4232,
+                  "mean": 1.101806,
+                  "sd": 1.199813,
                   "min": 0,
                   "max": 100
                 },
@@ -2049,7 +2058,7 @@
                   "source_id": "rate_covid",
                   "id": "CDC RespNET",
                   "name": "rate_covid",
-                  "duplicates": 40487,
+                  "duplicates": 40697,
                   "info": {
                     "id": "rate_covid",
                     "short_name": "Number of laboratory confirmed cases of COVID-19 per 100,000 people",
@@ -2075,13 +2084,13 @@
                     }
                   },
                   "time_range": [
-                    394,
-                    395
+                    396,
+                    397
                   ],
                   "type": "float",
                   "missing": 86,
-                  "mean": 4.872921,
-                  "sd": 10.088669,
+                  "mean": 4.853112,
+                  "sd": 10.067345,
                   "min": 0,
                   "max": 189.2
                 },
@@ -2089,7 +2098,7 @@
                   "source_id": "wastewater_covid",
                   "id": "CDC NWSS",
                   "name": "wastewater_covid",
-                  "duplicates": 1485,
+                  "duplicates": 1433,
                   "info": {
                     "full_name": "wastewater_covid",
                     "measure": "wastewater_covid",
@@ -2117,15 +2126,15 @@
                     }
                   },
                   "time_range": [
-                    218,
-                    247
+                    219,
+                    248
                   ],
                   "type": "float",
                   "missing": 0,
-                  "mean": 6.145675,
-                  "sd": 4.305388,
+                  "mean": 6.586187,
+                  "sd": 4.563208,
                   "min": 0.075,
-                  "max": 16.427111
+                  "max": 17.525312
                 },
                 "CDC NHSN": {
                   "source_id": "delphi_nhsn_covid",
@@ -2249,18 +2258,18 @@
             "type": "string",
             "missing": 0,
             "table": {
-              "CDC NHSN": 4987,
-              "CDC NSSP": 5342,
-              "CDC NWSS": 5346,
-              "CDC RespNET": 1455,
-              "Delphi Doctor Claims": 5253,
-              "Delphi Hospital Claims": 4333,
-              "Epic Cosmos, ED": 5201
+              "CDC NHSN": 4937,
+              "CDC NSSP": 5341,
+              "CDC NWSS": 5345,
+              "CDC RespNET": 1523,
+              "Delphi Doctor Claims": 5202,
+              "Delphi Hospital Claims": 4283,
+              "Epic Cosmos, ED": 5301
             }
           },
           {
             "name": "suppressed_flag",
-            "duplicates": 31915,
+            "duplicates": 31930,
             "info": {
               "short_name": "Suppressed flag",
               "short_description": "Equals 1 when the underlying Epic Cosmos count was suppressed (small cell) and imputed; 0 otherwise. Non-Epic sources are 0.",
@@ -2271,24 +2280,25 @@
             "time_range": [-1, -1],
             "type": "integer",
             "missing": 0,
-            "mean": 0.021337,
-            "sd": 0.144506,
+            "mean": 0.02189,
+            "sd": 0.146328,
             "min": 0,
             "max": 1
           }
         ]
       },
-      "sha512": "8c375675a72c9a864e42f41a54decd0ed643b3b7f0887d6b6f944b65ea6a7eb9f47b48c7aa9c98fe96161d67f355daeb1c77569d1e2211fecb6bd356c4eaa958"
+      "sha512": "a54c7495d6eaa14fe4245a2594935eed2db10368f9bfa9252b12babcbd72c582933abb4a48cf54545101e89410c7195ea14203a578c0bda3be019785be121898"
     },
     {
-      "bytes": 1488911,
+      "bytes": 1507781,
       "encoding": "UTF-16BE",
-      "md5": "4a24427a3267dd3d5a33394a9f309921",
+      "md5": "db0f9cf148017bad2646eb3691b283d5",
       "format": "parquet",
       "name": "covid_trends_by_age",
       "filename": "covid_trends_by_age.parquet",
       "versions": {
         "hash": [
+          "788fb5ea0423199a95277c49613256fe493f6582",
           "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "7be80843e6f9215a3f9a05c062d1b63e5f5375d1",
@@ -2448,6 +2458,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -2563,6 +2574,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Thu Oct 8 07:27:48 2026 +0000",
           "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Tue Sep 29 19:50:08 2026 +0000",
@@ -2700,6 +2712,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
@@ -2847,16 +2860,16 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-08 07:27:23.639345",
-      "last_modified": "2026-10-08 07:27:23.639345",
+      "created": "2026-10-10 00:06:48.509404",
+      "last_modified": "2026-10-10 00:06:48.509404",
       "vintage": {},
-      "row_count": 137881,
+      "row_count": 138871,
       "entity_count": 53,
       "schema": {
         "fields": [
           {
             "name": "date",
-            "duplicates": 137530,
+            "duplicates": 138518,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
@@ -3108,8 +3121,8 @@
               "2024-08-31": 364,
               "2024-09-07": 364,
               "2024-09-14": 364,
-              "2024-09-21": 462,
-              "2024-09-28": 462,
+              "2024-09-21": 364,
+              "2024-09-28": 364,
               "2024-10-05": 462,
               "2024-10-12": 462,
               "2024-10-19": 462,
@@ -3210,93 +3223,95 @@
               "2026-08-15": 469,
               "2026-08-22": 469,
               "2026-08-29": 469,
-              "2026-09-05": 457,
-              "2026-09-12": 210,
-              "2026-09-19": 210
+              "2026-09-05": 469,
+              "2026-09-12": 469,
+              "2026-09-19": 469,
+              "2026-09-26": 446,
+              "2026-10-03": 210
             }
           },
           {
             "name": "geography",
-            "duplicates": 137828,
+            "duplicates": 138818,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
-            "missing": 89755,
+            "missing": 90385,
             "table": {
-              "Alabama": 720,
-              "Alaska": 721,
-              "Arizona": 721,
-              "Arkansas": 720,
-              "California": 1456,
-              "Colorado": 1456,
-              "Connecticut": 1456,
-              "Delaware": 721,
-              "District of Columbia": 719,
-              "Florida": 721,
-              "Georgia": 1456,
-              "Hawaii": 721,
-              "Idaho": 721,
-              "Illinois": 721,
-              "Indiana": 721,
-              "Iowa": 721,
-              "Kansas": 721,
-              "Kentucky": 721,
-              "Louisiana": 721,
-              "Maine": 721,
-              "Maryland": 1456,
-              "Massachusetts": 721,
-              "Michigan": 1456,
-              "Minnesota": 1456,
-              "Mississippi": 717,
-              "Missouri": 721,
+              "Alabama": 728,
+              "Alaska": 728,
+              "Arizona": 728,
+              "Arkansas": 728,
+              "California": 1463,
+              "Colorado": 1462,
+              "Connecticut": 1463,
+              "Delaware": 728,
+              "District of Columbia": 725,
+              "Florida": 727,
+              "Georgia": 1463,
+              "Hawaii": 728,
+              "Idaho": 728,
+              "Illinois": 727,
+              "Indiana": 728,
+              "Iowa": 728,
+              "Kansas": 728,
+              "Kentucky": 728,
+              "Louisiana": 728,
+              "Maine": 728,
+              "Maryland": 1463,
+              "Massachusetts": 728,
+              "Michigan": 1463,
+              "Minnesota": 1463,
+              "Mississippi": 728,
+              "Missouri": 728,
               "Montana": 721,
-              "Nebraska": 721,
-              "Nevada": 721,
-              "New Hampshire": 720,
-              "New Jersey": 720,
-              "New Mexico": 1456,
-              "New York": 1456,
-              "North Carolina": 1442,
-              "North Dakota": 721,
-              "Ohio": 735,
-              "Oklahoma": 721,
-              "Oregon": 1456,
-              "Pennsylvania": 721,
-              "Rhode Island": 720,
-              "South Carolina": 721,
-              "South Dakota": 721,
-              "Tennessee": 1455,
-              "Texas": 721,
-              "United States": 1456,
+              "Nebraska": 728,
+              "Nevada": 728,
+              "New Hampshire": 728,
+              "New Jersey": 727,
+              "New Mexico": 1463,
+              "New York": 1463,
+              "North Carolina": 1463,
+              "North Dakota": 727,
+              "Ohio": 727,
+              "Oklahoma": 728,
+              "Oregon": 1463,
+              "Pennsylvania": 728,
+              "Rhode Island": 727,
+              "South Carolina": 728,
+              "South Dakota": 728,
+              "Tennessee": 1463,
+              "Texas": 726,
+              "United States": 1463,
               "Utah": 1456,
-              "Vermont": 721,
-              "Virginia": 721,
-              "Washington": 1078,
-              "West Virginia": 721,
-              "Wisconsin": 721,
-              "Wyoming": 720
+              "Vermont": 728,
+              "Virginia": 724,
+              "Washington": 1099,
+              "West Virginia": 728,
+              "Wisconsin": 728,
+              "Wyoming": 727
             }
           },
           {
             "name": "age",
-            "duplicates": 137874,
+            "duplicates": 138864,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
-              "<1 Years": 19699,
-              "1-4 Years": 19696,
-              "18-49 Years": 19698,
-              "5-17 Years": 19698,
-              "50-64 Years": 19698,
-              "65+ Years": 19694,
-              "Total": 19698
+              "<1 Years": 19840,
+              "1-4 Years": 19840,
+              "18-49 Years": 19840,
+              "5-17 Years": 19840,
+              "50-64 Years": 19839,
+              "65+ Years": 19832,
+              "Total": 19840
             }
           },
           {
             "name": "source",
-            "duplicates": 137878,
+            "duplicates": 138868,
             "info": {
               "short_name": "Data source",
               "levels": {
@@ -3304,7 +3319,7 @@
                   "source_id": "epic_pct_covid",
                   "id": "Epic Cosmos (ED)",
                   "name": "epic_pct_covid",
-                  "duplicates": 88428,
+                  "duplicates": 88212,
                   "info": {
                     "id": "epic_pct_covid",
                     "short_name": "COVID Patients (%)",
@@ -3327,20 +3342,20 @@
                   },
                   "time_range": [
                     0,
-                    451
+                    454
                   ],
                   "type": "float",
                   "missing": 0,
-                  "mean": 3.366032,
-                  "sd": 9.516996,
-                  "min": 0.000549,
+                  "mean": 3.308189,
+                  "sd": 9.41105,
+                  "min": 0.000532,
                   "max": 100
                 },
                 "CDC RSV-NET (Hospitalization)": {
                   "source_id": "rate_covid",
                   "id": "CDC RSV-NET (Hospitalization)",
                   "name": "rate_covid",
-                  "duplicates": 40487,
+                  "duplicates": 40697,
                   "info": {
                     "id": "rate_covid",
                     "short_name": "Number of laboratory confirmed cases of COVID-19 per 100,000 people",
@@ -3366,13 +3381,13 @@
                     }
                   },
                   "time_range": [
-                    394,
-                    395
+                    396,
+                    397
                   ],
                   "type": "float",
                   "missing": 86,
-                  "mean": 4.872921,
-                  "sd": 10.088669,
+                  "mean": 4.853112,
+                  "sd": 10.067345,
                   "min": 0,
                   "max": 189.2
                 }
@@ -3381,15 +3396,15 @@
             },
             "time_range": [-1, -1],
             "type": "string",
-            "missing": 89755,
+            "missing": 90385,
             "table": {
-              "CDC RSV-NET (Hospitalization)": 10647,
-              "Epic Cosmos (ED)": 37479
+              "CDC RSV-NET (Hospitalization)": 10661,
+              "Epic Cosmos (ED)": 37825
             }
           },
           {
             "name": "value",
-            "duplicates": 115099,
+            "duplicates": 115927,
             "info": {
               "measure_column": "source",
               "short_name": "Value",
@@ -3398,15 +3413,15 @@
             },
             "time_range": [-1, -1],
             "type": "float",
-            "missing": 89755,
-            "mean": 1.909712,
-            "sd": 6.199364,
+            "missing": 90385,
+            "mean": 1.86212,
+            "sd": 6.099187,
             "min": 0,
             "max": 100
           },
           {
             "name": "value_smooth",
-            "duplicates": 100221,
+            "duplicates": 100896,
             "info": {
               "measure_column": "source",
               "short_name": "Smoothed value",
@@ -3415,15 +3430,15 @@
             },
             "time_range": [-1, -1],
             "type": "float",
-            "missing": 89755,
-            "mean": 1.19713,
-            "sd": 3.791794,
+            "missing": 90385,
+            "mean": 1.154235,
+            "sd": 3.648926,
             "min": 0,
-            "max": 98.953626
+            "max": 98.952343
           },
           {
             "name": "value_scale",
-            "duplicates": 103289,
+            "duplicates": 103857,
             "info": {
               "measure_column": "source",
               "short_name": "Scaled value (0–100)",
@@ -3432,15 +3447,15 @@
             },
             "time_range": [-1, -1],
             "type": "float",
-            "missing": 89759,
-            "mean": 23.068949,
-            "sd": 23.688372,
+            "missing": 90385,
+            "mean": 22.976733,
+            "sd": 23.577273,
             "min": 0,
             "max": 100
           },
           {
             "name": "value_smooth_scale",
-            "duplicates": 98045,
+            "duplicates": 98721,
             "info": {
               "measure_column": "source",
               "short_name": "Smoothed scaled value (0–100)",
@@ -3449,15 +3464,15 @@
             },
             "time_range": [-1, -1],
             "type": "float",
-            "missing": 89759,
-            "mean": 26.690867,
-            "sd": 25.621578,
+            "missing": 90385,
+            "mean": 26.889383,
+            "sd": 25.65836,
             "min": 0,
             "max": 100
           },
           {
             "name": "suppressed_flag",
-            "duplicates": 137879,
+            "duplicates": 138869,
             "info": {
               "short_name": "Suppressed flag",
               "short_description": "Equals 1 when the underlying Epic Cosmos count for this age group was suppressed (small cell) and imputed; 0 otherwise.",
@@ -3468,24 +3483,25 @@
             "time_range": [-1, -1],
             "type": "integer",
             "missing": 0,
-            "mean": 0.374693,
-            "sd": 0.484045,
+            "mean": 0.372353,
+            "sd": 0.483433,
             "min": 0,
             "max": 1
           }
         ]
       },
-      "sha512": "888c5aacde42778bfbc75e13240945007e7e1dafcc8425078feb3c29283a662a4c69fecb3cbac8cbd2dce51835b28597410ff59cf8b314b885004dd7a2eb1569"
+      "sha512": "487d5b3abc2bb9d763c9b06b81f18eee23f1669145200b6bd0ddd1c48075755dcdfbf9b8ed4917c4248c822f58993e4e277f1508ebdb572f422b4a83cd61e149"
     },
     {
-      "bytes": 1838406,
+      "bytes": 1819908,
       "encoding": "windows-1252",
-      "md5": "f814f9d5e61a22037f391268aac2ae07",
+      "md5": "00f348df27f1e856106b627c324aad43",
       "format": "parquet",
       "name": "flu_ed_visits_by_county",
       "filename": "flu_ed_visits_by_county.parquet",
       "versions": {
         "hash": [
+          "788fb5ea0423199a95277c49613256fe493f6582",
           "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "4f5f82b74fee87819b5256fbfbe28452f2ef0a96",
@@ -3630,6 +3646,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -3736,6 +3753,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Thu Oct 8 07:27:48 2026 +0000",
           "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Fri Sep 25 19:25:48 2026 +0000",
@@ -3861,6 +3879,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
@@ -3996,16 +4015,16 @@
       "id_length": "NA",
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-08 07:27:20.121339",
-      "last_modified": "2026-10-08 07:27:20.121339",
+      "created": "2026-10-10 00:06:44.927349",
+      "last_modified": "2026-10-10 00:06:44.927349",
       "vintage": {},
-      "row_count": 656469,
+      "row_count": 659610,
       "entity_count": 0,
       "schema": {
         "fields": [
           {
             "name": "source",
-            "duplicates": 656468,
+            "duplicates": 659609,
             "info": {
               "short_name": "Data source",
               "levels": {
@@ -4013,7 +4032,7 @@
                   "source_id": "percent_visits_flu",
                   "id": "CDC NSSP",
                   "name": "percent_visits_flu",
-                  "duplicates": 665427,
+                  "duplicates": 668619,
                   "info": {
                     "full_name": "Percent of Emergency department visits coded as being caused by influenza",
                     "measure": "percent",
@@ -4038,12 +4057,12 @@
                   },
                   "time_range": [
                     0,
-                    208
+                    209
                   ],
                   "type": "float",
-                  "missing": 4108,
-                  "mean": 1.375263,
-                  "sd": 2.49044,
+                  "missing": 4232,
+                  "mean": 1.372874,
+                  "sd": 2.486839,
                   "min": 0,
                   "max": 100
                 }
@@ -4054,24 +4073,24 @@
             "type": "string",
             "missing": 0,
             "table": {
-              "CDC NSSP": 656469
+              "CDC NSSP": 659610
             }
           },
           {
             "name": "fips",
-            "duplicates": 653328,
+            "duplicates": 656469,
             "info": [],
             "time_range": [-1, -1],
             "type": "integer",
             "missing": 0,
             "mean": 30408.393187,
-            "sd": 15150.372966,
+            "sd": 15150.372911,
             "min": 1001,
             "max": 56045
           },
           {
             "name": "week_end",
-            "duplicates": 656260,
+            "duplicates": 659400,
             "info": {
               "short_name": "Week ending date",
               "short_description": "Saturday date marking the end of the reporting week.",
@@ -4291,12 +4310,13 @@
               "2026-09-05": 3141,
               "2026-09-12": 3141,
               "2026-09-19": 3141,
-              "2026-09-26": 3141
+              "2026-09-26": 3141,
+              "2026-10-03": 3141
             }
           },
           {
             "name": "percent_visits_flu",
-            "duplicates": 654559,
+            "duplicates": 657699,
             "info": {
               "full_name": "Percent of Emergency department visits coded as being caused by influenza",
               "measure": "percent",
@@ -4319,15 +4339,15 @@
             },
             "time_range": [-1, -1],
             "type": "float",
-            "missing": 3978,
-            "mean": 1.375918,
-            "sd": 2.496408,
+            "missing": 4100,
+            "mean": 1.37353,
+            "sd": 2.492797,
             "min": 0,
             "max": 100
           },
           {
             "name": "is_state_estimate",
-            "duplicates": 656467,
+            "duplicates": 659608,
             "info": {
               "full_name": "Indicator that the county value was imputed from state-level data",
               "measure": "flag",
@@ -4352,24 +4372,25 @@
             "time_range": [-1, -1],
             "type": "integer",
             "missing": 0,
-            "mean": 0.252199,
-            "sd": 0.434275,
+            "mean": 0.25234,
+            "sd": 0.434356,
             "min": 0,
             "max": 1
           }
         ]
       },
-      "sha512": "7832138219417aabd801dcdbadc6b5dd1f3e474b420fdde3f14ddcf77364419f22cf5014deed776935d6d5a07e2775d228745c0760bce34ee200ced342ed91ed"
+      "sha512": "45a0c99788636511ce36ea7e1686cc720e920e8d6e4d1ea2a9f1ee3a4497a1f6fb276556d1c9c899c3eb5ae5e4b97705a21cde3f4b0dfc77879e2172008fbec8"
     },
     {
-      "bytes": 993368,
+      "bytes": 998402,
       "encoding": "windows-1252",
-      "md5": "a263d3e763fe8f897edb76a5c788ce68",
+      "md5": "a9249591c7c1c1df49044d55c96b9c66",
       "format": "parquet",
       "name": "flu_overall_trends",
       "filename": "flu_overall_trends.parquet",
       "versions": {
         "hash": [
+          "788fb5ea0423199a95277c49613256fe493f6582",
           "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "7be80843e6f9215a3f9a05c062d1b63e5f5375d1",
@@ -4614,6 +4635,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -4800,6 +4822,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Thu Oct 8 07:27:48 2026 +0000",
           "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Tue Sep 29 19:50:08 2026 +0000",
@@ -5015,6 +5038,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
@@ -5240,90 +5264,83 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-08 07:27:18.918337",
-      "last_modified": "2026-10-08 07:27:18.918337",
+      "created": "2026-10-10 00:06:43.939334",
+      "last_modified": "2026-10-10 00:06:43.939334",
       "vintage": {},
-      "row_count": 32006,
+      "row_count": 32104,
       "entity_count": 52,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 31954,
+            "duplicates": 32052,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
-              "Alabama": 594,
-              "Alaska": 353,
-              "Arizona": 594,
-              "Arkansas": 594,
-              "California": 698,
-              "Colorado": 698,
-              "Connecticut": 647,
-              "Delaware": 594,
-              "District of Columbia": 499,
-              "Florida": 594,
-              "Georgia": 698,
+              "Alabama": 595,
+              "Alaska": 352,
+              "Arizona": 595,
+              "Arkansas": 595,
+              "California": 700,
+              "Colorado": 700,
+              "Connecticut": 648,
+              "Delaware": 595,
+              "District of Columbia": 500,
+              "Florida": 595,
+              "Georgia": 700,
               "Hawaii": 543,
-              "Idaho": 594,
-              "Illinois": 594,
-              "Indiana": 594,
+              "Idaho": 595,
+              "Illinois": 595,
+              "Indiana": 595,
               "Iowa": 581,
-              "Kansas": 594,
-              "Kentucky": 593,
-              "Louisiana": 594,
-              "Maine": 594,
-              "Maryland": 698,
-              "Massachusetts": 594,
-              "Michigan": 698,
-              "Minnesota": 698,
-              "Mississippi": 593,
-              "Missouri": 594,
+              "Kansas": 595,
+              "Kentucky": 594,
+              "Louisiana": 595,
+              "Maine": 595,
+              "Maryland": 700,
+              "Massachusetts": 595,
+              "Michigan": 700,
+              "Minnesota": 700,
+              "Mississippi": 595,
+              "Missouri": 595,
               "Montana": 562,
-              "Nebraska": 594,
-              "Nevada": 594,
-              "New Hampshire": 594,
-              "New Jersey": 594,
-              "New Mexico": 696,
-              "New York": 647,
-              "North Carolina": 698,
-              "North Dakota": 456,
-              "Ohio": 594,
-              "Oklahoma": 541,
-              "Oregon": 647,
-              "Pennsylvania": 594,
-              "Rhode Island": 594,
-              "South Carolina": 594,
+              "Nebraska": 595,
+              "Nevada": 595,
+              "New Hampshire": 595,
+              "New Jersey": 595,
+              "New Mexico": 697,
+              "New York": 648,
+              "North Carolina": 700,
+              "North Dakota": 457,
+              "Ohio": 595,
+              "Oklahoma": 540,
+              "Oregon": 648,
+              "Pennsylvania": 595,
+              "Rhode Island": 595,
+              "South Carolina": 595,
               "South Dakota": 536,
-              "Tennessee": 698,
-              "Texas": 594,
-              "United States": 1374,
+              "Tennessee": 700,
+              "Texas": 595,
+              "United States": 1369,
               "Utah": 647,
-              "Vermont": 578,
+              "Vermont": 579,
               "Virginia": 594,
-              "Washington": 594,
-              "West Virginia": 594,
-              "Wisconsin": 594,
-              "Wyoming": 485
+              "Washington": 648,
+              "West Virginia": 595,
+              "Wisconsin": 595,
+              "Wyoming": 486
             }
           },
           {
             "name": "date",
-            "duplicates": 31322,
+            "duplicates": 31426,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
-              "2024-09-26": 1,
-              "2024-09-27": 1,
-              "2024-09-28": 269,
-              "2024-09-29": 1,
-              "2024-09-30": 1,
-              "2024-10-01": 1,
-              "2024-10-02": 1,
               "2024-10-03": 1,
               "2024-10-04": 1,
               "2024-10-05": 269,
@@ -5690,322 +5707,323 @@
               "2025-10-01": 1,
               "2025-10-02": 1,
               "2025-10-03": 1,
-              "2025-10-04": 313,
+              "2025-10-04": 314,
               "2025-10-05": 1,
               "2025-10-06": 1,
               "2025-10-07": 1,
               "2025-10-08": 1,
               "2025-10-09": 1,
               "2025-10-10": 1,
-              "2025-10-11": 313,
+              "2025-10-11": 314,
               "2025-10-12": 1,
               "2025-10-13": 1,
               "2025-10-14": 1,
               "2025-10-15": 1,
               "2025-10-16": 1,
               "2025-10-17": 1,
-              "2025-10-18": 313,
+              "2025-10-18": 314,
               "2025-10-19": 1,
               "2025-10-20": 1,
               "2025-10-21": 1,
               "2025-10-22": 1,
               "2025-10-23": 1,
               "2025-10-24": 1,
-              "2025-10-25": 313,
+              "2025-10-25": 314,
               "2025-10-26": 1,
               "2025-10-27": 1,
               "2025-10-28": 1,
               "2025-10-29": 1,
               "2025-10-30": 1,
               "2025-10-31": 1,
-              "2025-11-01": 313,
+              "2025-11-01": 314,
               "2025-11-02": 1,
               "2025-11-03": 1,
               "2025-11-04": 1,
               "2025-11-05": 1,
               "2025-11-06": 1,
               "2025-11-07": 1,
-              "2025-11-08": 314,
+              "2025-11-08": 315,
               "2025-11-09": 1,
               "2025-11-10": 1,
               "2025-11-11": 1,
               "2025-11-12": 1,
               "2025-11-13": 1,
               "2025-11-14": 1,
-              "2025-11-15": 314,
+              "2025-11-15": 315,
               "2025-11-16": 1,
               "2025-11-17": 1,
               "2025-11-18": 1,
               "2025-11-19": 1,
               "2025-11-20": 1,
               "2025-11-21": 1,
-              "2025-11-22": 313,
+              "2025-11-22": 314,
               "2025-11-23": 1,
               "2025-11-24": 1,
               "2025-11-25": 1,
               "2025-11-26": 1,
               "2025-11-27": 1,
               "2025-11-28": 1,
-              "2025-11-29": 313,
+              "2025-11-29": 314,
               "2025-11-30": 1,
               "2025-12-01": 1,
               "2025-12-02": 1,
               "2025-12-03": 1,
               "2025-12-04": 1,
               "2025-12-05": 1,
-              "2025-12-06": 313,
+              "2025-12-06": 314,
               "2025-12-07": 1,
               "2025-12-08": 1,
               "2025-12-09": 1,
               "2025-12-10": 1,
               "2025-12-11": 1,
               "2025-12-12": 1,
-              "2025-12-13": 313,
+              "2025-12-13": 314,
               "2025-12-14": 1,
               "2025-12-15": 1,
               "2025-12-16": 1,
               "2025-12-17": 1,
               "2025-12-18": 1,
               "2025-12-19": 1,
-              "2025-12-20": 314,
+              "2025-12-20": 315,
               "2025-12-21": 1,
               "2025-12-22": 1,
               "2025-12-23": 1,
               "2025-12-24": 1,
               "2025-12-25": 1,
               "2025-12-26": 1,
-              "2025-12-27": 314,
+              "2025-12-27": 315,
               "2025-12-28": 1,
               "2025-12-29": 1,
               "2025-12-30": 1,
               "2025-12-31": 1,
               "2026-01-01": 1,
               "2026-01-02": 1,
-              "2026-01-03": 313,
+              "2026-01-03": 314,
               "2026-01-04": 1,
               "2026-01-05": 1,
               "2026-01-06": 1,
               "2026-01-07": 1,
               "2026-01-08": 1,
               "2026-01-09": 1,
-              "2026-01-10": 314,
+              "2026-01-10": 315,
               "2026-01-11": 1,
               "2026-01-12": 1,
               "2026-01-13": 1,
               "2026-01-14": 1,
               "2026-01-15": 1,
               "2026-01-16": 1,
-              "2026-01-17": 314,
+              "2026-01-17": 315,
               "2026-01-18": 1,
               "2026-01-19": 1,
               "2026-01-20": 1,
               "2026-01-21": 1,
               "2026-01-22": 1,
               "2026-01-23": 1,
-              "2026-01-24": 312,
+              "2026-01-24": 313,
               "2026-01-25": 1,
               "2026-01-26": 1,
               "2026-01-27": 1,
               "2026-01-28": 1,
               "2026-01-29": 1,
               "2026-01-30": 1,
-              "2026-01-31": 312,
+              "2026-01-31": 313,
               "2026-02-01": 1,
               "2026-02-02": 1,
               "2026-02-03": 1,
               "2026-02-04": 1,
               "2026-02-05": 1,
               "2026-02-06": 1,
-              "2026-02-07": 313,
+              "2026-02-07": 314,
               "2026-02-08": 1,
               "2026-02-09": 1,
               "2026-02-10": 1,
               "2026-02-11": 1,
               "2026-02-12": 1,
               "2026-02-13": 1,
-              "2026-02-14": 313,
+              "2026-02-14": 314,
               "2026-02-15": 1,
               "2026-02-16": 1,
               "2026-02-17": 1,
               "2026-02-18": 1,
               "2026-02-19": 1,
               "2026-02-20": 1,
-              "2026-02-21": 311,
+              "2026-02-21": 312,
               "2026-02-22": 1,
               "2026-02-23": 1,
               "2026-02-24": 1,
               "2026-02-25": 1,
               "2026-02-26": 1,
               "2026-02-27": 1,
-              "2026-02-28": 312,
+              "2026-02-28": 313,
               "2026-03-01": 1,
               "2026-03-02": 1,
               "2026-03-03": 1,
               "2026-03-04": 1,
               "2026-03-05": 1,
               "2026-03-06": 1,
-              "2026-03-07": 313,
+              "2026-03-07": 314,
               "2026-03-08": 1,
               "2026-03-09": 1,
               "2026-03-10": 1,
               "2026-03-11": 1,
               "2026-03-12": 1,
               "2026-03-13": 1,
-              "2026-03-14": 312,
+              "2026-03-14": 313,
               "2026-03-15": 1,
               "2026-03-16": 1,
               "2026-03-17": 1,
               "2026-03-18": 1,
               "2026-03-19": 1,
               "2026-03-20": 1,
-              "2026-03-21": 311,
+              "2026-03-21": 312,
               "2026-03-22": 1,
               "2026-03-23": 1,
               "2026-03-24": 1,
               "2026-03-25": 1,
               "2026-03-26": 1,
               "2026-03-27": 1,
-              "2026-03-28": 310,
+              "2026-03-28": 311,
               "2026-03-29": 1,
               "2026-03-30": 1,
               "2026-03-31": 1,
               "2026-04-01": 1,
               "2026-04-02": 1,
               "2026-04-03": 1,
-              "2026-04-04": 311,
+              "2026-04-04": 312,
               "2026-04-05": 1,
               "2026-04-06": 1,
               "2026-04-07": 1,
               "2026-04-08": 1,
               "2026-04-09": 1,
               "2026-04-10": 1,
-              "2026-04-11": 312,
+              "2026-04-11": 313,
               "2026-04-12": 1,
               "2026-04-13": 1,
               "2026-04-14": 1,
               "2026-04-15": 1,
               "2026-04-16": 1,
               "2026-04-17": 1,
-              "2026-04-18": 313,
+              "2026-04-18": 314,
               "2026-04-19": 1,
               "2026-04-20": 1,
               "2026-04-21": 1,
               "2026-04-22": 1,
               "2026-04-23": 1,
               "2026-04-24": 1,
-              "2026-04-25": 312,
+              "2026-04-25": 313,
               "2026-04-26": 1,
               "2026-04-27": 1,
               "2026-04-28": 1,
               "2026-04-29": 1,
               "2026-04-30": 1,
               "2026-05-01": 1,
-              "2026-05-02": 313,
+              "2026-05-02": 314,
               "2026-05-03": 1,
               "2026-05-04": 1,
               "2026-05-05": 1,
               "2026-05-06": 1,
               "2026-05-07": 1,
               "2026-05-08": 1,
-              "2026-05-09": 310,
+              "2026-05-09": 311,
               "2026-05-10": 1,
               "2026-05-11": 1,
               "2026-05-12": 1,
               "2026-05-13": 1,
               "2026-05-14": 1,
               "2026-05-15": 1,
-              "2026-05-16": 309,
+              "2026-05-16": 310,
               "2026-05-17": 1,
               "2026-05-18": 1,
               "2026-05-19": 1,
               "2026-05-20": 1,
               "2026-05-21": 1,
               "2026-05-22": 1,
-              "2026-05-23": 309,
+              "2026-05-23": 310,
               "2026-05-24": 1,
               "2026-05-25": 1,
               "2026-05-26": 1,
               "2026-05-27": 1,
               "2026-05-28": 1,
               "2026-05-29": 1,
-              "2026-05-30": 309,
+              "2026-05-30": 310,
               "2026-05-31": 1,
               "2026-06-01": 1,
               "2026-06-02": 1,
               "2026-06-03": 1,
               "2026-06-04": 1,
               "2026-06-05": 1,
-              "2026-06-06": 264,
+              "2026-06-06": 265,
               "2026-06-07": 1,
               "2026-06-08": 1,
               "2026-06-09": 1,
               "2026-06-10": 1,
               "2026-06-11": 1,
               "2026-06-12": 1,
-              "2026-06-13": 264,
+              "2026-06-13": 265,
               "2026-06-14": 1,
               "2026-06-15": 1,
               "2026-06-16": 1,
               "2026-06-17": 1,
               "2026-06-18": 1,
               "2026-06-19": 1,
-              "2026-06-20": 264,
+              "2026-06-20": 265,
               "2026-06-21": 1,
               "2026-06-22": 1,
               "2026-06-23": 1,
               "2026-06-24": 1,
               "2026-06-25": 1,
               "2026-06-26": 1,
-              "2026-06-27": 264,
+              "2026-06-27": 265,
               "2026-06-28": 1,
               "2026-06-29": 1,
               "2026-06-30": 1,
               "2026-07-01": 1,
               "2026-07-02": 1,
               "2026-07-03": 1,
-              "2026-07-04": 262,
+              "2026-07-04": 263,
               "2026-07-05": 1,
               "2026-07-06": 1,
               "2026-07-07": 1,
               "2026-07-08": 1,
               "2026-07-09": 1,
               "2026-07-10": 1,
-              "2026-07-11": 262,
+              "2026-07-11": 263,
               "2026-07-12": 1,
               "2026-07-13": 1,
               "2026-07-14": 1,
               "2026-07-15": 1,
               "2026-07-16": 1,
               "2026-07-17": 1,
-              "2026-07-18": 262,
+              "2026-07-18": 263,
               "2026-07-19": 1,
               "2026-07-20": 1,
               "2026-07-21": 1,
               "2026-07-22": 1,
               "2026-07-23": 1,
               "2026-07-24": 1,
-              "2026-07-25": 262,
+              "2026-07-25": 263,
               "2026-07-26": 1,
               "2026-07-27": 1,
               "2026-07-28": 1,
               "2026-07-29": 1,
               "2026-07-30": 1,
               "2026-07-31": 1,
-              "2026-08-01": 210,
+              "2026-08-01": 211,
               "2026-08-02": 1,
-              "2026-08-08": 209,
-              "2026-08-15": 209,
-              "2026-08-22": 209,
-              "2026-08-29": 209,
-              "2026-09-05": 208,
-              "2026-09-12": 158,
-              "2026-09-19": 155,
-              "2026-09-26": 97
+              "2026-08-08": 210,
+              "2026-08-15": 210,
+              "2026-08-22": 210,
+              "2026-08-29": 210,
+              "2026-09-05": 210,
+              "2026-09-12": 210,
+              "2026-09-19": 207,
+              "2026-09-26": 204,
+              "2026-10-03": 112
             }
           },
           {
             "name": "value",
-            "duplicates": 12248,
+            "duplicates": 12305,
             "info": {
               "measure_column": "source",
               "short_name": "Value",
@@ -6015,14 +6033,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 56.761729,
-            "sd": 913.901462,
+            "mean": 56.594944,
+            "sd": 912.510467,
             "min": 0,
             "max": 55717
           },
           {
             "name": "value_smooth",
-            "duplicates": 9054,
+            "duplicates": 9112,
             "info": {
               "measure_column": "source",
               "short_name": "Smoothed value",
@@ -6032,14 +6050,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 53.312423,
-            "sd": 893.019572,
+            "mean": 53.154771,
+            "sd": 891.660042,
             "min": 0,
             "max": 55066
           },
           {
             "name": "value_scale",
-            "duplicates": 7123,
+            "duplicates": 7150,
             "info": {
               "measure_column": "source",
               "short_name": "Scaled value (0–100)",
@@ -6049,14 +6067,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 16.329294,
-            "sd": 24.174354,
+            "mean": 16.350371,
+            "sd": 24.188751,
             "min": 0,
             "max": 100
           },
           {
             "name": "value_smooth_scale",
-            "duplicates": 4304,
+            "duplicates": 4307,
             "info": {
               "measure_column": "source",
               "short_name": "Smoothed scaled value (0–100)",
@@ -6066,14 +6084,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 17.659453,
-            "sd": 25.259886,
+            "mean": 17.667473,
+            "sd": 25.269133,
             "min": 0,
             "max": 100
           },
           {
             "name": "source",
-            "duplicates": 31998,
+            "duplicates": 32096,
             "info": {
               "short_name": "Data source",
               "levels": {
@@ -6081,7 +6099,7 @@
                   "source_id": "epic_pct_flu",
                   "id": "Epic Cosmos, ED",
                   "name": "epic_pct_flu",
-                  "duplicates": 97935,
+                  "duplicates": 97677,
                   "info": {
                     "id": "epic_pct_flu",
                     "short_name": "Influenza Patients (%)",
@@ -6104,20 +6122,20 @@
                   },
                   "time_range": [
                     0,
-                    451
+                    454
                   ],
                   "type": "float",
                   "missing": 0,
-                  "mean": 3.336095,
-                  "sd": 9.687024,
-                  "min": 0.003112,
+                  "mean": 3.277913,
+                  "sd": 9.58108,
+                  "min": 0.003054,
                   "max": 100
                 },
                 "CDC NSSP": {
                   "source_id": "percent_visits_flu",
                   "id": "CDC NSSP",
                   "name": "percent_visits_flu",
-                  "duplicates": 665427,
+                  "duplicates": 668619,
                   "info": {
                     "full_name": "Percent of Emergency department visits coded as being caused by influenza",
                     "measure": "percent",
@@ -6142,12 +6160,12 @@
                   },
                   "time_range": [
                     0,
-                    208
+                    209
                   ],
                   "type": "float",
-                  "missing": 4108,
-                  "mean": 1.375263,
-                  "sd": 2.49044,
+                  "missing": 4232,
+                  "mean": 1.372874,
+                  "sd": 2.486839,
                   "min": 0,
                   "max": 100
                 },
@@ -6155,7 +6173,7 @@
                   "source_id": "rate_flu",
                   "id": "CDC RespNET",
                   "name": "rate_flu",
-                  "duplicates": 41051,
+                  "duplicates": 41261,
                   "info": {
                     "id": "rate_flu",
                     "short_name": "Number of laboratory confirmed cases of influenza per 100,000 people",
@@ -6182,12 +6200,12 @@
                   },
                   "time_range": [
                     0,
-                    394
+                    396
                   ],
                   "type": "float",
-                  "missing": 35445,
-                  "mean": 1.346861,
-                  "sd": 2.811634,
+                  "missing": 35625,
+                  "mean": 1.342732,
+                  "sd": 2.802514,
                   "min": 0,
                   "max": 30.3
                 },
@@ -6195,7 +6213,7 @@
                   "source_id": "wastewater_flua",
                   "id": "CDC NWSS",
                   "name": "wastewater_flua",
-                  "duplicates": 6142,
+                  "duplicates": 6170,
                   "info": {
                     "full_name": "wastewater_flua",
                     "measure": "wastewater_flua",
@@ -6223,15 +6241,15 @@
                     }
                   },
                   "time_range": [
-                    218,
-                    247
+                    219,
+                    248
                   ],
                   "type": "float",
-                  "missing": 2362,
-                  "mean": 3.697901,
-                  "sd": 4.254231,
+                  "missing": 2365,
+                  "mean": 3.697763,
+                  "sd": 4.252425,
                   "min": 0.981429,
-                  "max": 16.1748
+                  "max": 16.162692
                 },
                 "CDC NHSN": {
                   "source_id": "delphi_nhsn_flu",
@@ -6313,7 +6331,7 @@
                   "source_id": "delphi_fluview_wili",
                   "id": "CDC ILINet",
                   "name": "delphi_fluview_wili",
-                  "duplicates": 3130,
+                  "duplicates": 3129,
                   "info": {
                     "id": "delphi_fluview_wili",
                     "short_name": "Weighted percent influenza-like illness (ILI)",
@@ -6347,12 +6365,12 @@
                   },
                   "time_range": [
                     0,
-                    1416
+                    1417
                   ],
                   "type": "float",
                   "missing": 0,
-                  "mean": 1.914571,
-                  "sd": 1.877791,
+                  "mean": 1.914071,
+                  "sd": 1.877029,
                   "min": 0,
                   "max": 19.4177
                 },
@@ -6402,19 +6420,19 @@
             "type": "string",
             "missing": 0,
             "table": {
-              "CDC ILINet": 5000,
+              "CDC ILINet": 4992,
               "CDC NHSN": 4680,
-              "CDC NSSP": 5342,
-              "CDC NWSS": 5318,
-              "CDC RespNET": 1456,
-              "Delphi Hospital Claims": 4333,
-              "Epic Cosmos, ED": 5201,
-              "Kinsa": 676
+              "CDC NSSP": 5341,
+              "CDC NWSS": 5315,
+              "CDC RespNET": 1523,
+              "Delphi Hospital Claims": 4283,
+              "Epic Cosmos, ED": 5301,
+              "Kinsa": 669
             }
           },
           {
             "name": "suppressed_flag",
-            "duplicates": 32004,
+            "duplicates": 32102,
             "info": {
               "short_name": "Suppressed flag",
               "short_description": "Equals 1 when the underlying Epic Cosmos count was suppressed (small cell) and imputed; 0 otherwise. Non-Epic sources are 0.",
@@ -6425,24 +6443,25 @@
             "time_range": [-1, -1],
             "type": "integer",
             "missing": 0,
-            "mean": 0.038274,
-            "sd": 0.19186,
+            "mean": 0.03797,
+            "sd": 0.191128,
             "min": 0,
             "max": 1
           }
         ]
       },
-      "sha512": "c64b5f59b16df0e5c1b69047ecff9d15d423b25f33adbec7443195ed3f3811d45dac26da7a803ee82ba539c9dfd2a989c7ece22407763770593ff4e5445ba0f2"
+      "sha512": "00b86f3b8c8d6cc5cd8bb3166657d47a41649d158884a71f49a77a7ff4ea45dabc8e952f763121b3ae90bfeb0c626bb9e352af2d81c56da5e1b69a68a399275a"
     },
     {
-      "bytes": 1367298,
+      "bytes": 1388305,
       "encoding": "UTF-16BE",
-      "md5": "d240920d64468d928484f7e407e9f483",
+      "md5": "6cbe907af31754cc651c3589d999c595",
       "format": "parquet",
       "name": "flu_trends_by_age",
       "filename": "flu_trends_by_age.parquet",
       "versions": {
         "hash": [
+          "788fb5ea0423199a95277c49613256fe493f6582",
           "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "7be80843e6f9215a3f9a05c062d1b63e5f5375d1",
@@ -6602,6 +6621,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -6717,6 +6737,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Thu Oct 8 07:27:48 2026 +0000",
           "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Tue Sep 29 19:50:08 2026 +0000",
@@ -6854,6 +6875,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
@@ -7001,23 +7023,21 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-08 07:27:23.556345",
-      "last_modified": "2026-10-08 07:27:23.556345",
+      "created": "2026-10-10 00:06:48.424402",
+      "last_modified": "2026-10-10 00:06:48.424402",
       "vintage": {},
-      "row_count": 39033,
+      "row_count": 39379,
       "entity_count": 52,
       "schema": {
         "fields": [
           {
             "name": "date",
-            "duplicates": 38928,
+            "duplicates": 39274,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
-              "2024-09-21": 379,
-              "2024-09-28": 379,
               "2024-10-05": 379,
               "2024-10-12": 379,
               "2024-10-19": 379,
@@ -7118,93 +7138,95 @@
               "2026-08-15": 379,
               "2026-08-22": 379,
               "2026-08-29": 379,
-              "2026-09-05": 366,
-              "2026-09-12": 15,
-              "2026-09-19": 15
+              "2026-09-05": 379,
+              "2026-09-12": 379,
+              "2026-09-19": 379,
+              "2026-09-26": 348,
+              "2026-10-03": 15
             }
           },
           {
             "name": "geography",
-            "duplicates": 38981,
+            "duplicates": 39327,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
-              "Alabama": 720,
-              "Alaska": 721,
-              "Arizona": 721,
-              "Arkansas": 720,
-              "California": 826,
-              "Colorado": 826,
-              "Connecticut": 826,
-              "Delaware": 721,
-              "District of Columbia": 719,
-              "Florida": 721,
-              "Georgia": 826,
-              "Hawaii": 721,
-              "Idaho": 721,
-              "Illinois": 721,
-              "Indiana": 721,
-              "Iowa": 721,
-              "Kansas": 721,
-              "Kentucky": 721,
-              "Louisiana": 721,
-              "Maine": 721,
-              "Maryland": 826,
-              "Massachusetts": 721,
-              "Michigan": 826,
-              "Minnesota": 826,
-              "Mississippi": 717,
-              "Missouri": 721,
+              "Alabama": 728,
+              "Alaska": 728,
+              "Arizona": 728,
+              "Arkansas": 728,
+              "California": 833,
+              "Colorado": 832,
+              "Connecticut": 833,
+              "Delaware": 728,
+              "District of Columbia": 725,
+              "Florida": 727,
+              "Georgia": 833,
+              "Hawaii": 728,
+              "Idaho": 728,
+              "Illinois": 727,
+              "Indiana": 728,
+              "Iowa": 728,
+              "Kansas": 728,
+              "Kentucky": 728,
+              "Louisiana": 728,
+              "Maine": 728,
+              "Maryland": 833,
+              "Massachusetts": 728,
+              "Michigan": 833,
+              "Minnesota": 833,
+              "Mississippi": 728,
+              "Missouri": 728,
               "Montana": 721,
-              "Nebraska": 721,
-              "Nevada": 721,
-              "New Hampshire": 720,
-              "New Jersey": 720,
-              "New Mexico": 826,
-              "New York": 826,
-              "North Carolina": 826,
-              "North Dakota": 721,
-              "Ohio": 754,
-              "Oklahoma": 721,
-              "Oregon": 826,
-              "Pennsylvania": 721,
-              "Rhode Island": 720,
-              "South Carolina": 721,
-              "South Dakota": 721,
-              "Tennessee": 825,
-              "Texas": 721,
-              "United States": 826,
+              "Nebraska": 728,
+              "Nevada": 728,
+              "New Hampshire": 728,
+              "New Jersey": 727,
+              "New Mexico": 833,
+              "New York": 833,
+              "North Carolina": 833,
+              "North Dakota": 727,
+              "Ohio": 758,
+              "Oklahoma": 728,
+              "Oregon": 833,
+              "Pennsylvania": 728,
+              "Rhode Island": 727,
+              "South Carolina": 728,
+              "South Dakota": 728,
+              "Tennessee": 833,
+              "Texas": 726,
+              "United States": 833,
               "Utah": 826,
-              "Vermont": 721,
-              "Virginia": 721,
-              "Washington": 772,
-              "West Virginia": 721,
-              "Wisconsin": 721,
-              "Wyoming": 720
+              "Vermont": 728,
+              "Virginia": 724,
+              "Washington": 781,
+              "West Virginia": 728,
+              "Wisconsin": 728,
+              "Wyoming": 727
             }
           },
           {
             "name": "age",
-            "duplicates": 39026,
+            "duplicates": 39372,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
-              "<1 Years": 5356,
-              "1-4 Years": 5353,
-              "18-49 Years": 5355,
-              "5-17 Years": 5355,
-              "50-64 Years": 5355,
-              "65+ Years": 5350,
-              "Total": 6909
+              "<1 Years": 5405,
+              "1-4 Years": 5405,
+              "18-49 Years": 5405,
+              "5-17 Years": 5405,
+              "50-64 Years": 5404,
+              "65+ Years": 5396,
+              "Total": 6959
             }
           },
           {
             "name": "source",
-            "duplicates": 39031,
+            "duplicates": 39377,
             "info": {
               "short_name": "Data source",
               "levels": {
@@ -7212,7 +7234,7 @@
                   "source_id": "epic_pct_flu",
                   "id": "Epic Cosmos (ED)",
                   "name": "epic_pct_flu",
-                  "duplicates": 97935,
+                  "duplicates": 97677,
                   "info": {
                     "id": "epic_pct_flu",
                     "short_name": "Influenza Patients (%)",
@@ -7235,20 +7257,20 @@
                   },
                   "time_range": [
                     0,
-                    451
+                    454
                   ],
                   "type": "float",
                   "missing": 0,
-                  "mean": 3.336095,
-                  "sd": 9.687024,
-                  "min": 0.003112,
+                  "mean": 3.277913,
+                  "sd": 9.58108,
+                  "min": 0.003054,
                   "max": 100
                 },
                 "CDC RSV-NET (Hospitalization)": {
                   "source_id": "rate_flu",
                   "id": "CDC RSV-NET (Hospitalization)",
                   "name": "rate_flu",
-                  "duplicates": 41051,
+                  "duplicates": 41261,
                   "info": {
                     "id": "rate_flu",
                     "short_name": "Number of laboratory confirmed cases of influenza per 100,000 people",
@@ -7275,12 +7297,12 @@
                   },
                   "time_range": [
                     0,
-                    394
+                    396
                   ],
                   "type": "float",
-                  "missing": 35445,
-                  "mean": 1.346861,
-                  "sd": 2.811634,
+                  "missing": 35625,
+                  "mean": 1.342732,
+                  "sd": 2.802514,
                   "min": 0,
                   "max": 30.3
                 }
@@ -7292,12 +7314,12 @@
             "missing": 0,
             "table": {
               "CDC RSV-NET (Hospitalization)": 1554,
-              "Epic Cosmos (ED)": 37479
+              "Epic Cosmos (ED)": 37825
             }
           },
           {
             "name": "value",
-            "duplicates": 15140,
+            "duplicates": 15102,
             "info": {
               "measure_column": "source",
               "short_name": "Value",
@@ -7307,14 +7329,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 3.162178,
-            "sd": 7.471651,
+            "mean": 3.123817,
+            "sd": 7.37647,
             "min": 0,
             "max": 100
           },
           {
             "name": "value_smooth",
-            "duplicates": 1838,
+            "duplicates": 1856,
             "info": {
               "measure_column": "source",
               "short_name": "Smoothed value",
@@ -7324,14 +7346,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 2.271237,
-            "sd": 5.106689,
+            "mean": 2.247907,
+            "sd": 5.003684,
             "min": 0,
-            "max": 98.767311
+            "max": 98.766326
           },
           {
             "name": "value_scale",
-            "duplicates": 4988,
+            "duplicates": 4918,
             "info": {
               "measure_column": "source",
               "short_name": "Scaled value (0–100)",
@@ -7341,14 +7363,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 14.128728,
-            "sd": 22.693703,
+            "mean": 14.116539,
+            "sd": 22.687007,
             "min": 0,
             "max": 100
           },
           {
             "name": "value_smooth_scale",
-            "duplicates": 1765,
+            "duplicates": 1748,
             "info": {
               "measure_column": "source",
               "short_name": "Smoothed scaled value (0–100)",
@@ -7358,14 +7380,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 16.176956,
-            "sd": 24.807764,
+            "mean": 16.104228,
+            "sd": 24.791661,
             "min": 0,
             "max": 100
           },
           {
             "name": "suppressed_flag",
-            "duplicates": 39031,
+            "duplicates": 39377,
             "info": {
               "short_name": "Suppressed flag",
               "short_description": "Equals 1 when the underlying Epic Cosmos count for this age group was suppressed (small cell) and imputed; 0 otherwise.",
@@ -7376,24 +7398,25 @@
             "time_range": [-1, -1],
             "type": "integer",
             "missing": 0,
-            "mean": 0.494223,
-            "sd": 0.499973,
+            "mean": 0.490363,
+            "sd": 0.499913,
             "min": 0,
             "max": 1
           }
         ]
       },
-      "sha512": "94886e66938f14b857f4b22adeaef2486a9409d6a319d6301bdcb59a4676c30239f56bf6abdbfc621af1e7ab5b149fd623a91b05425452362ec3c7ba7bbb549d"
+      "sha512": "1e37084a0d43cd09686fc82d08ab0e026fee224a43d485615fc9b7fe980b9cc09014d81affe198a4641d016323b4e6d369e057a3786f1d0b56af129347928fed"
     },
     {
-      "bytes": 120470,
+      "bytes": 118857,
       "encoding": "windows-1252",
-      "md5": "85e51e6d587bb556b77145eaf863ed82",
+      "md5": "14a5adffdd07dcc74368379d89e088cd",
       "format": "parquet",
       "name": "other_measures_trends",
       "filename": "other_measures_trends.parquet",
       "versions": {
         "hash": [
+          "788fb5ea0423199a95277c49613256fe493f6582",
           "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "4f5f82b74fee87819b5256fbfbe28452f2ef0a96",
@@ -7446,6 +7469,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -7458,6 +7482,7 @@
           "anshap32 <73296024+anshap32@users.noreply.github.com>"
         ],
         "date": [
+          "Thu Oct 8 07:27:48 2026 +0000",
           "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Fri Sep 25 19:25:48 2026 +0000",
@@ -7490,6 +7515,7 @@
           "Mon Jul 6 14:46:24 2026 -0400"
         ],
         "message": [
+          "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
@@ -7532,16 +7558,16 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-08 07:27:25.249347",
-      "last_modified": "2026-10-08 07:27:25.249347",
+      "created": "2026-10-10 00:06:50.409433",
+      "last_modified": "2026-10-10 00:06:50.409433",
       "vintage": {},
-      "row_count": 130083,
+      "row_count": 130431,
       "entity_count": 52,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 130031,
+            "duplicates": 130379,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
@@ -7562,7 +7588,7 @@
               "Idaho": 2439,
               "Illinois": 2526,
               "Indiana": 2526,
-              "Iowa": 2265,
+              "Iowa": 2526,
               "Kansas": 2526,
               "Kentucky": 2526,
               "Louisiana": 2526,
@@ -7578,7 +7604,7 @@
               "Nevada": 2526,
               "New Hampshire": 2439,
               "New Jersey": 2526,
-              "New Mexico": 2439,
+              "New Mexico": 2526,
               "New York": 2526,
               "North Carolina": 2526,
               "North Dakota": 2439,
@@ -7603,7 +7629,7 @@
           },
           {
             "name": "date",
-            "duplicates": 129753,
+            "duplicates": 130101,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
@@ -7909,68 +7935,68 @@
               "2026-08-15": 468,
               "2026-08-22": 468,
               "2026-08-29": 468,
-              "2026-09-01": 408,
-              "2026-09-02": 408,
-              "2026-09-03": 408,
-              "2026-09-04": 408,
-              "2026-09-05": 876,
-              "2026-09-06": 408,
-              "2026-09-07": 408,
-              "2026-09-08": 408,
-              "2026-09-09": 408,
-              "2026-09-10": 408,
-              "2026-09-11": 408,
-              "2026-09-12": 876,
-              "2026-09-13": 408,
-              "2026-09-14": 408,
-              "2026-09-15": 408,
-              "2026-09-16": 408,
-              "2026-09-17": 408,
-              "2026-09-18": 408,
-              "2026-09-19": 876,
-              "2026-09-20": 408,
-              "2026-09-21": 408,
-              "2026-09-22": 408,
-              "2026-09-23": 408,
-              "2026-09-24": 408,
-              "2026-09-25": 408,
-              "2026-09-26": 876,
-              "2026-09-27": 408,
-              "2026-09-28": 408,
-              "2026-09-29": 408,
-              "2026-10-03": 468
+              "2026-09-05": 468,
+              "2026-09-08": 420,
+              "2026-09-09": 420,
+              "2026-09-10": 420,
+              "2026-09-11": 420,
+              "2026-09-12": 888,
+              "2026-09-13": 420,
+              "2026-09-14": 420,
+              "2026-09-15": 420,
+              "2026-09-16": 420,
+              "2026-09-17": 420,
+              "2026-09-18": 420,
+              "2026-09-19": 888,
+              "2026-09-20": 420,
+              "2026-09-21": 420,
+              "2026-09-22": 420,
+              "2026-09-23": 420,
+              "2026-09-24": 420,
+              "2026-09-25": 420,
+              "2026-09-26": 888,
+              "2026-09-27": 420,
+              "2026-09-28": 420,
+              "2026-09-29": 420,
+              "2026-09-30": 420,
+              "2026-10-01": 420,
+              "2026-10-02": 420,
+              "2026-10-03": 888,
+              "2026-10-04": 420,
+              "2026-10-05": 420,
+              "2026-10-06": 420
             }
           },
           {
             "name": "source",
-            "duplicates": 130080,
+            "duplicates": 130428,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
-              "CDC CFA Rt": 12336,
+              "CDC CFA Rt": 12684,
               "CDC NCHS Mortality": 1683,
               "CDC NNDSS": 116064
             }
           },
           {
             "name": "variable",
-            "duplicates": 130062,
+            "duplicates": 130410,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
-              "cdc_rt_covid": 1506,
-              "cdc_rt_covid_lower": 1506,
-              "cdc_rt_covid_upper": 1506,
-              "cdc_rt_flu": 1506,
-              "cdc_rt_flu_lower": 1506,
-              "cdc_rt_flu_upper": 1506,
-              "cdc_rt_rsv": 1100,
-              "cdc_rt_rsv_lower": 1100,
-              "cdc_rt_rsv_upper": 1100,
+              "cdc_rt_covid": 1535,
+              "cdc_rt_covid_lower": 1535,
+              "cdc_rt_covid_upper": 1535,
+              "cdc_rt_flu": 1535,
+              "cdc_rt_flu_lower": 1535,
+              "cdc_rt_flu_upper": 1535,
+              "cdc_rt_rsv": 1158,
+              "cdc_rt_rsv_lower": 1158,
+              "cdc_rt_rsv_upper": 1158,
               "haemophilus_influenzae_invasive_disease_age_5_years_non_b_serotype": 12896,
               "haemophilus_influenzae_invasive_disease_age_5_years_nontypeable": 12896,
               "haemophilus_influenzae_invasive_disease_age_5_years_serotype_b": 12896,
@@ -7987,29 +8013,30 @@
           },
           {
             "name": "value",
-            "duplicates": 123531,
+            "duplicates": 124047,
             "info": [],
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 37.867612,
-            "sd": 497.346368,
+            "mean": 37.768984,
+            "sd": 496.6861,
             "min": 0,
             "max": 35493
           }
         ]
       },
-      "sha512": "a5bd1db4481a05b87873624d535530c45e8430f80c1325a8b5a85ae5f2540c73122a955fa3ce6cf48fc107b4d0547f8d518cc708c5b416c48cbf1fddd5da0b49"
+      "sha512": "d9793ce3dc9f65db99b875ba3d67585dcebc5d324e76ee5e8e7dc453b9371f8c1ba928d272b1c6706efa1c3fe6954d5b20614a83db669950f41d90aebc2feea8"
     },
     {
-      "bytes": 140812,
+      "bytes": 140891,
       "encoding": "UTF-16BE",
-      "md5": "f521dee47e6fd3d28b3908c4d15d7de7",
+      "md5": "4ae52f67551a8c5cbf64c1325b9b7866",
       "format": "parquet",
       "name": "pneumococcus_by_geography_year",
       "filename": "pneumococcus_by_geography_year.parquet",
       "versions": {
         "hash": [
+          "788fb5ea0423199a95277c49613256fe493f6582",
           "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "4f5f82b74fee87819b5256fbfbe28452f2ef0a96",
@@ -8109,6 +8136,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -8170,6 +8198,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Thu Oct 8 07:27:48 2026 +0000",
           "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Fri Sep 25 19:25:48 2026 +0000",
@@ -8250,6 +8279,7 @@
           "Wed Nov 26 09:28:06 2025 -0500"
         ],
         "message": [
+          "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
@@ -8340,8 +8370,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-08 07:27:24.997347",
-      "last_modified": "2026-10-08 07:27:24.997347",
+      "created": "2026-10-10 00:06:50.142429",
+      "last_modified": "2026-10-10 00:06:50.142429",
       "vintage": {},
       "row_count": 23760,
       "entity_count": 10,
@@ -8569,17 +8599,18 @@
           }
         ]
       },
-      "sha512": "5b1f42065d9de3be0180a173c9469ea666d6e9442702e65f7f06b8ca413d21650a871b95f8d87741c5b03767200607d02191e9d0b307798234a5010e95f3f3f2"
+      "sha512": "eb4391ddd317d1c9eacd964ef9beffcf210fe00f44a3367d0a9872ff1eb750661538099122c68f24253c9759a163b1533032673356da6b5b50a57a852e082857"
     },
     {
-      "bytes": 4756,
+      "bytes": 4752,
       "encoding": "UTF-16BE",
-      "md5": "96166a3ff28a785f6cbbd4e16cecd1a9",
+      "md5": "db606f14cbec5ef3cc7c6ecf137d7d76",
       "format": "parquet",
       "name": "pneumococcus_by_geography",
       "filename": "pneumococcus_by_geography.parquet",
       "versions": {
         "hash": [
+          "788fb5ea0423199a95277c49613256fe493f6582",
           "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "4f5f82b74fee87819b5256fbfbe28452f2ef0a96",
@@ -8692,6 +8723,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -8766,6 +8798,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Thu Oct 8 07:27:48 2026 +0000",
           "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Fri Sep 25 19:25:48 2026 +0000",
@@ -8859,6 +8892,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
@@ -8962,8 +8996,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-08 07:27:24.674346",
-      "last_modified": "2026-10-08 07:27:24.674346",
+      "created": "2026-10-10 00:06:49.830424",
+      "last_modified": "2026-10-10 00:06:49.830424",
       "vintage": {},
       "row_count": 880,
       "entity_count": 10,
@@ -9164,17 +9198,18 @@
           }
         ]
       },
-      "sha512": "90aea9ef0d6741ccc111a9276d4051aa1b431379298265a6a8d970ffba44e6fb7a27d880469954472c649ccaa3e3f8e6cab233918ca4eb1c9e8e495d1b95511d"
+      "sha512": "9d7263439878c07f72678a64611018d6171121cdef2e4b9c74ca43a8dddc4862e2dc86551d74fb9716cb51f20c226507f1b305a7fbf7925e33f396ab6fa85f5b"
     },
     {
-      "bytes": 1857,
+      "bytes": 1847,
       "encoding": "windows-1252",
-      "md5": "d6643a56b041f7bfbd3a1b99e0de593d",
+      "md5": "5bd128f5875aa7beef9e9c995766fbe0",
       "format": "parquet",
       "name": "pneumococcus_comparison",
       "filename": "pneumococcus_comparison.parquet",
       "versions": {
         "hash": [
+          "788fb5ea0423199a95277c49613256fe493f6582",
           "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "4f5f82b74fee87819b5256fbfbe28452f2ef0a96",
@@ -9249,6 +9284,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -9285,6 +9321,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Thu Oct 8 07:27:48 2026 +0000",
           "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Fri Sep 25 19:25:48 2026 +0000",
@@ -9340,6 +9377,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
@@ -9405,8 +9443,8 @@
       "id_length": 11,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-08 07:27:25.043347",
-      "last_modified": "2026-10-08 07:27:25.043347",
+      "created": "2026-10-10 00:06:50.191429",
+      "last_modified": "2026-10-10 00:06:50.191429",
       "vintage": {},
       "row_count": 15,
       "entity_count": 1,
@@ -9518,17 +9556,18 @@
           }
         ]
       },
-      "sha512": "76f0da07dfd51bedb58a301e820d1f754b37c40ececb36cc9daea2a972d240c638c0b8b723bc1a802c79762779427aa9e7f1ced23c570841c55577803f2d8086"
+      "sha512": "749e86c834370d1bae9e9bd835f3412fb86e80f76c6e53fe26d71d7218afc3a032f25c37ba21659006a09c48ba674feffcd2bff1cba59aa1f76a74ce4b9c4bfe"
     },
     {
-      "bytes": 41787,
+      "bytes": 41805,
       "encoding": "windows-1252",
-      "md5": "4b68709332b6867c80bcc8c8d94e11c5",
+      "md5": "eeef8921e750e6abc7a268e06c38a0cb",
       "format": "parquet",
       "name": "pneumococcus_serotype_trends",
       "filename": "pneumococcus_serotype_trends.parquet",
       "versions": {
         "hash": [
+          "788fb5ea0423199a95277c49613256fe493f6582",
           "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "4f5f82b74fee87819b5256fbfbe28452f2ef0a96",
@@ -9644,6 +9683,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -9721,6 +9761,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Thu Oct 8 07:27:48 2026 +0000",
           "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Fri Sep 25 19:25:48 2026 +0000",
@@ -9817,6 +9858,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
@@ -9923,8 +9965,8 @@
       "id_length": "NA",
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-08 07:27:24.578346",
-      "last_modified": "2026-10-08 07:27:24.578346",
+      "created": "2026-10-10 00:06:49.713422",
+      "last_modified": "2026-10-10 00:06:49.713422",
       "vintage": {},
       "row_count": 9504,
       "entity_count": 0,
@@ -10116,17 +10158,18 @@
           }
         ]
       },
-      "sha512": "9f523a45508c8f6086e108f1ee4e3941bba86923899096c7fdbd7af34b17cb3493f528a1b11de3e0e7352798027d6c051eb2c9c402b8a3b528d60befb4d26812"
+      "sha512": "9cb669882d26051a04e56ce8d2fdb306e6fb25160f1cf507ff0f10b51800072c34e94928c2e052b84c102da313acd75e36fc7b620e7144917f5dfdeaa95c7a24"
     },
     {
-      "bytes": 1663356,
+      "bytes": 1643656,
       "encoding": "windows-1252",
-      "md5": "3f6f7019913beccd3cf54e4cfe327d8f",
+      "md5": "ea49e3f36fedc965590bf95149119dac",
       "format": "parquet",
       "name": "rsv_ed_visits_by_county",
       "filename": "rsv_ed_visits_by_county.parquet",
       "versions": {
         "hash": [
+          "788fb5ea0423199a95277c49613256fe493f6582",
           "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "4f5f82b74fee87819b5256fbfbe28452f2ef0a96",
@@ -10271,6 +10314,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -10377,6 +10421,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Thu Oct 8 07:27:48 2026 +0000",
           "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Fri Sep 25 19:25:48 2026 +0000",
@@ -10502,6 +10547,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
@@ -10637,16 +10683,16 @@
       "id_length": "NA",
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-08 07:27:19.826339",
-      "last_modified": "2026-10-08 07:27:19.826339",
+      "created": "2026-10-10 00:06:44.714345",
+      "last_modified": "2026-10-10 00:06:44.714345",
       "vintage": {},
-      "row_count": 656469,
+      "row_count": 659610,
       "entity_count": 0,
       "schema": {
         "fields": [
           {
             "name": "source",
-            "duplicates": 656468,
+            "duplicates": 659609,
             "info": {
               "short_name": "Data source",
               "levels": {
@@ -10654,7 +10700,7 @@
                   "source_id": "percent_visits_rsv",
                   "id": "CDC NSSP",
                   "name": "percent_visits_rsv",
-                  "duplicates": 666689,
+                  "duplicates": 669881,
                   "info": {
                     "full_name": "Percent of Emergency department visits coded as being caused by RSV",
                     "measure": "percent",
@@ -10679,12 +10725,12 @@
                   },
                   "time_range": [
                     0,
-                    208
+                    209
                   ],
                   "type": "float",
-                  "missing": 4108,
-                  "mean": 0.29028,
-                  "sd": 0.592379,
+                  "missing": 4232,
+                  "mean": 0.28941,
+                  "sd": 0.59135,
                   "min": 0,
                   "max": 50
                 }
@@ -10695,24 +10741,24 @@
             "type": "string",
             "missing": 0,
             "table": {
-              "CDC NSSP": 656469
+              "CDC NSSP": 659610
             }
           },
           {
             "name": "fips",
-            "duplicates": 653328,
+            "duplicates": 656469,
             "info": [],
             "time_range": [-1, -1],
             "type": "integer",
             "missing": 0,
             "mean": 30408.393187,
-            "sd": 15150.372966,
+            "sd": 15150.372911,
             "min": 1001,
             "max": 56045
           },
           {
             "name": "week_end",
-            "duplicates": 656260,
+            "duplicates": 659400,
             "info": {
               "short_name": "Week ending date",
               "short_description": "Saturday date marking the end of the reporting week.",
@@ -10932,12 +10978,13 @@
               "2026-09-05": 3141,
               "2026-09-12": 3141,
               "2026-09-19": 3141,
-              "2026-09-26": 3141
+              "2026-09-26": 3141,
+              "2026-10-03": 3141
             }
           },
           {
             "name": "percent_visits_rsv",
-            "duplicates": 655821,
+            "duplicates": 658961,
             "info": {
               "full_name": "Percent of Emergency department visits coded as being caused by RSV",
               "measure": "percent",
@@ -10960,15 +11007,15 @@
             },
             "time_range": [-1, -1],
             "type": "float",
-            "missing": 3978,
-            "mean": 0.290439,
-            "sd": 0.594706,
+            "missing": 4100,
+            "mean": 0.28957,
+            "sd": 0.593673,
             "min": 0,
             "max": 50
           },
           {
             "name": "is_state_estimate",
-            "duplicates": 656467,
+            "duplicates": 659608,
             "info": {
               "full_name": "Indicator that the county value was imputed from state-level data",
               "measure": "flag",
@@ -10993,24 +11040,25 @@
             "time_range": [-1, -1],
             "type": "integer",
             "missing": 0,
-            "mean": 0.252199,
-            "sd": 0.434275,
+            "mean": 0.25234,
+            "sd": 0.434356,
             "min": 0,
             "max": 1
           }
         ]
       },
-      "sha512": "43ea855896d6f36d1c9648439404da79c055a297679c690b48012957365da7d1f191f36c00f41d0eaf0afe67eabc32687778d7a870e004fcb42a59c6ac32d2fa"
+      "sha512": "6150629e48c79ea67e3f8180b723c4e90babe0eea54911f1157d4eba010b21d97eedd06a17940c80295dbab016855c32b2f4736bb5686ed9aade79240c1e8a71"
     },
     {
-      "bytes": 867125,
+      "bytes": 869060,
       "encoding": "windows-1252",
-      "md5": "32d14cd33ff3730729ebe55a3baf604c",
+      "md5": "a3b65a20f8d702333e038b5b6d35991f",
       "format": "parquet",
       "name": "rsv_google_dma",
       "filename": "rsv_google_dma.parquet",
       "versions": {
         "hash": [
+          "788fb5ea0423199a95277c49613256fe493f6582",
           "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "7be80843e6f9215a3f9a05c062d1b63e5f5375d1",
@@ -11161,6 +11209,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -11257,6 +11306,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Thu Oct 8 07:27:48 2026 +0000",
           "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Tue Sep 29 19:50:08 2026 +0000",
@@ -11380,6 +11430,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
@@ -11513,8 +11564,8 @@
       "id_length": "NA",
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-08 07:27:24.505346",
-      "last_modified": "2026-10-08 07:27:24.505346",
+      "created": "2026-10-10 00:06:49.620421",
+      "last_modified": "2026-10-10 00:06:49.620421",
       "vintage": {},
       "row_count": 322350,
       "entity_count": 0,
@@ -11540,7 +11591,6 @@
             "type": "string",
             "missing": 0,
             "table": {
-              "2024-09-28": 3070,
               "2024-10-05": 3070,
               "2024-10-12": 3070,
               "2024-10-19": 3070,
@@ -11644,12 +11694,13 @@
               "2026-09-05": 3070,
               "2026-09-12": 3070,
               "2026-09-19": 3070,
-              "2026-09-26": 3070
+              "2026-09-26": 3070,
+              "2026-10-03": 3070
             }
           },
           {
             "name": "value",
-            "duplicates": 302400,
+            "duplicates": 302323,
             "info": {
               "full_name": "gtrends_rsv",
               "measure": "gtrends_rsv",
@@ -11680,24 +11731,25 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 22,
-            "mean": 13.916999,
-            "sd": 12.839891,
+            "mean": 13.885364,
+            "sd": 12.810262,
             "min": 0,
             "max": 100
           }
         ]
       },
-      "sha512": "cba8d3c340fe70af029ce943137570cd046e7b93fdaf441faf4f56cfc7189e45292bb0c1a8719756859f55ee5dbe16990e4accb8544d27d1572e92e12441a9d4"
+      "sha512": "bad78f211d28bd007be5f93557c0d3564267a49aee28a302237b94533e5350fe28408e5229c987af94d12f64e2d2b6482fc1e396974a2baf0b6a1147595d66b1"
     },
     {
-      "bytes": 724928,
-      "encoding": "ISO-8859-5",
-      "md5": "1e6e29517e44a428a3e63965b4ec4c5a",
+      "bytes": 731645,
+      "encoding": "windows-1252",
+      "md5": "767131a1bcae3e36d264876a95d824eb",
       "format": "parquet",
       "name": "rsv_overall_trends",
       "filename": "rsv_overall_trends.parquet",
       "versions": {
         "hash": [
+          "788fb5ea0423199a95277c49613256fe493f6582",
           "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "7be80843e6f9215a3f9a05c062d1b63e5f5375d1",
@@ -11910,6 +11962,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -12068,6 +12121,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Thu Oct 8 07:27:48 2026 +0000",
           "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Tue Sep 29 19:50:08 2026 +0000",
@@ -12253,6 +12307,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
@@ -12448,84 +12503,83 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-08 07:27:18.824337",
-      "last_modified": "2026-10-08 07:27:18.824337",
+      "created": "2026-10-10 00:06:43.828332",
+      "last_modified": "2026-10-10 00:06:43.828332",
       "vintage": {},
-      "row_count": 27456,
+      "row_count": 27619,
       "entity_count": 52,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 27404,
+            "duplicates": 27567,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
-              "Alabama": 507,
+              "Alabama": 509,
               "Alaska": 405,
-              "Arizona": 507,
-              "Arkansas": 507,
-              "California": 611,
-              "Colorado": 611,
-              "Connecticut": 611,
-              "Delaware": 507,
-              "District of Columbia": 500,
-              "Florida": 507,
-              "Georgia": 611,
-              "Hawaii": 507,
-              "Idaho": 507,
-              "Illinois": 507,
-              "Indiana": 507,
-              "Iowa": 494,
-              "Kansas": 507,
-              "Kentucky": 506,
-              "Louisiana": 507,
-              "Maine": 507,
-              "Maryland": 611,
-              "Massachusetts": 507,
-              "Michigan": 611,
-              "Minnesota": 611,
-              "Mississippi": 506,
-              "Missouri": 507,
-              "Montana": 483,
-              "Nebraska": 507,
-              "Nevada": 507,
-              "New Hampshire": 507,
-              "New Jersey": 507,
-              "New Mexico": 609,
-              "New York": 611,
-              "North Carolina": 611,
-              "North Dakota": 402,
-              "Ohio": 507,
-              "Oklahoma": 506,
-              "Oregon": 611,
-              "Pennsylvania": 507,
-              "Rhode Island": 507,
-              "South Carolina": 507,
-              "South Dakota": 507,
-              "Tennessee": 611,
-              "Texas": 507,
-              "United States": 611,
-              "Utah": 611,
-              "Vermont": 507,
-              "Virginia": 507,
-              "Washington": 507,
-              "West Virginia": 507,
-              "Wisconsin": 507,
-              "Wyoming": 399
+              "Arizona": 509,
+              "Arkansas": 509,
+              "California": 614,
+              "Colorado": 614,
+              "Connecticut": 614,
+              "Delaware": 509,
+              "District of Columbia": 501,
+              "Florida": 509,
+              "Georgia": 614,
+              "Hawaii": 509,
+              "Idaho": 509,
+              "Illinois": 509,
+              "Indiana": 509,
+              "Iowa": 495,
+              "Kansas": 509,
+              "Kentucky": 508,
+              "Louisiana": 509,
+              "Maine": 509,
+              "Maryland": 614,
+              "Massachusetts": 509,
+              "Michigan": 614,
+              "Minnesota": 614,
+              "Mississippi": 509,
+              "Missouri": 509,
+              "Montana": 484,
+              "Nebraska": 509,
+              "Nevada": 509,
+              "New Hampshire": 509,
+              "New Jersey": 509,
+              "New Mexico": 611,
+              "New York": 614,
+              "North Carolina": 614,
+              "North Dakota": 404,
+              "Ohio": 509,
+              "Oklahoma": 508,
+              "Oregon": 614,
+              "Pennsylvania": 509,
+              "Rhode Island": 509,
+              "South Carolina": 509,
+              "South Dakota": 509,
+              "Tennessee": 614,
+              "Texas": 509,
+              "United States": 614,
+              "Utah": 613,
+              "Vermont": 509,
+              "Virginia": 508,
+              "Washington": 562,
+              "West Virginia": 509,
+              "Wisconsin": 509,
+              "Wyoming": 400
             }
           },
           {
             "name": "date",
-            "duplicates": 27351,
+            "duplicates": 27514,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
-              "2024-09-28": 218,
               "2024-10-05": 218,
               "2024-10-12": 218,
               "2024-10-19": 218,
@@ -12578,63 +12632,64 @@
               "2025-09-13": 271,
               "2025-09-20": 271,
               "2025-09-27": 271,
-              "2025-10-04": 271,
-              "2025-10-11": 271,
-              "2025-10-18": 271,
-              "2025-10-25": 271,
-              "2025-11-01": 271,
-              "2025-11-08": 271,
-              "2025-11-15": 271,
-              "2025-11-22": 271,
-              "2025-11-29": 271,
-              "2025-12-06": 271,
-              "2025-12-13": 271,
-              "2025-12-20": 271,
-              "2025-12-27": 271,
-              "2026-01-03": 271,
-              "2026-01-10": 271,
-              "2026-01-17": 271,
-              "2026-01-24": 271,
-              "2026-01-31": 271,
-              "2026-02-07": 271,
-              "2026-02-14": 271,
-              "2026-02-21": 271,
-              "2026-02-28": 271,
-              "2026-03-07": 271,
-              "2026-03-14": 271,
-              "2026-03-21": 271,
-              "2026-03-28": 271,
-              "2026-04-04": 271,
-              "2026-04-11": 271,
-              "2026-04-18": 271,
-              "2026-04-25": 271,
-              "2026-05-02": 271,
-              "2026-05-09": 271,
-              "2026-05-16": 271,
-              "2026-05-23": 271,
-              "2026-05-30": 271,
-              "2026-06-06": 271,
-              "2026-06-13": 271,
-              "2026-06-20": 271,
-              "2026-06-27": 271,
-              "2026-07-04": 269,
-              "2026-07-11": 269,
-              "2026-07-18": 269,
-              "2026-07-25": 269,
-              "2026-08-01": 217,
-              "2026-08-08": 217,
-              "2026-08-15": 217,
-              "2026-08-22": 217,
-              "2026-08-29": 217,
-              "2026-09-05": 216,
-              "2026-09-12": 165,
-              "2026-09-19": 163,
-              "2026-09-26": 148
+              "2025-10-04": 272,
+              "2025-10-11": 272,
+              "2025-10-18": 272,
+              "2025-10-25": 272,
+              "2025-11-01": 272,
+              "2025-11-08": 272,
+              "2025-11-15": 272,
+              "2025-11-22": 272,
+              "2025-11-29": 272,
+              "2025-12-06": 272,
+              "2025-12-13": 272,
+              "2025-12-20": 272,
+              "2025-12-27": 272,
+              "2026-01-03": 272,
+              "2026-01-10": 272,
+              "2026-01-17": 272,
+              "2026-01-24": 272,
+              "2026-01-31": 272,
+              "2026-02-07": 272,
+              "2026-02-14": 272,
+              "2026-02-21": 272,
+              "2026-02-28": 272,
+              "2026-03-07": 272,
+              "2026-03-14": 272,
+              "2026-03-21": 272,
+              "2026-03-28": 272,
+              "2026-04-04": 272,
+              "2026-04-11": 272,
+              "2026-04-18": 272,
+              "2026-04-25": 272,
+              "2026-05-02": 272,
+              "2026-05-09": 272,
+              "2026-05-16": 272,
+              "2026-05-23": 272,
+              "2026-05-30": 272,
+              "2026-06-06": 272,
+              "2026-06-13": 272,
+              "2026-06-20": 272,
+              "2026-06-27": 272,
+              "2026-07-04": 270,
+              "2026-07-11": 270,
+              "2026-07-18": 270,
+              "2026-07-25": 270,
+              "2026-08-01": 218,
+              "2026-08-08": 218,
+              "2026-08-15": 218,
+              "2026-08-22": 218,
+              "2026-08-29": 218,
+              "2026-09-05": 218,
+              "2026-09-12": 217,
+              "2026-09-19": 215,
+              "2026-09-26": 212,
+              "2026-10-03": 163
             }
           },
           {
             "name": "value",
-            "duplicates": 14025,
+            "duplicates": 14077,
             "info": {
               "measure_column": "source",
               "short_name": "Value",
@@ -12644,14 +12699,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 24.148258,
-            "sd": 295.690337,
+            "mean": 24.00636,
+            "sd": 294.822183,
             "min": 0,
             "max": 15979
           },
           {
             "name": "value_smooth",
-            "duplicates": 11641,
+            "duplicates": 11716,
             "info": {
               "measure_column": "source",
               "short_name": "Smoothed value",
@@ -12661,14 +12716,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 22.821902,
-            "sd": 287.121868,
+            "mean": 22.687274,
+            "sd": 286.278616,
             "min": 0,
             "max": 15769
           },
           {
             "name": "value_scale",
-            "duplicates": 10461,
+            "duplicates": 10529,
             "info": {
               "measure_column": "source",
               "short_name": "Scaled value (0–100)",
@@ -12678,14 +12733,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 18.934578,
-            "sd": 25.338307,
+            "mean": 18.871037,
+            "sd": 25.318735,
             "min": 0,
             "max": 100
           },
           {
             "name": "value_smooth_scale",
-            "duplicates": 6835,
+            "duplicates": 6907,
             "info": {
               "measure_column": "source",
               "short_name": "Smoothed scaled value (0–100)",
@@ -12695,14 +12750,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 20.876066,
-            "sd": 26.595502,
+            "mean": 20.844439,
+            "sd": 26.58957,
             "min": 0,
             "max": 100
           },
           {
             "name": "source",
-            "duplicates": 27450,
+            "duplicates": 27613,
             "info": {
               "short_name": "Data source",
               "levels": {
@@ -12710,7 +12765,7 @@
                   "source_id": "epic_pct_rsv",
                   "id": "Epic Cosmos, ED",
                   "name": "epic_pct_rsv",
-                  "duplicates": 118226,
+                  "duplicates": 118406,
                   "info": {
                     "id": "epic_pct_rsv",
                     "short_name": "RSV Patients (%)",
@@ -12733,20 +12788,20 @@
                   },
                   "time_range": [
                     0,
-                    451
+                    454
                   ],
                   "type": "float",
                   "missing": 0,
-                  "mean": 2.61439,
-                  "sd": 9.552554,
-                  "min": 0.000685,
+                  "mean": 2.559432,
+                  "sd": 9.442736,
+                  "min": 0.000673,
                   "max": 100
                 },
                 "Google Health Trends": {
                   "source_id": "gtrends_rsv_adjusted",
                   "id": "Google Health Trends",
                   "name": "gtrends_rsv_adjusted",
-                  "duplicates": 12459,
+                  "duplicates": 12506,
                   "info": {
                     "full_name": "gtrends_rsv_adjusted",
                     "measure": "gtrends_rsv_adjusted",
@@ -12776,12 +12831,12 @@
                   },
                   "time_range": [
                     0,
-                    663
+                    664
                   ],
                   "type": "float",
                   "missing": 0,
-                  "mean": 0.032494,
-                  "sd": 0.064651,
+                  "mean": 0.032447,
+                  "sd": 0.064614,
                   "min": 0,
                   "max": 1
                 },
@@ -12789,7 +12844,7 @@
                   "source_id": "percent_visits_rsv",
                   "id": "CDC NSSP",
                   "name": "percent_visits_rsv",
-                  "duplicates": 666689,
+                  "duplicates": 669881,
                   "info": {
                     "full_name": "Percent of Emergency department visits coded as being caused by RSV",
                     "measure": "percent",
@@ -12814,12 +12869,12 @@
                   },
                   "time_range": [
                     0,
-                    208
+                    209
                   ],
                   "type": "float",
-                  "missing": 4108,
-                  "mean": 0.29028,
-                  "sd": 0.592379,
+                  "missing": 4232,
+                  "mean": 0.28941,
+                  "sd": 0.59135,
                   "min": 0,
                   "max": 50
                 },
@@ -12827,7 +12882,7 @@
                   "source_id": "rate_rsv",
                   "id": "CDC RespNET",
                   "name": "rate_rsv",
-                  "duplicates": 40293,
+                  "duplicates": 40509,
                   "info": {
                     "id": "rate_rsv",
                     "short_name": "Number of laboratory confirmed cases of RSV per 100,000 people",
@@ -12853,13 +12908,13 @@
                     }
                   },
                   "time_range": [
-                    394,
-                    395
+                    396,
+                    397
                   ],
                   "type": "float",
                   "missing": 0,
-                  "mean": 3.980773,
-                  "sd": 18.530244,
+                  "mean": 3.964062,
+                  "sd": 18.504762,
                   "min": 0,
                   "max": 739.3
                 },
@@ -12867,7 +12922,7 @@
                   "source_id": "wastewater_rsv",
                   "id": "CDC NWSS",
                   "name": "wastewater_rsv",
-                  "duplicates": 6456,
+                  "duplicates": 6477,
                   "info": {
                     "full_name": "wastewater_rsv",
                     "measure": "wastewater_rsv",
@@ -12895,15 +12950,15 @@
                     }
                   },
                   "time_range": [
-                    218,
-                    234
+                    219,
+                    235
                   ],
                   "type": "float",
-                  "missing": 2422,
-                  "mean": 3.962847,
-                  "sd": 4.182181,
+                  "missing": 2425,
+                  "mean": 3.948447,
+                  "sd": 4.167341,
                   "min": 0.339091,
-                  "max": 15.478832
+                  "max": 15.428424
                 },
                 "CDC NHSN": {
                   "source_id": "delphi_nhsn_rsv",
@@ -12950,16 +13005,16 @@
             "missing": 0,
             "table": {
               "CDC NHSN": 4680,
-              "CDC NSSP": 5342,
-              "CDC NWSS": 5317,
-              "CDC RespNET": 1456,
-              "Epic Cosmos, ED": 5201,
+              "CDC NSSP": 5341,
+              "CDC NWSS": 5314,
+              "CDC RespNET": 1523,
+              "Epic Cosmos, ED": 5301,
               "Google Health Trends": 5460
             }
           },
           {
             "name": "suppressed_flag",
-            "duplicates": 27454,
+            "duplicates": 27617,
             "info": {
               "short_name": "Suppressed flag",
               "short_description": "Equals 1 when the underlying Epic Cosmos count was suppressed (small cell) and imputed; 0 otherwise. Non-Epic sources are 0.",
@@ -12970,24 +13025,25 @@
             "time_range": [-1, -1],
             "type": "integer",
             "missing": 0,
-            "mean": 0.085045,
-            "sd": 0.278954,
+            "mean": 0.086824,
+            "sd": 0.281582,
             "min": 0,
             "max": 1
           }
         ]
       },
-      "sha512": "47094ce198c222ffd5d9dcda345b8775f78b5133218061fb8e40eb21d74f194385ae218369b5552089e44381bc020f20c99701688bc80c44442318efbb6ed01a"
+      "sha512": "b461ceb6f2732e6ad1b32c34288f4099ae129f90955937511d124317722b25bf4c5c28121688fbd2de69a4fc4d10c6b19d7f7243091b68cf60233631807e6973"
     },
     {
-      "bytes": 44628,
+      "bytes": 44548,
       "encoding": "windows-1252",
-      "md5": "fc898391742c5d37780da2a11597b8b0",
+      "md5": "06aff5aa1219642c4631ad6bd3d8e6c3",
       "format": "parquet",
       "name": "rsv_positive_tests",
       "filename": "rsv_positive_tests.parquet",
       "versions": {
         "hash": [
+          "788fb5ea0423199a95277c49613256fe493f6582",
           "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "4f5f82b74fee87819b5256fbfbe28452f2ef0a96",
@@ -13143,6 +13199,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -13260,6 +13317,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Thu Oct 8 07:27:48 2026 +0000",
           "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Fri Sep 25 19:25:48 2026 +0000",
@@ -13396,6 +13454,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
@@ -13542,8 +13601,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-08 07:27:19.090338",
-      "last_modified": "2026-10-08 07:27:19.090338",
+      "created": "2026-10-10 00:06:44.086336",
+      "last_modified": "2026-10-10 00:06:44.086336",
       "vintage": {},
       "row_count": 3586,
       "entity_count": 11,
@@ -14100,17 +14159,18 @@
           }
         ]
       },
-      "sha512": "8512f8c9dc5da7db50b95193ebe6606583a6b97f4adfa722d42cc7777e4eb7fab4b4548ca948a2448fd13c7a326642369835ca3462bdf5bf789004a0be8667af"
+      "sha512": "4f4cfe03d239117bd490b001b06ee510a626e95d6ed878b6eceb144ab9875a228f55e91865e9b6a3f2919bcae0058cd7aa98e2b516c43c251fe42ba1518d5abc"
     },
     {
-      "bytes": 130012,
+      "bytes": 129999,
       "encoding": "windows-1252",
-      "md5": "632fb617e892b7eee951b706658d8b05",
+      "md5": "82d1823d22a3888cfa77f44081d58440",
       "format": "parquet",
       "name": "rsv_testing_pct",
       "filename": "rsv_testing_pct.parquet",
       "versions": {
         "hash": [
+          "788fb5ea0423199a95277c49613256fe493f6582",
           "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "4f5f82b74fee87819b5256fbfbe28452f2ef0a96",
@@ -14234,6 +14294,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -14319,6 +14380,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Thu Oct 8 07:27:48 2026 +0000",
           "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Fri Sep 25 19:25:48 2026 +0000",
@@ -14423,6 +14485,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
@@ -14537,8 +14600,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-08 07:27:19.175338",
-      "last_modified": "2026-10-08 07:27:19.175338",
+      "created": "2026-10-10 00:06:44.164337",
+      "last_modified": "2026-10-10 00:06:44.164337",
       "vintage": {},
       "row_count": 16433,
       "entity_count": 53,
@@ -14836,17 +14899,18 @@
           }
         ]
       },
-      "sha512": "0d97f4892dac0192ec19fef3aba919473d2371c4a4bf3e1185fb88db74a9e4388e91789d2c31a235b2810b599562913501429c2e18ae87606edd8037c9199f8f"
+      "sha512": "02fe617188b20252004171ec86eb8b6e6d1cda0fbabccefc3a0b9447c9581e467f25565ae864d5b8d9e2d3e5b9911f11db53767937e480fb9712b89a29506cb5"
     },
     {
-      "bytes": 1415210,
+      "bytes": 1444046,
       "encoding": "UTF-16BE",
-      "md5": "52b33ff65c87e34515c08b6a32e554ab",
+      "md5": "b479f13d9a53a7f168279996ece6e45d",
       "format": "parquet",
       "name": "rsv_trends_by_age",
       "filename": "rsv_trends_by_age.parquet",
       "versions": {
         "hash": [
+          "788fb5ea0423199a95277c49613256fe493f6582",
           "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "7be80843e6f9215a3f9a05c062d1b63e5f5375d1",
@@ -15006,6 +15070,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -15121,6 +15186,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Thu Oct 8 07:27:48 2026 +0000",
           "Fri Oct 2 19:48:24 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Tue Sep 29 19:50:08 2026 +0000",
@@ -15258,6 +15324,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
@@ -15405,23 +15472,21 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-08 07:27:23.505345",
-      "last_modified": "2026-10-08 07:27:23.505345",
+      "created": "2026-10-10 00:06:48.371402",
+      "last_modified": "2026-10-10 00:06:48.371402",
       "vintage": {},
-      "row_count": 48159,
+      "row_count": 48517,
       "entity_count": 52,
       "schema": {
         "fields": [
           {
             "name": "date",
-            "duplicates": 48054,
+            "duplicates": 48412,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
-              "2024-09-21": 463,
-              "2024-09-28": 463,
               "2024-10-05": 463,
               "2024-10-12": 463,
               "2024-10-19": 463,
@@ -15522,93 +15587,95 @@
               "2026-08-15": 469,
               "2026-08-22": 469,
               "2026-08-29": 469,
-              "2026-09-05": 456,
-              "2026-09-12": 105,
-              "2026-09-19": 105
+              "2026-09-05": 469,
+              "2026-09-12": 469,
+              "2026-09-19": 469,
+              "2026-09-26": 438,
+              "2026-10-03": 105
             }
           },
           {
             "name": "geography",
-            "duplicates": 48107,
+            "duplicates": 48465,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
-              "Alabama": 720,
-              "Alaska": 721,
-              "Arizona": 721,
-              "Arkansas": 720,
-              "California": 1456,
-              "Colorado": 1456,
-              "Connecticut": 1456,
-              "Delaware": 721,
-              "District of Columbia": 719,
-              "Florida": 721,
-              "Georgia": 1456,
-              "Hawaii": 721,
-              "Idaho": 721,
-              "Illinois": 721,
-              "Indiana": 721,
-              "Iowa": 721,
-              "Kansas": 721,
-              "Kentucky": 721,
-              "Louisiana": 721,
-              "Maine": 721,
-              "Maryland": 1456,
-              "Massachusetts": 721,
-              "Michigan": 1456,
-              "Minnesota": 1456,
-              "Mississippi": 717,
-              "Missouri": 721,
+              "Alabama": 728,
+              "Alaska": 728,
+              "Arizona": 728,
+              "Arkansas": 728,
+              "California": 1463,
+              "Colorado": 1462,
+              "Connecticut": 1463,
+              "Delaware": 728,
+              "District of Columbia": 725,
+              "Florida": 727,
+              "Georgia": 1463,
+              "Hawaii": 728,
+              "Idaho": 728,
+              "Illinois": 727,
+              "Indiana": 728,
+              "Iowa": 728,
+              "Kansas": 728,
+              "Kentucky": 728,
+              "Louisiana": 728,
+              "Maine": 728,
+              "Maryland": 1463,
+              "Massachusetts": 728,
+              "Michigan": 1463,
+              "Minnesota": 1463,
+              "Mississippi": 728,
+              "Missouri": 728,
               "Montana": 721,
-              "Nebraska": 721,
-              "Nevada": 721,
-              "New Hampshire": 720,
-              "New Jersey": 720,
-              "New Mexico": 1456,
-              "New York": 1456,
-              "North Carolina": 1444,
-              "North Dakota": 721,
-              "Ohio": 766,
-              "Oklahoma": 721,
-              "Oregon": 1456,
-              "Pennsylvania": 721,
-              "Rhode Island": 720,
-              "South Carolina": 721,
-              "South Dakota": 721,
-              "Tennessee": 1455,
-              "Texas": 721,
-              "United States": 1456,
+              "Nebraska": 728,
+              "Nevada": 728,
+              "New Hampshire": 728,
+              "New Jersey": 727,
+              "New Mexico": 1463,
+              "New York": 1463,
+              "North Carolina": 1463,
+              "North Dakota": 727,
+              "Ohio": 758,
+              "Oklahoma": 728,
+              "Oregon": 1463,
+              "Pennsylvania": 728,
+              "Rhode Island": 727,
+              "South Carolina": 728,
+              "South Dakota": 728,
+              "Tennessee": 1463,
+              "Texas": 726,
+              "United States": 1463,
               "Utah": 1456,
-              "Vermont": 721,
-              "Virginia": 721,
-              "Washington": 1078,
-              "West Virginia": 721,
-              "Wisconsin": 721,
-              "Wyoming": 720
+              "Vermont": 728,
+              "Virginia": 724,
+              "Washington": 1099,
+              "West Virginia": 728,
+              "Wisconsin": 728,
+              "Wyoming": 727
             }
           },
           {
             "name": "age",
-            "duplicates": 48152,
+            "duplicates": 48510,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
-              "<1 Years": 6877,
-              "1-4 Years": 6874,
-              "18-49 Years": 6876,
-              "5-17 Years": 6876,
-              "50-64 Years": 6876,
-              "65+ Years": 6871,
-              "Total": 6909
+              "<1 Years": 6928,
+              "1-4 Years": 6928,
+              "18-49 Years": 6928,
+              "5-17 Years": 6928,
+              "50-64 Years": 6927,
+              "65+ Years": 6919,
+              "Total": 6959
             }
           },
           {
             "name": "source",
-            "duplicates": 48157,
+            "duplicates": 48515,
             "info": {
               "short_name": "Data source",
               "levels": {
@@ -15616,7 +15683,7 @@
                   "source_id": "epic_pct_rsv",
                   "id": "Epic Cosmos (ED)",
                   "name": "epic_pct_rsv",
-                  "duplicates": 118226,
+                  "duplicates": 118406,
                   "info": {
                     "id": "epic_pct_rsv",
                     "short_name": "RSV Patients (%)",
@@ -15639,20 +15706,20 @@
                   },
                   "time_range": [
                     0,
-                    451
+                    454
                   ],
                   "type": "float",
                   "missing": 0,
-                  "mean": 2.61439,
-                  "sd": 9.552554,
-                  "min": 0.000685,
+                  "mean": 2.559432,
+                  "sd": 9.442736,
+                  "min": 0.000673,
                   "max": 100
                 },
                 "CDC RSV-NET (Hospitalization)": {
                   "source_id": "rate_rsv",
                   "id": "CDC RSV-NET (Hospitalization)",
                   "name": "rate_rsv",
-                  "duplicates": 40293,
+                  "duplicates": 40509,
                   "info": {
                     "id": "rate_rsv",
                     "short_name": "Number of laboratory confirmed cases of RSV per 100,000 people",
@@ -15678,13 +15745,13 @@
                     }
                   },
                   "time_range": [
-                    394,
-                    395
+                    396,
+                    397
                   ],
                   "type": "float",
                   "missing": 0,
-                  "mean": 3.980773,
-                  "sd": 18.530244,
+                  "mean": 3.964062,
+                  "sd": 18.504762,
                   "min": 0,
                   "max": 739.3
                 }
@@ -15695,13 +15762,13 @@
             "type": "string",
             "missing": 0,
             "table": {
-              "CDC RSV-NET (Hospitalization)": 10680,
-              "Epic Cosmos (ED)": 37479
+              "CDC RSV-NET (Hospitalization)": 10692,
+              "Epic Cosmos (ED)": 37825
             }
           },
           {
             "name": "value",
-            "duplicates": 28129,
+            "duplicates": 28093,
             "info": {
               "measure_column": "source",
               "short_name": "Value",
@@ -15711,14 +15778,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 2.323077,
-            "sd": 8.942184,
+            "mean": 2.296695,
+            "sd": 8.90238,
             "min": 0,
             "max": 310.6
           },
           {
             "name": "value_smooth",
-            "duplicates": 10323,
+            "duplicates": 10334,
             "info": {
               "measure_column": "source",
               "short_name": "Smoothed value",
@@ -15728,14 +15795,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 1.603532,
-            "sd": 7.275524,
+            "mean": 1.587987,
+            "sd": 7.237854,
             "min": 0,
             "max": 274.333333
           },
           {
             "name": "value_scale",
-            "duplicates": 13903,
+            "duplicates": 13800,
             "info": {
               "measure_column": "source",
               "short_name": "Scaled value (0–100)",
@@ -15744,15 +15811,15 @@
             },
             "time_range": [-1, -1],
             "type": "float",
-            "missing": 45,
-            "mean": 18.392768,
-            "sd": 23.577682,
+            "missing": 31,
+            "mean": 18.539074,
+            "sd": 23.742256,
             "min": 0,
             "max": 100
           },
           {
             "name": "value_smooth_scale",
-            "duplicates": 8321,
+            "duplicates": 8350,
             "info": {
               "measure_column": "source",
               "short_name": "Smoothed scaled value (0–100)",
@@ -15761,15 +15828,15 @@
             },
             "time_range": [-1, -1],
             "type": "float",
-            "missing": 45,
-            "mean": 22.684972,
-            "sd": 26.938116,
+            "missing": 31,
+            "mean": 22.808068,
+            "sd": 26.999325,
             "min": 0,
             "max": 100
           },
           {
             "name": "suppressed_flag",
-            "duplicates": 48157,
+            "duplicates": 48515,
             "info": {
               "short_name": "Suppressed flag",
               "short_description": "Equals 1 when the underlying Epic Cosmos count for this age group was suppressed (small cell) and imputed; 0 otherwise.",
@@ -15780,14 +15847,14 @@
             "time_range": [-1, -1],
             "type": "integer",
             "missing": 0,
-            "mean": 0.564505,
-            "sd": 0.495827,
+            "mean": 0.564647,
+            "sd": 0.495808,
             "min": 0,
             "max": 1
           }
         ]
       },
-      "sha512": "ad37e18acf2e413ffdee4134047368c5a2c1d9e1a2acb4ee859d15247d01940dab7687c3421c585bc695246ed8a5533c36aad72a33097ecb014d41f2018e257f"
+      "sha512": "2258afa80854e498f6583915b9ea1b9e5a0f795c8ff24cc790794dd3bb9fe485fa385c20d903e6ead6bd7ca3e0422bdae0e93b10c85e8d39d1d4653dd3cd2e79"
     }
   ],
   "measure_info": {
@@ -15798,7 +15865,7 @@
           "source_id": "epic_pct_rsv",
           "id": "Epic Cosmos, ED",
           "name": "epic_pct_rsv",
-          "duplicates": 118226,
+          "duplicates": 118406,
           "info": {
             "id": "epic_pct_rsv",
             "short_name": "RSV Patients (%)",
@@ -15821,20 +15888,20 @@
           },
           "time_range": [
             0,
-            451
+            454
           ],
           "type": "float",
           "missing": 0,
-          "mean": 2.61439,
-          "sd": 9.552554,
-          "min": 0.000685,
+          "mean": 2.559432,
+          "sd": 9.442736,
+          "min": 0.000673,
           "max": 100
         },
         "Google Health Trends": {
           "source_id": "gtrends_rsv_adjusted",
           "id": "Google Health Trends",
           "name": "gtrends_rsv_adjusted",
-          "duplicates": 12459,
+          "duplicates": 12506,
           "info": {
             "full_name": "gtrends_rsv_adjusted",
             "measure": "gtrends_rsv_adjusted",
@@ -15864,12 +15931,12 @@
           },
           "time_range": [
             0,
-            663
+            664
           ],
           "type": "float",
           "missing": 0,
-          "mean": 0.032494,
-          "sd": 0.064651,
+          "mean": 0.032447,
+          "sd": 0.064614,
           "min": 0,
           "max": 1
         },
@@ -15877,7 +15944,7 @@
           "source_id": "percent_visits_rsv",
           "id": "CDC NSSP",
           "name": "percent_visits_rsv",
-          "duplicates": 666689,
+          "duplicates": 669881,
           "info": {
             "full_name": "Percent of Emergency department visits coded as being caused by RSV",
             "measure": "percent",
@@ -15902,12 +15969,12 @@
           },
           "time_range": [
             0,
-            208
+            209
           ],
           "type": "float",
-          "missing": 4108,
-          "mean": 0.29028,
-          "sd": 0.592379,
+          "missing": 4232,
+          "mean": 0.28941,
+          "sd": 0.59135,
           "min": 0,
           "max": 50
         },
@@ -15915,7 +15982,7 @@
           "source_id": "rate_rsv",
           "id": "CDC RespNET",
           "name": "rate_rsv",
-          "duplicates": 40293,
+          "duplicates": 40509,
           "info": {
             "id": "rate_rsv",
             "short_name": "Number of laboratory confirmed cases of RSV per 100,000 people",
@@ -15941,13 +16008,13 @@
             }
           },
           "time_range": [
-            394,
-            395
+            396,
+            397
           ],
           "type": "float",
           "missing": 0,
-          "mean": 3.980773,
-          "sd": 18.530244,
+          "mean": 3.964062,
+          "sd": 18.504762,
           "min": 0,
           "max": 739.3
         },
@@ -15955,7 +16022,7 @@
           "source_id": "wastewater_rsv",
           "id": "CDC NWSS",
           "name": "wastewater_rsv",
-          "duplicates": 6456,
+          "duplicates": 6477,
           "info": {
             "full_name": "wastewater_rsv",
             "measure": "wastewater_rsv",
@@ -15983,15 +16050,15 @@
             }
           },
           "time_range": [
-            218,
-            234
+            219,
+            235
           ],
           "type": "float",
-          "missing": 2422,
-          "mean": 3.962847,
-          "sd": 4.182181,
+          "missing": 2425,
+          "mean": 3.948447,
+          "sd": 4.167341,
           "min": 0.339091,
-          "max": 15.478832
+          "max": 15.428424
         },
         "CDC NHSN": {
           "source_id": "delphi_nhsn_rsv",
@@ -16040,7 +16107,7 @@
           "source_id": "epic_pct_flu",
           "id": "Epic Cosmos, ED",
           "name": "epic_pct_flu",
-          "duplicates": 97935,
+          "duplicates": 97677,
           "info": {
             "id": "epic_pct_flu",
             "short_name": "Influenza Patients (%)",
@@ -16063,20 +16130,20 @@
           },
           "time_range": [
             0,
-            451
+            454
           ],
           "type": "float",
           "missing": 0,
-          "mean": 3.336095,
-          "sd": 9.687024,
-          "min": 0.003112,
+          "mean": 3.277913,
+          "sd": 9.58108,
+          "min": 0.003054,
           "max": 100
         },
         "CDC NSSP": {
           "source_id": "percent_visits_flu",
           "id": "CDC NSSP",
           "name": "percent_visits_flu",
-          "duplicates": 665427,
+          "duplicates": 668619,
           "info": {
             "full_name": "Percent of Emergency department visits coded as being caused by influenza",
             "measure": "percent",
@@ -16101,12 +16168,12 @@
           },
           "time_range": [
             0,
-            208
+            209
           ],
           "type": "float",
-          "missing": 4108,
-          "mean": 1.375263,
-          "sd": 2.49044,
+          "missing": 4232,
+          "mean": 1.372874,
+          "sd": 2.486839,
           "min": 0,
           "max": 100
         },
@@ -16114,7 +16181,7 @@
           "source_id": "rate_flu",
           "id": "CDC RespNET",
           "name": "rate_flu",
-          "duplicates": 41051,
+          "duplicates": 41261,
           "info": {
             "id": "rate_flu",
             "short_name": "Number of laboratory confirmed cases of influenza per 100,000 people",
@@ -16141,12 +16208,12 @@
           },
           "time_range": [
             0,
-            394
+            396
           ],
           "type": "float",
-          "missing": 35445,
-          "mean": 1.346861,
-          "sd": 2.811634,
+          "missing": 35625,
+          "mean": 1.342732,
+          "sd": 2.802514,
           "min": 0,
           "max": 30.3
         },
@@ -16154,7 +16221,7 @@
           "source_id": "wastewater_flua",
           "id": "CDC NWSS",
           "name": "wastewater_flua",
-          "duplicates": 6142,
+          "duplicates": 6170,
           "info": {
             "full_name": "wastewater_flua",
             "measure": "wastewater_flua",
@@ -16182,15 +16249,15 @@
             }
           },
           "time_range": [
-            218,
-            247
+            219,
+            248
           ],
           "type": "float",
-          "missing": 2362,
-          "mean": 3.697901,
-          "sd": 4.254231,
+          "missing": 2365,
+          "mean": 3.697763,
+          "sd": 4.252425,
           "min": 0.981429,
-          "max": 16.1748
+          "max": 16.162692
         },
         "CDC NHSN": {
           "source_id": "delphi_nhsn_flu",
@@ -16272,7 +16339,7 @@
           "source_id": "delphi_fluview_wili",
           "id": "CDC ILINet",
           "name": "delphi_fluview_wili",
-          "duplicates": 3130,
+          "duplicates": 3129,
           "info": {
             "id": "delphi_fluview_wili",
             "short_name": "Weighted percent influenza-like illness (ILI)",
@@ -16306,12 +16373,12 @@
           },
           "time_range": [
             0,
-            1416
+            1417
           ],
           "type": "float",
           "missing": 0,
-          "mean": 1.914571,
-          "sd": 1.877791,
+          "mean": 1.914071,
+          "sd": 1.877029,
           "min": 0,
           "max": 19.4177
         },
@@ -16364,7 +16431,7 @@
           "source_id": "epic_pct_covid",
           "id": "Epic Cosmos, ED",
           "name": "epic_pct_covid",
-          "duplicates": 88428,
+          "duplicates": 88212,
           "info": {
             "id": "epic_pct_covid",
             "short_name": "COVID Patients (%)",
@@ -16387,20 +16454,20 @@
           },
           "time_range": [
             0,
-            451
+            454
           ],
           "type": "float",
           "missing": 0,
-          "mean": 3.366032,
-          "sd": 9.516996,
-          "min": 0.000549,
+          "mean": 3.308189,
+          "sd": 9.41105,
+          "min": 0.000532,
           "max": 100
         },
         "CDC NSSP": {
           "source_id": "percent_visits_covid",
           "id": "CDC NSSP",
           "name": "percent_visits_covid",
-          "duplicates": 666356,
+          "duplicates": 669549,
           "info": {
             "full_name": "Percent of Emergency department visits coded as being caused by covid",
             "measure": "percent",
@@ -16425,12 +16492,12 @@
           },
           "time_range": [
             0,
-            208
+            209
           ],
           "type": "float",
-          "missing": 4108,
-          "mean": 1.103902,
-          "sd": 1.201292,
+          "missing": 4232,
+          "mean": 1.101806,
+          "sd": 1.199813,
           "min": 0,
           "max": 100
         },
@@ -16438,7 +16505,7 @@
           "source_id": "rate_covid",
           "id": "CDC RespNET",
           "name": "rate_covid",
-          "duplicates": 40487,
+          "duplicates": 40697,
           "info": {
             "id": "rate_covid",
             "short_name": "Number of laboratory confirmed cases of COVID-19 per 100,000 people",
@@ -16464,13 +16531,13 @@
             }
           },
           "time_range": [
-            394,
-            395
+            396,
+            397
           ],
           "type": "float",
           "missing": 86,
-          "mean": 4.872921,
-          "sd": 10.088669,
+          "mean": 4.853112,
+          "sd": 10.067345,
           "min": 0,
           "max": 189.2
         },
@@ -16478,7 +16545,7 @@
           "source_id": "wastewater_covid",
           "id": "CDC NWSS",
           "name": "wastewater_covid",
-          "duplicates": 1485,
+          "duplicates": 1433,
           "info": {
             "full_name": "wastewater_covid",
             "measure": "wastewater_covid",
@@ -16506,15 +16573,15 @@
             }
           },
           "time_range": [
-            218,
-            247
+            219,
+            248
           ],
           "type": "float",
           "missing": 0,
-          "mean": 6.145675,
-          "sd": 4.305388,
+          "mean": 6.586187,
+          "sd": 4.563208,
           "min": 0.075,
-          "max": 16.427111
+          "max": 17.525312
         },
         "CDC NHSN": {
           "source_id": "delphi_nhsn_covid",
@@ -16641,7 +16708,7 @@
           "source_id": "epic_pct_rsv",
           "id": "Epic Cosmos (ED)",
           "name": "epic_pct_rsv",
-          "duplicates": 118226,
+          "duplicates": 118406,
           "info": {
             "id": "epic_pct_rsv",
             "short_name": "RSV Patients (%)",
@@ -16664,20 +16731,20 @@
           },
           "time_range": [
             0,
-            451
+            454
           ],
           "type": "float",
           "missing": 0,
-          "mean": 2.61439,
-          "sd": 9.552554,
-          "min": 0.000685,
+          "mean": 2.559432,
+          "sd": 9.442736,
+          "min": 0.000673,
           "max": 100
         },
         "CDC RSV-NET (Hospitalization)": {
           "source_id": "rate_rsv",
           "id": "CDC RSV-NET (Hospitalization)",
           "name": "rate_rsv",
-          "duplicates": 40293,
+          "duplicates": 40509,
           "info": {
             "id": "rate_rsv",
             "short_name": "Number of laboratory confirmed cases of RSV per 100,000 people",
@@ -16703,13 +16770,13 @@
             }
           },
           "time_range": [
-            394,
-            395
+            396,
+            397
           ],
           "type": "float",
           "missing": 0,
-          "mean": 3.980773,
-          "sd": 18.530244,
+          "mean": 3.964062,
+          "sd": 18.504762,
           "min": 0,
           "max": 739.3
         }
@@ -16723,7 +16790,7 @@
           "source_id": "epic_pct_flu",
           "id": "Epic Cosmos (ED)",
           "name": "epic_pct_flu",
-          "duplicates": 97935,
+          "duplicates": 97677,
           "info": {
             "id": "epic_pct_flu",
             "short_name": "Influenza Patients (%)",
@@ -16746,20 +16813,20 @@
           },
           "time_range": [
             0,
-            451
+            454
           ],
           "type": "float",
           "missing": 0,
-          "mean": 3.336095,
-          "sd": 9.687024,
-          "min": 0.003112,
+          "mean": 3.277913,
+          "sd": 9.58108,
+          "min": 0.003054,
           "max": 100
         },
         "CDC RSV-NET (Hospitalization)": {
           "source_id": "rate_flu",
           "id": "CDC RSV-NET (Hospitalization)",
           "name": "rate_flu",
-          "duplicates": 41051,
+          "duplicates": 41261,
           "info": {
             "id": "rate_flu",
             "short_name": "Number of laboratory confirmed cases of influenza per 100,000 people",
@@ -16786,12 +16853,12 @@
           },
           "time_range": [
             0,
-            394
+            396
           ],
           "type": "float",
-          "missing": 35445,
-          "mean": 1.346861,
-          "sd": 2.811634,
+          "missing": 35625,
+          "mean": 1.342732,
+          "sd": 2.802514,
           "min": 0,
           "max": 30.3
         }
@@ -16805,7 +16872,7 @@
           "source_id": "epic_pct_covid",
           "id": "Epic Cosmos (ED)",
           "name": "epic_pct_covid",
-          "duplicates": 88428,
+          "duplicates": 88212,
           "info": {
             "id": "epic_pct_covid",
             "short_name": "COVID Patients (%)",
@@ -16828,20 +16895,20 @@
           },
           "time_range": [
             0,
-            451
+            454
           ],
           "type": "float",
           "missing": 0,
-          "mean": 3.366032,
-          "sd": 9.516996,
-          "min": 0.000549,
+          "mean": 3.308189,
+          "sd": 9.41105,
+          "min": 0.000532,
           "max": 100
         },
         "CDC RSV-NET (Hospitalization)": {
           "source_id": "rate_covid",
           "id": "CDC RSV-NET (Hospitalization)",
           "name": "rate_covid",
-          "duplicates": 40487,
+          "duplicates": 40697,
           "info": {
             "id": "rate_covid",
             "short_name": "Number of laboratory confirmed cases of COVID-19 per 100,000 people",
@@ -16867,13 +16934,13 @@
             }
           },
           "time_range": [
-            394,
-            395
+            396,
+            397
           ],
           "type": "float",
           "missing": 86,
-          "mean": 4.872921,
-          "sd": 10.088669,
+          "mean": 4.853112,
+          "sd": 10.067345,
           "min": 0,
           "max": 189.2
         }
@@ -16887,7 +16954,7 @@
           "source_id": "percent_visits_rsv",
           "id": "CDC NSSP",
           "name": "percent_visits_rsv",
-          "duplicates": 666689,
+          "duplicates": 669881,
           "info": {
             "full_name": "Percent of Emergency department visits coded as being caused by RSV",
             "measure": "percent",
@@ -16912,12 +16979,12 @@
           },
           "time_range": [
             0,
-            208
+            209
           ],
           "type": "float",
-          "missing": 4108,
-          "mean": 0.29028,
-          "sd": 0.592379,
+          "missing": 4232,
+          "mean": 0.28941,
+          "sd": 0.59135,
           "min": 0,
           "max": 50
         }
@@ -16931,7 +16998,7 @@
           "source_id": "percent_visits_flu",
           "id": "CDC NSSP",
           "name": "percent_visits_flu",
-          "duplicates": 665427,
+          "duplicates": 668619,
           "info": {
             "full_name": "Percent of Emergency department visits coded as being caused by influenza",
             "measure": "percent",
@@ -16956,12 +17023,12 @@
           },
           "time_range": [
             0,
-            208
+            209
           ],
           "type": "float",
-          "missing": 4108,
-          "mean": 1.375263,
-          "sd": 2.49044,
+          "missing": 4232,
+          "mean": 1.372874,
+          "sd": 2.486839,
           "min": 0,
           "max": 100
         }
@@ -16975,7 +17042,7 @@
           "source_id": "percent_visits_covid",
           "id": "CDC NSSP",
           "name": "percent_visits_covid",
-          "duplicates": 666356,
+          "duplicates": 669549,
           "info": {
             "full_name": "Percent of Emergency department visits coded as being caused by covid",
             "measure": "percent",
@@ -17000,12 +17067,12 @@
           },
           "time_range": [
             0,
-            208
+            209
           ],
           "type": "float",
-          "missing": 4108,
-          "mean": 1.103902,
-          "sd": 1.201292,
+          "missing": 4232,
+          "mean": 1.101806,
+          "sd": 1.199813,
           "min": 0,
           "max": 100
         }
@@ -17277,7 +17344,7 @@
       "source_id": "percent_visits_rsv",
       "id": "bundle_respiratory/dist/rsv_ed_visits_by_county.parquet|percent_visits_rsv",
       "name": "percent_visits_rsv",
-      "duplicates": 666689,
+      "duplicates": 669881,
       "info": {
         "full_name": "Percent of Emergency department visits coded as being caused by RSV",
         "measure": "percent",
@@ -17302,12 +17369,12 @@
       },
       "time_range": [
         0,
-        208
+        209
       ],
       "type": "float",
-      "missing": 4108,
-      "mean": 0.29028,
-      "sd": 0.592379,
+      "missing": 4232,
+      "mean": 0.28941,
+      "sd": 0.59135,
       "min": 0,
       "max": 50
     },
@@ -17315,7 +17382,7 @@
       "source_id": "percent_visits_flu",
       "id": "bundle_respiratory/dist/flu_ed_visits_by_county.parquet|percent_visits_flu",
       "name": "percent_visits_flu",
-      "duplicates": 665427,
+      "duplicates": 668619,
       "info": {
         "full_name": "Percent of Emergency department visits coded as being caused by influenza",
         "measure": "percent",
@@ -17340,12 +17407,12 @@
       },
       "time_range": [
         0,
-        208
+        209
       ],
       "type": "float",
-      "missing": 4108,
-      "mean": 1.375263,
-      "sd": 2.49044,
+      "missing": 4232,
+      "mean": 1.372874,
+      "sd": 2.486839,
       "min": 0,
       "max": 100
     },
@@ -17353,7 +17420,7 @@
       "source_id": "percent_visits_covid",
       "id": "bundle_respiratory/dist/covid_ed_visits_by_county.parquet|percent_visits_covid",
       "name": "percent_visits_covid",
-      "duplicates": 666356,
+      "duplicates": 669549,
       "info": {
         "full_name": "Percent of Emergency department visits coded as being caused by covid",
         "measure": "percent",
@@ -17378,12 +17445,12 @@
       },
       "time_range": [
         0,
-        208
+        209
       ],
       "type": "float",
-      "missing": 4108,
-      "mean": 1.103902,
-      "sd": 1.201292,
+      "missing": 4232,
+      "mean": 1.101806,
+      "sd": 1.199813,
       "min": 0,
       "max": 100
     },
@@ -17391,7 +17458,7 @@
       "source_id": "is_state_estimate",
       "id": "bundle_respiratory/dist/rsv_ed_visits_by_county.parquet|is_state_estimate",
       "name": "is_state_estimate",
-      "duplicates": 667334,
+      "duplicates": 670527,
       "info": {
         "full_name": "Indicator that the county value was imputed from state-level data",
         "measure": "flag",
@@ -17417,12 +17484,12 @@
       },
       "time_range": [
         0,
-        208
+        209
       ],
       "type": "integer",
-      "missing": 10868,
-      "mean": 0.252199,
-      "sd": 0.434275,
+      "missing": 10920,
+      "mean": 0.25234,
+      "sd": 0.434356,
       "min": 0,
       "max": 1
     },
@@ -17430,7 +17497,7 @@
       "source_id": "is_state_estimate",
       "id": "bundle_respiratory/dist/flu_ed_visits_by_county.parquet|is_state_estimate",
       "name": "is_state_estimate",
-      "duplicates": 667334,
+      "duplicates": 670527,
       "info": {
         "full_name": "Indicator that the county value was imputed from state-level data",
         "measure": "flag",
@@ -17456,12 +17523,12 @@
       },
       "time_range": [
         0,
-        208
+        209
       ],
       "type": "integer",
-      "missing": 10868,
-      "mean": 0.252199,
-      "sd": 0.434275,
+      "missing": 10920,
+      "mean": 0.25234,
+      "sd": 0.434356,
       "min": 0,
       "max": 1
     },
@@ -17469,7 +17536,7 @@
       "source_id": "is_state_estimate",
       "id": "bundle_respiratory/dist/covid_ed_visits_by_county.parquet|is_state_estimate",
       "name": "is_state_estimate",
-      "duplicates": 667334,
+      "duplicates": 670527,
       "info": {
         "full_name": "Indicator that the county value was imputed from state-level data",
         "measure": "flag",
@@ -17495,12 +17562,12 @@
       },
       "time_range": [
         0,
-        208
+        209
       ],
       "type": "integer",
-      "missing": 10868,
-      "mean": 0.252199,
-      "sd": 0.434275,
+      "missing": 10920,
+      "mean": 0.25234,
+      "sd": 0.434356,
       "min": 0,
       "max": 1
     },
@@ -17711,12 +17778,12 @@
       },
       "time_range": [
         0,
-        663
+        664
       ],
       "type": "float",
       "missing": 0,
-      "mean": 4.327394,
-      "sd": 7.22593,
+      "mean": 4.328254,
+      "sd": 7.220568,
       "min": 0,
       "max": 100
     },
@@ -18346,7 +18413,7 @@
         "week_end": {
           "status": "present",
           "same_type": true,
-          "added_levels": [],
+          "added_levels": "2026-10-03",
           "dropped_levels": []
         },
         "percent_visits_covid": {
@@ -18371,8 +18438,8 @@
         "date": {
           "status": "present",
           "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
+          "added_levels": "2026-10-03",
+          "dropped_levels": "2024-09-28"
         },
         "value": {
           "status": "present",
@@ -18408,7 +18475,7 @@
         "date": {
           "status": "present",
           "same_type": true,
-          "added_levels": [],
+          "added_levels": ["2026-09-26", "2026-10-03"],
           "dropped_levels": []
         },
         "geography": {
@@ -18467,7 +18534,7 @@
         "week_end": {
           "status": "present",
           "same_type": true,
-          "added_levels": [],
+          "added_levels": "2026-10-03",
           "dropped_levels": []
         },
         "percent_visits_flu": {
@@ -18492,8 +18559,8 @@
         "date": {
           "status": "present",
           "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
+          "added_levels": "2026-10-03",
+          "dropped_levels": ["2024-09-26", "2024-09-27", "2024-09-28", "2024-09-29", "2024-09-30", "2024-10-01", "2024-10-02"]
         },
         "value": {
           "status": "present",
@@ -18529,8 +18596,8 @@
         "date": {
           "status": "present",
           "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
+          "added_levels": ["2026-09-26", "2026-10-03"],
+          "dropped_levels": ["2024-09-21", "2024-09-28"]
         },
         "geography": {
           "status": "present",
@@ -18584,8 +18651,8 @@
         "date": {
           "status": "present",
           "same_type": true,
-          "added_levels": "2026-10-03",
-          "dropped_levels": []
+          "added_levels": ["2026-09-30", "2026-10-01", "2026-10-02", "2026-10-04", "2026-10-05", "2026-10-06"],
+          "dropped_levels": ["2026-09-01", "2026-09-02", "2026-09-03", "2026-09-04", "2026-09-06", "2026-09-07"]
         },
         "source": {
           "status": "present",
@@ -18743,7 +18810,7 @@
         "week_end": {
           "status": "present",
           "same_type": true,
-          "added_levels": [],
+          "added_levels": "2026-10-03",
           "dropped_levels": []
         },
         "percent_visits_rsv": {
@@ -18766,8 +18833,8 @@
         "date": {
           "status": "present",
           "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
+          "added_levels": "2026-10-03",
+          "dropped_levels": "2024-09-28"
         },
         "value": {
           "status": "present",
@@ -18787,8 +18854,8 @@
         "date": {
           "status": "present",
           "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
+          "added_levels": "2026-10-03",
+          "dropped_levels": "2024-09-28"
         },
         "value": {
           "status": "present",
@@ -18918,8 +18985,8 @@
         "date": {
           "status": "present",
           "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
+          "added_levels": ["2026-09-26", "2026-10-03"],
+          "dropped_levels": ["2024-09-21", "2024-09-28"]
         },
         "geography": {
           "status": "present",

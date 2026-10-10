@@ -26,7 +26,7 @@
       }
     }
   ],
-  "checked": "2026-10-02 19:47:58",
+  "checked": "2026-10-10 00:08:10",
   "check_results": {
     "data/schoolvaxview/standard/data_exemptions.csv.gz": {
       "measures": ["type_changed: N", "type_changed: percent_surveyed"]

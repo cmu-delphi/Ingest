@@ -33,8 +33,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-08 18:16:01.763848",
-      "last_modified": "2026-09-08 18:16:01.763848",
+      "created": "2026-10-09 18:13:22.361441",
+      "last_modified": "2026-10-09 18:13:22.361441",
       "vintage": {},
       "row_count": 12495,
       "entity_count": 28,
@@ -435,8 +435,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-08 18:16:01.764848",
-      "last_modified": "2026-09-08 18:16:01.764848",
+      "created": "2026-10-09 18:13:22.363441",
+      "last_modified": "2026-10-09 18:13:22.363441",
       "vintage": {},
       "row_count": 107915,
       "entity_count": 1,
@@ -1219,14 +1219,15 @@
       "sha512": "8682592245c5c717d94a199a61c5443a929caf2c18f4232c2c925db95cbf84b7c350400bdb999b330db96baa23d289717a2ee85f06980d0d0b4ff7497014ecaf"
     },
     {
-      "bytes": 3831613,
+      "bytes": 3830932,
       "encoding": "windows-1252",
-      "md5": "ecad0764a7dd06762198bcc7c460b736",
+      "md5": "3d9f66fef665e8c7cca58f6074e1a6a2",
       "format": "csv",
       "name": "data_resistance_agent.csv",
       "filename": "data_resistance_agent.csv.gz",
       "versions": {
         "hash": [
+          "2e3bfac1eacf08ea984f741214d216005b5c88fe",
           "febbc4cba45d1dcdc4bf4cdbae03353299e435ae",
           "702144634da1a7c064e5a0ea117aa85c983aec37",
           "a3a88cb5e9d5afda114dcb35b151a014d3042df0"
@@ -1234,14 +1235,17 @@
         "author": [
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "weinbergerlab <dweinber@gmail.com>"
         ],
         "date": [
+          "Tue Sep 8 23:55:17 2026 +0000",
           "Sat Aug 8 00:02:04 2026 +0000",
           "Fri Jul 3 23:33:32 2026 +0000",
           "Tue Jun 9 12:07:10 2026 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "scheduled data build",
           "Add CDC CFA RT (respiratory tract) data source"
@@ -1257,8 +1261,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-08 22:56:00.453305",
-      "last_modified": "2026-09-08 22:56:00.453305",
+      "created": "2026-10-09 22:41:00.646166",
+      "last_modified": "2026-10-09 22:41:00.646166",
       "vintage": {},
       "row_count": 937262,
       "entity_count": 52,
@@ -1524,15 +1528,15 @@
             },
             "time_range": [0, 26],
             "type": "float",
-            "missing": 273517,
-            "mean": 11.165331,
-            "sd": 155.407685,
+            "missing": 273714,
+            "mean": 11.154026,
+            "sd": 155.428271,
             "min": 0,
             "max": 18600
           },
           {
             "name": "n_resistant",
-            "duplicates": 936531,
+            "duplicates": 936533,
             "info": {
               "id": "n_resistant",
               "short_name": "Number of resistant isolates",
@@ -1561,15 +1565,15 @@
             },
             "time_range": [0, 26],
             "type": "integer",
-            "missing": 273517,
-            "mean": 5.909046,
-            "sd": 61.690858,
+            "missing": 273714,
+            "mean": 5.911075,
+            "sd": 62.023409,
             "min": 0,
-            "max": 11410
+            "max": 11406
           },
           {
             "name": "n_tested",
-            "duplicates": 936460,
+            "duplicates": 936459,
             "info": {
               "id": "n_tested",
               "short_name": "Number of isolates tested",
@@ -1598,25 +1602,26 @@
             },
             "time_range": [0, 26],
             "type": "integer",
-            "missing": 273517,
-            "mean": 66.24615,
-            "sd": 449.215238,
+            "missing": 273714,
+            "mean": 66.267262,
+            "sd": 449.358609,
             "min": 0,
-            "max": 54715
+            "max": 54690
           }
         ]
       },
-      "sha512": "e50d623605cf0b8f65a4c4ab894caa21cf4f5f6598707ec4b15bc0d79906990314ea4dfae50f023c3a64eb0e8aad9ce07be0e1e6dc24eb28194188f18613caf7"
+      "sha512": "6bcc84c9e62307774553bb97f1822850cef330be810b442ea447d6ef8b60901b34f72af34e486ee448d631d9129554cf7bc78224cf91204302d41d3092c155f9"
     },
     {
-      "bytes": 4397528,
+      "bytes": 4396645,
       "encoding": "windows-1252",
-      "md5": "a00dbd638615f929cb95e223aed49e1e",
+      "md5": "a963c16fd9d3a7da539942f9cf78b87b",
       "format": "csv",
       "name": "data_resistance_pattern.csv",
       "filename": "data_resistance_pattern.csv.gz",
       "versions": {
         "hash": [
+          "2e3bfac1eacf08ea984f741214d216005b5c88fe",
           "febbc4cba45d1dcdc4bf4cdbae03353299e435ae",
           "702144634da1a7c064e5a0ea117aa85c983aec37",
           "a3a88cb5e9d5afda114dcb35b151a014d3042df0"
@@ -1624,14 +1629,17 @@
         "author": [
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "weinbergerlab <dweinber@gmail.com>"
         ],
         "date": [
+          "Tue Sep 8 23:55:17 2026 +0000",
           "Sat Aug 8 00:02:04 2026 +0000",
           "Fri Jul 3 23:33:32 2026 +0000",
           "Tue Jun 9 12:07:10 2026 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "scheduled data build",
           "Add CDC CFA RT (respiratory tract) data source"
@@ -1647,8 +1655,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-08 22:56:04.581313",
-      "last_modified": "2026-09-08 22:56:04.581313",
+      "created": "2026-10-09 22:41:04.135219",
+      "last_modified": "2026-10-09 22:41:04.135219",
       "vintage": {},
       "row_count": 1144329,
       "entity_count": 52,
@@ -1899,15 +1907,15 @@
             },
             "time_range": [0, 26],
             "type": "float",
-            "missing": 281549,
-            "mean": 8.94199,
-            "sd": 24.055262,
+            "missing": 281821,
+            "mean": 8.932128,
+            "sd": 24.045549,
             "min": 0,
             "max": 100
           },
           {
             "name": "n_resistant",
-            "duplicates": 1143284,
+            "duplicates": 1143285,
             "info": {
               "id": "n_resistant",
               "short_name": "Number of resistant isolates",
@@ -1936,15 +1944,15 @@
             },
             "time_range": [0, 26],
             "type": "integer",
-            "missing": 281549,
-            "mean": 9.958288,
-            "sd": 207.661031,
+            "missing": 281821,
+            "mean": 9.962514,
+            "sd": 207.787036,
             "min": 0,
             "max": 41401
           },
           {
             "name": "n_tested",
-            "duplicates": 1143539,
+            "duplicates": 1143538,
             "info": {
               "id": "n_tested",
               "short_name": "Number of isolates tested",
@@ -1973,15 +1981,15 @@
             },
             "time_range": [0, 26],
             "type": "integer",
-            "missing": 281549,
-            "mean": 95.597922,
-            "sd": 1112.192884,
+            "missing": 281821,
+            "mean": 95.630871,
+            "sd": 1112.398449,
             "min": 0,
             "max": 54949
           }
         ]
       },
-      "sha512": "d6419cfa51821a7bedc350a7726c4bfe04ea1cdcbffad03b761e177c4041e5a5be4ee3ffcc0261b6e145199a93e32b463a2584f14c91ecb3c90270041cbece4e"
+      "sha512": "28876d6bfbce117d29373a944a88f2b77df36504c87a228a2f101218056759dee03b3a16f9d50b0c42a8c7e1a16cdf20d8e5ac5e72bb91ab443069d11c497f24"
     },
     {
       "bytes": 572315,
@@ -2014,8 +2022,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-09-08 18:16:01.803848",
-      "last_modified": "2026-09-08 18:16:01.803848",
+      "created": "2026-10-09 18:13:22.407442",
+      "last_modified": "2026-10-09 18:13:22.407442",
       "vintage": {},
       "row_count": 84360,
       "entity_count": 22,

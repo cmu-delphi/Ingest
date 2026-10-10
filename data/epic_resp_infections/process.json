@@ -5,19 +5,11 @@
     {
       "path": "ingest.R",
       "manual": false,
-      "last_run": "2026-09-29 18:18:02",
+      "last_run": "2026-10-09 18:16:31",
       "frequency": 0,
-      "run_time": 3.212,
+      "run_time": 1.204,
       "last_status": {
-        "log": [
-          "",
-          "Attaching package: ‘jsonlite’",
-          "",
-          "The following object is masked from ‘package:purrr’:",
-          "",
-          "    flatten",
-          ""
-        ],
+        "log": ["", "Attaching package: ‘jsonlite’", "", "The following object is masked from ‘package:purrr’:", "", "    flatten", ""],
         "success": true
       }
     }
@@ -31,16 +23,16 @@
   },
   "standalone": true,
   "raw_state": {
-    "weekly.csv.gz": "aafb0dc19b57a59b78dcb9b4c9ee7a90",
-    "monthly_tests.csv.gz": "c33c36f7165310eca570abb4367953aa",
-    "no_geo.csv.gz": "511d823339dcf083feb9bc6cd50f3f5e",
+    "weekly.csv.gz": "260573950a958461b9bd125e64b1273e",
+    "monthly_tests.csv.gz": "3cf5bc50883f6b5914d0a75e4e4b7e8a",
+    "no_geo.csv.gz": "e4582b26d9bf8ec815d39de50065572d",
     "quarterly_gas.csv.gz": "e4c628211a213d25b38fc561d40d4563"
   },
   "standard_state": {
     "./data/epic_resp_infections/measure_info.json": "4a813037c99ce7533546d23583401c46",
-    "./data/epic_resp_infections/standard/monthly_tests.csv.gz": "c33c36f7165310eca570abb4367953aa",
-    "./data/epic_resp_infections/standard/no_geo.csv.gz": "511d823339dcf083feb9bc6cd50f3f5e",
+    "./data/epic_resp_infections/standard/monthly_tests.csv.gz": "3cf5bc50883f6b5914d0a75e4e4b7e8a",
+    "./data/epic_resp_infections/standard/no_geo.csv.gz": "e4582b26d9bf8ec815d39de50065572d",
     "./data/epic_resp_infections/standard/quarterly_gas.csv.gz": "e4c628211a213d25b38fc561d40d4563",
-    "./data/epic_resp_infections/standard/weekly.csv.gz": "aafb0dc19b57a59b78dcb9b4c9ee7a90"
+    "./data/epic_resp_infections/standard/weekly.csv.gz": "260573950a958461b9bd125e64b1273e"
   }
 }

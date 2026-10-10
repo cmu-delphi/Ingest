@@ -217,8 +217,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 18:14:25.593377",
-      "last_modified": "2026-10-02 18:14:25.593377",
+      "created": "2026-10-10 00:05:25.925139",
+      "last_modified": "2026-10-10 00:05:25.925139",
       "vintage": {},
       "row_count": 9848,
       "entity_count": 3298,
@@ -3808,8 +3808,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 18:14:25.611377",
-      "last_modified": "2026-10-02 18:14:25.611377",
+      "created": "2026-10-10 00:05:25.553133",
+      "last_modified": "2026-10-10 00:05:25.553133",
       "vintage": {},
       "row_count": 2437734,
       "entity_count": 52,
@@ -4877,8 +4877,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 18:14:25.600377",
-      "last_modified": "2026-10-02 18:14:25.600377",
+      "created": "2026-10-10 00:05:18.866031",
+      "last_modified": "2026-10-10 00:05:18.866031",
       "vintage": {},
       "row_count": 112320,
       "entity_count": 52,
@@ -5789,8 +5789,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 18:14:25.613377",
-      "last_modified": "2026-10-02 18:14:25.613377",
+      "created": "2026-10-10 00:05:28.975186",
+      "last_modified": "2026-10-10 00:05:28.975186",
       "vintage": {},
       "row_count": 468795,
       "entity_count": 52,
@@ -6214,9 +6214,9 @@
       "sha512": "6dee6ed00a3c8a42ff258093f9c160e4d4b95b3dc295510de9114b5e311cf66664937fb0a606b8938a12230344da96a8753de553d4d1f22a1bc98906377692b3"
     },
     {
-      "bytes": 91090,
+      "bytes": 91076,
       "encoding": "windows-1252",
-      "md5": "7c2d043851dbdb7212037aa410aa4ca7",
+      "md5": "812853515e1d2b6bf9baf6274d29b4b2",
       "format": "parquet",
       "name": "firearms_by_geography_and_source_state_year",
       "filename": "firearms_by_geography_and_source_state_year.parquet",
@@ -6492,8 +6492,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 18:14:25.613377",
-      "last_modified": "2026-10-02 18:14:25.613377",
+      "created": "2026-10-10 00:05:29.540195",
+      "last_modified": "2026-10-10 00:05:29.540195",
       "vintage": {},
       "row_count": 41288,
       "entity_count": 52,
@@ -6858,8 +6858,8 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 19585,
-            "mean": 21.561322,
-            "sd": 50.683533,
+            "mean": 21.561154,
+            "sd": 50.683519,
             "min": 0.05,
             "max": 1033.958231
           },
@@ -6909,12 +6909,12 @@
           }
         ]
       },
-      "sha512": "83b8987bfcdaebbd0a565d98391481c3efb3abfbbba2d8495765f26d7fa18e276efaac65297431add9c07491112c28ce3b32e4e8fb12d4fc70f6aacf11d41d02"
+      "sha512": "5d31311f4ced1cdab04c8d778d3ed8332623d3f221e9881f834546d318688c4cdf7e004ca43e09b71230743020646d1a3211435864c8e758b35c0786228414cf"
     },
     {
       "bytes": 314662,
       "encoding": "UTF-16BE",
-      "md5": "ffe46051cfd1a67b6d87efd8c0a5bb1d",
+      "md5": "d2b99b67012bea528f81b7364b3feea5",
       "format": "parquet",
       "name": "firearms_geography_source",
       "filename": "firearms_geography_source.parquet",
@@ -7226,8 +7226,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 18:14:25.615377",
-      "last_modified": "2026-10-02 18:14:25.615377",
+      "created": "2026-10-10 00:05:29.050187",
+      "last_modified": "2026-10-10 00:05:29.050187",
       "vintage": {},
       "row_count": 67808,
       "entity_count": 52,
@@ -7406,12 +7406,12 @@
                   },
                   "time_range": [
                     0,
-                    663
+                    664
                   ],
                   "type": "float",
                   "missing": 0,
-                  "mean": 20.477287,
-                  "sd": 10.102111,
+                  "mean": 20.474057,
+                  "sd": 10.098078,
                   "min": 0,
                   "max": 100
                 },
@@ -7449,12 +7449,12 @@
                   },
                   "time_range": [
                     0,
-                    663
+                    664
                   ],
                   "type": "float",
                   "missing": 0,
-                  "mean": 29.317476,
-                  "sd": 11.567477,
+                  "mean": 29.319461,
+                  "sd": 11.566228,
                   "min": 0,
                   "max": 100
                 },
@@ -7739,8 +7739,8 @@
             "time_range": [12, 106],
             "type": "float",
             "missing": 20095,
-            "mean": 139.493358,
-            "sd": 439.29209,
+            "mean": 139.493282,
+            "sd": 439.292109,
             "min": 0.05,
             "max": 19230.769231
           },
@@ -7936,12 +7936,12 @@
           }
         ]
       },
-      "sha512": "47d7dad56417418c990567b69293cd5be88b9e20fc01e03ad9fa4a38bfb354baa07281856e650f3fff948c56374231cb130b8645cdb02d5a4b1a0ba8241ec3b6"
+      "sha512": "eeef0c9929c178b6548abb7da524a55de6e47edd60555665161dc7ec39885aa11480ddd5ac79d8541f6765461885c6a7a5338b6dbc787a6f9d59e2cde445c68a"
     },
     {
       "bytes": 212436,
       "encoding": "windows-1252",
-      "md5": "f6d7fe8b0ec1b917d9a9daab98453f24",
+      "md5": "d009ea8170b8b496689be808a8a5da7a",
       "format": "parquet",
       "name": "google_dma",
       "filename": "google_dma.parquet",
@@ -8209,8 +8209,8 @@
       "id_length": "NA",
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 18:14:25.616377",
-      "last_modified": "2026-10-02 18:14:25.616377",
+      "created": "2026-10-10 00:05:29.672197",
+      "last_modified": "2026-10-10 00:05:29.672197",
       "vintage": {},
       "row_count": 24560,
       "entity_count": 0,
@@ -8279,10 +8279,10 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 18.922039,
-            "sd": 6.522629,
+            "mean": 18.941832,
+            "sd": 6.513655,
             "min": 0,
-            "max": 53.991539
+            "max": 54.014707
           },
           {
             "name": "gtrends_9mm",
@@ -8317,10 +8317,10 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 39.785597,
-            "sd": 13.324351,
-            "min": 2.159237,
-            "max": 89.891688
+            "mean": 39.779473,
+            "sd": 13.3239,
+            "min": 2.063596,
+            "max": 89.870309
           },
           {
             "name": "gtrends_shotgun",
@@ -8355,10 +8355,10 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 42.891199,
-            "sd": 11.298142,
-            "min": 15.365589,
-            "max": 98.656659
+            "mean": 42.898195,
+            "sd": 11.292516,
+            "min": 15.374902,
+            "max": 98.717204
           },
           {
             "name": "gtrends_heat_exhaustion",
@@ -8393,19 +8393,19 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 11.284406,
-            "sd": 4.372488,
+            "mean": 11.366568,
+            "sd": 4.326009,
             "min": 0,
-            "max": 32.131738
+            "max": 32.351988
           }
         ]
       },
-      "sha512": "f5fe1961f3e355d389abe89d5e20b383722c7879076aa3691f0206f1e828c5f42dda7628237fbfd0c3ce5e8814eeb6112765a912114b8772d4635629cc371d2c"
+      "sha512": "1ded99f85147fd7f85bfc86daf493d5e4be67b0a9aed8f7ba14d7c804c4b5c963b21b12e17d64806ec12627e9564137e40c168e6da0a89a6efbf3a52c86bce15"
     },
     {
       "bytes": 40530,
       "encoding": "windows-1252",
-      "md5": "da9c01014a7cff7994091fb87977a950",
+      "md5": "d276442a870b6e114a8c9b2441ddc7e0",
       "format": "parquet",
       "name": "heat_by_geography_and_source_state_year",
       "filename": "heat_by_geography_and_source_state_year.parquet",
@@ -8677,8 +8677,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 18:14:25.616377",
-      "last_modified": "2026-10-02 18:14:25.616377",
+      "created": "2026-10-10 00:05:29.600195",
+      "last_modified": "2026-10-10 00:05:29.600195",
       "vintage": {},
       "row_count": 3848,
       "entity_count": 52,
@@ -8706,7 +8706,7 @@
                   "source_id": "gtrends_heat+stroke",
                   "id": "Google Health Trends: Heat Stroke",
                   "name": "gtrends_heat+stroke",
-                  "duplicates": 22489,
+                  "duplicates": 22488,
                   "info": {
                     "full_name": "gtrends_heat+stroke",
                     "measure": "gtrends_heat+stroke",
@@ -8736,12 +8736,12 @@
                   },
                   "time_range": [
                     0,
-                    663
+                    664
                   ],
                   "type": "float",
                   "missing": 0,
-                  "mean": 1.938928,
-                  "sd": 4.390239,
+                  "mean": 1.938577,
+                  "sd": 4.387015,
                   "min": 0,
                   "max": 100
                 },
@@ -8749,7 +8749,7 @@
                   "source_id": "gtrends_heat+exhaustion",
                   "id": "Google Health Trends: Heat Exhaustion",
                   "name": "gtrends_heat+exhaustion",
-                  "duplicates": 25269,
+                  "duplicates": 25277,
                   "info": {
                     "full_name": "gtrends_heat+exhaustion",
                     "measure": "gtrends_heat+exhaustion",
@@ -8779,12 +8779,12 @@
                   },
                   "time_range": [
                     0,
-                    663
+                    664
                   ],
                   "type": "float",
                   "missing": 0,
-                  "mean": 1.870766,
-                  "sd": 5.027776,
+                  "mean": 1.869709,
+                  "sd": 5.024157,
                   "min": 0,
                   "max": 100
                 },
@@ -8939,9 +8939,9 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 48,
-            "mean": 76.753011,
-            "sd": 86.834128,
-            "min": 0.640433,
+            "mean": 76.755922,
+            "sd": 86.831643,
+            "min": 0.687312,
             "max": 892.857143
           },
           {
@@ -8964,17 +8964,25 @@
           }
         ]
       },
-      "sha512": "ed240aedfa16146da63129c8d17d75c5585fed616a765d89b3c5cc3e550543c26406d75381d17c009866ccd9b42bfb2b46ab66ccc30e67e5470bb71b01f7e2cc"
+      "sha512": "00f3350a3d8a9de5e44c32f295f3703ec6115fa144dee1ac5b359ac2ec9d9d7c4a36a30ba8f09bae3aedadd830e4c23fb73b9809e8e1fd87d7c74357255b2336"
     },
     {
-      "bytes": 81197,
+      "bytes": 83294,
       "encoding": "IBM420_rtl",
-      "md5": "cef50aade265fc428f3ccb8aa23ce1ae",
+      "md5": "400cdeda8deeaa96a2609cea1bdd74ee",
       "format": "parquet",
       "name": "heat_risk",
       "filename": "heat_risk.parquet",
       "versions": {
         "hash": [
+          "15b962cffb60cc1bf3f6f280ad0ca545d60ccecb",
+          "788fb5ea0423199a95277c49613256fe493f6582",
+          "9f5bb023ef3eb698461b0c84840076a987afd714",
+          "56e9be1e1f7463751783921d395d25ad442b8253",
+          "523433d32458a73e1ed962db9957be78bd4777a0",
+          "4fa767cf7ca8d2a20176cc6708d6282bb91780d0",
+          "448893864c02547d1244553595e57b4a1b75635e",
+          "5017be3cb245be0dd53a66fe8cfd1b2b8ff86916",
           "838823679b2e02a6b83a832107b750011e185c96",
           "fee16db005727d8456de32ea0f377915ad53aa29",
           "16a530c4be94ba92c72170a52b5f558fc7bbc2a8",
@@ -9322,6 +9330,14 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -9441,6 +9457,14 @@
           "danweinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 9 07:23:46 2026 +0000",
+          "Thu Oct 8 07:27:48 2026 +0000",
+          "Wed Oct 7 07:21:52 2026 +0000",
+          "Tue Oct 6 07:20:04 2026 +0000",
+          "Mon Oct 5 07:35:24 2026 +0000",
+          "Sun Oct 4 09:09:06 2026 +0000",
+          "Sat Oct 3 07:21:05 2026 +0000",
+          "Fri Oct 2 19:48:24 2026 +0000",
           "Fri Oct 2 07:20:16 2026 +0000",
           "Thu Oct 1 07:25:40 2026 +0000",
           "Wed Sep 30 07:20:57 2026 +0000",
@@ -9674,6 +9698,14 @@
           "Thu Mar 26 23:19:59 2026 -0400"
         ],
         "message": [
+          "scheduled daily data update",
+          "scheduled daily data update",
+          "scheduled daily data update",
+          "scheduled daily data update",
+          "scheduled daily data update",
+          "scheduled daily data update",
+          "scheduled daily data update",
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled daily data update",
           "scheduled daily data update",
@@ -9917,8 +9949,8 @@
       "id_length": 5,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 18:18:20.84176",
-      "last_modified": "2026-10-02 18:18:20.84176",
+      "created": "2026-10-09 22:42:06.533173",
+      "last_modified": "2026-10-09 22:42:06.533173",
       "vintage": {},
       "row_count": 15545,
       "entity_count": 3109,
@@ -13051,16 +13083,16 @@
             "type": "string",
             "missing": 0,
             "table": {
-              "2026-10-03": 3109,
-              "2026-10-04": 3109,
-              "2026-10-05": 3109,
-              "2026-10-06": 3109,
-              "2026-10-07": 3109
+              "2026-10-10": 3109,
+              "2026-10-11": 3109,
+              "2026-10-12": 3109,
+              "2026-10-13": 3109,
+              "2026-10-14": 3109
             }
           },
           {
             "name": "value",
-            "duplicates": 11247,
+            "duplicates": 11083,
             "info": {
               "id": "value",
               "short_name": "Heat risk score",
@@ -13080,10 +13112,10 @@
             "time_range": [0, 4],
             "type": "float",
             "missing": 0,
-            "mean": 0.444778,
-            "sd": 0.59575,
+            "mean": 0.583915,
+            "sd": 0.535387,
             "min": 0,
-            "max": 3.7284
+            "max": 2.8718
           },
           {
             "name": "forecast_day",
@@ -13114,7 +13146,7 @@
           }
         ]
       },
-      "sha512": "93da238769d078896c05ad64f871b475257efa4e4b42eed72609c971f8db0af3b1082f40ccd3de48096da9d8f5299e78f2f177720c34eab32e060203b37dd210"
+      "sha512": "9755d27e9b74fa3771b480c94945ab1809f8e6697e9a397e59cac9f8f4b4200d810b27dbb369876fcb51f54e95c2887a6b3099b5c826b7dfd0e9bb55d82f53d5"
     },
     {
       "bytes": 7010,
@@ -13171,8 +13203,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 18:14:25.617377",
-      "last_modified": "2026-10-02 18:14:25.617377",
+      "created": "2026-10-10 00:05:29.524194",
+      "last_modified": "2026-10-10 00:05:29.524194",
       "vintage": {},
       "row_count": 745,
       "entity_count": 50,
@@ -13524,8 +13556,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 18:14:25.618377",
-      "last_modified": "2026-10-02 18:14:25.618377",
+      "created": "2026-10-10 00:05:26.068141",
+      "last_modified": "2026-10-10 00:05:26.068141",
       "vintage": {},
       "row_count": 93759,
       "entity_count": 52,
@@ -13939,8 +13971,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 18:14:25.620377",
-      "last_modified": "2026-10-02 18:14:25.620377",
+      "created": "2026-10-10 00:05:28.557179",
+      "last_modified": "2026-10-10 00:05:28.557179",
       "vintage": {},
       "row_count": 73426,
       "entity_count": 1955,
@@ -19304,12 +19336,12 @@
                   },
                   "time_range": [
                     0,
-                    663
+                    664
                   ],
                   "type": "float",
                   "missing": 0,
-                  "mean": 3.618221,
-                  "sd": 4.81987,
+                  "mean": 3.623378,
+                  "sd": 4.817651,
                   "min": 0,
                   "max": 100
                 },
@@ -19473,9 +19505,9 @@
       "sha512": "64be88ecc58672872202029af3ffe8727b10680e9ce63c8dcb82579381c4cc4b8ee92ab734e6fa1357a499e7c295bfe28d98cfc0540f7b313c96774c07a4d313"
     },
     {
-      "bytes": 66327,
+      "bytes": 66318,
       "encoding": "windows-1252",
-      "md5": "feb31558232a1ae97cbbd090bc45a1dc",
+      "md5": "979fa3aa357b6e92d3a05f6ec068f9b5",
       "format": "parquet",
       "name": "overdose_by_geography_and_source_state_year",
       "filename": "overdose_by_geography_and_source_state_year.parquet",
@@ -19763,8 +19795,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 18:14:25.621377",
-      "last_modified": "2026-10-02 18:14:25.621377",
+      "created": "2026-10-10 00:05:28.686182",
+      "last_modified": "2026-10-10 00:05:28.686182",
       "vintage": {},
       "row_count": 10225,
       "entity_count": 52,
@@ -19944,12 +19976,12 @@
                   },
                   "time_range": [
                     0,
-                    663
+                    664
                   ],
                   "type": "float",
                   "missing": 0,
-                  "mean": 3.618221,
-                  "sd": 4.81987,
+                  "mean": 3.623378,
+                  "sd": 4.817651,
                   "min": 0,
                   "max": 100
                 },
@@ -20106,19 +20138,19 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 47.26318,
-            "sd": 92.124537,
+            "mean": 47.263358,
+            "sd": 92.124457,
             "min": 0,
             "max": 1258.713151
           }
         ]
       },
-      "sha512": "47d36e6c490859dbef8c614c63d4b240e3975a954e97650a7c3c9747e0590d7cdf47cd604f8dfeec51f8eb98970b1f92d6ae0462f58672ebf79712edf56af12a"
+      "sha512": "14acc587923c773b7094a75f9cd4f2bd2e552fafd5c826d6b3fb0eda800362cf5efbf680aa696f3c32a45c1a3f72142b2947e160ecdbd549e3fbc55f4a2eeaad"
     },
     {
       "bytes": 152977,
       "encoding": "windows-1252",
-      "md5": "5bdd1a3bd360e0f3c45f399b74b54fe3",
+      "md5": "7f6a91d77f3d9847942f9a8b75818c80",
       "format": "parquet",
       "name": "overdose_by_geography_and_source",
       "filename": "overdose_by_geography_and_source.parquet",
@@ -20482,8 +20514,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 18:14:25.619377",
-      "last_modified": "2026-10-02 18:14:25.619377",
+      "created": "2026-10-10 00:05:28.515179",
+      "last_modified": "2026-10-10 00:05:28.515179",
       "vintage": {},
       "row_count": 10248,
       "entity_count": 52,
@@ -20707,12 +20739,12 @@
                   },
                   "time_range": [
                     0,
-                    663
+                    664
                   ],
                   "type": "float",
                   "missing": 0,
-                  "mean": 3.618221,
-                  "sd": 4.81987,
+                  "mean": 3.623378,
+                  "sd": 4.817651,
                   "min": 0,
                   "max": 100
                 },
@@ -20893,8 +20925,8 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 47.195913,
-            "sd": 92.041911,
+            "mean": 47.19609,
+            "sd": 92.041832,
             "min": 0,
             "max": 1258.713151
           },
@@ -20932,8 +20964,8 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 0.584633,
-            "sd": 0.290032,
+            "mean": 0.584647,
+            "sd": 0.290031,
             "min": 0,
             "max": 1
           },
@@ -20957,7 +20989,7 @@
           }
         ]
       },
-      "sha512": "53287602a98fb13bd7f22846c9f0827cfda9deb6d20fd6f3e6a88d369f99963d3690b1b212db08fbc4b1ff8f5b618d5cd75f5b712b45e9f4159442e1dfc3617c"
+      "sha512": "23ecff911139ed33876e5f69d10cade4b981b2ce658171f20db45c48d555732a70f86e6b6bd3199ef4251dc4345f876680131ff66357929587f0bc5068030d1b"
     },
     {
       "bytes": 134741,
@@ -21186,8 +21218,8 @@
       "id_length": 5,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 18:14:25.622377",
-      "last_modified": "2026-10-02 18:14:25.622377",
+      "created": "2026-10-10 00:05:28.038172",
+      "last_modified": "2026-10-10 00:05:28.038172",
       "vintage": {},
       "row_count": 15710,
       "entity_count": 3142,
@@ -24653,8 +24685,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 18:14:25.622377",
-      "last_modified": "2026-10-02 18:14:25.622377",
+      "created": "2026-10-10 00:05:26.120142",
+      "last_modified": "2026-10-10 00:05:26.120142",
       "vintage": {},
       "row_count": 583,
       "entity_count": 53,
@@ -24996,8 +25028,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-02 18:14:25.622377",
-      "last_modified": "2026-10-02 18:14:25.622377",
+      "created": "2026-10-10 00:05:25.94014",
+      "last_modified": "2026-10-10 00:05:25.94014",
       "vintage": {},
       "row_count": 156,
       "entity_count": 52,
@@ -26500,12 +26532,12 @@
           },
           "time_range": [
             0,
-            663
+            664
           ],
           "type": "float",
           "missing": 0,
-          "mean": 3.618221,
-          "sd": 4.81987,
+          "mean": 3.623378,
+          "sd": 4.817651,
           "min": 0,
           "max": 100
         },
@@ -26781,12 +26813,12 @@
           },
           "time_range": [
             0,
-            663
+            664
           ],
           "type": "float",
           "missing": 0,
-          "mean": 3.618221,
-          "sd": 4.81987,
+          "mean": 3.623378,
+          "sd": 4.817651,
           "min": 0,
           "max": 100
         },
@@ -27010,12 +27042,12 @@
           },
           "time_range": [
             0,
-            663
+            664
           ],
           "type": "float",
           "missing": 0,
-          "mean": 3.618221,
-          "sd": 4.81987,
+          "mean": 3.623378,
+          "sd": 4.817651,
           "min": 0,
           "max": 100
         },
@@ -27679,12 +27711,12 @@
           },
           "time_range": [
             0,
-            663
+            664
           ],
           "type": "float",
           "missing": 0,
-          "mean": 20.477287,
-          "sd": 10.102111,
+          "mean": 20.474057,
+          "sd": 10.098078,
           "min": 0,
           "max": 100
         },
@@ -27722,12 +27754,12 @@
           },
           "time_range": [
             0,
-            663
+            664
           ],
           "type": "float",
           "missing": 0,
-          "mean": 29.317476,
-          "sd": 11.567477,
+          "mean": 29.319461,
+          "sd": 11.566228,
           "min": 0,
           "max": 100
         },
@@ -28296,7 +28328,7 @@
           "source_id": "gtrends_heat+stroke",
           "id": "Google Health Trends: Heat Stroke",
           "name": "gtrends_heat+stroke",
-          "duplicates": 22489,
+          "duplicates": 22488,
           "info": {
             "full_name": "gtrends_heat+stroke",
             "measure": "gtrends_heat+stroke",
@@ -28326,12 +28358,12 @@
           },
           "time_range": [
             0,
-            663
+            664
           ],
           "type": "float",
           "missing": 0,
-          "mean": 1.938928,
-          "sd": 4.390239,
+          "mean": 1.938577,
+          "sd": 4.387015,
           "min": 0,
           "max": 100
         },
@@ -28339,7 +28371,7 @@
           "source_id": "gtrends_heat+exhaustion",
           "id": "Google Health Trends: Heat Exhaustion",
           "name": "gtrends_heat+exhaustion",
-          "duplicates": 25269,
+          "duplicates": 25277,
           "info": {
             "full_name": "gtrends_heat+exhaustion",
             "measure": "gtrends_heat+exhaustion",
@@ -28369,12 +28401,12 @@
           },
           "time_range": [
             0,
-            663
+            664
           ],
           "type": "float",
           "missing": 0,
-          "mean": 1.870766,
-          "sd": 5.027776,
+          "mean": 1.869709,
+          "sd": 5.024157,
           "min": 0,
           "max": 100
         },
@@ -28509,12 +28541,12 @@
       },
       "time_range": [
         0,
-        663
+        664
       ],
       "type": "float",
       "missing": 0,
-      "mean": 3.618221,
-      "sd": 4.81987,
+      "mean": 3.623378,
+      "sd": 4.817651,
       "min": 0,
       "max": 100
     },
@@ -28552,12 +28584,12 @@
       },
       "time_range": [
         0,
-        663
+        664
       ],
       "type": "float",
       "missing": 0,
-      "mean": 20.477287,
-      "sd": 10.102111,
+      "mean": 20.474057,
+      "sd": 10.098078,
       "min": 0,
       "max": 100
     },
@@ -28595,12 +28627,12 @@
       },
       "time_range": [
         0,
-        663
+        664
       ],
       "type": "float",
       "missing": 0,
-      "mean": 29.317476,
-      "sd": 11.567477,
+      "mean": 29.319461,
+      "sd": 11.566228,
       "min": 0,
       "max": 100
     },
@@ -28608,7 +28640,7 @@
       "source_id": "gtrends_heat+exhaustion",
       "id": "bundle_injury_overdose/dist/google_dma.parquet|gtrends_heat_exhaustion",
       "name": "gtrends_heat+exhaustion",
-      "duplicates": 25269,
+      "duplicates": 25277,
       "info": {
         "full_name": "gtrends_heat+exhaustion",
         "measure": "gtrends_heat+exhaustion",
@@ -28638,12 +28670,12 @@
       },
       "time_range": [
         0,
-        663
+        664
       ],
       "type": "float",
       "missing": 0,
-      "mean": 1.870766,
-      "sd": 5.027776,
+      "mean": 1.869709,
+      "sd": 5.024157,
       "min": 0,
       "max": 100
     },
@@ -28938,16 +28970,156 @@
       "state": "unchanged"
     },
     "firearms_by_geography_and_source_state_year.parquet": {
-      "state": "unchanged"
+      "state": "changed",
+      "variables": {
+        "age": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "geography": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "source": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "year": {
+          "status": "present",
+          "same_type": true
+        },
+        "value": {
+          "status": "present",
+          "same_type": true
+        },
+        "epic_n_ed_firearm": {
+          "status": "present",
+          "same_type": true
+        },
+        "suppressed_firearm": {
+          "status": "present",
+          "same_type": true
+        }
+      }
     },
     "firearms_geography_source.parquet": {
-      "state": "unchanged"
+      "state": "changed",
+      "variables": {
+        "time": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "source": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "value": {
+          "status": "present",
+          "same_type": true
+        },
+        "age": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "epic_n_ed_firearm": {
+          "status": "present",
+          "same_type": true
+        },
+        "suppressed_firearm": {
+          "status": "present",
+          "same_type": true
+        },
+        "geography": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "state": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        }
+      }
     },
     "google_dma.parquet": {
-      "state": "unchanged"
+      "state": "changed",
+      "variables": {
+        "fips": {
+          "status": "present",
+          "same_type": true
+        },
+        "date": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "gtrends_narcan": {
+          "status": "present",
+          "same_type": true
+        },
+        "gtrends_9mm": {
+          "status": "present",
+          "same_type": true
+        },
+        "gtrends_shotgun": {
+          "status": "present",
+          "same_type": true
+        },
+        "gtrends_heat_exhaustion": {
+          "status": "present",
+          "same_type": true
+        }
+      }
     },
     "heat_by_geography_and_source_state_year.parquet": {
-      "state": "unchanged"
+      "state": "changed",
+      "variables": {
+        "year": {
+          "status": "present",
+          "same_type": true
+        },
+        "source": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "geography": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "age": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "value": {
+          "status": "present",
+          "same_type": true
+        },
+        "suppressed_heat": {
+          "status": "present",
+          "same_type": true
+        }
+      }
     },
     "heat_risk.parquet": {
       "state": "changed",
@@ -28961,8 +29133,8 @@
         "time": {
           "status": "present",
           "same_type": true,
-          "added_levels": ["2026-10-05", "2026-10-06", "2026-10-07"],
-          "dropped_levels": ["2026-09-30", "2026-10-01", "2026-10-02"]
+          "added_levels": ["2026-10-10", "2026-10-11", "2026-10-12", "2026-10-13", "2026-10-14"],
+          "dropped_levels": ["2026-10-03", "2026-10-04", "2026-10-05", "2026-10-06", "2026-10-07"]
         },
         "value": {
           "status": "present",
@@ -28984,10 +29156,76 @@
       "state": "unchanged"
     },
     "overdose_by_geography_and_source_state_year.parquet": {
-      "state": "unchanged"
+      "state": "changed",
+      "variables": {
+        "geography": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "age": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "year": {
+          "status": "present",
+          "same_type": true
+        },
+        "source": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "value": {
+          "status": "present",
+          "same_type": true
+        }
+      }
     },
     "overdose_by_geography_and_source.parquet": {
-      "state": "unchanged"
+      "state": "changed",
+      "variables": {
+        "geography": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "date": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "age": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "source": {
+          "status": "present",
+          "same_type": true,
+          "added_levels": [],
+          "dropped_levels": []
+        },
+        "value": {
+          "status": "present",
+          "same_type": true
+        },
+        "value_scale": {
+          "status": "present",
+          "same_type": true
+        },
+        "suppressed": {
+          "status": "present",
+          "same_type": true
+        }
+      }
     },
     "overdose_deaths_county.parquet": {
       "state": "unchanged"
