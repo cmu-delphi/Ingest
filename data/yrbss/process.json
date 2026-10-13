@@ -14,7 +14,7 @@
       }
     }
   ],
-  "checked": "2026-10-10 00:08:11",
+  "checked": "2026-10-13 19:52:22",
   "check_results": {
     "data/yrbss/standard/data_age_ethnicity.csv.gz": {
       "measures": ["missing_info: age", "missing_info: race_ethnicity"]
