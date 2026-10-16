@@ -270,7 +270,7 @@ flowchart LR
     end
     subgraph wastewater_measles["`<strong><a href="https://github.com/PopHIVE/Ingest/tree/main/data/wastewater_measles" target="_blank" rel="noreferrer">wastewater_measles</a></strong>`"]
         direction LR
-        n87["`data_county.csv.gz<br/><br/><ul><li><code>geography_dropped</code></li></ul>`"]:::warn
+        n87["`data_county.csv.gz`"]:::pass
         n88["`data.csv.gz`"]:::pass
     end
     subgraph wastewater["`<strong><a href="https://github.com/PopHIVE/Ingest/tree/main/data/wastewater" target="_blank" rel="noreferrer">wastewater</a></strong>`"]

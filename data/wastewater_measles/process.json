@@ -5,21 +5,21 @@
     {
       "path": "ingest.R",
       "manual": false,
-      "last_run": "2026-10-09 22:44:12",
+      "last_run": "2026-10-16 18:19:43",
       "frequency": 0,
-      "run_time": 17.455,
+      "run_time": 23.882,
       "last_status": {
         "log": [
           "",
           "⠙ processing source wastewater_measles (./data/wastewater_measles/ingest.R)\r── downloading resource <https://data.cdc.gov/resource/akvg-8vrb> ──────────────",
           "⠙ processing source wastewater_measles (./data/wastewater_measles/ingest.R)\rℹ metadata: <https://data.cdc.gov/api/views/akvg-8vrb>",
-          "✔ metadata: <https://data.cdc.gov/api/views/akvg-8vrb> [422ms]",
+          "✔ metadata: <https://data.cdc.gov/api/views/akvg-8vrb> [733ms]",
           "",
           "⠙ processing source wastewater_measles (./data/wastewater_measles/ingest.R)\rℹ data: <https://data.cdc.gov/api/v3/views/akvg-8vrb/export.csv>",
-          "✔ data: <https://data.cdc.gov/api/v3/views/akvg-8vrb/export.csv> [3.9s]",
+          "✔ data: <https://data.cdc.gov/api/v3/views/akvg-8vrb/export.csv> [7.2s]",
           "",
           "⠙ processing source wastewater_measles (./data/wastewater_measles/ingest.R)\rℹ compressing data",
-          "✔ compressing data [8.2s]",
+          "✔ compressing data [12.5s]",
           "",
           "⠙ processing source wastewater_measles (./data/wastewater_measles/ingest.R)\r"
         ],
@@ -29,15 +29,13 @@
   ],
   "standard_state": {
     "./data/wastewater_measles/measure_info.json": "1840be3a614ab12b9ea370ffc5ad2b53",
-    "./data/wastewater_measles/standard/data_county.csv.gz": "f5a055e4d3f0f077e65b400bde7bdb37",
-    "./data/wastewater_measles/standard/data.csv.gz": "9cddbfe37e9387d16acf6ac9944a1880"
+    "./data/wastewater_measles/standard/data_county.csv.gz": "bda37a998a2c420626a52db629cf6416",
+    "./data/wastewater_measles/standard/data.csv.gz": "05a6957d58593b4b269f26a9ff3217bd"
   },
-  "checked": "2026-10-10 00:08:10",
+  "checked": "2026-10-16 19:58:44",
   "check_results": {
-    "data/wastewater_measles/standard/data_county.csv.gz": {
-      "data": "geography_dropped"
-    },
+    "data/wastewater_measles/standard/data_county.csv.gz": [],
     "data/wastewater_measles/standard/data.csv.gz": []
   },
-  "raw_state": "1791558106:77397"
+  "raw_state": "1792163227:78482"
 }
