@@ -4,14 +4,15 @@
   "licenses": [],
   "resources": [
     {
-      "bytes": 3760,
+      "bytes": 3761,
       "encoding": "windows-1252",
-      "md5": "b7962f5f1446ab78fa5f164ae73e10d0",
+      "md5": "11d00ba32070996932c3b678e9268805",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "cec992babec0bd6256a36073f8fdc3d651ff3521",
           "5bc7aa24d8310ab6326c1828e3290d82c579a4da",
           "0117227d5437ca33a85aaa91d229c51c85a84310",
           "0db158c5dfb6e8331816f459b98210cae4f7635e",
@@ -205,9 +206,11 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>"
         ],
         "date": [
+          "Tue Oct 20 20:03:58 2026 +0000",
           "Tue Oct 20 07:17:29 2026 +0000",
           "Mon Oct 19 07:30:36 2026 +0000",
           "Sun Oct 18 07:12:02 2026 +0000",
@@ -306,6 +309,7 @@
           "Thu Jul 16 12:53:03 2026 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled daily data update",
           "scheduled daily data update",
@@ -414,8 +418,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-20 18:17:30.362894",
-      "last_modified": "2026-10-20 18:17:30.362894",
+      "created": "2026-10-21 07:22:22.281665",
+      "last_modified": "2026-10-21 07:22:22.281665",
       "vintage": {},
       "row_count": 356,
       "entity_count": 66,
@@ -661,7 +665,7 @@
           },
           {
             "name": "date_scraped",
-            "duplicates": 328,
+            "duplicates": 327,
             "info": {
               "id": "date_scraped",
               "short_name": "Date Scraped",
@@ -708,7 +712,8 @@
               "10-14-2026": 1,
               "10-16-2026": 1,
               "10-17-2026": 27,
-              "10-20-2026": 32
+              "10-20-2026": 1,
+              "10-21-2026": 31
             }
           },
           {
@@ -760,7 +765,7 @@
           }
         ]
       },
-      "sha512": "33916230ba3101f018e3f21dc209443c2408f3ecadc814aa3ef5969b45e82b9ca8e0bc7f2ca917b27dd8f4f01ac28f3bd36f3554c8ff08c49bcca250495dc5bf"
+      "sha512": "ea7f25787616e055e539ab7338389ec6fb9487df66c7630236ad06c51854053d14161c9e3f9d2b979c912df676c325929f0810295e60e3e6dcde29acaccd2c6e"
     }
   ],
   "measure_info": {
@@ -882,7 +887,7 @@
         "geography": {
           "status": "present",
           "same_type": true,
-          "added_levels": ["26121", "42035", "42119", "48257", "48303"],
+          "added_levels": [],
           "dropped_levels": []
         },
         "time": {
@@ -894,13 +899,13 @@
         "condition": {
           "status": "present",
           "same_type": true,
-          "added_levels": ["Lyme disease", "Viral GI"],
+          "added_levels": [],
           "dropped_levels": []
         },
         "estimated_onset": {
           "status": "present",
           "same_type": true,
-          "added_levels": ["09-07-2026", "10-05-2026"],
+          "added_levels": [],
           "dropped_levels": []
         },
         "value": {
@@ -914,13 +919,13 @@
         "date_scraped": {
           "status": "present",
           "same_type": true,
-          "added_levels": [],
+          "added_levels": "10-21-2026",
           "dropped_levels": []
         },
         "date_epic_updated": {
           "status": "present",
           "same_type": true,
-          "added_levels": "10-20-2026",
+          "added_levels": [],
           "dropped_levels": []
         }
       }
