@@ -79,7 +79,7 @@ flowchart LR
     end
     subgraph cdc_cfa_rt["`<strong><a href="https://github.com/PopHIVE/Ingest/tree/main/data/cdc_cfa_rt" target="_blank" rel="noreferrer">cdc_cfa_rt</a></strong>`"]
         direction LR
-        n7["`data.csv.gz`"]:::pass
+        n7["`data.csv.gz<br /><br />Script Failed:<br />cdc_cfa_rt: could not parse 'date'/'as_of' from raw/5dqz-y4ea.csv.xz - the source date format likely changed again. Example value: `"]:::fail
     end
     subgraph cdc_vssr["`<strong><a href="https://github.com/PopHIVE/Ingest/tree/main/data/cdc_vssr" target="_blank" rel="noreferrer">cdc_vssr</a></strong>`"]
         direction LR
@@ -168,13 +168,13 @@ flowchart LR
     end
     subgraph measles_cdc["`<strong><a href="https://github.com/PopHIVE/Ingest/tree/main/data/measles_cdc" target="_blank" rel="noreferrer">measles_cdc</a></strong>`"]
         direction LR
-        n42["`data.csv.gz`"]:::pass
+        n42["`data.csv.gz<br /><br />Script Failed:<br />In argument: 'time = as.Date(week_end)'.`"]:::fail
     end
     subgraph measles_jhu["`<strong><a href="https://github.com/PopHIVE/Ingest/tree/main/data/measles_jhu" target="_blank" rel="noreferrer">measles_jhu</a></strong>`"]
         direction LR
-        n43["`data_county.csv.gz`"]:::pass
+        n43["`data_county.csv.gz<br/><br/><ul><li><code>geography_dropped</code></li></ul>`"]:::warn
         n44["`data_state.csv.gz`"]:::pass
-        n45["`data.csv.gz`"]:::pass
+        n45["`data.csv.gz<br/><br/><ul><li><code>geography_dropped</code></li></ul>`"]:::warn
     end
     subgraph medicaid_quality["`<strong><a href="https://github.com/PopHIVE/Ingest/tree/main/data/medicaid_quality" target="_blank" rel="noreferrer">medicaid_quality</a></strong>`"]
         direction LR
