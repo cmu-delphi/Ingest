@@ -4,14 +4,15 @@
   "licenses": [],
   "resources": [
     {
-      "bytes": 3760,
+      "bytes": 4000,
       "encoding": "windows-1252",
-      "md5": "98ff175a685331b4dc8d113b43afeae4",
+      "md5": "9bae743c05d9fdf41e080175c8c8c89e",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "9cb507b99c8175843579703f6881725b58dffe35",
           "1ce0d614ddff73f16042cebfa35136a7f756da2e",
           "e6193c331ab1cac69ff857a079edda83062d573b",
           "d74f3813351bef35860ab1fc4e1c9b04b608e00f",
@@ -215,9 +216,11 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>"
         ],
         "date": [
+          "Sat Oct 24 07:15:24 2026 +0000",
           "Fri Oct 23 20:23:42 2026 +0000",
           "Fri Oct 23 07:18:27 2026 +0000",
           "Thu Oct 22 07:33:10 2026 +0000",
@@ -321,6 +324,7 @@
           "Thu Jul 16 12:53:03 2026 -0400"
         ],
         "message": [
+          "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
           "scheduled daily data update",
@@ -434,94 +438,94 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-24 07:15:05.745956",
-      "last_modified": "2026-10-24 07:15:05.745956",
+      "created": "2026-10-25 07:16:44.49874",
+      "last_modified": "2026-10-25 07:16:44.49874",
       "vintage": {},
-      "row_count": 356,
+      "row_count": 387,
       "entity_count": 66,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 290,
+            "duplicates": 321,
             "info": [],
-            "time_range": [5, 6],
+            "time_range": [6, 7],
             "type": "string",
             "missing": 0,
             "table": {
-              "01075": 6,
+              "01075": 7,
               "05": 5,
               "06": 4,
               "06037": 3,
-              "06045": 2,
-              "06095": 7,
+              "06045": 3,
+              "06095": 8,
               "08": 3,
               "10": 4,
-              "12": 13,
-              "12009": 4,
-              "12057": 7,
+              "12": 14,
+              "12009": 5,
+              "12057": 8,
               "17": 11,
               "18": 8,
               "18005": 5,
               "18095": 2,
               "19": 7,
               "19155": 3,
-              "19179": 3,
+              "19179": 4,
               "20": 10,
               "21": 21,
-              "21203": 6,
+              "21203": 7,
               "22": 4,
-              "24001": 3,
+              "24001": 4,
               "25": 5,
               "26": 15,
-              "26105": 2,
-              "26121": 1,
+              "26105": 3,
+              "26121": 2,
               "26125": 3,
-              "28067": 6,
-              "28071": 2,
+              "28067": 7,
+              "28071": 3,
               "29": 10,
-              "29047": 6,
+              "29047": 8,
               "31": 4,
               "31055": 5,
               "31153": 5,
               "33": 3,
               "35041": 5,
-              "36": 8,
+              "36": 9,
               "37": 5,
               "37067": 4,
-              "38059": 5,
+              "38059": 6,
               "39": 15,
               "39095": 9,
               "39149": 5,
               "40": 5,
-              "40145": 7,
-              "40147": 7,
-              "42": 16,
-              "42035": 1,
-              "42059": 2,
-              "42073": 2,
-              "42119": 1,
-              "45085": 8,
+              "40145": 8,
+              "40147": 8,
+              "42": 17,
+              "42035": 2,
+              "42059": 3,
+              "42073": 3,
+              "42119": 2,
+              "45085": 9,
               "47": 3,
               "48": 5,
-              "48215": 2,
-              "48227": 6,
-              "48257": 1,
-              "48303": 1,
-              "48355": 2,
+              "48215": 3,
+              "48227": 7,
+              "48257": 2,
+              "48303": 2,
+              "48355": 3,
               "51": 4,
               "53": 4,
               "54061": 3,
               "55": 8,
               "55055": 2,
-              "55071": 2
+              "55071": 3
             }
           },
           {
             "name": "time",
-            "duplicates": 342,
+            "duplicates": 372,
             "info": [],
-            "time_range": [5, 6],
+            "time_range": [6, 7],
             "type": "string",
             "missing": 0,
             "table": {
@@ -538,12 +542,13 @@
               "10-03-2026": 26,
               "10-10-2026": 30,
               "10-17-2026": 31,
-              "10-24-2026": 32
+              "10-24-2026": 32,
+              "10-31-2026": 31
             }
           },
           {
             "name": "condition",
-            "duplicates": 335,
+            "duplicates": 366,
             "info": {
               "id": "condition",
               "short_name": "Alerted Condition",
@@ -559,36 +564,36 @@
                 }
               ]
             },
-            "time_range": [5, 6],
+            "time_range": [6, 7],
             "type": "string",
             "missing": 0,
             "table": {
-              "Acute Pharyngitis": 44,
+              "Acute Pharyngitis": 50,
               "Acute Tonsillitis": 5,
-              "Adenovirus": 8,
+              "Adenovirus": 11,
               "Campylobacteriosis": 8,
-              "Croup": 4,
+              "Croup": 5,
               "Cyclosporiasis": 141,
-              "Dengue Fever": 7,
-              "Enterovirus": 3,
+              "Dengue Fever": 8,
+              "Enterovirus": 5,
               "Group A Strep": 5,
-              "Hand, Foot, and Mouth Disease": 31,
+              "Hand, Foot, and Mouth Disease": 40,
               "Heat Illness": 27,
-              "Legionellosis": 3,
-              "Lyme disease": 2,
-              "Measles": 17,
+              "Legionellosis": 4,
+              "Lyme disease": 4,
+              "Measles": 19,
               "Rabies": 4,
               "Salmonellosis": 7,
-              "Strep Throat": 17,
+              "Strep Throat": 19,
               "Toxic Effect of Smoke": 3,
-              "Valley Fever": 7,
+              "Valley Fever": 8,
               "Viral Gastroenteritis": 12,
-              "Viral GI": 1
+              "Viral GI": 2
             }
           },
           {
             "name": "estimated_onset",
-            "duplicates": 341,
+            "duplicates": 372,
             "info": {
               "id": "estimated_onset",
               "short_name": "Estimated Onset Date",
@@ -604,7 +609,7 @@
                 }
               ]
             },
-            "time_range": [5, 6],
+            "time_range": [6, 7],
             "type": "string",
             "missing": 0,
             "table": {
@@ -613,21 +618,21 @@
               "06-29-2026": 42,
               "07-06-2026": 67,
               "07-13-2026": 21,
-              "07-20-2026": 20,
-              "08-10-2026": 21,
-              "08-17-2026": 33,
-              "08-24-2026": 24,
-              "08-31-2026": 21,
-              "09-07-2026": 1,
-              "09-14-2026": 14,
-              "09-21-2026": 15,
-              "09-28-2026": 13,
-              "10-05-2026": 2
+              "07-20-2026": 21,
+              "08-10-2026": 24,
+              "08-17-2026": 38,
+              "08-24-2026": 26,
+              "08-31-2026": 22,
+              "09-07-2026": 2,
+              "09-14-2026": 18,
+              "09-21-2026": 20,
+              "09-28-2026": 20,
+              "10-05-2026": 4
             }
           },
           {
             "name": "value",
-            "duplicates": 90,
+            "duplicates": 121,
             "info": {
               "id": "value",
               "short_name": "Health Alert Rate (Cases per 100k)",
@@ -645,17 +650,17 @@
                 }
               ]
             },
-            "time_range": [5, 6],
+            "time_range": [6, 7],
             "type": "float",
             "missing": 0,
-            "mean": 520.202247,
-            "sd": 1588.062319,
+            "mean": 528.274677,
+            "sd": 1542.261683,
             "min": 0,
             "max": 20000
           },
           {
             "name": "partial_week_flag",
-            "duplicates": 354,
+            "duplicates": 385,
             "info": {
               "id": "partial_week_flag",
               "short_name": "Partial Week?",
@@ -671,17 +676,17 @@
                 }
               ]
             },
-            "time_range": [5, 6],
+            "time_range": [6, 7],
             "type": "integer",
             "missing": 0,
-            "mean": 0.328652,
-            "sd": 0.470384,
+            "mean": 0.317829,
+            "sd": 0.466236,
             "min": 0,
             "max": 1
           },
           {
             "name": "date_scraped",
-            "duplicates": 327,
+            "duplicates": 357,
             "info": {
               "id": "date_scraped",
               "short_name": "Date Scraped",
@@ -697,7 +702,7 @@
                 }
               ]
             },
-            "time_range": [5, 6],
+            "time_range": [6, 7],
             "type": "string",
             "missing": 0,
             "table": {
@@ -729,12 +734,13 @@
               "10-16-2026": 1,
               "10-17-2026": 27,
               "10-20-2026": 1,
-              "10-24-2026": 31
+              "10-24-2026": 31,
+              "10-25-2026": 31
             }
           },
           {
             "name": "date_epic_updated",
-            "duplicates": 333,
+            "duplicates": 364,
             "info": {
               "id": "date_epic_updated",
               "short_name": "Date Epic Updated",
@@ -750,7 +756,7 @@
                 }
               ]
             },
-            "time_range": [5, 6],
+            "time_range": [6, 7],
             "type": "string",
             "missing": 0,
             "table": {
@@ -776,12 +782,12 @@
               "10-15-2026": 1,
               "10-16-2026": 27,
               "10-19-2026": 1,
-              "10-23-2026": 31
+              "10-23-2026": 62
             }
           }
         ]
       },
-      "sha512": "b03d264184f03cdb75ac69cc4c4a7c04c3044163db0fc0a0d610b081df1bdabb8bc6338f9b5213d9d0c74843447abb0258b4b9ff095d033e315b036e1ab66c47"
+      "sha512": "2d935d5e246dd017289f6a4b488c773f08f5c99f4dc34960fc7416ea5e02bff6db4238fd4f90e40c259787e2f3a6bd69c9f355bbbd0de6f57bfcfb6a1664e554"
     }
   ],
   "measure_info": {
@@ -909,7 +915,7 @@
         "time": {
           "status": "present",
           "same_type": true,
-          "added_levels": [],
+          "added_levels": "10-31-2026",
           "dropped_levels": []
         },
         "condition": {
@@ -935,8 +941,8 @@
         "date_scraped": {
           "status": "present",
           "same_type": true,
-          "added_levels": "10-24-2026",
-          "dropped_levels": "10-23-2026"
+          "added_levels": "10-25-2026",
+          "dropped_levels": []
         },
         "date_epic_updated": {
           "status": "present",
