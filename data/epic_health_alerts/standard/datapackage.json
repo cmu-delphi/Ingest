@@ -4,14 +4,15 @@
   "licenses": [],
   "resources": [
     {
-      "bytes": 4412,
+      "bytes": 4411,
       "encoding": "windows-1252",
-      "md5": "830189a262efb50d5fa3023b5080d8cb",
+      "md5": "20a1ef5d28cd6cfe46a3bb9ff3e4791d",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "26859602e0fe2388c5f96ace73f6865454d8a102",
           "1018aa7444ab6ab39910be039a9b47be0a821751",
           "0a849a01eb167f2d57a45d71225ed93906204755",
           "89cb724334041a6f529bc76a7c824d50369c6a25",
@@ -223,9 +224,11 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>"
         ],
         "date": [
+          "Tue Oct 27 20:12:49 2026 +0000",
           "Tue Oct 27 07:21:34 2026 +0000",
           "Mon Oct 26 07:31:05 2026 +0000",
           "Sun Oct 25 07:17:08 2026 +0000",
@@ -333,6 +336,7 @@
           "Thu Jul 16 12:53:03 2026 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled daily data update",
           "scheduled daily data update",
@@ -450,8 +454,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-27 18:28:08.279707",
-      "last_modified": "2026-10-27 18:28:08.279707",
+      "created": "2026-10-28 07:10:25.000115",
+      "last_modified": "2026-10-28 07:10:25.000115",
       "vintage": {},
       "row_count": 419,
       "entity_count": 96,
@@ -729,7 +733,7 @@
           },
           {
             "name": "date_scraped",
-            "duplicates": 389,
+            "duplicates": 388,
             "info": {
               "id": "date_scraped",
               "short_name": "Date Scraped",
@@ -778,7 +782,8 @@
               "10-17-2026": 27,
               "10-20-2026": 1,
               "10-24-2026": 31,
-              "10-27-2026": 63
+              "10-27-2026": 7,
+              "10-28-2026": 56
             }
           },
           {
@@ -832,7 +837,7 @@
           }
         ]
       },
-      "sha512": "7d3637d0ad7a7a3eb89ec6a70e4ed222683b16d98877638119418988580c3a87ccfefcc2b284ea51b7de81cd1fd13ae768907f224aa6e30902ff10359ba22c2d"
+      "sha512": "83ac2f350a3534b4c3a335c30d8330fe3de7af579072eb531d747b2592b2fee1bfee447eac012e26dcd999026301e74577a54a3eb1dede938a26ff23b8f22fc8"
     }
   ],
   "measure_info": {
@@ -954,7 +959,7 @@
         "geography": {
           "status": "present",
           "same_type": true,
-          "added_levels": ["06013", "06023", "06039", "06065", "06081", "06083", "12069", "12095", "12105", "12119", "13097", "13223", "15", "16039", "22017", "34021", "34029", "37091", "37115", "37155", "41017", "41047", "45059", "45077", "47113", "47157", "48485", "51087", "53005"],
+          "added_levels": [],
           "dropped_levels": []
         },
         "time": {
@@ -966,13 +971,13 @@
         "condition": {
           "status": "present",
           "same_type": true,
-          "added_levels": "Seasonal Influenza",
+          "added_levels": [],
           "dropped_levels": []
         },
         "estimated_onset": {
           "status": "present",
           "same_type": true,
-          "added_levels": "10-12-2026",
+          "added_levels": [],
           "dropped_levels": []
         },
         "value": {
@@ -986,13 +991,13 @@
         "date_scraped": {
           "status": "present",
           "same_type": true,
-          "added_levels": [],
+          "added_levels": "10-28-2026",
           "dropped_levels": []
         },
         "date_epic_updated": {
           "status": "present",
           "same_type": true,
-          "added_levels": "10-27-2026",
+          "added_levels": [],
           "dropped_levels": []
         }
       }
