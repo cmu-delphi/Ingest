@@ -1,5 +1,6 @@
 {
-"lastUpdated": "October 22, 2026", 
+"lastUpdated": "October 29, 2026",
+"lastUpdated_esp": "29 de octubre del 2026",
 "data": [{"week_start":"2022-01-02","week_end":"2022-01-08","cases":"0"},
 {"week_start":"2022-01-09","week_end":"2022-01-15","cases":"0"},
 {"week_start":"2022-01-16","week_end":"2022-01-22","cases":"0"},
@@ -242,13 +243,15 @@
 {"week_start":"2026-08-02","week_end":"2026-08-08","cases":"106"},
 {"week_start":"2026-08-09","week_end":"2026-08-15","cases":"174"},
 {"week_start":"2026-08-16","week_end":"2026-08-22","cases":"175"},
-{"week_start":"2026-08-23","week_end":"2026-08-29","cases":"235"},
-{"week_start":"2026-08-30","week_end":"2026-09-05","cases":"202"},
+{"week_start":"2026-08-23","week_end":"2026-08-29","cases":"234"},
+{"week_start":"2026-08-30","week_end":"2026-09-05","cases":"201"},
 {"week_start":"2026-09-06","week_end":"2026-09-12","cases":"238"},
-{"week_start":"2026-09-13","week_end":"2026-09-19","cases":"195"},
-{"week_start":"2026-09-20","week_end":"2026-09-26","cases":"235"},
-{"week_start":"2026-09-27","week_end":"2026-10-03","cases":"206"},
-{"week_start":"2026-10-04","week_end":"2026-10-10","cases":"179"},
-{"week_start":"2026-10-11","week_end":"2026-10-17","cases":"116"},
-{"week_start":"2026-10-18","week_end":"2026-10-24","cases":"28"}]}
+{"week_start":"2026-09-13","week_end":"2026-09-19","cases":"196"},
+{"week_start":"2026-09-20","week_end":"2026-09-26","cases":"237"},
+{"week_start":"2026-09-27","week_end":"2026-10-03","cases":"219"},
+{"week_start":"2026-10-04","week_end":"2026-10-10","cases":"206"},
+{"week_start":"2026-10-11","week_end":"2026-10-17","cases":"185"},
+{"week_start":"2026-10-18","week_end":"2026-10-24","cases":"147"},
+{"week_start":"2026-10-25","week_end":"2026-10-31","cases":"35"}]
+}
 
