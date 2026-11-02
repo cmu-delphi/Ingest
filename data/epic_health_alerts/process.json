@@ -5,9 +5,9 @@
     {
       "path": "ingest.R",
       "manual": false,
-      "last_run": "2026-11-01 07:10:33",
+      "last_run": "2026-11-02 07:13:44",
       "frequency": 0,
-      "run_time": 1.15,
+      "run_time": 1.675,
       "last_status": {
         "log": ["", "Attaching package: ‘dplyr’", "", "The following objects are masked from ‘package:stats’:", "", "    filter, lag", "", "The following objects are masked from ‘package:base’:", "", "    intersect, setdiff, setequal, union", ""],
         "success": true
@@ -20,10 +20,10 @@
   },
   "standalone": false,
   "raw_state": {
-    "hash": "26581dabd66646b6e3b99375bb545de0"
+    "hash": "2658bb401dbc9bf5875f2b7cc80e1167"
   },
   "standard_state": {
     "./data/epic_health_alerts/measure_info.json": "7d611d081b62cb41e24daec49517a7ef",
-    "./data/epic_health_alerts/standard/data.csv.gz": "1a1fcbde1d15739e99b543d5b11e7b42"
+    "./data/epic_health_alerts/standard/data.csv.gz": "1c3755aba6abe37d18960035a556ce68"
   }
 }
