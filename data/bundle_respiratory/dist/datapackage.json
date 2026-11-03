@@ -11,6 +11,7 @@
       "filename": "covid_ed_visits_by_county.parquet",
       "versions": {
         "hash": [
+          "f9fabfa89cc58aa662159e85578a1367ca32f2fa",
           "44a17291c328d5fee1f402e5a0c3fc4a10748aaa",
           "1ce0d614ddff73f16042cebfa35136a7f756da2e",
           "d74f3813351bef35860ab1fc4e1c9b04b608e00f",
@@ -169,6 +170,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -275,6 +277,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 30 20:05:07 2026 +0000",
           "Thu Oct 29 07:15:46 2026 +0000",
           "Fri Oct 23 20:23:42 2026 +0000",
           "Thu Oct 22 07:33:10 2026 +0000",
@@ -407,6 +410,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
@@ -549,8 +553,8 @@
       "id_length": "NA",
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-30 20:03:18.787095",
-      "last_modified": "2026-10-30 20:03:18.787095",
+      "created": "2026-11-03 22:35:26.159786",
+      "last_modified": "2026-11-03 22:35:26.159786",
       "vintage": {},
       "row_count": 669033,
       "entity_count": 0,
@@ -919,14 +923,15 @@
       "sha512": "cfdbbb4fe4f276ecf7286bda15c67b3ce9d119aea7ce18a8a517c6560b62a3fc0673187463a1bee90281722643a380a7e8c3d4864ae01520d34297f2ab96005b"
     },
     {
-      "bytes": 1004253,
-      "encoding": "ISO-8859-5",
-      "md5": "7d70b58c1e339c90817f5f6c6de9054b",
+      "bytes": 993957,
+      "encoding": "windows-1252",
+      "md5": "0360eaae36931b78ab1beb9954d7cfde",
       "format": "parquet",
       "name": "covid_overall_trends",
       "filename": "covid_overall_trends.parquet",
       "versions": {
         "hash": [
+          "f9fabfa89cc58aa662159e85578a1367ca32f2fa",
           "44a17291c328d5fee1f402e5a0c3fc4a10748aaa",
           "26859602e0fe2388c5f96ace73f6865454d8a102",
           "1ce0d614ddff73f16042cebfa35136a7f756da2e",
@@ -1176,6 +1181,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -1351,6 +1357,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 30 20:05:07 2026 +0000",
           "Thu Oct 29 07:15:46 2026 +0000",
           "Tue Oct 27 20:12:49 2026 +0000",
           "Fri Oct 23 20:23:42 2026 +0000",
@@ -1563,6 +1570,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled data build",
@@ -1785,84 +1793,83 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-30 20:03:17.632091",
-      "last_modified": "2026-10-30 20:03:17.632091",
+      "created": "2026-11-03 22:35:25.024778",
+      "last_modified": "2026-11-03 22:35:25.024778",
       "vintage": {},
-      "row_count": 31369,
+      "row_count": 31050,
       "entity_count": 52,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 31317,
+            "duplicates": 30998,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
-              "Alabama": 587,
-              "Alaska": 401,
-              "Arizona": 588,
-              "Arkansas": 588,
-              "California": 693,
-              "Colorado": 693,
-              "Connecticut": 693,
-              "Delaware": 586,
-              "District of Columbia": 395,
-              "Florida": 588,
-              "Georgia": 691,
-              "Hawaii": 588,
-              "Idaho": 588,
-              "Illinois": 588,
-              "Indiana": 588,
-              "Iowa": 571,
-              "Kansas": 588,
-              "Kentucky": 587,
-              "Louisiana": 588,
-              "Maine": 588,
-              "Maryland": 693,
-              "Massachusetts": 588,
-              "Michigan": 693,
-              "Minnesota": 693,
-              "Mississippi": 588,
-              "Missouri": 588,
-              "Montana": 581,
-              "Nebraska": 588,
-              "Nevada": 588,
-              "New Hampshire": 588,
-              "New Jersey": 588,
-              "New Mexico": 693,
-              "New York": 692,
-              "North Carolina": 693,
-              "North Dakota": 399,
-              "Ohio": 588,
-              "Oklahoma": 588,
-              "Oregon": 692,
-              "Pennsylvania": 588,
-              "Rhode Island": 588,
-              "South Carolina": 588,
-              "South Dakota": 581,
-              "Tennessee": 693,
-              "Texas": 588,
-              "United States": 693,
-              "Utah": 693,
-              "Vermont": 572,
-              "Virginia": 588,
-              "Washington": 644,
-              "West Virginia": 588,
-              "Wisconsin": 588,
-              "Wyoming": 479
+              "Alabama": 581,
+              "Alaska": 397,
+              "Arizona": 582,
+              "Arkansas": 582,
+              "California": 686,
+              "Colorado": 686,
+              "Connecticut": 686,
+              "Delaware": 580,
+              "District of Columbia": 391,
+              "Florida": 582,
+              "Georgia": 684,
+              "Hawaii": 582,
+              "Idaho": 582,
+              "Illinois": 582,
+              "Indiana": 582,
+              "Iowa": 565,
+              "Kansas": 582,
+              "Kentucky": 581,
+              "Louisiana": 582,
+              "Maine": 582,
+              "Maryland": 686,
+              "Massachusetts": 582,
+              "Michigan": 686,
+              "Minnesota": 686,
+              "Mississippi": 582,
+              "Missouri": 582,
+              "Montana": 575,
+              "Nebraska": 582,
+              "Nevada": 582,
+              "New Hampshire": 582,
+              "New Jersey": 582,
+              "New Mexico": 686,
+              "New York": 685,
+              "North Carolina": 686,
+              "North Dakota": 395,
+              "Ohio": 582,
+              "Oklahoma": 582,
+              "Oregon": 685,
+              "Pennsylvania": 582,
+              "Rhode Island": 582,
+              "South Carolina": 582,
+              "South Dakota": 575,
+              "Tennessee": 686,
+              "Texas": 582,
+              "United States": 686,
+              "Utah": 686,
+              "Vermont": 566,
+              "Virginia": 582,
+              "Washington": 638,
+              "West Virginia": 582,
+              "Wisconsin": 582,
+              "Wyoming": 474
             }
           },
           {
             "name": "date",
-            "duplicates": 31264,
+            "duplicates": 30946,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
-              "2024-10-26": 319,
               "2024-11-02": 319,
               "2024-11-09": 319,
               "2024-11-16": 319,
@@ -1971,7 +1978,7 @@
           },
           {
             "name": "value",
-            "duplicates": 11251,
+            "duplicates": 11127,
             "info": {
               "measure_column": "source",
               "short_name": "Value",
@@ -1981,14 +1988,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 37.315087,
-            "sd": 403.238767,
+            "mean": 37.490579,
+            "sd": 404.922592,
             "min": 0,
             "max": 18839
           },
           {
             "name": "value_smooth",
-            "duplicates": 9040,
+            "duplicates": 8867,
             "info": {
               "measure_column": "source",
               "short_name": "Smoothed value",
@@ -1998,14 +2005,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 32.441291,
-            "sd": 363.456985,
+            "mean": 32.590721,
+            "sd": 365.095565,
             "min": 0,
             "max": 17961
           },
           {
             "name": "value_scale",
-            "duplicates": 6141,
+            "duplicates": 6064,
             "info": {
               "measure_column": "source",
               "short_name": "Scaled value (0–100)",
@@ -2015,14 +2022,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 25.849819,
-            "sd": 22.761329,
+            "mean": 25.806792,
+            "sd": 22.812895,
             "min": 0,
             "max": 100
           },
           {
             "name": "value_smooth_scale",
-            "duplicates": 3121,
+            "duplicates": 3066,
             "info": {
               "measure_column": "source",
               "short_name": "Smoothed scaled value (0–100)",
@@ -2032,14 +2039,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 28.411272,
-            "sd": 24.348621,
+            "mean": 28.348908,
+            "sd": 24.387737,
             "min": 0,
             "max": 100
           },
           {
             "name": "source",
-            "duplicates": 31362,
+            "duplicates": 31043,
             "info": {
               "short_name": "Data source",
               "levels": {
@@ -2321,18 +2328,18 @@
             "type": "string",
             "missing": 0,
             "table": {
-              "CDC NHSN": 4784,
-              "CDC NSSP": 5334,
-              "CDC NWSS": 5343,
-              "CDC RespNET": 1526,
-              "Delphi Doctor Claims": 5049,
-              "Delphi Hospital Claims": 4082,
-              "Epic Cosmos, ED": 5251
+              "CDC NHSN": 4732,
+              "CDC NSSP": 5283,
+              "CDC NWSS": 5292,
+              "CDC RespNET": 1512,
+              "Delphi Doctor Claims": 4998,
+              "Delphi Hospital Claims": 4033,
+              "Epic Cosmos, ED": 5200
             }
           },
           {
             "name": "suppressed_flag",
-            "duplicates": 31367,
+            "duplicates": 31048,
             "info": {
               "short_name": "Suppressed flag",
               "short_description": "Equals 1 when the underlying Epic Cosmos count was suppressed (small cell) and imputed; 0 otherwise. Non-Epic sources are 0.",
@@ -2343,14 +2350,14 @@
             "time_range": [-1, -1],
             "type": "integer",
             "missing": 0,
-            "mean": 0.021932,
-            "sd": 0.146465,
+            "mean": 0.022093,
+            "sd": 0.14699,
             "min": 0,
             "max": 1
           }
         ]
       },
-      "sha512": "38739feaa760bd35ae6028f9f824a8c2a5300b34e449baa1a826b2612b0f7a91a4417ae461bbae4934a321a0fe76a705452c856a17d24854d69dfc774a01df10"
+      "sha512": "a8d046d7df89a4db34fc7b4ebb8707be807696b5a6e997acef15e14cc7511f3e5ab8a7c96626b41abd044754e48dc8e5567bd11712e5c1220e9d2a862313f540"
     },
     {
       "bytes": 1504604,
@@ -2361,6 +2368,7 @@
       "filename": "covid_trends_by_age.parquet",
       "versions": {
         "hash": [
+          "f9fabfa89cc58aa662159e85578a1367ca32f2fa",
           "44a17291c328d5fee1f402e5a0c3fc4a10748aaa",
           "26859602e0fe2388c5f96ace73f6865454d8a102",
           "1ce0d614ddff73f16042cebfa35136a7f756da2e",
@@ -2536,6 +2544,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -2651,6 +2660,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 30 20:05:07 2026 +0000",
           "Thu Oct 29 07:15:46 2026 +0000",
           "Tue Oct 27 20:12:49 2026 +0000",
           "Fri Oct 23 20:23:42 2026 +0000",
@@ -2796,6 +2806,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled data build",
@@ -2951,8 +2962,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-30 20:03:22.713109",
-      "last_modified": "2026-10-30 20:03:22.713109",
+      "created": "2026-11-03 22:35:29.760812",
+      "last_modified": "2026-11-03 22:35:29.760812",
       "vintage": {},
       "row_count": 139737,
       "entity_count": 53,
@@ -3595,6 +3606,7 @@
       "filename": "flu_ed_visits_by_county.parquet",
       "versions": {
         "hash": [
+          "f9fabfa89cc58aa662159e85578a1367ca32f2fa",
           "44a17291c328d5fee1f402e5a0c3fc4a10748aaa",
           "1ce0d614ddff73f16042cebfa35136a7f756da2e",
           "d74f3813351bef35860ab1fc4e1c9b04b608e00f",
@@ -3753,6 +3765,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -3859,6 +3872,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 30 20:05:07 2026 +0000",
           "Thu Oct 29 07:15:46 2026 +0000",
           "Fri Oct 23 20:23:42 2026 +0000",
           "Thu Oct 22 07:33:10 2026 +0000",
@@ -3991,6 +4005,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
@@ -4133,8 +4148,8 @@
       "id_length": "NA",
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-30 20:03:18.582095",
-      "last_modified": "2026-10-30 20:03:18.582095",
+      "created": "2026-11-03 22:35:25.958785",
+      "last_modified": "2026-11-03 22:35:25.958785",
       "vintage": {},
       "row_count": 669033,
       "entity_count": 0,
@@ -4503,14 +4518,15 @@
       "sha512": "c9eea87d0a3cee951b61f3129a5e58908060b3608e953077290597a8eef7b95a7eedfce21b6c1cf6f6681d7c0c885b5aafe291166449bd6f933c603dfd1ff891"
     },
     {
-      "bytes": 978655,
+      "bytes": 975944,
       "encoding": "windows-1252",
-      "md5": "79aed3117bf870cb7a335e1b2f30bf30",
+      "md5": "419d0bfa6493e542b3db00f71868b862",
       "format": "parquet",
       "name": "flu_overall_trends",
       "filename": "flu_overall_trends.parquet",
       "versions": {
         "hash": [
+          "f9fabfa89cc58aa662159e85578a1367ca32f2fa",
           "44a17291c328d5fee1f402e5a0c3fc4a10748aaa",
           "26859602e0fe2388c5f96ace73f6865454d8a102",
           "1ce0d614ddff73f16042cebfa35136a7f756da2e",
@@ -4775,6 +4791,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -4961,6 +4978,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 30 20:05:07 2026 +0000",
           "Thu Oct 29 07:15:46 2026 +0000",
           "Tue Oct 27 20:12:49 2026 +0000",
           "Fri Oct 23 20:23:42 2026 +0000",
@@ -5186,6 +5204,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled data build",
@@ -5421,90 +5440,83 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-30 20:03:17.439091",
-      "last_modified": "2026-10-30 20:03:17.439091",
+      "created": "2026-11-03 22:35:24.921778",
+      "last_modified": "2026-11-03 22:35:24.921778",
       "vintage": {},
-      "row_count": 31407,
+      "row_count": 31185,
       "entity_count": 52,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 31355,
+            "duplicates": 31133,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
-              "Alabama": 590,
-              "Alaska": 300,
-              "Arizona": 591,
-              "Arkansas": 591,
-              "California": 696,
-              "Colorado": 696,
-              "Connecticut": 592,
-              "Delaware": 589,
-              "District of Columbia": 497,
-              "Florida": 591,
-              "Georgia": 694,
-              "Hawaii": 487,
-              "Idaho": 591,
-              "Illinois": 591,
-              "Indiana": 591,
-              "Iowa": 574,
-              "Kansas": 591,
-              "Kentucky": 590,
-              "Louisiana": 591,
-              "Maine": 591,
-              "Maryland": 696,
-              "Massachusetts": 591,
-              "Michigan": 696,
-              "Minnesota": 696,
-              "Mississippi": 591,
-              "Missouri": 591,
-              "Montana": 559,
-              "Nebraska": 591,
-              "Nevada": 591,
-              "New Hampshire": 591,
-              "New Jersey": 591,
-              "New Mexico": 690,
-              "New York": 591,
-              "North Carolina": 696,
-              "North Dakota": 402,
-              "Ohio": 591,
-              "Oklahoma": 485,
-              "Oregon": 591,
-              "Pennsylvania": 591,
-              "Rhode Island": 591,
-              "South Carolina": 591,
-              "South Dakota": 480,
-              "Tennessee": 696,
-              "Texas": 591,
-              "United States": 1344,
-              "Utah": 592,
-              "Vermont": 575,
-              "Virginia": 591,
-              "Washington": 647,
-              "West Virginia": 591,
-              "Wisconsin": 591,
-              "Wyoming": 482
+              "Alabama": 586,
+              "Alaska": 298,
+              "Arizona": 587,
+              "Arkansas": 587,
+              "California": 691,
+              "Colorado": 691,
+              "Connecticut": 587,
+              "Delaware": 585,
+              "District of Columbia": 494,
+              "Florida": 587,
+              "Georgia": 689,
+              "Hawaii": 483,
+              "Idaho": 587,
+              "Illinois": 587,
+              "Indiana": 587,
+              "Iowa": 570,
+              "Kansas": 587,
+              "Kentucky": 586,
+              "Louisiana": 587,
+              "Maine": 587,
+              "Maryland": 691,
+              "Massachusetts": 587,
+              "Michigan": 691,
+              "Minnesota": 691,
+              "Mississippi": 587,
+              "Missouri": 587,
+              "Montana": 556,
+              "Nebraska": 587,
+              "Nevada": 587,
+              "New Hampshire": 587,
+              "New Jersey": 587,
+              "New Mexico": 685,
+              "New York": 586,
+              "North Carolina": 691,
+              "North Dakota": 400,
+              "Ohio": 587,
+              "Oklahoma": 481,
+              "Oregon": 586,
+              "Pennsylvania": 587,
+              "Rhode Island": 587,
+              "South Carolina": 587,
+              "South Dakota": 476,
+              "Tennessee": 691,
+              "Texas": 587,
+              "United States": 1332,
+              "Utah": 587,
+              "Vermont": 571,
+              "Virginia": 587,
+              "Washington": 643,
+              "West Virginia": 587,
+              "Wisconsin": 587,
+              "Wyoming": 479
             }
           },
           {
             "name": "date",
-            "duplicates": 30747,
+            "duplicates": 30532,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
-              "2024-10-24": 1,
-              "2024-10-25": 1,
-              "2024-10-26": 260,
-              "2024-10-27": 1,
-              "2024-10-28": 1,
-              "2024-10-29": 1,
-              "2024-10-30": 1,
               "2024-10-31": 1,
               "2024-11-01": 1,
               "2024-11-02": 260,
@@ -6157,12 +6169,12 @@
               "2026-10-03": 208,
               "2026-10-10": 206,
               "2026-10-17": 155,
-              "2026-10-24": 110
+              "2026-10-24": 154
             }
           },
           {
             "name": "value",
-            "duplicates": 12247,
+            "duplicates": 12149,
             "info": {
               "measure_column": "source",
               "short_name": "Value",
@@ -6172,14 +6184,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 57.837664,
-            "sd": 922.542152,
+            "mean": 58.245157,
+            "sd": 925.807439,
             "min": 0,
             "max": 55717
           },
           {
             "name": "value_smooth",
-            "duplicates": 9025,
+            "duplicates": 8933,
             "info": {
               "measure_column": "source",
               "short_name": "Smoothed value",
@@ -6189,14 +6201,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 54.330092,
-            "sd": 901.464877,
+            "mean": 54.71508,
+            "sd": 904.656372,
             "min": 0,
             "max": 55066
           },
           {
             "name": "value_scale",
-            "duplicates": 6961,
+            "duplicates": 6889,
             "info": {
               "measure_column": "source",
               "short_name": "Scaled value (0–100)",
@@ -6206,14 +6218,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 16.440089,
-            "sd": 24.207203,
+            "mean": 16.534554,
+            "sd": 24.256815,
             "min": 0,
             "max": 100
           },
           {
             "name": "value_smooth_scale",
-            "duplicates": 4185,
+            "duplicates": 4130,
             "info": {
               "measure_column": "source",
               "short_name": "Smoothed scaled value (0–100)",
@@ -6223,14 +6235,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 17.737817,
-            "sd": 25.240292,
+            "mean": 17.843344,
+            "sd": 25.288532,
             "min": 0,
             "max": 100
           },
           {
             "name": "source",
-            "duplicates": 31399,
+            "duplicates": 31177,
             "info": {
               "short_name": "Data source",
               "levels": {
@@ -6470,7 +6482,7 @@
                   "source_id": "delphi_fluview_wili",
                   "id": "CDC ILINet",
                   "name": "delphi_fluview_wili",
-                  "duplicates": 3135,
+                  "duplicates": 3143,
                   "info": {
                     "id": "delphi_fluview_wili",
                     "short_name": "Weighted percent influenza-like illness (ILI)",
@@ -6504,12 +6516,12 @@
                   },
                   "time_range": [
                     0,
-                    1420
+                    1421
                   ],
                   "type": "float",
                   "missing": 0,
-                  "mean": 1.913422,
-                  "sd": 1.874456,
+                  "mean": 1.913515,
+                  "sd": 1.873658,
                   "min": 0,
                   "max": 19.4177
                 },
@@ -6561,17 +6573,17 @@
             "table": {
               "CDC ILINet": 4576,
               "CDC NHSN": 4680,
-              "CDC NSSP": 5334,
-              "CDC NWSS": 5310,
-              "CDC RespNET": 1526,
-              "Delphi Hospital Claims": 4082,
-              "Epic Cosmos, ED": 5251,
-              "Kinsa": 648
+              "CDC NSSP": 5283,
+              "CDC NWSS": 5260,
+              "CDC RespNET": 1512,
+              "Delphi Hospital Claims": 4033,
+              "Epic Cosmos, ED": 5200,
+              "Kinsa": 641
             }
           },
           {
             "name": "suppressed_flag",
-            "duplicates": 31405,
+            "duplicates": 31183,
             "info": {
               "short_name": "Suppressed flag",
               "short_description": "Equals 1 when the underlying Epic Cosmos count was suppressed (small cell) and imputed; 0 otherwise. Non-Epic sources are 0.",
@@ -6582,14 +6594,14 @@
             "time_range": [-1, -1],
             "type": "integer",
             "missing": 0,
-            "mean": 0.036425,
-            "sd": 0.187348,
+            "mean": 0.036171,
+            "sd": 0.186719,
             "min": 0,
             "max": 1
           }
         ]
       },
-      "sha512": "10e330874748c35e5aabfd5c2006b66e2eb072c9f5fc15b379efbcf5462c4c65bd8c30f2ee2b968dc1d2058c3b2ff733e3f18aaa1cf4ecafd044c8212e843e3c"
+      "sha512": "bf22b70d35cd47dfd01fc59c6e0e438ff1087a38ceaee875e697578b7ce2b8e86334adadd6a2fd2a8f284d976864c897cc087e10bc0b109c84b1b5b0b9c7a938"
     },
     {
       "bytes": 1382030,
@@ -6600,6 +6612,7 @@
       "filename": "flu_trends_by_age.parquet",
       "versions": {
         "hash": [
+          "f9fabfa89cc58aa662159e85578a1367ca32f2fa",
           "44a17291c328d5fee1f402e5a0c3fc4a10748aaa",
           "26859602e0fe2388c5f96ace73f6865454d8a102",
           "1ce0d614ddff73f16042cebfa35136a7f756da2e",
@@ -6775,6 +6788,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -6890,6 +6904,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 30 20:05:07 2026 +0000",
           "Thu Oct 29 07:15:46 2026 +0000",
           "Tue Oct 27 20:12:49 2026 +0000",
           "Fri Oct 23 20:23:42 2026 +0000",
@@ -7035,6 +7050,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled data build",
@@ -7190,8 +7206,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-30 20:03:22.631109",
-      "last_modified": "2026-10-30 20:03:22.631109",
+      "created": "2026-11-03 22:35:29.677811",
+      "last_modified": "2026-11-03 22:35:29.677811",
       "vintage": {},
       "row_count": 39032,
       "entity_count": 52,
@@ -7583,6 +7599,7 @@
       "filename": "other_measures_trends.parquet",
       "versions": {
         "hash": [
+          "f9fabfa89cc58aa662159e85578a1367ca32f2fa",
           "44a17291c328d5fee1f402e5a0c3fc4a10748aaa",
           "1ce0d614ddff73f16042cebfa35136a7f756da2e",
           "d74f3813351bef35860ab1fc4e1c9b04b608e00f",
@@ -7649,6 +7666,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -7661,6 +7679,7 @@
           "anshap32 <73296024+anshap32@users.noreply.github.com>"
         ],
         "date": [
+          "Fri Oct 30 20:05:07 2026 +0000",
           "Thu Oct 29 07:15:46 2026 +0000",
           "Fri Oct 23 20:23:42 2026 +0000",
           "Thu Oct 22 07:33:10 2026 +0000",
@@ -7700,6 +7719,7 @@
           "Mon Jul 6 14:46:24 2026 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
@@ -7749,8 +7769,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-30 20:03:24.692116",
-      "last_modified": "2026-10-30 20:03:24.692116",
+      "created": "2026-11-03 22:35:31.735825",
+      "last_modified": "2026-11-03 22:35:31.735825",
       "vintage": {},
       "row_count": 129660,
       "entity_count": 52,
@@ -8230,6 +8250,7 @@
       "filename": "pneumococcus_by_geography_year.parquet",
       "versions": {
         "hash": [
+          "f9fabfa89cc58aa662159e85578a1367ca32f2fa",
           "44a17291c328d5fee1f402e5a0c3fc4a10748aaa",
           "1ce0d614ddff73f16042cebfa35136a7f756da2e",
           "d74f3813351bef35860ab1fc4e1c9b04b608e00f",
@@ -8343,6 +8364,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -8404,6 +8426,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 30 20:05:07 2026 +0000",
           "Thu Oct 29 07:15:46 2026 +0000",
           "Fri Oct 23 20:23:42 2026 +0000",
           "Thu Oct 22 07:33:10 2026 +0000",
@@ -8491,6 +8514,7 @@
           "Wed Nov 26 09:28:06 2025 -0500"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
@@ -8588,8 +8612,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-30 20:03:24.389115",
-      "last_modified": "2026-10-30 20:03:24.389115",
+      "created": "2026-11-03 22:35:31.465823",
+      "last_modified": "2026-11-03 22:35:31.465823",
       "vintage": {},
       "row_count": 23760,
       "entity_count": 10,
@@ -8828,6 +8852,7 @@
       "filename": "pneumococcus_by_geography.parquet",
       "versions": {
         "hash": [
+          "f9fabfa89cc58aa662159e85578a1367ca32f2fa",
           "44a17291c328d5fee1f402e5a0c3fc4a10748aaa",
           "1ce0d614ddff73f16042cebfa35136a7f756da2e",
           "d74f3813351bef35860ab1fc4e1c9b04b608e00f",
@@ -8954,6 +8979,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -9028,6 +9054,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 30 20:05:07 2026 +0000",
           "Thu Oct 29 07:15:46 2026 +0000",
           "Fri Oct 23 20:23:42 2026 +0000",
           "Thu Oct 22 07:33:10 2026 +0000",
@@ -9128,6 +9155,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
@@ -9238,8 +9266,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-30 20:03:24.081114",
-      "last_modified": "2026-10-30 20:03:24.081114",
+      "created": "2026-11-03 22:35:31.145821",
+      "last_modified": "2026-11-03 22:35:31.145821",
       "vintage": {},
       "row_count": 880,
       "entity_count": 10,
@@ -9451,6 +9479,7 @@
       "filename": "pneumococcus_comparison.parquet",
       "versions": {
         "hash": [
+          "f9fabfa89cc58aa662159e85578a1367ca32f2fa",
           "44a17291c328d5fee1f402e5a0c3fc4a10748aaa",
           "1ce0d614ddff73f16042cebfa35136a7f756da2e",
           "d74f3813351bef35860ab1fc4e1c9b04b608e00f",
@@ -9539,6 +9568,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -9575,6 +9605,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 30 20:05:07 2026 +0000",
           "Thu Oct 29 07:15:46 2026 +0000",
           "Fri Oct 23 20:23:42 2026 +0000",
           "Thu Oct 22 07:33:10 2026 +0000",
@@ -9637,6 +9668,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
@@ -9709,8 +9741,8 @@
       "id_length": 11,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-30 20:03:24.461115",
-      "last_modified": "2026-10-30 20:03:24.461115",
+      "created": "2026-11-03 22:35:31.518824",
+      "last_modified": "2026-11-03 22:35:31.518824",
       "vintage": {},
       "row_count": 15,
       "entity_count": 1,
@@ -9833,6 +9865,7 @@
       "filename": "pneumococcus_serotype_trends.parquet",
       "versions": {
         "hash": [
+          "f9fabfa89cc58aa662159e85578a1367ca32f2fa",
           "44a17291c328d5fee1f402e5a0c3fc4a10748aaa",
           "1ce0d614ddff73f16042cebfa35136a7f756da2e",
           "d74f3813351bef35860ab1fc4e1c9b04b608e00f",
@@ -9962,6 +9995,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -10039,6 +10073,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 30 20:05:07 2026 +0000",
           "Thu Oct 29 07:15:46 2026 +0000",
           "Fri Oct 23 20:23:42 2026 +0000",
           "Thu Oct 22 07:33:10 2026 +0000",
@@ -10142,6 +10177,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
@@ -10255,8 +10291,8 @@
       "id_length": "NA",
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-30 20:03:23.963113",
-      "last_modified": "2026-10-30 20:03:23.963113",
+      "created": "2026-11-03 22:35:31.02682",
+      "last_modified": "2026-11-03 22:35:31.02682",
       "vintage": {},
       "row_count": 9504,
       "entity_count": 0,
@@ -10459,6 +10495,7 @@
       "filename": "rsv_ed_visits_by_county.parquet",
       "versions": {
         "hash": [
+          "f9fabfa89cc58aa662159e85578a1367ca32f2fa",
           "44a17291c328d5fee1f402e5a0c3fc4a10748aaa",
           "1ce0d614ddff73f16042cebfa35136a7f756da2e",
           "d74f3813351bef35860ab1fc4e1c9b04b608e00f",
@@ -10617,6 +10654,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -10723,6 +10761,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 30 20:05:07 2026 +0000",
           "Thu Oct 29 07:15:46 2026 +0000",
           "Fri Oct 23 20:23:42 2026 +0000",
           "Thu Oct 22 07:33:10 2026 +0000",
@@ -10855,6 +10894,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
@@ -10997,8 +11037,8 @@
       "id_length": "NA",
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-30 20:03:18.374094",
-      "last_modified": "2026-10-30 20:03:18.374094",
+      "created": "2026-11-03 22:35:25.751783",
+      "last_modified": "2026-11-03 22:35:25.751783",
       "vintage": {},
       "row_count": 669033,
       "entity_count": 0,
@@ -11367,14 +11407,15 @@
       "sha512": "07d5c6e7755b588b358e1edf2c09d55b2c9801d998362f5d1732dfad3e004db6f322fd3e8e3bdcc7b6122a83a0682016fce87d4baa445fe02f65a53956e7a3a6"
     },
     {
-      "bytes": 863398,
+      "bytes": 866389,
       "encoding": "windows-1252",
-      "md5": "dc5665a2cb10052cd0b8fe837b8f3aad",
+      "md5": "33566a13b0fea8381409423e45b243c9",
       "format": "parquet",
       "name": "rsv_google_dma",
       "filename": "rsv_google_dma.parquet",
       "versions": {
         "hash": [
+          "f9fabfa89cc58aa662159e85578a1367ca32f2fa",
           "44a17291c328d5fee1f402e5a0c3fc4a10748aaa",
           "26859602e0fe2388c5f96ace73f6865454d8a102",
           "1ce0d614ddff73f16042cebfa35136a7f756da2e",
@@ -11545,6 +11586,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -11641,6 +11683,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 30 20:05:07 2026 +0000",
           "Thu Oct 29 07:15:46 2026 +0000",
           "Tue Oct 27 20:12:49 2026 +0000",
           "Fri Oct 23 20:23:42 2026 +0000",
@@ -11774,6 +11817,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled data build",
@@ -11917,8 +11961,8 @@
       "id_length": "NA",
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-30 20:03:23.871113",
-      "last_modified": "2026-10-30 20:03:23.871113",
+      "created": "2026-11-03 22:35:30.93382",
+      "last_modified": "2026-11-03 22:35:30.93382",
       "vintage": {},
       "row_count": 322350,
       "entity_count": 0,
@@ -11944,7 +11988,6 @@
             "type": "string",
             "missing": 0,
             "table": {
-              "2024-10-26": 3070,
               "2024-11-02": 3070,
               "2024-11-09": 3070,
               "2024-11-16": 3070,
@@ -12048,12 +12091,13 @@
               "2026-10-03": 3070,
               "2026-10-10": 3070,
               "2026-10-17": 3070,
-              "2026-10-24": 3070
+              "2026-10-24": 3070,
+              "2026-10-31": 3070
             }
           },
           {
             "name": "value",
-            "duplicates": 302082,
+            "duplicates": 301998,
             "info": {
               "full_name": "gtrends_rsv",
               "measure": "gtrends_rsv",
@@ -12084,24 +12128,25 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 22,
-            "mean": 13.910685,
-            "sd": 12.7197,
+            "mean": 13.907786,
+            "sd": 12.683925,
             "min": 0,
             "max": 100
           }
         ]
       },
-      "sha512": "8e85863355d6071b0cae03c38ed6ec3169dcc24ca964be11a517e756ced233a75531c63a2e2cb7a4a21d08c34f050216791fc3eeb87c62cff5634e1a5082cb7c"
+      "sha512": "68f2b223bc7b77afd8d4ce5802a3d6f30a27a03c5c7d51f03cd84aada34fb298ce85c1aefcd7f253825c1ce14ae3efce1048d24cb7f0b58ce64a9a5bab762539"
     },
     {
-      "bytes": 732524,
+      "bytes": 733055,
       "encoding": "windows-1252",
-      "md5": "fef76e74d1683162e3540b16c5d368ba",
+      "md5": "56a4db84efada641a637f006b4fe48ab",
       "format": "parquet",
       "name": "rsv_overall_trends",
       "filename": "rsv_overall_trends.parquet",
       "versions": {
         "hash": [
+          "f9fabfa89cc58aa662159e85578a1367ca32f2fa",
           "44a17291c328d5fee1f402e5a0c3fc4a10748aaa",
           "26859602e0fe2388c5f96ace73f6865454d8a102",
           "1ce0d614ddff73f16042cebfa35136a7f756da2e",
@@ -12334,6 +12379,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -12492,6 +12538,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 30 20:05:07 2026 +0000",
           "Thu Oct 29 07:15:46 2026 +0000",
           "Tue Oct 27 20:12:49 2026 +0000",
           "Fri Oct 23 20:23:42 2026 +0000",
@@ -12687,6 +12734,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled data build",
@@ -12892,84 +12940,83 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-30 20:03:17.33409",
-      "last_modified": "2026-10-30 20:03:17.33409",
+      "created": "2026-11-03 22:35:24.817777",
+      "last_modified": "2026-11-03 22:35:24.817777",
       "vintage": {},
-      "row_count": 27557,
+      "row_count": 27391,
       "entity_count": 52,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 27505,
+            "duplicates": 27339,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
-              "Alabama": 507,
-              "Alaska": 405,
-              "Arizona": 508,
-              "Arkansas": 508,
-              "California": 613,
-              "Colorado": 613,
-              "Connecticut": 613,
-              "Delaware": 506,
-              "District of Columbia": 498,
-              "Florida": 508,
-              "Georgia": 611,
-              "Hawaii": 508,
-              "Idaho": 508,
-              "Illinois": 508,
-              "Indiana": 508,
-              "Iowa": 491,
-              "Kansas": 508,
-              "Kentucky": 507,
-              "Louisiana": 508,
-              "Maine": 508,
-              "Maryland": 613,
-              "Massachusetts": 508,
-              "Michigan": 613,
-              "Minnesota": 613,
-              "Mississippi": 508,
-              "Missouri": 508,
-              "Montana": 484,
-              "Nebraska": 508,
-              "Nevada": 508,
-              "New Hampshire": 508,
-              "New Jersey": 508,
-              "New Mexico": 607,
-              "New York": 612,
-              "North Carolina": 613,
-              "North Dakota": 403,
-              "Ohio": 508,
-              "Oklahoma": 508,
-              "Oregon": 612,
-              "Pennsylvania": 508,
-              "Rhode Island": 508,
-              "South Carolina": 508,
-              "South Dakota": 508,
-              "Tennessee": 613,
-              "Texas": 508,
-              "United States": 613,
-              "Utah": 613,
-              "Vermont": 508,
-              "Virginia": 508,
-              "Washington": 564,
-              "West Virginia": 508,
-              "Wisconsin": 508,
-              "Wyoming": 396
+              "Alabama": 504,
+              "Alaska": 403,
+              "Arizona": 505,
+              "Arkansas": 505,
+              "California": 609,
+              "Colorado": 609,
+              "Connecticut": 609,
+              "Delaware": 503,
+              "District of Columbia": 495,
+              "Florida": 505,
+              "Georgia": 607,
+              "Hawaii": 505,
+              "Idaho": 505,
+              "Illinois": 505,
+              "Indiana": 505,
+              "Iowa": 488,
+              "Kansas": 505,
+              "Kentucky": 504,
+              "Louisiana": 505,
+              "Maine": 505,
+              "Maryland": 609,
+              "Massachusetts": 505,
+              "Michigan": 609,
+              "Minnesota": 609,
+              "Mississippi": 505,
+              "Missouri": 505,
+              "Montana": 482,
+              "Nebraska": 505,
+              "Nevada": 505,
+              "New Hampshire": 505,
+              "New Jersey": 505,
+              "New Mexico": 603,
+              "New York": 608,
+              "North Carolina": 609,
+              "North Dakota": 401,
+              "Ohio": 505,
+              "Oklahoma": 505,
+              "Oregon": 608,
+              "Pennsylvania": 505,
+              "Rhode Island": 505,
+              "South Carolina": 505,
+              "South Dakota": 505,
+              "Tennessee": 609,
+              "Texas": 505,
+              "United States": 609,
+              "Utah": 609,
+              "Vermont": 505,
+              "Virginia": 505,
+              "Washington": 561,
+              "West Virginia": 505,
+              "Wisconsin": 505,
+              "Wyoming": 394
             }
           },
           {
             "name": "date",
-            "duplicates": 27452,
+            "duplicates": 27286,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
-              "2024-10-26": 218,
               "2024-11-02": 218,
               "2024-11-09": 270,
               "2024-11-16": 270,
@@ -13073,12 +13120,13 @@
               "2026-10-03": 215,
               "2026-10-10": 213,
               "2026-10-17": 162,
-              "2026-10-24": 162
+              "2026-10-24": 162,
+              "2026-10-31": 52
             }
           },
           {
             "name": "value",
-            "duplicates": 14090,
+            "duplicates": 14002,
             "info": {
               "measure_column": "source",
               "short_name": "Value",
@@ -13088,14 +13136,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 24.066611,
-            "sd": 295.151153,
+            "mean": 24.208373,
+            "sd": 296.038552,
             "min": 0,
             "max": 15979
           },
           {
             "name": "value_smooth",
-            "duplicates": 11675,
+            "duplicates": 11604,
             "info": {
               "measure_column": "source",
               "short_name": "Smoothed value",
@@ -13105,14 +13153,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 22.746254,
-            "sd": 286.597984,
+            "mean": 22.882568,
+            "sd": 287.459781,
             "min": 0,
             "max": 15769
           },
           {
             "name": "value_scale",
-            "duplicates": 10540,
+            "duplicates": 10458,
             "info": {
               "measure_column": "source",
               "short_name": "Scaled value (0–100)",
@@ -13122,14 +13170,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 18.979236,
-            "sd": 25.398201,
+            "mean": 19.038909,
+            "sd": 25.447198,
             "min": 0,
             "max": 100
           },
           {
             "name": "value_smooth_scale",
-            "duplicates": 6862,
+            "duplicates": 6818,
             "info": {
               "measure_column": "source",
               "short_name": "Smoothed scaled value (0–100)",
@@ -13139,14 +13187,14 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 20.898091,
-            "sd": 26.598863,
+            "mean": 20.978215,
+            "sd": 26.657036,
             "min": 0,
             "max": 100
           },
           {
             "name": "source",
-            "duplicates": 27551,
+            "duplicates": 27385,
             "info": {
               "short_name": "Data source",
               "levels": {
@@ -13190,7 +13238,7 @@
                   "source_id": "gtrends_rsv_adjusted",
                   "id": "Google Health Trends",
                   "name": "gtrends_rsv_adjusted",
-                  "duplicates": 12640,
+                  "duplicates": 12678,
                   "info": {
                     "full_name": "gtrends_rsv_adjusted",
                     "measure": "gtrends_rsv_adjusted",
@@ -13220,12 +13268,12 @@
                   },
                   "time_range": [
                     0,
-                    667
+                    668
                   ],
                   "type": "float",
                   "missing": 0,
-                  "mean": 0.032307,
-                  "sd": 0.064503,
+                  "mean": 0.032265,
+                  "sd": 0.064465,
                   "min": 0,
                   "max": 1
                 },
@@ -13394,16 +13442,16 @@
             "missing": 0,
             "table": {
               "CDC NHSN": 4680,
-              "CDC NSSP": 5334,
-              "CDC NWSS": 5306,
-              "CDC RespNET": 1526,
-              "Epic Cosmos, ED": 5251,
+              "CDC NSSP": 5283,
+              "CDC NWSS": 5256,
+              "CDC RespNET": 1512,
+              "Epic Cosmos, ED": 5200,
               "Google Health Trends": 5460
             }
           },
           {
             "name": "suppressed_flag",
-            "duplicates": 27555,
+            "duplicates": 27389,
             "info": {
               "short_name": "Suppressed flag",
               "short_description": "Equals 1 when the underlying Epic Cosmos count was suppressed (small cell) and imputed; 0 otherwise. Non-Epic sources are 0.",
@@ -13414,14 +13462,14 @@
             "time_range": [-1, -1],
             "type": "integer",
             "missing": 0,
-            "mean": 0.085568,
-            "sd": 0.27973,
+            "mean": 0.085247,
+            "sd": 0.279254,
             "min": 0,
             "max": 1
           }
         ]
       },
-      "sha512": "d3cd69270b9652c41f50478731bab8b6f9a5a90d1a81691e9c59993631cc6c639ccd3ab6c382dcb7dc8df903985f1718fc0b4f504a3cd3e746b606d8ea17d4fd"
+      "sha512": "86d5632d7084528e3867463cf8ca4deff73f5a4e16ebf02dc46cfc16127897e4f12ae17a8c1b11448f57f5f370203c67de001e8621eda1eca595408f5e428d6b"
     },
     {
       "bytes": 44548,
@@ -13432,6 +13480,7 @@
       "filename": "rsv_positive_tests.parquet",
       "versions": {
         "hash": [
+          "f9fabfa89cc58aa662159e85578a1367ca32f2fa",
           "44a17291c328d5fee1f402e5a0c3fc4a10748aaa",
           "1ce0d614ddff73f16042cebfa35136a7f756da2e",
           "d74f3813351bef35860ab1fc4e1c9b04b608e00f",
@@ -13601,6 +13650,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -13718,6 +13768,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 30 20:05:07 2026 +0000",
           "Thu Oct 29 07:15:46 2026 +0000",
           "Fri Oct 23 20:23:42 2026 +0000",
           "Thu Oct 22 07:33:10 2026 +0000",
@@ -13861,6 +13912,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
@@ -14014,8 +14066,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-30 20:03:17.674092",
-      "last_modified": "2026-10-30 20:03:17.674092",
+      "created": "2026-11-03 22:35:25.065779",
+      "last_modified": "2026-11-03 22:35:25.065779",
       "vintage": {},
       "row_count": 3586,
       "entity_count": 11,
@@ -14583,6 +14635,7 @@
       "filename": "rsv_testing_pct.parquet",
       "versions": {
         "hash": [
+          "f9fabfa89cc58aa662159e85578a1367ca32f2fa",
           "44a17291c328d5fee1f402e5a0c3fc4a10748aaa",
           "1ce0d614ddff73f16042cebfa35136a7f756da2e",
           "d74f3813351bef35860ab1fc4e1c9b04b608e00f",
@@ -14720,6 +14773,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -14805,6 +14859,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 30 20:05:07 2026 +0000",
           "Thu Oct 29 07:15:46 2026 +0000",
           "Fri Oct 23 20:23:42 2026 +0000",
           "Thu Oct 22 07:33:10 2026 +0000",
@@ -14916,6 +14971,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
@@ -15037,8 +15093,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-30 20:03:17.754092",
-      "last_modified": "2026-10-30 20:03:17.754092",
+      "created": "2026-11-03 22:35:25.144779",
+      "last_modified": "2026-11-03 22:35:25.144779",
       "vintage": {},
       "row_count": 16433,
       "entity_count": 53,
@@ -15347,6 +15403,7 @@
       "filename": "rsv_trends_by_age.parquet",
       "versions": {
         "hash": [
+          "f9fabfa89cc58aa662159e85578a1367ca32f2fa",
           "44a17291c328d5fee1f402e5a0c3fc4a10748aaa",
           "26859602e0fe2388c5f96ace73f6865454d8a102",
           "1ce0d614ddff73f16042cebfa35136a7f756da2e",
@@ -15522,6 +15579,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -15637,6 +15695,7 @@
           "Weinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Oct 30 20:05:07 2026 +0000",
           "Thu Oct 29 07:15:46 2026 +0000",
           "Tue Oct 27 20:12:49 2026 +0000",
           "Fri Oct 23 20:23:42 2026 +0000",
@@ -15782,6 +15841,7 @@
           "Sun Aug 10 23:21:57 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled data build",
@@ -15937,8 +15997,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-30 20:03:22.581108",
-      "last_modified": "2026-10-30 20:03:22.581108",
+      "created": "2026-11-03 22:35:29.62781",
+      "last_modified": "2026-11-03 22:35:29.62781",
       "vintage": {},
       "row_count": 48188,
       "entity_count": 52,
@@ -16366,7 +16426,7 @@
           "source_id": "gtrends_rsv_adjusted",
           "id": "Google Health Trends",
           "name": "gtrends_rsv_adjusted",
-          "duplicates": 12640,
+          "duplicates": 12678,
           "info": {
             "full_name": "gtrends_rsv_adjusted",
             "measure": "gtrends_rsv_adjusted",
@@ -16396,12 +16456,12 @@
           },
           "time_range": [
             0,
-            667
+            668
           ],
           "type": "float",
           "missing": 0,
-          "mean": 0.032307,
-          "sd": 0.064503,
+          "mean": 0.032265,
+          "sd": 0.064465,
           "min": 0,
           "max": 1
         },
@@ -16804,7 +16864,7 @@
           "source_id": "delphi_fluview_wili",
           "id": "CDC ILINet",
           "name": "delphi_fluview_wili",
-          "duplicates": 3135,
+          "duplicates": 3143,
           "info": {
             "id": "delphi_fluview_wili",
             "short_name": "Weighted percent influenza-like illness (ILI)",
@@ -16838,12 +16898,12 @@
           },
           "time_range": [
             0,
-            1420
+            1421
           ],
           "type": "float",
           "missing": 0,
-          "mean": 1.913422,
-          "sd": 1.874456,
+          "mean": 1.913515,
+          "sd": 1.873658,
           "min": 0,
           "max": 19.4177
         },
@@ -18243,12 +18303,12 @@
       },
       "time_range": [
         0,
-        667
+        668
       ],
       "type": "float",
       "missing": 0,
-      "mean": 4.337171,
-      "sd": 7.205803,
+      "mean": 4.338947,
+      "sd": 7.200666,
       "min": 0,
       "max": 100
     },
@@ -18863,33 +18923,7 @@
   },
   "change_report": {
     "covid_ed_visits_by_county.parquet": {
-      "state": "changed",
-      "variables": {
-        "source": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "fips": {
-          "status": "present",
-          "same_type": true
-        },
-        "week_end": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": "2026-10-24",
-          "dropped_levels": []
-        },
-        "percent_visits_covid": {
-          "status": "present",
-          "same_type": true
-        },
-        "is_state_estimate": {
-          "status": "present",
-          "same_type": true
-        }
-      }
+      "state": "unchanged"
     },
     "covid_overall_trends.parquet": {
       "state": "changed",
@@ -18903,8 +18937,8 @@
         "date": {
           "status": "present",
           "same_type": true,
-          "added_levels": "2026-10-24",
-          "dropped_levels": []
+          "added_levels": [],
+          "dropped_levels": "2024-10-26"
         },
         "value": {
           "status": "present",
@@ -18935,82 +18969,10 @@
       }
     },
     "covid_trends_by_age.parquet": {
-      "state": "changed",
-      "variables": {
-        "date": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": "2026-10-24",
-          "dropped_levels": []
-        },
-        "geography": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "age": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "source": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "value": {
-          "status": "present",
-          "same_type": true
-        },
-        "value_smooth": {
-          "status": "present",
-          "same_type": true
-        },
-        "value_scale": {
-          "status": "present",
-          "same_type": true
-        },
-        "value_smooth_scale": {
-          "status": "present",
-          "same_type": true
-        },
-        "suppressed_flag": {
-          "status": "present",
-          "same_type": true
-        }
-      }
+      "state": "unchanged"
     },
     "flu_ed_visits_by_county.parquet": {
-      "state": "changed",
-      "variables": {
-        "source": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "fips": {
-          "status": "present",
-          "same_type": true
-        },
-        "week_end": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": "2026-10-24",
-          "dropped_levels": []
-        },
-        "percent_visits_flu": {
-          "status": "present",
-          "same_type": true
-        },
-        "is_state_estimate": {
-          "status": "present",
-          "same_type": true
-        }
-      }
+      "state": "unchanged"
     },
     "flu_overall_trends.parquet": {
       "state": "changed",
@@ -19024,8 +18986,8 @@
         "date": {
           "status": "present",
           "same_type": true,
-          "added_levels": "2026-10-24",
-          "dropped_levels": []
+          "added_levels": [],
+          "dropped_levels": ["2024-10-24", "2024-10-25", "2024-10-26", "2024-10-27", "2024-10-28", "2024-10-29", "2024-10-30"]
         },
         "value": {
           "status": "present",
@@ -19056,237 +19018,25 @@
       }
     },
     "flu_trends_by_age.parquet": {
-      "state": "changed",
-      "variables": {
-        "date": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": "2026-10-24",
-          "dropped_levels": "2024-10-19"
-        },
-        "geography": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "age": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "source": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "value": {
-          "status": "present",
-          "same_type": true
-        },
-        "value_smooth": {
-          "status": "present",
-          "same_type": true
-        },
-        "value_scale": {
-          "status": "present",
-          "same_type": true
-        },
-        "value_smooth_scale": {
-          "status": "present",
-          "same_type": true
-        },
-        "suppressed_flag": {
-          "status": "present",
-          "same_type": true
-        }
-      }
+      "state": "unchanged"
     },
     "other_measures_trends.parquet": {
-      "state": "changed",
-      "variables": {
-        "geography": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "date": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": ["2026-10-14", "2026-10-15", "2026-10-16", "2026-10-18", "2026-10-19", "2026-10-20", "2026-10-21", "2026-10-22", "2026-10-23", "2026-10-25", "2026-10-26", "2026-10-27"],
-          "dropped_levels": ["2026-09-15", "2026-09-16", "2026-09-17", "2026-09-18", "2026-09-20", "2026-09-21", "2026-09-22", "2026-09-23", "2026-09-24", "2026-09-25", "2026-09-27", "2026-09-28"]
-        },
-        "source": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "variable": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "value": {
-          "status": "present",
-          "same_type": true
-        }
-      }
+      "state": "unchanged"
     },
     "pneumococcus_by_geography_year.parquet": {
-      "state": "changed",
-      "variables": {
-        "serotype": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "geography": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "year": {
-          "status": "present",
-          "same_type": true
-        },
-        "value": {
-          "status": "present",
-          "same_type": true
-        },
-        "value_N": {
-          "status": "present",
-          "same_type": true
-        },
-        "value_smooth": {
-          "status": "present",
-          "same_type": true
-        }
-      }
+      "state": "unchanged"
     },
     "pneumococcus_by_geography.parquet": {
-      "state": "changed",
-      "variables": {
-        "serotype": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "geography": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "year": {
-          "status": "present",
-          "same_type": true
-        },
-        "value": {
-          "status": "present",
-          "same_type": true
-        },
-        "value_N": {
-          "status": "present",
-          "same_type": true
-        }
-      }
+      "state": "unchanged"
     },
     "pneumococcus_comparison.parquet": {
-      "state": "changed",
-      "variables": {
-        "geography": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "year": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "serotype": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "pneumonia": {
-          "status": "present",
-          "same_type": true
-        },
-        "ipd": {
-          "status": "present",
-          "same_type": true
-        }
-      }
+      "state": "unchanged"
     },
     "pneumococcus_serotype_trends.parquet": {
-      "state": "changed",
-      "variables": {
-        "serotype": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "year": {
-          "status": "present",
-          "same_type": true
-        },
-        "age": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "value": {
-          "status": "present",
-          "same_type": true
-        },
-        "value_incidence": {
-          "status": "present",
-          "same_type": true
-        }
-      }
+      "state": "unchanged"
     },
     "rsv_ed_visits_by_county.parquet": {
-      "state": "changed",
-      "variables": {
-        "source": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "fips": {
-          "status": "present",
-          "same_type": true
-        },
-        "week_end": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": "2026-10-24",
-          "dropped_levels": []
-        },
-        "percent_visits_rsv": {
-          "status": "present",
-          "same_type": true
-        },
-        "is_state_estimate": {
-          "status": "present",
-          "same_type": true
-        }
-      }
+      "state": "unchanged"
     },
     "rsv_google_dma.parquet": {
       "state": "changed",
@@ -19298,8 +19048,8 @@
         "date": {
           "status": "present",
           "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
+          "added_levels": "2026-10-31",
+          "dropped_levels": "2024-10-26"
         },
         "value": {
           "status": "present",
@@ -19319,8 +19069,8 @@
         "date": {
           "status": "present",
           "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
+          "added_levels": "2026-10-31",
+          "dropped_levels": "2024-10-26"
         },
         "value": {
           "status": "present",
@@ -19351,147 +19101,13 @@
       }
     },
     "rsv_positive_tests.parquet": {
-      "state": "changed",
-      "variables": {
-        "source": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "geography": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "date": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "scaled_cases": {
-          "status": "present",
-          "same_type": true
-        },
-        "value": {
-          "status": "present",
-          "same_type": true
-        },
-        "epiyr": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "epiwk": {
-          "status": "present",
-          "same_type": true
-        },
-        "week": {
-          "status": "present",
-          "same_type": true
-        },
-        "year": {
-          "status": "present",
-          "same_type": true
-        }
-      }
+      "state": "unchanged"
     },
     "rsv_testing_pct.parquet": {
-      "state": "changed",
-      "variables": {
-        "source": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "geography": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "age": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "date": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "epic_pct_rsv_pos_tests": {
-          "status": "present",
-          "same_type": true
-        },
-        "epic_pct_j12_j18_tested_rsv": {
-          "status": "present",
-          "same_type": true
-        },
-        "epic_n_ed_j12_j18": {
-          "status": "present",
-          "same_type": true
-        },
-        "suppressed_flag": {
-          "status": "present",
-          "same_type": true
-        }
-      }
+      "state": "unchanged"
     },
     "rsv_trends_by_age.parquet": {
-      "state": "changed",
-      "variables": {
-        "date": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": "2026-10-24",
-          "dropped_levels": "2024-10-19"
-        },
-        "geography": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "age": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "source": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "value": {
-          "status": "present",
-          "same_type": true
-        },
-        "value_smooth": {
-          "status": "present",
-          "same_type": true
-        },
-        "value_scale": {
-          "status": "present",
-          "same_type": true
-        },
-        "value_smooth_scale": {
-          "status": "present",
-          "same_type": true
-        },
-        "suppressed_flag": {
-          "status": "present",
-          "same_type": true
-        }
-      }
+      "state": "unchanged"
     }
   }
 }

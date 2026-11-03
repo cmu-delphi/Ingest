@@ -55,7 +55,7 @@
     "./data/narms/standard/datapackage.json": "7c63526eecb4ad63c62eddf73cf7573b",
     "./data/epic_diarrhea/standard/datapackage.json": "82e0cab8257ae06d62c2f91c6cc8e82d"
   },
-  "checked": "2026-10-30 20:04:28",
+  "checked": "2026-11-03 22:36:35",
   "check_results": {
     "data/bundle_enteric_diseases/dist/enteric_diseases.parquet": {
       "measures": ["missing_info: date", "missing_info: source"]
