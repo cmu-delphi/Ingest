@@ -4,14 +4,15 @@
   "licenses": [],
   "resources": [
     {
-      "bytes": 5422,
+      "bytes": 5436,
       "encoding": "windows-1252",
-      "md5": "dae08f493e3c07187e0bdd68a0f5fd1f",
+      "md5": "69c0bfeb71c00272a996cdf3ec79097b",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "22f74ea78d5d6707dd521f6db094dbb476556402",
           "06e2823004c71657fe7046d5a058fad720eaa507",
           "19ae5904ca130560fc06c58beca1fcb3c8eb0e29",
           "3a79c4b6b3028af44dc13d7bb207489a9bfd8924",
@@ -241,9 +242,11 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>"
         ],
         "date": [
+          "Thu Nov 5 07:12:39 2026 +0000",
           "Wed Nov 4 07:10:02 2026 +0000",
           "Tue Nov 3 22:37:16 2026 +0000",
           "Tue Nov 3 07:10:07 2026 +0000",
@@ -360,6 +363,7 @@
           "Thu Jul 16 12:53:03 2026 -0400"
         ],
         "message": [
+          "scheduled daily data update",
           "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
@@ -486,8 +490,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-11-05 07:09:23.557131",
-      "last_modified": "2026-11-05 07:09:23.557131",
+      "created": "2026-11-06 08:25:00.101973",
+      "last_modified": "2026-11-06 08:25:00.101973",
       "vintage": {},
       "row_count": 522,
       "entity_count": 138,
@@ -755,7 +759,7 @@
           },
           {
             "name": "value",
-            "duplicates": 104,
+            "duplicates": 102,
             "info": {
               "id": "value",
               "short_name": "Health Alert Rate (Cases per 100k)",
@@ -776,8 +780,8 @@
             "time_range": [7, 10],
             "type": "float",
             "missing": 0,
-            "mean": 592.751533,
-            "sd": 1507.354035,
+            "mean": 638.461494,
+            "sd": 1521.473646,
             "min": 0,
             "max": 20000
           },
@@ -802,14 +806,14 @@
             "time_range": [7, 10],
             "type": "integer",
             "missing": 0,
-            "mean": 0.413793,
-            "sd": 0.492985,
+            "mean": 0.329502,
+            "sd": 0.470483,
             "min": 0,
             "max": 1
           },
           {
             "name": "date_scraped",
-            "duplicates": 487,
+            "duplicates": 486,
             "info": {
               "id": "date_scraped",
               "short_name": "Date Scraped",
@@ -863,12 +867,13 @@
               "10-30-2026": 60,
               "11-02-2026": 2,
               "11-03-2026": 16,
-              "11-05-2026": 80
+              "11-05-2026": 2,
+              "11-06-2026": 78
             }
           },
           {
             "name": "date_epic_updated",
-            "duplicates": 494,
+            "duplicates": 493,
             "info": {
               "id": "date_epic_updated",
               "short_name": "Date Epic Updated",
@@ -915,12 +920,13 @@
               "10-28-2026": 1,
               "10-29-2026": 62,
               "11-02-2026": 16,
-              "11-04-2026": 80
+              "11-04-2026": 2,
+              "11-05-2026": 78
             }
           }
         ]
       },
-      "sha512": "905d13c89c0343ec4af6ed6b451ae42ac0cbec04d1ee6833f11fe43528e7ee658d54d3c28f55a11819f01be17519bf3955896205a10972e28add5908284c1718"
+      "sha512": "2d496f946dc4d722e3e255b23bf7189a6e69d39b04894d9914d456598616d4dee88d747ecae330cc810f8b855b77d66ce984fc68b6d73763655dee04b94e97b4"
     }
   ],
   "measure_info": {
@@ -1074,14 +1080,14 @@
         "date_scraped": {
           "status": "present",
           "same_type": true,
-          "added_levels": "11-05-2026",
-          "dropped_levels": "11-04-2026"
+          "added_levels": "11-06-2026",
+          "dropped_levels": []
         },
         "date_epic_updated": {
           "status": "present",
           "same_type": true,
-          "added_levels": "11-04-2026",
-          "dropped_levels": "11-03-2026"
+          "added_levels": "11-05-2026",
+          "dropped_levels": []
         }
       }
     }
