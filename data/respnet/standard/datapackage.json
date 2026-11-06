@@ -3,14 +3,15 @@
   "title": "Respnet",
   "resources": [
     {
-      "bytes": 201926,
+      "bytes": 202463,
       "encoding": "windows-1252",
-      "md5": "402cf18e079666498dc8ecb8b4a33e8e",
+      "md5": "af99e1bdff4229f52552e045784024ac",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "f9fabfa89cc58aa662159e85578a1367ca32f2fa",
           "1ce0d614ddff73f16042cebfa35136a7f756da2e",
           "b6c8f1fa91d5dc34fd321d89f84c0e2a712c2d8c",
           "7073e651ba19357cc0536d2fd780d662599caeba",
@@ -87,6 +88,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -135,6 +137,7 @@
           "weinbergerlab <dweinber@gmail.com>"
         ],
         "date": [
+          "Fri Oct 30 20:05:07 2026 +0000",
           "Fri Oct 23 20:23:42 2026 +0000",
           "Fri Oct 16 19:59:02 2026 +0000",
           "Sat Oct 10 00:08:43 2026 +0000",
@@ -197,6 +200,7 @@
           "Mon Jul 14 12:53:14 2025 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
@@ -285,18 +289,18 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-30 18:17:27.526087",
-      "last_modified": "2026-10-30 18:17:27.526087",
+      "created": "2026-11-06 18:20:05.11767",
+      "last_modified": "2026-11-06 18:20:05.11767",
       "vintage": {},
-      "row_count": 41753,
+      "row_count": 41858,
       "entity_count": 17,
       "schema": {
         "fields": [
           {
             "name": "time",
-            "duplicates": 41291,
+            "duplicates": 41395,
             "info": [],
-            "time_range": [399, 400],
+            "time_range": [400, 401],
             "type": "string",
             "missing": 0,
             "table": {
@@ -761,39 +765,40 @@
               "2026-10-03": 105,
               "2026-10-10": 105,
               "2026-10-17": 105,
-              "2026-10-24": 105
+              "2026-10-24": 105,
+              "2026-10-31": 105
             }
           },
           {
             "name": "geography",
-            "duplicates": 41736,
+            "duplicates": 41841,
             "info": [],
-            "time_range": [399, 400],
+            "time_range": [400, 401],
             "type": "string",
             "missing": 0,
             "table": {
-              "00": 2986,
-              "06": 2986,
-              "08": 2800,
-              "09": 2800,
-              "13": 2986,
+              "00": 2993,
+              "06": 2993,
+              "08": 2807,
+              "09": 2807,
+              "13": 2993,
               "19": 815,
-              "24": 2986,
-              "26": 2800,
-              "27": 2986,
-              "35": 2893,
-              "36": 2986,
-              "37": 808,
+              "24": 2993,
+              "26": 2807,
+              "27": 2993,
+              "35": 2900,
+              "36": 2993,
+              "37": 815,
               "39": 1757,
-              "41": 2986,
-              "47": 2986,
-              "49": 2800,
-              "53": 392
+              "41": 2993,
+              "47": 2993,
+              "49": 2807,
+              "53": 399
             }
           },
           {
             "name": "age",
-            "duplicates": 41746,
+            "duplicates": 41851,
             "info": {
               "id": "age",
               "short_name": "Age group",
@@ -803,22 +808,22 @@
               "measure_type": "age",
               "unit": "age group (years)"
             },
-            "time_range": [399, 400],
+            "time_range": [400, 401],
             "type": "string",
             "missing": 0,
             "table": {
-              "<1 Years": 5719,
-              "1-4 Years": 5719,
-              "18-49 Years": 6246,
-              "5-17 Years": 5719,
-              "50-64 Years": 6246,
-              "65+ Years": 6246,
-              "Total": 5858
+              "<1 Years": 5734,
+              "1-4 Years": 5734,
+              "18-49 Years": 6261,
+              "5-17 Years": 5734,
+              "50-64 Years": 6261,
+              "65+ Years": 6261,
+              "Total": 5873
             }
           },
           {
             "name": "rate_covid",
-            "duplicates": 41012,
+            "duplicates": 41117,
             "info": {
               "id": "rate_covid",
               "short_name": "Number of laboratory confirmed cases of COVID-19 per 100,000 people",
@@ -837,17 +842,17 @@
                 }
               ]
             },
-            "time_range": [399, 400],
+            "time_range": [400, 401],
             "type": "float",
             "missing": 86,
-            "mean": 4.828521,
-            "sd": 10.035067,
+            "mean": 4.82009,
+            "sd": 10.024747,
             "min": 0,
             "max": 189.2
           },
           {
             "name": "rate_rsv",
-            "duplicates": 40822,
+            "duplicates": 40926,
             "info": {
               "id": "rate_rsv",
               "short_name": "Number of laboratory confirmed cases of RSV per 100,000 people",
@@ -866,17 +871,17 @@
                 }
               ]
             },
-            "time_range": [399, 400],
+            "time_range": [400, 401],
             "type": "float",
             "missing": 0,
-            "mean": 3.938929,
-            "sd": 18.438134,
+            "mean": 3.937006,
+            "sd": 18.424828,
             "min": 0,
             "max": 739.3
           },
           {
             "name": "rate_flu",
-            "duplicates": 41575,
+            "duplicates": 41681,
             "info": {
               "id": "rate_flu",
               "short_name": "Number of laboratory confirmed cases of influenza per 100,000 people",
@@ -895,17 +900,17 @@
                 }
               ]
             },
-            "time_range": [0, 399],
+            "time_range": [0, 400],
             "type": "float",
-            "missing": 35895,
-            "mean": 1.343223,
-            "sd": 2.793675,
+            "missing": 35985,
+            "mean": 1.345956,
+            "sd": 2.794514,
             "min": 0,
             "max": 30.3
           }
         ]
       },
-      "sha512": "fb97339954414b129ed66bdc6871347124d6bd7660d70c59ec32caf4522c66d059230b3d45c6087f5a27b06fdf956204f40052e0644d21819c05dfdbcbf4c8d1"
+      "sha512": "1e3c55f3dafacb0c04af43bbd09ac9b664af141f3c8f25921d9c9d30fabb6182454e34bd3be8cb62b08cd554439ceab1cd613c87eea817ae5055a0961ba3bb5b"
     }
   ],
   "measure_info": {
@@ -1015,7 +1020,7 @@
         "time": {
           "status": "present",
           "same_type": true,
-          "added_levels": "2026-10-24",
+          "added_levels": "2026-10-31",
           "dropped_levels": []
         },
         "geography": {

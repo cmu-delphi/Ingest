@@ -79,7 +79,7 @@ flowchart LR
     end
     subgraph cdc_cfa_rt["`<strong><a href="https://github.com/PopHIVE/Ingest/tree/main/data/cdc_cfa_rt" target="_blank" rel="noreferrer">cdc_cfa_rt</a></strong>`"]
         direction LR
-        n7["`data.csv.gz<br/><br/><ul><li><code>geography_dropped</code></li></ul>`"]:::warn
+        n7["`data.csv.gz`"]:::pass
     end
     subgraph cdc_vssr["`<strong><a href="https://github.com/PopHIVE/Ingest/tree/main/data/cdc_vssr" target="_blank" rel="noreferrer">cdc_vssr</a></strong>`"]
         direction LR
@@ -270,7 +270,7 @@ flowchart LR
     end
     subgraph wastewater_measles["`<strong><a href="https://github.com/PopHIVE/Ingest/tree/main/data/wastewater_measles" target="_blank" rel="noreferrer">wastewater_measles</a></strong>`"]
         direction LR
-        n87["`data_county.csv.gz<br/><br/><ul><li><code>geography_dropped</code></li></ul>`"]:::warn
+        n87["`data_county.csv.gz`"]:::pass
         n88["`data.csv.gz`"]:::pass
     end
     subgraph wastewater["`<strong><a href="https://github.com/PopHIVE/Ingest/tree/main/data/wastewater" target="_blank" rel="noreferrer">wastewater</a></strong>`"]
