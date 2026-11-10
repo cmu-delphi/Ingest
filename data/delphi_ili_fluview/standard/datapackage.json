@@ -3,14 +3,15 @@
   "title": "Delphi Ili Fluview",
   "resources": [
     {
-      "bytes": 615498,
+      "bytes": 616239,
       "encoding": "windows-1252",
-      "md5": "06a075ed570fa12b8c3ca3fad8f8370e",
+      "md5": "66121e801416ee0ade73f8fe63977ace",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "19ae5904ca130560fc06c58beca1fcb3c8eb0e29",
           "26859602e0fe2388c5f96ace73f6865454d8a102",
           "cec992babec0bd6256a36073f8fdc3d651ff3521",
           "a93b91f9ce84f61d644d9ffc69e3da4f60e563f0",
@@ -76,6 +77,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "weinbergerlab <dweinber@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -101,6 +103,7 @@
           "danweinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Tue Nov 3 22:37:16 2026 +0000",
           "Tue Oct 27 20:12:49 2026 +0000",
           "Tue Oct 20 20:03:58 2026 +0000",
           "Tue Oct 13 19:52:40 2026 +0000",
@@ -166,6 +169,7 @@
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
+          "scheduled data build",
           "Add CDC CFA RT (respiratory tract) data source",
           "scheduled data build",
           "scheduled data build",
@@ -208,80 +212,80 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-11-03 21:07:05.976287",
-      "last_modified": "2026-11-03 21:07:05.976287",
+      "created": "2026-11-10 18:09:32.959588",
+      "last_modified": "2026-11-10 18:09:32.959588",
       "vintage": {},
-      "row_count": 42848,
+      "row_count": 42900,
       "entity_count": 52,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 42796,
+            "duplicates": 42848,
             "info": [],
-            "time_range": [0, 1421],
+            "time_range": [0, 1422],
             "type": "string",
             "missing": 0,
             "table": {
-              "00": 1422,
-              "01": 838,
-              "02": 785,
-              "04": 838,
-              "05": 838,
-              "06": 838,
-              "08": 838,
-              "09": 785,
-              "10": 838,
-              "11": 837,
-              "12": 264,
-              "13": 838,
-              "15": 785,
-              "16": 838,
-              "17": 838,
-              "18": 838,
-              "19": 838,
-              "20": 838,
-              "21": 838,
-              "22": 525,
-              "23": 838,
-              "24": 838,
-              "25": 838,
-              "26": 838,
-              "27": 838,
-              "28": 838,
-              "29": 838,
-              "30": 838,
-              "31": 838,
-              "32": 838,
-              "33": 838,
-              "34": 838,
-              "35": 838,
-              "36": 785,
-              "37": 838,
-              "38": 838,
-              "39": 838,
-              "40": 785,
-              "41": 785,
-              "42": 838,
-              "44": 838,
-              "45": 838,
-              "46": 785,
-              "47": 838,
-              "48": 838,
-              "49": 785,
-              "50": 838,
-              "51": 838,
-              "53": 838,
-              "54": 838,
-              "55": 838,
-              "56": 838
+              "00": 1423,
+              "01": 839,
+              "02": 786,
+              "04": 839,
+              "05": 839,
+              "06": 839,
+              "08": 839,
+              "09": 786,
+              "10": 839,
+              "11": 838,
+              "12": 265,
+              "13": 839,
+              "15": 786,
+              "16": 839,
+              "17": 839,
+              "18": 839,
+              "19": 839,
+              "20": 839,
+              "21": 839,
+              "22": 526,
+              "23": 839,
+              "24": 839,
+              "25": 839,
+              "26": 839,
+              "27": 839,
+              "28": 839,
+              "29": 839,
+              "30": 839,
+              "31": 839,
+              "32": 839,
+              "33": 839,
+              "34": 839,
+              "35": 839,
+              "36": 786,
+              "37": 839,
+              "38": 839,
+              "39": 839,
+              "40": 786,
+              "41": 786,
+              "42": 839,
+              "44": 839,
+              "45": 839,
+              "46": 786,
+              "47": 839,
+              "48": 839,
+              "49": 786,
+              "50": 839,
+              "51": 839,
+              "53": 839,
+              "54": 839,
+              "55": 839,
+              "56": 839
             }
           },
           {
             "name": "time",
-            "duplicates": 41426,
+            "duplicates": 41477,
             "info": [],
-            "time_range": [0, 1421],
+            "time_range": [0, 1422],
             "type": "string",
             "missing": 0,
             "table": {
@@ -1706,12 +1710,13 @@
               "2026-10-03": 44,
               "2026-10-10": 52,
               "2026-10-17": 52,
-              "2026-10-24": 52
+              "2026-10-24": 52,
+              "2026-10-31": 52
             }
           },
           {
             "name": "delphi_fluview_wili",
-            "duplicates": 3143,
+            "duplicates": 3146,
             "info": {
               "id": "delphi_fluview_wili",
               "short_name": "Weighted percent influenza-like illness (ILI)",
@@ -1737,17 +1742,17 @@
                 }
               ]
             },
-            "time_range": [0, 1421],
+            "time_range": [0, 1422],
             "type": "float",
             "missing": 0,
-            "mean": 1.913515,
-            "sd": 1.873658,
+            "mean": 1.913987,
+            "sd": 1.873011,
             "min": 0,
             "max": 19.4177
           },
           {
             "name": "delphi_fluview_ili",
-            "duplicates": 3150,
+            "duplicates": 3152,
             "info": {
               "id": "delphi_fluview_ili",
               "short_name": "Unweighted percent influenza-like illness (ILI)",
@@ -1773,17 +1778,17 @@
                 }
               ]
             },
-            "time_range": [0, 1421],
+            "time_range": [0, 1422],
             "type": "float",
             "missing": 0,
-            "mean": 1.911374,
-            "sd": 1.871922,
+            "mean": 1.911847,
+            "sd": 1.871276,
             "min": 0,
             "max": 19.4177
           },
           {
             "name": "delphi_fluview_num_ili",
-            "duplicates": 37673,
+            "duplicates": 37717,
             "info": {
               "id": "delphi_fluview_num_ili",
               "short_name": "Number of ILI cases reported",
@@ -1809,17 +1814,17 @@
                 }
               ]
             },
-            "time_range": [0, 1421],
+            "time_range": [0, 1422],
             "type": "integer",
             "missing": 0,
-            "mean": 1343.312757,
-            "sd": 6847.65207,
+            "mean": 1345.265921,
+            "sd": 6853.804427,
             "min": 0,
             "max": 222652
           },
           {
             "name": "delphi_fluview_num_patients",
-            "duplicates": 14690,
+            "duplicates": 14710,
             "info": {
               "id": "delphi_fluview_num_patients",
               "short_name": "Total patients seen by ILINet providers",
@@ -1845,17 +1850,17 @@
                 }
               ]
             },
-            "time_range": [0, 1421],
+            "time_range": [0, 1422],
             "type": "integer",
             "missing": 0,
-            "mean": 56199.509802,
-            "sd": 219647.406058,
+            "mean": 56261.04352,
+            "sd": 219922.653589,
             "min": 0,
             "max": 2890504
           },
           {
             "name": "delphi_fluview_num_providers",
-            "duplicates": 41466,
+            "duplicates": 41518,
             "info": {
               "id": "delphi_fluview_num_providers",
               "short_name": "Number of ILINet reporting providers",
@@ -1874,17 +1879,17 @@
                 }
               ]
             },
-            "time_range": [0, 1421],
+            "time_range": [0, 1422],
             "type": "integer",
             "missing": 0,
-            "mean": 112.90394,
-            "sd": 403.811462,
+            "mean": 112.974848,
+            "sd": 404.125226,
             "min": 0,
-            "max": 4389
+            "max": 4424
           }
         ]
       },
-      "sha512": "e895a0b7da08f1628d01b02c8fa107029bbe89193e2df19bd2cf915ac3aee07fdea509a943d632b4f047517d6d63042c648ba95bd2d378de045933d24467fc02"
+      "sha512": "959f83ee1fc92197c2f5a7e2219fe56149bfe7a1ac3c029dfc0bb8f73889de2805e0f404f1300a303b66678724c81bf6a9ab48d8ccbb26de075474d3731347cc"
     }
   ],
   "measure_info": {
@@ -2038,7 +2043,7 @@
         "time": {
           "status": "present",
           "same_type": true,
-          "added_levels": "2026-10-24",
+          "added_levels": "2026-10-31",
           "dropped_levels": []
         },
         "delphi_fluview_wili": {

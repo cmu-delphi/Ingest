@@ -5,12 +5,12 @@
     {
       "path": "ingest.R",
       "manual": false,
-      "last_run": "2026-11-03 21:10:48",
+      "last_run": "2026-11-10 18:12:22",
       "frequency": 0,
-      "run_time": 0.824,
+      "run_time": 0.76,
       "last_status": {
         "log": [
-          "Rows: 99 Columns: 24",
+          "Rows: 100 Columns: 24",
           "⠙ processing source measles_age_cdc2 (./data/measles_age_cdc2/ingest.R)\r",
           "⠙ processing source measles_age_cdc2 (./data/measles_age_cdc2/ingest.R)\r── Column specification ────────────────────────────────────────────────────────",
           "⠙ processing source measles_age_cdc2 (./data/measles_age_cdc2/ingest.R)\rDelimiter: \",\"",
@@ -30,9 +30,9 @@
   ],
   "standard_state": {
     "./data/measles_age_cdc2/measure_info.json": "f3de10e30f444c619a81c89853401a5d",
-    "./data/measles_age_cdc2/standard/data.csv.gz": "2137b94bf51985de144f7c8024b00bc4"
+    "./data/measles_age_cdc2/standard/data.csv.gz": "3baa1e6dea5917e7243d3faaa9d09bc3"
   },
-  "checked": "2026-11-06 20:07:33",
+  "checked": "2026-11-10 23:51:51",
   "check_results": {
     "data/measles_age_cdc2/raw/measles_structured.csv": {
       "data": "not_compressed"
@@ -42,6 +42,6 @@
     }
   },
   "raw_state": {
-    "cum_hash": "53b900081ae5fea92ec907624af88d28"
+    "cum_hash": "d0c6b598fc93fe1fe04ee8f255ff9ca3"
   }
 }

@@ -4,14 +4,15 @@
   "licenses": [],
   "resources": [
     {
-      "bytes": 1772437,
+      "bytes": 1772411,
       "encoding": "windows-1252",
-      "md5": "98a4fb92b033ebf72ddf1883e1a4b46b",
+      "md5": "e3f47bbaccb2df04000c628b23277569",
       "format": "parquet",
       "name": "resistance_by_agent",
       "filename": "resistance_by_agent.parquet",
       "versions": {
         "hash": [
+          "7073e651ba19357cc0536d2fd780d662599caeba",
           "2e3bfac1eacf08ea984f741214d216005b5c88fe",
           "febbc4cba45d1dcdc4bf4cdbae03353299e435ae",
           "702144634da1a7c064e5a0ea117aa85c983aec37",
@@ -23,9 +24,11 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "weinbergerlab <dweinber@gmail.com>"
         ],
         "date": [
+          "Sat Oct 10 00:08:43 2026 +0000",
           "Tue Sep 8 23:55:17 2026 +0000",
           "Sat Aug 8 00:02:04 2026 +0000",
           "Fri Jul 3 23:33:32 2026 +0000",
@@ -33,6 +36,7 @@
           "Tue Jun 9 12:07:10 2026 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
@@ -50,8 +54,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-10 00:04:24.179194",
-      "last_modified": "2026-10-10 00:04:24.179194",
+      "created": "2026-11-10 23:49:39.909944",
+      "last_modified": "2026-11-10 23:49:39.909944",
       "vintage": {},
       "row_count": 1142032,
       "entity_count": 52,
@@ -1180,15 +1184,15 @@
             },
             "time_range": [11, 28],
             "type": "float",
-            "missing": 273714,
-            "mean": 11.244576,
-            "sd": 136.489652,
+            "missing": 273730,
+            "mean": 11.24391,
+            "sd": 136.490682,
             "min": 0,
             "max": 18600
           },
           {
             "name": "n_resistant",
-            "duplicates": 1141249,
+            "duplicates": 1141248,
             "info": {
               "measure_column": "source",
               "short_name": "Number of resistant isolates",
@@ -1201,15 +1205,15 @@
             },
             "time_range": [11, 28],
             "type": "integer",
-            "missing": 273714,
-            "mean": 5.193366,
-            "sd": 55.163639,
+            "missing": 273730,
+            "mean": 5.193483,
+            "sd": 55.166715,
             "min": 0,
-            "max": 11406
+            "max": 11408
           },
           {
             "name": "n_tested",
-            "duplicates": 1141165,
+            "duplicates": 1141166,
             "info": {
               "measure_column": "source",
               "short_name": "Number of isolates tested",
@@ -1222,11 +1226,11 @@
             },
             "time_range": [11, 28],
             "type": "integer",
-            "missing": 273714,
-            "mean": 55.041241,
-            "sd": 395.147886,
+            "missing": 273730,
+            "mean": 55.043068,
+            "sd": 395.192751,
             "min": 0,
-            "max": 54690
+            "max": 54703
           },
           {
             "name": "meat_source",
@@ -1351,17 +1355,18 @@
           }
         ]
       },
-      "sha512": "eed81fd224c2a9f81efa2b796b4d304c3b9573f19c21eec4ae7bf0a4b73578d2f8a600bfcae1d7bc5c29add307b6c7b07663477de8efde84db1fa28ede13583f"
+      "sha512": "c6bc4e5e666d82e40c2fb5ccffbed2ce4c8e00501f7c9085dba2dfe7ccce0c5fa7d51dea87100e2abc142b684f28ce309da1348a26bb5bb0f1d19c84aff5426a"
     },
     {
-      "bytes": 1001873,
+      "bytes": 1001809,
       "encoding": "windows-1252",
-      "md5": "09afec3e992eed43114dc7b4560d490b",
+      "md5": "46b9a5a0b2a1635e78182e185f915c8e",
       "format": "parquet",
       "name": "resistance_by_pattern",
       "filename": "resistance_by_pattern.parquet",
       "versions": {
         "hash": [
+          "7073e651ba19357cc0536d2fd780d662599caeba",
           "2e3bfac1eacf08ea984f741214d216005b5c88fe",
           "febbc4cba45d1dcdc4bf4cdbae03353299e435ae",
           "702144634da1a7c064e5a0ea117aa85c983aec37",
@@ -1373,9 +1378,11 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "weinbergerlab <dweinber@gmail.com>"
         ],
         "date": [
+          "Sat Oct 10 00:08:43 2026 +0000",
           "Tue Sep 8 23:55:17 2026 +0000",
           "Sat Aug 8 00:02:04 2026 +0000",
           "Fri Jul 3 23:33:32 2026 +0000",
@@ -1383,6 +1390,7 @@
           "Tue Jun 9 12:07:10 2026 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
@@ -1400,8 +1408,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-10-10 00:04:26.810234",
-      "last_modified": "2026-10-10 00:04:26.810234",
+      "created": "2026-11-10 23:49:41.809982",
+      "last_modified": "2026-11-10 23:49:41.809982",
       "vintage": {},
       "row_count": 1144329,
       "entity_count": 52,
@@ -1682,15 +1690,15 @@
             },
             "time_range": [0, 26],
             "type": "float",
-            "missing": 281821,
-            "mean": 8.932128,
-            "sd": 24.045549,
+            "missing": 281834,
+            "mean": 8.931493,
+            "sd": 24.044542,
             "min": 0,
             "max": 100
           },
           {
             "name": "n_resistant",
-            "duplicates": 1143285,
+            "duplicates": 1143286,
             "info": {
               "measure_column": "source",
               "short_name": "Number of resistant isolates",
@@ -1703,15 +1711,15 @@
             },
             "time_range": [0, 26],
             "type": "integer",
-            "missing": 281821,
-            "mean": 9.962514,
-            "sd": 207.787036,
+            "missing": 281834,
+            "mean": 9.962799,
+            "sd": 207.792107,
             "min": 0,
             "max": 41401
           },
           {
             "name": "n_tested",
-            "duplicates": 1143538,
+            "duplicates": 1143539,
             "info": {
               "measure_column": "source",
               "short_name": "Number of isolates tested",
@@ -1724,15 +1732,15 @@
             },
             "time_range": [0, 26],
             "type": "integer",
-            "missing": 281821,
-            "mean": 95.630871,
-            "sd": 1112.398449,
+            "missing": 281834,
+            "mean": 95.633164,
+            "sd": 1112.424969,
             "min": 0,
             "max": 54949
           }
         ]
       },
-      "sha512": "942e5ac6e8ad4b6bba2247f87bad801d003b7d5748c6fee4740b0e192e2ecdaae7d26b85b45f7de4586503d39ebe7a9a8a376523f722575b7512624e6159cd0f"
+      "sha512": "81e85cb15e53655b6cdbd8f525996782305988562676bc38b0cadb1dc9c229d88c0a357802efd9b057191d9549ea7399c0aa80277c63e288c8316b6acb450a22"
     }
   ],
   "measure_info": {
