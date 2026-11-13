@@ -4,9 +4,9 @@
   "licenses": [],
   "resources": [
     {
-      "bytes": 227380,
+      "bytes": 237863,
       "encoding": "windows-1252",
-      "md5": "3f7aeed96983d1131444a7b6ec8bdecb",
+      "md5": "a173b7d304f38c9e9dd77b6d0abf4ddd",
       "format": "parquet",
       "name": "enteric_diseases",
       "filename": "enteric_diseases.parquet",
@@ -130,78 +130,78 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-11-10 23:49:55.363253",
-      "last_modified": "2026-11-10 23:49:55.363253",
+      "created": "2026-11-13 19:37:08.267779",
+      "last_modified": "2026-11-13 19:37:08.267779",
       "vintage": {},
-      "row_count": 212925,
+      "row_count": 213445,
       "entity_count": 52,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 212873,
+            "duplicates": 213393,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
-              "Alabama": 4095,
-              "Alaska": 4080,
-              "Arizona": 4095,
-              "Arkansas": 4095,
-              "California": 4095,
-              "Colorado": 4095,
-              "Connecticut": 4095,
-              "Delaware": 4095,
-              "District of Columbia": 4095,
-              "Florida": 4095,
-              "Georgia": 4095,
-              "Hawaii": 4095,
-              "Idaho": 4095,
-              "Illinois": 4095,
-              "Indiana": 4095,
-              "Iowa": 4095,
-              "Kansas": 4095,
-              "Kentucky": 4095,
-              "Louisiana": 4095,
-              "Maine": 4095,
-              "Maryland": 4095,
-              "Massachusetts": 4095,
-              "Michigan": 4095,
-              "Minnesota": 4095,
-              "Mississippi": 4095,
-              "Missouri": 4095,
-              "Montana": 4095,
-              "Nebraska": 4095,
-              "Nevada": 4095,
-              "New Hampshire": 4095,
-              "New Jersey": 4095,
-              "New Mexico": 4095,
-              "New York": 4095,
-              "North Carolina": 4095,
-              "North Dakota": 4095,
-              "Ohio": 4095,
-              "Oklahoma": 4095,
-              "Oregon": 4095,
-              "Pennsylvania": 4095,
-              "Rhode Island": 4095,
-              "South Carolina": 4095,
-              "South Dakota": 4095,
-              "Tennessee": 4095,
-              "Texas": 4095,
-              "United States": 4095,
-              "Utah": 4095,
-              "Vermont": 4095,
-              "Virginia": 4095,
-              "Washington": 4095,
-              "West Virginia": 4095,
-              "Wisconsin": 4095,
-              "Wyoming": 4095
+              "Alabama": 4105,
+              "Alaska": 4090,
+              "Arizona": 4105,
+              "Arkansas": 4105,
+              "California": 4105,
+              "Colorado": 4105,
+              "Connecticut": 4105,
+              "Delaware": 4105,
+              "District of Columbia": 4105,
+              "Florida": 4105,
+              "Georgia": 4105,
+              "Hawaii": 4105,
+              "Idaho": 4105,
+              "Illinois": 4105,
+              "Indiana": 4105,
+              "Iowa": 4105,
+              "Kansas": 4105,
+              "Kentucky": 4105,
+              "Louisiana": 4105,
+              "Maine": 4105,
+              "Maryland": 4105,
+              "Massachusetts": 4105,
+              "Michigan": 4105,
+              "Minnesota": 4105,
+              "Mississippi": 4105,
+              "Missouri": 4105,
+              "Montana": 4105,
+              "Nebraska": 4105,
+              "Nevada": 4105,
+              "New Hampshire": 4105,
+              "New Jersey": 4105,
+              "New Mexico": 4105,
+              "New York": 4105,
+              "North Carolina": 4105,
+              "North Dakota": 4105,
+              "Ohio": 4105,
+              "Oklahoma": 4105,
+              "Oregon": 4105,
+              "Pennsylvania": 4105,
+              "Rhode Island": 4105,
+              "South Carolina": 4105,
+              "South Dakota": 4105,
+              "Tennessee": 4105,
+              "Texas": 4105,
+              "United States": 4105,
+              "Utah": 4105,
+              "Vermont": 4105,
+              "Virginia": 4105,
+              "Washington": 4105,
+              "West Virginia": 4105,
+              "Wisconsin": 4105,
+              "Wyoming": 4105
             }
           },
           {
             "name": "date",
-            "duplicates": 212576,
+            "duplicates": 213095,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
@@ -555,18 +555,19 @@
               "2026-10-10": 520,
               "2026-10-17": 520,
               "2026-10-24": 520,
-              "2026-10-31": 520
+              "2026-10-31": 520,
+              "2026-11-07": 520
             }
           },
           {
             "name": "measure",
-            "duplicates": 212900,
+            "duplicates": 213420,
             "info": {
               "levels": {
                 "campylobacteriosis": {
                   "id": "campylobacteriosis",
                   "name": "campylobacteriosis",
-                  "duplicates": 11667,
+                  "duplicates": 11711,
                   "info": {
                     "id": "campylobacteriosis",
                     "short_name": "Campylobacteriosis cases",
@@ -589,19 +590,19 @@
                   },
                   "time_range": [
                     0,
-                    251
+                    252
                   ],
                   "type": "integer",
                   "missing": 0,
-                  "mean": 1190.564676,
-                  "sd": 5553.316347,
+                  "mean": 1196.564732,
+                  "sd": 5579.644594,
                   "min": 0,
                   "max": 84966
                 },
                 "cholera": {
                   "id": "cholera",
                   "name": "cholera",
-                  "duplicates": 14355,
+                  "duplicates": 14412,
                   "info": {
                     "id": "cholera",
                     "short_name": "Cholera cases",
@@ -624,19 +625,19 @@
                   },
                   "time_range": [
                     0,
-                    251
+                    252
                   ],
                   "type": "integer",
                   "missing": 0,
-                  "mean": 0.080201,
-                  "sd": 0.496286,
+                  "mean": 0.080438,
+                  "sd": 0.496778,
                   "min": 0,
                   "max": 8
                 },
                 "giardiasis": {
                   "id": "giardiasis",
                   "name": "giardiasis",
-                  "duplicates": 13151,
+                  "duplicates": 13204,
                   "info": {
                     "id": "giardiasis",
                     "short_name": "Giardiasis cases",
@@ -659,19 +660,19 @@
                   },
                   "time_range": [
                     0,
-                    251
+                    252
                   ],
                   "type": "integer",
                   "missing": 0,
-                  "mean": 222.864174,
-                  "sd": 1039.210851,
+                  "mean": 223.804105,
+                  "sd": 1043.103816,
                   "min": 0,
                   "max": 15155
                 },
                 "salmonellosis_excluding_salmonella_typhi_infection_and_salmonella_paratyphi_infection": {
                   "id": "salmonellosis_excluding_salmonella_typhi_infection_and_salmonella_paratyphi_infection",
                   "name": "salmonellosis_excluding_salmonella_typhi_infection_and_salmonella_paratyphi_infection",
-                  "duplicates": 12133,
+                  "duplicates": 12177,
                   "info": {
                     "id": "salmonellosis_excluding_salmonella_typhi_infection_and_salmonella_paratyphi_infection",
                     "short_name": "Salmonellosis cases",
@@ -694,19 +695,19 @@
                   },
                   "time_range": [
                     0,
-                    251
+                    252
                   ],
                   "type": "integer",
                   "missing": 0,
-                  "mean": 808.861111,
-                  "sd": 3922.208837,
+                  "mean": 813.939394,
+                  "sd": 3946.009861,
                   "min": 0,
                   "max": 63321
                 },
                 "cyclosporiasis": {
                   "id": "cyclosporiasis",
                   "name": "cyclosporiasis",
-                  "duplicates": 13716,
+                  "duplicates": 13769,
                   "info": {
                     "id": "cyclosporiasis",
                     "short_name": "Cyclosporiasis cases",
@@ -729,19 +730,19 @@
                   },
                   "time_range": [
                     0,
-                    251
+                    252
                   ],
                   "type": "integer",
                   "missing": 0,
-                  "mean": 102.494431,
-                  "sd": 1077.840094,
+                  "mean": 106.740795,
+                  "sd": 1120.164364,
                   "min": 0,
-                  "max": 33523
+                  "max": 33541
                 },
                 "salmonella_typhi_infection": {
                   "id": "salmonella_typhi_infection",
                   "name": "salmonella_typhi_infection",
-                  "duplicates": 14159,
+                  "duplicates": 14215,
                   "info": {
                     "id": "salmonella_typhi_infection",
                     "short_name": "Typhoid fever cases",
@@ -764,19 +765,19 @@
                   },
                   "time_range": [
                     0,
-                    251
+                    252
                   ],
                   "type": "integer",
                   "missing": 0,
-                  "mean": 5.411236,
-                  "sd": 26.203043,
+                  "mean": 5.420221,
+                  "sd": 26.217335,
                   "min": 0,
                   "max": 424
                 },
                 "salmonella_paratyphi_infection": {
                   "id": "salmonella_paratyphi_infection",
                   "name": "salmonella_paratyphi_infection",
-                  "duplicates": 14256,
+                  "duplicates": 14313,
                   "info": {
                     "id": "salmonella_paratyphi_infection",
                     "short_name": "Paratyphoid cases",
@@ -799,19 +800,19 @@
                   },
                   "time_range": [
                     0,
-                    251
+                    252
                   ],
                   "type": "integer",
                   "missing": 0,
-                  "mean": 1.525202,
-                  "sd": 8.352424,
+                  "mean": 1.537064,
+                  "sd": 8.408088,
                   "min": 0,
                   "max": 149
                 },
                 "shiga_toxin_producing_escherichia_coli_stec": {
                   "id": "shiga_toxin_producing_escherichia_coli_stec",
                   "name": "shiga_toxin_producing_escherichia_coli_stec",
-                  "duplicates": 13210,
+                  "duplicates": 13258,
                   "info": {
                     "id": "shiga_toxin_producing_escherichia_coli_stec",
                     "short_name": "STEC cases",
@@ -834,19 +835,19 @@
                   },
                   "time_range": [
                     0,
-                    251
+                    252
                   ],
                   "type": "integer",
                   "missing": 0,
-                  "mean": 240.464703,
-                  "sd": 1140.165983,
+                  "mean": 241.827266,
+                  "sd": 1146.406754,
                   "min": 0,
                   "max": 17895
                 },
                 "shigellosis": {
                   "id": "shigellosis",
                   "name": "shigellosis",
-                  "duplicates": 13047,
+                  "duplicates": 13099,
                   "info": {
                     "id": "shigellosis",
                     "short_name": "Shigellosis cases",
@@ -869,19 +870,19 @@
                   },
                   "time_range": [
                     0,
-                    251
+                    252
                   ],
                   "type": "integer",
                   "missing": 0,
-                  "mean": 281.180938,
-                  "sd": 1324.869506,
+                  "mean": 282.322446,
+                  "sd": 1329.367834,
                   "min": 0,
                   "max": 20639
                 },
                 "salmonella_paratyphi_infection_2": {
                   "id": "salmonella_paratyphi_infection_2",
                   "name": "salmonella_paratyphi_infection_2",
-                  "duplicates": 14309,
+                  "duplicates": 14366,
                   "info": {
                     "id": "salmonella_paratyphi_infection_2",
                     "short_name": "Paratyphoid cases (alt)",
@@ -904,12 +905,12 @@
                   },
                   "time_range": [
                     0,
-                    251
+                    252
                   ],
                   "type": "integer",
                   "missing": 0,
-                  "mean": 0.411097,
-                  "sd": 4.068253,
+                  "mean": 0.409472,
+                  "sd": 4.060287,
                   "min": 0,
                   "max": 107
                 },
@@ -1520,21 +1521,21 @@
               "beam_outbreak_isolates_shigella": 5459,
               "beam_outbreak_isolates_stec": 5459,
               "beam_outbreak_isolates_vibrio": 5459,
-              "campylobacteriosis": 13104,
-              "cholera": 13104,
-              "cyclosporiasis": 13104,
-              "giardiasis": 13104,
-              "salmonella_paratyphi_infection": 13104,
-              "salmonella_paratyphi_infection_2": 13104,
-              "salmonella_typhi_infection": 13104,
-              "salmonellosis_excluding_salmonella_typhi_infection_and_salmonella_paratyphi_infection": 13104,
-              "shiga_toxin_producing_escherichia_coli_stec": 13104,
-              "shigellosis": 13104
+              "campylobacteriosis": 13156,
+              "cholera": 13156,
+              "cyclosporiasis": 13156,
+              "giardiasis": 13156,
+              "salmonella_paratyphi_infection": 13156,
+              "salmonella_paratyphi_infection_2": 13156,
+              "salmonella_typhi_infection": 13156,
+              "salmonellosis_excluding_salmonella_typhi_infection_and_salmonella_paratyphi_infection": 13156,
+              "shiga_toxin_producing_escherichia_coli_stec": 13156,
+              "shigellosis": 13156
             }
           },
           {
             "name": "value",
-            "duplicates": 208172,
+            "duplicates": 208673,
             "info": {
               "measure_column": "measure",
               "short_name": "Value",
@@ -1544,26 +1545,26 @@
             "time_range": [-1, -1],
             "type": "float",
             "missing": 0,
-            "mean": 199.266825,
-            "sd": 1898.073285,
+            "mean": 200.810578,
+            "sd": 1910.579217,
             "min": 0,
             "max": 84966
           },
           {
             "name": "source",
-            "duplicates": 212923,
+            "duplicates": 213443,
             "info": [],
             "time_range": [-1, -1],
             "type": "string",
             "missing": 0,
             "table": {
               "CDC BEAM Dashboard": 81885,
-              "CDC NNDSS": 131040
+              "CDC NNDSS": 131560
             }
           }
         ]
       },
-      "sha512": "2d88eaca90e7434dbb33c78525b74cd7ad2439333e72a36fc2316f9bedafe9f000ad22cdca99607b7ed9a7df371773b457e19cc946191d70e2cc93cdde250ad2"
+      "sha512": "0e812c1add62804690662b7a50c07c669904530abc109e48522530bd0a340ba238ab0afd1e3c85220bf6a2cc592bf42857960c9f5a2b6a2a550d0f564d9070b6"
     },
     {
       "bytes": 2457237,
@@ -1574,6 +1575,7 @@
       "filename": "epic_diarrhea.parquet",
       "versions": {
         "hash": [
+          "7151908a4214ab9cbfceda208101f5ecbebafb76",
           "26859602e0fe2388c5f96ace73f6865454d8a102",
           "7073e651ba19357cc0536d2fd780d662599caeba",
           "7be80843e6f9215a3f9a05c062d1b63e5f5375d1",
@@ -1589,9 +1591,11 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>"
         ],
         "date": [
+          "Tue Nov 10 23:52:16 2026 +0000",
           "Tue Oct 27 20:12:49 2026 +0000",
           "Sat Oct 10 00:08:43 2026 +0000",
           "Tue Sep 29 19:50:08 2026 +0000",
@@ -1601,6 +1605,7 @@
           "Wed Jul 29 10:33:30 2026 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
@@ -1620,8 +1625,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-11-10 23:49:58.748321",
-      "last_modified": "2026-11-10 23:49:58.748321",
+      "created": "2026-11-13 19:37:16.200013",
+      "last_modified": "2026-11-13 19:37:16.200013",
       "vintage": {},
       "row_count": 476595,
       "entity_count": 51,
@@ -2241,6 +2246,7 @@
       "filename": "resistance_by_agent.parquet",
       "versions": {
         "hash": [
+          "7151908a4214ab9cbfceda208101f5ecbebafb76",
           "7073e651ba19357cc0536d2fd780d662599caeba",
           "2e3bfac1eacf08ea984f741214d216005b5c88fe",
           "febbc4cba45d1dcdc4bf4cdbae03353299e435ae",
@@ -2254,11 +2260,13 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>"
         ],
         "date": [
+          "Tue Nov 10 23:52:16 2026 +0000",
           "Sat Oct 10 00:08:43 2026 +0000",
           "Tue Sep 8 23:55:17 2026 +0000",
           "Sat Aug 8 00:02:04 2026 +0000",
@@ -2268,6 +2276,7 @@
           "Tue Jul 7 11:42:05 2026 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
@@ -2287,8 +2296,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-11-10 23:49:57.011286",
-      "last_modified": "2026-11-10 23:49:57.011286",
+      "created": "2026-11-13 19:37:13.158923",
+      "last_modified": "2026-11-13 19:37:13.158923",
       "vintage": {},
       "row_count": 1142032,
       "entity_count": 52,
@@ -3541,6 +3550,7 @@
       "filename": "resistance_by_pattern.parquet",
       "versions": {
         "hash": [
+          "7151908a4214ab9cbfceda208101f5ecbebafb76",
           "7073e651ba19357cc0536d2fd780d662599caeba",
           "2e3bfac1eacf08ea984f741214d216005b5c88fe",
           "febbc4cba45d1dcdc4bf4cdbae03353299e435ae",
@@ -3554,11 +3564,13 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>"
         ],
         "date": [
+          "Tue Nov 10 23:52:16 2026 +0000",
           "Sat Oct 10 00:08:43 2026 +0000",
           "Tue Sep 8 23:55:17 2026 +0000",
           "Sat Aug 8 00:02:04 2026 +0000",
@@ -3568,6 +3580,7 @@
           "Tue Jul 7 11:42:05 2026 -0400"
         ],
         "message": [
+          "scheduled data build",
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
@@ -3587,8 +3600,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-11-10 23:49:58.384313",
-      "last_modified": "2026-11-10 23:49:58.384313",
+      "created": "2026-11-13 19:37:15.320987",
+      "last_modified": "2026-11-13 19:37:15.320987",
       "vintage": {},
       "row_count": 1144329,
       "entity_count": 52,
@@ -3890,7 +3903,7 @@
         "campylobacteriosis": {
           "id": "campylobacteriosis",
           "name": "campylobacteriosis",
-          "duplicates": 11667,
+          "duplicates": 11711,
           "info": {
             "id": "campylobacteriosis",
             "short_name": "Campylobacteriosis cases",
@@ -3913,19 +3926,19 @@
           },
           "time_range": [
             0,
-            251
+            252
           ],
           "type": "integer",
           "missing": 0,
-          "mean": 1190.564676,
-          "sd": 5553.316347,
+          "mean": 1196.564732,
+          "sd": 5579.644594,
           "min": 0,
           "max": 84966
         },
         "cholera": {
           "id": "cholera",
           "name": "cholera",
-          "duplicates": 14355,
+          "duplicates": 14412,
           "info": {
             "id": "cholera",
             "short_name": "Cholera cases",
@@ -3948,19 +3961,19 @@
           },
           "time_range": [
             0,
-            251
+            252
           ],
           "type": "integer",
           "missing": 0,
-          "mean": 0.080201,
-          "sd": 0.496286,
+          "mean": 0.080438,
+          "sd": 0.496778,
           "min": 0,
           "max": 8
         },
         "giardiasis": {
           "id": "giardiasis",
           "name": "giardiasis",
-          "duplicates": 13151,
+          "duplicates": 13204,
           "info": {
             "id": "giardiasis",
             "short_name": "Giardiasis cases",
@@ -3983,19 +3996,19 @@
           },
           "time_range": [
             0,
-            251
+            252
           ],
           "type": "integer",
           "missing": 0,
-          "mean": 222.864174,
-          "sd": 1039.210851,
+          "mean": 223.804105,
+          "sd": 1043.103816,
           "min": 0,
           "max": 15155
         },
         "salmonellosis_excluding_salmonella_typhi_infection_and_salmonella_paratyphi_infection": {
           "id": "salmonellosis_excluding_salmonella_typhi_infection_and_salmonella_paratyphi_infection",
           "name": "salmonellosis_excluding_salmonella_typhi_infection_and_salmonella_paratyphi_infection",
-          "duplicates": 12133,
+          "duplicates": 12177,
           "info": {
             "id": "salmonellosis_excluding_salmonella_typhi_infection_and_salmonella_paratyphi_infection",
             "short_name": "Salmonellosis cases",
@@ -4018,19 +4031,19 @@
           },
           "time_range": [
             0,
-            251
+            252
           ],
           "type": "integer",
           "missing": 0,
-          "mean": 808.861111,
-          "sd": 3922.208837,
+          "mean": 813.939394,
+          "sd": 3946.009861,
           "min": 0,
           "max": 63321
         },
         "cyclosporiasis": {
           "id": "cyclosporiasis",
           "name": "cyclosporiasis",
-          "duplicates": 13716,
+          "duplicates": 13769,
           "info": {
             "id": "cyclosporiasis",
             "short_name": "Cyclosporiasis cases",
@@ -4053,19 +4066,19 @@
           },
           "time_range": [
             0,
-            251
+            252
           ],
           "type": "integer",
           "missing": 0,
-          "mean": 102.494431,
-          "sd": 1077.840094,
+          "mean": 106.740795,
+          "sd": 1120.164364,
           "min": 0,
-          "max": 33523
+          "max": 33541
         },
         "salmonella_typhi_infection": {
           "id": "salmonella_typhi_infection",
           "name": "salmonella_typhi_infection",
-          "duplicates": 14159,
+          "duplicates": 14215,
           "info": {
             "id": "salmonella_typhi_infection",
             "short_name": "Typhoid fever cases",
@@ -4088,19 +4101,19 @@
           },
           "time_range": [
             0,
-            251
+            252
           ],
           "type": "integer",
           "missing": 0,
-          "mean": 5.411236,
-          "sd": 26.203043,
+          "mean": 5.420221,
+          "sd": 26.217335,
           "min": 0,
           "max": 424
         },
         "salmonella_paratyphi_infection": {
           "id": "salmonella_paratyphi_infection",
           "name": "salmonella_paratyphi_infection",
-          "duplicates": 14256,
+          "duplicates": 14313,
           "info": {
             "id": "salmonella_paratyphi_infection",
             "short_name": "Paratyphoid cases",
@@ -4123,19 +4136,19 @@
           },
           "time_range": [
             0,
-            251
+            252
           ],
           "type": "integer",
           "missing": 0,
-          "mean": 1.525202,
-          "sd": 8.352424,
+          "mean": 1.537064,
+          "sd": 8.408088,
           "min": 0,
           "max": 149
         },
         "shiga_toxin_producing_escherichia_coli_stec": {
           "id": "shiga_toxin_producing_escherichia_coli_stec",
           "name": "shiga_toxin_producing_escherichia_coli_stec",
-          "duplicates": 13210,
+          "duplicates": 13258,
           "info": {
             "id": "shiga_toxin_producing_escherichia_coli_stec",
             "short_name": "STEC cases",
@@ -4158,19 +4171,19 @@
           },
           "time_range": [
             0,
-            251
+            252
           ],
           "type": "integer",
           "missing": 0,
-          "mean": 240.464703,
-          "sd": 1140.165983,
+          "mean": 241.827266,
+          "sd": 1146.406754,
           "min": 0,
           "max": 17895
         },
         "shigellosis": {
           "id": "shigellosis",
           "name": "shigellosis",
-          "duplicates": 13047,
+          "duplicates": 13099,
           "info": {
             "id": "shigellosis",
             "short_name": "Shigellosis cases",
@@ -4193,19 +4206,19 @@
           },
           "time_range": [
             0,
-            251
+            252
           ],
           "type": "integer",
           "missing": 0,
-          "mean": 281.180938,
-          "sd": 1324.869506,
+          "mean": 282.322446,
+          "sd": 1329.367834,
           "min": 0,
           "max": 20639
         },
         "salmonella_paratyphi_infection_2": {
           "id": "salmonella_paratyphi_infection_2",
           "name": "salmonella_paratyphi_infection_2",
-          "duplicates": 14309,
+          "duplicates": 14366,
           "info": {
             "id": "salmonella_paratyphi_infection_2",
             "short_name": "Paratyphoid cases (alt)",
@@ -4228,12 +4241,12 @@
           },
           "time_range": [
             0,
-            251
+            252
           ],
           "type": "integer",
           "missing": 0,
-          "mean": 0.411097,
-          "sd": 4.068253,
+          "mean": 0.409472,
+          "sd": 4.060287,
           "min": 0,
           "max": 107
         },
@@ -5291,9 +5304,6 @@
   },
   "change_report": {
     "enteric_diseases.parquet": {
-      "state": "unchanged"
-    },
-    "epic_diarrhea.parquet": {
       "state": "changed",
       "variables": {
         "geography": {
@@ -5305,13 +5315,7 @@
         "date": {
           "status": "present",
           "same_type": true,
-          "added_levels": ["2026-10-17", "2026-10-24"],
-          "dropped_levels": []
-        },
-        "age": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
+          "added_levels": "2026-11-07",
           "dropped_levels": []
         },
         "measure": {
@@ -5324,10 +5328,6 @@
           "status": "present",
           "same_type": true
         },
-        "suppressed_flag": {
-          "status": "present",
-          "same_type": true
-        },
         "source": {
           "status": "present",
           "same_type": true,
@@ -5335,162 +5335,15 @@
           "dropped_levels": []
         }
       }
+    },
+    "epic_diarrhea.parquet": {
+      "state": "unchanged"
     },
     "resistance_by_agent.parquet": {
-      "state": "changed",
-      "variables": {
-        "geography": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "time": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "source": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "genus": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "species_serotype": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "antimicrobial_class": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "antimicrobial": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "test_method": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "pct_resistant": {
-          "status": "present",
-          "same_type": true
-        },
-        "n_resistant": {
-          "status": "present",
-          "same_type": true
-        },
-        "n_tested": {
-          "status": "present",
-          "same_type": true
-        },
-        "meat_source": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "mic50": {
-          "status": "present",
-          "same_type": true
-        },
-        "mic90": {
-          "status": "present",
-          "same_type": true
-        },
-        "host_species": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "collection_source": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "source_type": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        }
-      }
+      "state": "unchanged"
     },
     "resistance_by_pattern.parquet": {
-      "state": "changed",
-      "variables": {
-        "geography": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "time": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "source": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "genus": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "species_serotype": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "pattern": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "test_method": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "pct_resistant": {
-          "status": "present",
-          "same_type": true
-        },
-        "n_resistant": {
-          "status": "present",
-          "same_type": true
-        },
-        "n_tested": {
-          "status": "present",
-          "same_type": true
-        }
-      }
+      "state": "unchanged"
     }
   }
 }

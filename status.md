@@ -79,7 +79,7 @@ flowchart LR
     end
     subgraph cdc_cfa_rt["`<strong><a href="https://github.com/PopHIVE/Ingest/tree/main/data/cdc_cfa_rt" target="_blank" rel="noreferrer">cdc_cfa_rt</a></strong>`"]
         direction LR
-        n7["`data.csv.gz`"]:::pass
+        n7["`data.csv.gz<br /><br />Script Failed:<br />cdc_cfa_rt: could not parse 'date'/'as_of' from raw/5dqz-y4ea.csv.xz - the source date format likely changed again. Example value: `"]:::fail
     end
     subgraph cdc_vssr["`<strong><a href="https://github.com/PopHIVE/Ingest/tree/main/data/cdc_vssr" target="_blank" rel="noreferrer">cdc_vssr</a></strong>`"]
         direction LR
