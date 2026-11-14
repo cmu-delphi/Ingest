@@ -4,14 +4,15 @@
   "licenses": [],
   "resources": [
     {
-      "bytes": 6626,
+      "bytes": 6627,
       "encoding": "windows-1252",
-      "md5": "d74ebf6c58c675a058f8309052e581ad",
+      "md5": "1cea13545affc9228c9d11e9be05bedf",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "a4773d026ee95f10479edae00e8330c245c5fd96",
           "9f90bf47ef83da9fed1d9d9759a54767fc6b5803",
           "57a4141ac43012d4b4919c9a3c1a488c725581e0",
           "9bdeaadd60f614a7ef720c77d4600ccaa209a51a",
@@ -259,9 +260,11 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>"
         ],
         "date": [
+          "Fri Nov 13 07:19:40 2026 +0000",
           "Thu Nov 12 07:16:58 2026 +0000",
           "Wed Nov 11 07:11:32 2026 +0000",
           "Tue Nov 10 07:17:26 2026 +0000",
@@ -387,6 +390,7 @@
           "Thu Jul 16 12:53:03 2026 -0400"
         ],
         "message": [
+          "scheduled daily data update",
           "scheduled daily data update",
           "scheduled daily data update",
           "scheduled daily data update",
@@ -522,8 +526,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-11-13 07:19:18.209267",
-      "last_modified": "2026-11-13 07:19:18.209267",
+      "created": "2026-11-14 07:09:03.744744",
+      "last_modified": "2026-11-14 07:09:03.744744",
       "vintage": {},
       "row_count": 651,
       "entity_count": 184,
@@ -952,7 +956,7 @@
               "11-07-2026": 80,
               "11-09-2026": 14,
               "11-10-2026": 4,
-              "11-13-2026": 109
+              "11-14-2026": 109
             }
           },
           {
@@ -1012,7 +1016,7 @@
           }
         ]
       },
-      "sha512": "e2e07f6f0ac53619824fee5ae01a54ab8b1a9f1c4deca95e1dd7e710a142c3ddbd61b02e178bd69d4e1660d0128f7c79eee7bdd083a1dfce694f0110d0c8caf0"
+      "sha512": "274c2d9ead1eac7735f1f324bd8380c9f45e31adbefa83bb3927d41c7d44c6b544ca63b0e3f538862947870f813cf80cb83c9dd863e489c70dd038509bc1d7e5"
     }
   ],
   "measure_info": {
@@ -1166,8 +1170,8 @@
         "date_scraped": {
           "status": "present",
           "same_type": true,
-          "added_levels": "11-13-2026",
-          "dropped_levels": "11-12-2026"
+          "added_levels": "11-14-2026",
+          "dropped_levels": "11-13-2026"
         },
         "date_epic_updated": {
           "status": "present",
