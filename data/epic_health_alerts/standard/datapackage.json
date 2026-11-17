@@ -4,14 +4,15 @@
   "licenses": [],
   "resources": [
     {
-      "bytes": 7460,
+      "bytes": 7602,
       "encoding": "windows-1252",
-      "md5": "4b70c668a1d1d9b03dceeec990529a74",
+      "md5": "7d565082f64de4d05e0ebcec5b30bd8d",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "32f96b3234b602c6e3e6f9e3ec5cefcf3fdedcbd",
           "f24e0a6aa94623208445858309cf9e4dbc91d405",
           "1a38a047e7592da7825b4c1df41676354faf8bf7",
           "a4773d026ee95f10479edae00e8330c245c5fd96",
@@ -265,9 +266,11 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>"
         ],
         "date": [
+          "Mon Nov 16 07:16:50 2026 +0000",
           "Sun Nov 15 07:10:17 2026 +0000",
           "Sat Nov 14 07:09:17 2026 +0000",
           "Fri Nov 13 07:19:40 2026 +0000",
@@ -396,6 +399,7 @@
           "Thu Jul 16 12:53:03 2026 -0400"
         ],
         "message": [
+          "scheduled daily data update",
           "scheduled daily data update",
           "scheduled daily data update",
           "scheduled daily data update",
@@ -534,8 +538,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-11-16 07:16:35.618489",
-      "last_modified": "2026-11-16 07:16:35.618489",
+      "created": "2026-11-17 07:10:18.751418",
+      "last_modified": "2026-11-17 07:10:18.751418",
       "vintage": {},
       "row_count": 760,
       "entity_count": 184,
@@ -853,7 +857,7 @@
           },
           {
             "name": "value",
-            "duplicates": 242,
+            "duplicates": 143,
             "info": {
               "id": "value",
               "short_name": "Health Alert Rate (Cases per 100k)",
@@ -874,8 +878,8 @@
             "time_range": [7, 12],
             "type": "float",
             "missing": 0,
-            "mean": 543.005395,
-            "sd": 1292.794698,
+            "mean": 600.470526,
+            "sd": 1315.79677,
             "min": 0,
             "max": 20000
           },
@@ -900,8 +904,8 @@
             "time_range": [7, 12],
             "type": "integer",
             "missing": 0,
-            "mean": 0.431579,
-            "sd": 0.495623,
+            "mean": 0.336842,
+            "sd": 0.472942,
             "min": 0,
             "max": 1
           },
@@ -966,12 +970,12 @@
               "11-09-2026": 14,
               "11-10-2026": 4,
               "11-14-2026": 109,
-              "11-16-2026": 109
+              "11-17-2026": 109
             }
           },
           {
             "name": "date_epic_updated",
-            "duplicates": 729,
+            "duplicates": 728,
             "info": {
               "id": "date_epic_updated",
               "short_name": "Date Epic Updated",
@@ -1021,12 +1025,13 @@
               "11-04-2026": 2,
               "11-06-2026": 94,
               "11-09-2026": 4,
-              "11-11-2026": 218
+              "11-11-2026": 109,
+              "11-16-2026": 109
             }
           }
         ]
       },
-      "sha512": "7efc2b15cd4c578422cdb699733f77a21b15e63019e5eeaa8ec354a146d7e8ab96967c24d755d896cf7d198ab0d9b8dbab5536c6fde8aba49d5dd4b4b2b9f01e"
+      "sha512": "e1e7ce804f0339788a79fcedba7004a610cba3dbd5761ba2a3b0c4fd32141d1686f46671b9a68c4a7cd1dbd3df05bed7fa166c0f552c9f585408b140d8d06ee5"
     }
   ],
   "measure_info": {
@@ -1180,13 +1185,13 @@
         "date_scraped": {
           "status": "present",
           "same_type": true,
-          "added_levels": "11-16-2026",
-          "dropped_levels": "11-15-2026"
+          "added_levels": "11-17-2026",
+          "dropped_levels": "11-16-2026"
         },
         "date_epic_updated": {
           "status": "present",
           "same_type": true,
-          "added_levels": [],
+          "added_levels": "11-16-2026",
           "dropped_levels": []
         }
       }
