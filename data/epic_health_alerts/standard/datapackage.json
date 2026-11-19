@@ -4,14 +4,15 @@
   "licenses": [],
   "resources": [
     {
-      "bytes": 7841,
+      "bytes": 7879,
       "encoding": "windows-1252",
-      "md5": "eab0ac6434b8e723b2148f79b7a54893",
+      "md5": "dbf129483ecb6b31447109083b1903eb",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "279419473e01c5fcbb72214dadb0f0d9e0adf208",
           "dbbf9126093af8d0f27611c3d13439b1d4f9ddd5",
           "32f96b3234b602c6e3e6f9e3ec5cefcf3fdedcbd",
           "f24e0a6aa94623208445858309cf9e4dbc91d405",
@@ -269,9 +270,11 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>"
         ],
         "date": [
+          "Wed Nov 18 07:55:29 2026 +0000",
           "Tue Nov 17 07:10:34 2026 +0000",
           "Mon Nov 16 07:16:50 2026 +0000",
           "Sun Nov 15 07:10:17 2026 +0000",
@@ -413,6 +416,7 @@
           "scheduled daily data update",
           "scheduled daily data update",
           "scheduled daily data update",
+          "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
           "scheduled daily data update",
@@ -542,16 +546,16 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-11-18 07:55:12.906396",
-      "last_modified": "2026-11-18 07:55:12.906396",
+      "created": "2026-11-19 07:22:10.382603",
+      "last_modified": "2026-11-19 07:22:10.382603",
       "vintage": {},
-      "row_count": 778,
-      "entity_count": 201,
+      "row_count": 783,
+      "entity_count": 205,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 577,
+            "duplicates": 578,
             "info": [],
             "time_range": [7, 12],
             "type": "string",
@@ -589,6 +593,7 @@
               "12097": 1,
               "12105": 4,
               "12119": 2,
+              "12127": 1,
               "13": 2,
               "13057": 2,
               "13067": 2,
@@ -622,7 +627,7 @@
               "21073": 3,
               "21081": 2,
               "21203": 10,
-              "22": 4,
+              "22": 5,
               "22017": 4,
               "22051": 2,
               "22057": 2,
@@ -717,6 +722,8 @@
               "45077": 2,
               "45085": 11,
               "47": 3,
+              "47017": 1,
+              "47059": 1,
               "47073": 2,
               "47113": 4,
               "47157": 4,
@@ -752,6 +759,7 @@
               "53071": 2,
               "53075": 1,
               "54011": 3,
+              "54049": 1,
               "54061": 3,
               "55": 8,
               "55055": 2,
@@ -761,7 +769,7 @@
           },
           {
             "name": "time",
-            "duplicates": 760,
+            "duplicates": 765,
             "info": [],
             "time_range": [7, 12],
             "type": "string",
@@ -784,12 +792,12 @@
               "10-31-2026": 68,
               "11-07-2026": 100,
               "11-14-2026": 127,
-              "11-21-2026": 127
+              "11-21-2026": 132
             }
           },
           {
             "name": "condition",
-            "duplicates": 755,
+            "duplicates": 760,
             "info": {
               "id": "condition",
               "short_name": "Alerted Condition",
@@ -826,7 +834,7 @@
               "Measles": 27,
               "Rabies": 4,
               "Salmonellosis": 7,
-              "Seasonal Influenza": 314,
+              "Seasonal Influenza": 319,
               "Strep Throat": 34,
               "Toxic Effect of Smoke": 3,
               "Valley Fever": 11,
@@ -836,7 +844,7 @@
           },
           {
             "name": "estimated_onset",
-            "duplicates": 759,
+            "duplicates": 764,
             "info": {
               "id": "estimated_onset",
               "short_name": "Estimated Onset Date",
@@ -873,13 +881,13 @@
               "10-05-2026": 65,
               "10-12-2026": 54,
               "10-19-2026": 107,
-              "10-26-2026": 53,
-              "11-02-2026": 18
+              "10-26-2026": 56,
+              "11-02-2026": 20
             }
           },
           {
             "name": "value",
-            "duplicates": 150,
+            "duplicates": 146,
             "info": {
               "id": "value",
               "short_name": "Health Alert Rate (Cases per 100k)",
@@ -900,14 +908,14 @@
             "time_range": [7, 12],
             "type": "float",
             "missing": 0,
-            "mean": 552.71491,
-            "sd": 1293.035523,
+            "mean": 554.79834,
+            "sd": 1291.092092,
             "min": 0,
             "max": 20000
           },
           {
             "name": "partial_week_flag",
-            "duplicates": 776,
+            "duplicates": 781,
             "info": {
               "id": "partial_week_flag",
               "short_name": "Partial Week?",
@@ -926,14 +934,14 @@
             "time_range": [7, 12],
             "type": "integer",
             "missing": 0,
-            "mean": 0.416452,
-            "sd": 0.493288,
+            "mean": 0.425287,
+            "sd": 0.494703,
             "min": 0,
             "max": 1
           },
           {
             "name": "date_scraped",
-            "duplicates": 737,
+            "duplicates": 741,
             "info": {
               "id": "date_scraped",
               "short_name": "Date Scraped",
@@ -993,12 +1001,13 @@
               "11-10-2026": 4,
               "11-14-2026": 109,
               "11-17-2026": 10,
-              "11-18-2026": 117
+              "11-18-2026": 1,
+              "11-19-2026": 121
             }
           },
           {
             "name": "date_epic_updated",
-            "duplicates": 745,
+            "duplicates": 749,
             "info": {
               "id": "date_epic_updated",
               "short_name": "Date Epic Updated",
@@ -1050,12 +1059,13 @@
               "11-09-2026": 4,
               "11-11-2026": 109,
               "11-16-2026": 10,
-              "11-17-2026": 117
+              "11-17-2026": 1,
+              "11-18-2026": 121
             }
           }
         ]
       },
-      "sha512": "34f66ba06db649eabaa38f1ea394044c011c07a466525ad001a63017d2a43183a33aca363308d1c2da2d96c7f948850eb197e812a10d56acbbdd5c90da9bd6ce"
+      "sha512": "7edf5091dfb71a64349c723c6f288c9efe68a9a5f2a5fbe5154d641ab74a54b47f80687ec225b727ed5438b944260d6c2d0cf4eb1cf75e0662d28daff550d8d6"
     }
   ],
   "measure_info": {
@@ -1177,7 +1187,7 @@
         "geography": {
           "status": "present",
           "same_type": true,
-          "added_levels": ["01015", "01073", "12097", "22073", "23001", "25005", "28059", "35049", "36095", "42017", "44007", "48029", "48053", "48365", "53063", "53067", "53075"],
+          "added_levels": ["12127", "47017", "47059", "54049"],
           "dropped_levels": []
         },
         "time": {
@@ -1189,7 +1199,7 @@
         "condition": {
           "status": "present",
           "same_type": true,
-          "added_levels": "COVID-19",
+          "added_levels": [],
           "dropped_levels": []
         },
         "estimated_onset": {
@@ -1209,13 +1219,13 @@
         "date_scraped": {
           "status": "present",
           "same_type": true,
-          "added_levels": "11-18-2026",
+          "added_levels": "11-19-2026",
           "dropped_levels": []
         },
         "date_epic_updated": {
           "status": "present",
           "same_type": true,
-          "added_levels": "11-17-2026",
+          "added_levels": "11-18-2026",
           "dropped_levels": []
         }
       }
