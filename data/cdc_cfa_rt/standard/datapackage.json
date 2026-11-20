@@ -4,14 +4,15 @@
   "license": [],
   "resources": [
     {
-      "bytes": 33821,
+      "bytes": 34303,
       "encoding": "windows-1252",
-      "md5": "e988674859148d00624f201c47ca1546",
+      "md5": "b2346bc1c9729650095c5f5589b5ac12",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "9ddae7271c11e63d72454be987a042c2a8cb0917",
           "f9fabfa89cc58aa662159e85578a1367ca32f2fa",
           "b6c8f1fa91d5dc34fd321d89f84c0e2a712c2d8c",
           "7073e651ba19357cc0536d2fd780d662599caeba",
@@ -48,6 +49,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -58,6 +60,7 @@
           "weinbergerlab <dweinber@gmail.com>"
         ],
         "date": [
+          "Fri Nov 6 20:08:03 2026 +0000",
           "Fri Oct 30 20:05:07 2026 +0000",
           "Fri Oct 16 19:59:02 2026 +0000",
           "Sat Oct 10 00:08:43 2026 +0000",
@@ -94,6 +97,7 @@
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
+          "scheduled data build",
           "updated respiratory bundle and epic_resp_infections; fixed Rt bug",
           "scheduled data build",
           "scheduled data build",
@@ -114,8 +118,8 @@
       "id_length": 2,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-11-06 18:15:00.471488",
-      "last_modified": "2026-11-06 18:15:00.471488",
+      "created": "2026-11-20 18:11:53.81811",
+      "last_modified": "2026-11-20 18:11:53.81811",
       "vintage": {},
       "row_count": 1477,
       "entity_count": 50,
@@ -138,10 +142,10 @@
               "08": 29,
               "09": 29,
               "11": 29,
+              "12": 29,
               "13": 29,
               "15": 29,
               "16": 29,
-              "17": 29,
               "18": 29,
               "19": 29,
               "20": 29,
@@ -245,19 +249,6 @@
               "2026-05-24": 1,
               "2026-05-25": 1,
               "2026-05-26": 1,
-              "2026-10-07": 49,
-              "2026-10-08": 49,
-              "2026-10-09": 49,
-              "2026-10-10": 49,
-              "2026-10-11": 49,
-              "2026-10-12": 49,
-              "2026-10-13": 49,
-              "2026-10-14": 49,
-              "2026-10-15": 49,
-              "2026-10-16": 49,
-              "2026-10-17": 49,
-              "2026-10-18": 49,
-              "2026-10-19": 49,
               "2026-10-20": 49,
               "2026-10-21": 49,
               "2026-10-22": 49,
@@ -273,12 +264,25 @@
               "2026-11-01": 49,
               "2026-11-02": 49,
               "2026-11-03": 49,
-              "2026-11-04": 49
+              "2026-11-04": 49,
+              "2026-11-05": 49,
+              "2026-11-06": 49,
+              "2026-11-07": 49,
+              "2026-11-08": 49,
+              "2026-11-09": 49,
+              "2026-11-10": 49,
+              "2026-11-11": 49,
+              "2026-11-12": 49,
+              "2026-11-13": 49,
+              "2026-11-14": 49,
+              "2026-11-15": 49,
+              "2026-11-16": 49,
+              "2026-11-17": 49
             }
           },
           {
             "name": "cdc_rt_rsv",
-            "duplicates": 639,
+            "duplicates": 585,
             "info": {
               "id": "cdc_rt_rsv",
               "short_name": "Rt (RSV)",
@@ -298,15 +302,15 @@
             },
             "time_range": [0, 84],
             "type": "float",
-            "missing": 203,
-            "mean": 1.182296,
-            "sd": 0.120801,
+            "missing": 232,
+            "mean": 1.253579,
+            "sd": 0.143286,
             "min": 0.7308,
-            "max": 1.4228
+            "max": 1.537
           },
           {
             "name": "cdc_rt_flu",
-            "duplicates": 346,
+            "duplicates": 313,
             "info": {
               "id": "cdc_rt_flu",
               "short_name": "Rt (Influenza)",
@@ -326,15 +330,15 @@
             },
             "time_range": [0, 84],
             "type": "float",
-            "missing": 58,
-            "mean": 1.125945,
-            "sd": 0.095919,
+            "missing": 0,
+            "mean": 1.095895,
+            "sd": 0.098455,
             "min": 0.8199,
-            "max": 1.4548
+            "max": 1.4917
           },
           {
             "name": "cdc_rt_covid",
-            "duplicates": 606,
+            "duplicates": 651,
             "info": {
               "id": "cdc_rt_covid",
               "short_name": "Rt (COVID-19)",
@@ -355,14 +359,14 @@
             "time_range": [0, 84],
             "type": "float",
             "missing": 0,
-            "mean": 1.025123,
-            "sd": 0.037948,
+            "mean": 1.040447,
+            "sd": 0.041198,
             "min": 0.8567,
-            "max": 1.1246
+            "max": 1.1289
           },
           {
             "name": "cdc_rt_rsv_lower",
-            "duplicates": 574,
+            "duplicates": 561,
             "info": {
               "id": "cdc_rt_rsv_lower",
               "short_name": "Rt lower 95% CI (RSV)",
@@ -382,15 +386,15 @@
             },
             "time_range": [0, 84],
             "type": "float",
-            "missing": 203,
-            "mean": 1.064132,
-            "sd": 0.110549,
-            "min": 0.6605,
-            "max": 1.2737
+            "missing": 232,
+            "mean": 1.131572,
+            "sd": 0.136004,
+            "min": 0.5731,
+            "max": 1.3984
           },
           {
             "name": "cdc_rt_flu_lower",
-            "duplicates": 345,
+            "duplicates": 280,
             "info": {
               "id": "cdc_rt_flu_lower",
               "short_name": "Rt lower 95% CI (Influenza)",
@@ -410,15 +414,15 @@
             },
             "time_range": [0, 84],
             "type": "float",
-            "missing": 58,
-            "mean": 1.066502,
-            "sd": 0.095345,
-            "min": 0.7701,
-            "max": 1.4002
+            "missing": 0,
+            "mean": 1.043232,
+            "sd": 0.101849,
+            "min": 0.7599,
+            "max": 1.4384
           },
           {
             "name": "cdc_rt_covid_lower",
-            "duplicates": 619,
+            "duplicates": 588,
             "info": {
               "id": "cdc_rt_covid_lower",
               "short_name": "Rt lower 95% CI (COVID-19)",
@@ -439,14 +443,14 @@
             "time_range": [0, 84],
             "type": "float",
             "missing": 0,
-            "mean": 0.984401,
-            "sd": 0.041893,
+            "mean": 1.006592,
+            "sd": 0.04727,
             "min": 0.743,
-            "max": 1.087
+            "max": 1.0928
           },
           {
             "name": "cdc_rt_rsv_upper",
-            "duplicates": 529,
+            "duplicates": 496,
             "info": {
               "id": "cdc_rt_rsv_upper",
               "short_name": "Rt upper 95% CI (RSV)",
@@ -466,15 +470,15 @@
             },
             "time_range": [0, 84],
             "type": "float",
-            "missing": 203,
-            "mean": 1.314716,
-            "sd": 0.168033,
+            "missing": 232,
+            "mean": 1.388439,
+            "sd": 0.18793,
             "min": 0.7417,
-            "max": 1.8086
+            "max": 1.8395
           },
           {
             "name": "cdc_rt_flu_upper",
-            "duplicates": 335,
+            "duplicates": 285,
             "info": {
               "id": "cdc_rt_flu_upper",
               "short_name": "Rt upper 95% CI (Influenza)",
@@ -494,15 +498,15 @@
             },
             "time_range": [0, 84],
             "type": "float",
-            "missing": 58,
-            "mean": 1.188926,
-            "sd": 0.108545,
+            "missing": 0,
+            "mean": 1.151173,
+            "sd": 0.104003,
             "min": 0.8581,
-            "max": 1.5147
+            "max": 1.5436
           },
           {
             "name": "cdc_rt_covid_upper",
-            "duplicates": 502,
+            "duplicates": 590,
             "info": {
               "id": "cdc_rt_covid_upper",
               "short_name": "Rt upper 95% CI (COVID-19)",
@@ -523,14 +527,14 @@
             "time_range": [0, 84],
             "type": "float",
             "missing": 0,
-            "mean": 1.067177,
-            "sd": 0.048299,
+            "mean": 1.074964,
+            "sd": 0.043266,
             "min": 0.9292,
-            "max": 1.2326
+            "max": 1.2413
           },
           {
             "name": "cdc_rt_rsv_p_growing",
-            "duplicates": 1459,
+            "duplicates": 1464,
             "info": {
               "id": "cdc_rt_rsv_p_growing",
               "short_name": "Probability growing (RSV)",
@@ -550,15 +554,15 @@
             },
             "time_range": [0, 84],
             "type": "float",
-            "missing": 203,
-            "mean": 0.923766,
-            "sd": 0.214823,
+            "missing": 232,
+            "mean": 0.923714,
+            "sd": 0.224286,
             "min": 0,
             "max": 1
           },
           {
             "name": "cdc_rt_flu_p_growing",
-            "duplicates": 1443,
+            "duplicates": 1441,
             "info": {
               "id": "cdc_rt_flu_p_growing",
               "short_name": "Probability growing (Influenza)",
@@ -578,15 +582,15 @@
             },
             "time_range": [0, 84],
             "type": "float",
-            "missing": 58,
-            "mean": 0.883337,
-            "sd": 0.20728,
+            "missing": 0,
+            "mean": 0.745215,
+            "sd": 0.328415,
             "min": 0.0003,
             "max": 1
           },
           {
             "name": "cdc_rt_covid_p_growing",
-            "duplicates": 1436,
+            "duplicates": 1446,
             "info": {
               "id": "cdc_rt_covid_p_growing",
               "short_name": "Probability growing (COVID-19)",
@@ -607,14 +611,14 @@
             "time_range": [0, 84],
             "type": "float",
             "missing": 0,
-            "mean": 0.750721,
-            "sd": 0.306849,
-            "min": 0.002,
+            "mean": 0.794191,
+            "sd": 0.293243,
+            "min": 0.0088,
             "max": 1
           }
         ]
       },
-      "sha512": "02f96cc92dfb10e8272714ad557a1cf1dcc2f16ef2049e18dee24800b7ab9511447445ef339f5d9fd43adcf3935567440ba47829c3f60956754c0f111eb59661"
+      "sha512": "49199335da67cf0102cc8746828ddf3152e2d302721a9ee46f788eca2a4b064482d2688986e91745c3a34ad842f7d729ae8d1d390a604853f1b0b6c1e07f144c"
     }
   ],
   "measure_info": {
@@ -854,14 +858,14 @@
         "geography": {
           "status": "present",
           "same_type": true,
-          "added_levels": ["08", "13", "17", "18", "48", "50", "53"],
-          "dropped_levels": []
+          "added_levels": "12",
+          "dropped_levels": "17"
         },
         "time": {
           "status": "present",
           "same_type": true,
-          "added_levels": ["2026-10-28", "2026-10-29", "2026-10-30", "2026-10-31", "2026-11-01", "2026-11-02", "2026-11-03", "2026-11-04"],
-          "dropped_levels": ["2026-09-29", "2026-09-30", "2026-10-01", "2026-10-02", "2026-10-03", "2026-10-04", "2026-10-05", "2026-10-06"]
+          "added_levels": ["2026-11-05", "2026-11-06", "2026-11-07", "2026-11-08", "2026-11-09", "2026-11-10", "2026-11-11", "2026-11-12", "2026-11-13", "2026-11-14", "2026-11-15", "2026-11-16", "2026-11-17"],
+          "dropped_levels": ["2026-10-07", "2026-10-08", "2026-10-09", "2026-10-10", "2026-10-11", "2026-10-12", "2026-10-13", "2026-10-14", "2026-10-15", "2026-10-16", "2026-10-17", "2026-10-18", "2026-10-19"]
         },
         "cdc_rt_rsv": {
           "status": "present",

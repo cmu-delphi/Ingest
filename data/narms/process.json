@@ -5,16 +5,16 @@
     {
       "path": "ingest.R",
       "manual": false,
-      "last_run": "2026-11-17 18:18:03",
+      "last_run": "2026-11-20 18:12:27",
       "frequency": 0,
-      "run_time": 8.904,
+      "run_time": 9.38,
       "last_status": {
         "log": "Sheet '2017-2021_data' not found",
         "success": false
       }
     }
   ],
-  "checked": "2026-11-17 19:51:47",
+  "checked": "2026-11-20 19:53:00",
   "check_results": {
     "data/narms/standard/data_animal_pathogen.csv.gz": {
       "measures": ["missing_info: genus", "missing_info: host_species", "missing_info: collection_source", "missing_info: antimicrobial"]
