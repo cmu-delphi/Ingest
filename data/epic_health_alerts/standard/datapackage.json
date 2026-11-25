@@ -4,14 +4,15 @@
   "licenses": [],
   "resources": [
     {
-      "bytes": 9004,
+      "bytes": 9094,
       "encoding": "windows-1252",
-      "md5": "eef292ad86a6072572fddf9d1c14469e",
+      "md5": "e0e6254b3ea2aa292d0a9d165231734d",
       "format": "csv",
       "name": "data.csv",
       "filename": "data.csv.gz",
       "versions": {
         "hash": [
+          "1486e365cdf0ccd30e7a139bb5bfa3237f28f6a0",
           "4d3f96bb70a14be4288771afb742fc05bbff3518",
           "5ba6469b5d2d33a43ab05ddbd78a7e02c666f520",
           "1c6a9498cd67bbb7b0fb1571f22f2d650e24964d",
@@ -281,9 +282,11 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>"
         ],
         "date": [
+          "Tue Nov 24 07:10:12 2026 +0000",
           "Mon Nov 23 07:16:49 2026 +0000",
           "Sun Nov 22 07:10:30 2026 +0000",
           "Sat Nov 21 07:12:54 2026 +0000",
@@ -437,6 +440,7 @@
           "scheduled daily data update",
           "scheduled daily data update",
           "scheduled daily data update",
+          "scheduled daily data update",
           "scheduled data build",
           "scheduled daily data update",
           "scheduled daily data update",
@@ -566,16 +570,16 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-11-24 07:09:51.428027",
-      "last_modified": "2026-11-24 07:09:51.428027",
+      "created": "2026-11-25 07:09:54.742399",
+      "last_modified": "2026-11-25 07:09:54.742399",
       "vintage": {},
-      "row_count": 909,
-      "entity_count": 210,
+      "row_count": 915,
+      "entity_count": 215,
       "schema": {
         "fields": [
           {
             "name": "geography",
-            "duplicates": 699,
+            "duplicates": 700,
             "info": [],
             "time_range": [7, 13],
             "type": "string",
@@ -648,6 +652,7 @@
               "21073": 4,
               "21081": 3,
               "21203": 11,
+              "21211": 1,
               "22": 6,
               "22017": 4,
               "22051": 3,
@@ -683,12 +688,13 @@
               "33": 3,
               "34021": 5,
               "34029": 5,
+              "35001": 1,
               "35027": 1,
               "35041": 5,
               "35049": 2,
               "36": 13,
               "36005": 3,
-              "36017": 3,
+              "36017": 4,
               "36063": 2,
               "36095": 2,
               "37": 5,
@@ -715,12 +721,14 @@
               "40017": 5,
               "40027": 3,
               "40047": 4,
+              "40083": 1,
               "40113": 3,
               "40131": 4,
               "40143": 3,
               "40145": 12,
               "40147": 12,
               "41017": 5,
+              "41029": 1,
               "41047": 5,
               "42": 21,
               "42009": 3,
@@ -757,6 +765,7 @@
               "48053": 2,
               "48063": 3,
               "48215": 4,
+              "48219": 1,
               "48221": 4,
               "48227": 11,
               "48251": 4,
@@ -794,7 +803,7 @@
           },
           {
             "name": "time",
-            "duplicates": 890,
+            "duplicates": 896,
             "info": [],
             "time_range": [7, 13],
             "type": "string",
@@ -818,12 +827,12 @@
               "11-07-2026": 100,
               "11-14-2026": 127,
               "11-21-2026": 132,
-              "11-28-2026": 126
+              "11-28-2026": 132
             }
           },
           {
             "name": "condition",
-            "duplicates": 886,
+            "duplicates": 892,
             "info": {
               "id": "condition",
               "short_name": "Alerted Condition",
@@ -852,15 +861,15 @@
               "Cyclosporiasis": 141,
               "Dengue Fever": 12,
               "Enterovirus": 7,
-              "Group A Strep": 5,
-              "Hand, Foot, and Mouth Disease": 59,
+              "Group A Strep": 6,
+              "Hand, Foot, and Mouth Disease": 60,
               "Heat Illness": 27,
               "Legionellosis": 8,
               "Lyme disease": 4,
               "Measles": 30,
               "Rabies": 4,
               "Salmonellosis": 7,
-              "Seasonal Influenza": 422,
+              "Seasonal Influenza": 426,
               "Strep Throat": 38,
               "Toxic Effect of Smoke": 3,
               "Valley Fever": 12,
@@ -870,7 +879,7 @@
           },
           {
             "name": "estimated_onset",
-            "duplicates": 889,
+            "duplicates": 895,
             "info": {
               "id": "estimated_onset",
               "short_name": "Estimated Onset Date",
@@ -908,13 +917,13 @@
               "10-12-2026": 65,
               "10-19-2026": 142,
               "10-26-2026": 83,
-              "11-02-2026": 42,
-              "11-09-2026": 1
+              "11-02-2026": 43,
+              "11-09-2026": 6
             }
           },
           {
             "name": "value",
-            "duplicates": 160,
+            "duplicates": 162,
             "info": {
               "id": "value",
               "short_name": "Health Alert Rate (Cases per 100k)",
@@ -935,14 +944,14 @@
             "time_range": [7, 13],
             "type": "float",
             "missing": 0,
-            "mean": 580.587239,
-            "sd": 1230.533051,
+            "mean": 548.752131,
+            "sd": 1213.907915,
             "min": 0,
             "max": 20000
           },
           {
             "name": "partial_week_flag",
-            "duplicates": 907,
+            "duplicates": 913,
             "info": {
               "id": "partial_week_flag",
               "short_name": "Partial Week?",
@@ -961,14 +970,14 @@
             "time_range": [7, 13],
             "type": "integer",
             "missing": 0,
-            "mean": 0.378438,
-            "sd": 0.485265,
+            "mean": 0.427322,
+            "sd": 0.49496,
             "min": 0,
             "max": 1
           },
           {
             "name": "date_scraped",
-            "duplicates": 865,
+            "duplicates": 870,
             "info": {
               "id": "date_scraped",
               "short_name": "Date Scraped",
@@ -1031,12 +1040,13 @@
               "11-18-2026": 1,
               "11-21-2026": 121,
               "11-23-2026": 1,
-              "11-24-2026": 125
+              "11-24-2026": 16,
+              "11-25-2026": 115
             }
           },
           {
             "name": "date_epic_updated",
-            "duplicates": 874,
+            "duplicates": 879,
             "info": {
               "id": "date_epic_updated",
               "short_name": "Date Epic Updated",
@@ -1090,12 +1100,13 @@
               "11-16-2026": 10,
               "11-17-2026": 1,
               "11-18-2026": 122,
-              "11-23-2026": 125
+              "11-23-2026": 16,
+              "11-24-2026": 115
             }
           }
         ]
       },
-      "sha512": "c3074aa05e688b8543d3b7ef32a2ecd3077a7e12122ba7f24ae634fe22ae2ec4320a9d0115e5150cb5e2f4e30d670a44b856e9e306d2688dbba7567d972f2008"
+      "sha512": "6b81954cca18472aa8a38a30d1400085d900c2ecdb0f6280c5315d3a519f8cbbbfa7fc99b8a59daf079999c2108076d272e353e21c2cd4fd573e1154e368bf5a"
     }
   ],
   "measure_info": {
@@ -1217,7 +1228,7 @@
         "geography": {
           "status": "present",
           "same_type": true,
-          "added_levels": ["12017", "35027", "45055", "47167", "48401"],
+          "added_levels": ["21211", "35001", "40083", "41029", "48219"],
           "dropped_levels": []
         },
         "time": {
@@ -1235,7 +1246,7 @@
         "estimated_onset": {
           "status": "present",
           "same_type": true,
-          "added_levels": "11-09-2026",
+          "added_levels": [],
           "dropped_levels": []
         },
         "value": {
@@ -1249,13 +1260,13 @@
         "date_scraped": {
           "status": "present",
           "same_type": true,
-          "added_levels": "11-24-2026",
+          "added_levels": "11-25-2026",
           "dropped_levels": []
         },
         "date_epic_updated": {
           "status": "present",
           "same_type": true,
-          "added_levels": "11-23-2026",
+          "added_levels": "11-24-2026",
           "dropped_levels": []
         }
       }
