@@ -217,8 +217,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-11-24 20:10:39.715416",
-      "last_modified": "2026-11-24 20:10:39.715416",
+      "created": "2026-11-27 18:09:06.906658",
+      "last_modified": "2026-11-27 18:09:06.906658",
       "vintage": {},
       "row_count": 9848,
       "entity_count": 3298,
@@ -3808,8 +3808,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-11-24 20:10:38.930408",
-      "last_modified": "2026-11-24 20:10:38.930408",
+      "created": "2026-11-27 18:09:06.924658",
+      "last_modified": "2026-11-27 18:09:06.924658",
       "vintage": {},
       "row_count": 2437734,
       "entity_count": 52,
@@ -4877,8 +4877,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-11-24 20:10:32.144322",
-      "last_modified": "2026-11-24 20:10:32.144322",
+      "created": "2026-11-27 18:09:06.911658",
+      "last_modified": "2026-11-27 18:09:06.911658",
       "vintage": {},
       "row_count": 112320,
       "entity_count": 52,
@@ -5789,8 +5789,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-11-24 20:10:42.136443",
-      "last_modified": "2026-11-24 20:10:42.136443",
+      "created": "2026-11-27 18:09:06.926658",
+      "last_modified": "2026-11-27 18:09:06.926658",
       "vintage": {},
       "row_count": 468795,
       "entity_count": 52,
@@ -6516,8 +6516,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-11-24 20:10:42.75645",
-      "last_modified": "2026-11-24 20:10:42.75645",
+      "created": "2026-11-27 18:09:06.927658",
+      "last_modified": "2026-11-27 18:09:06.927658",
       "vintage": {},
       "row_count": 41288,
       "entity_count": 52,
@@ -7274,8 +7274,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-11-24 20:10:42.211444",
-      "last_modified": "2026-11-24 20:10:42.211444",
+      "created": "2026-11-27 18:09:06.929658",
+      "last_modified": "2026-11-27 18:09:06.929658",
       "vintage": {},
       "row_count": 67808,
       "entity_count": 52,
@@ -7995,6 +7995,7 @@
       "filename": "google_dma.parquet",
       "versions": {
         "hash": [
+          "ba1eb7efac8d24b2b605f6352a352a4bff4300d8",
           "d79057661d978fe2f14ba0fe5f9c8123ebcf707c",
           "7151908a4214ab9cbfceda208101f5ecbebafb76",
           "19ae5904ca130560fc06c58beca1fcb3c8eb0e29",
@@ -8089,6 +8090,7 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "weinbergerlab <dweinber@gmail.com>",
           "GitHub Actions <actions@github.com>",
           "weinbergerlab <dweinber@gmail.com>",
@@ -8135,6 +8137,7 @@
           "weinbergerlab <dweinber@gmail.com>"
         ],
         "date": [
+          "Tue Nov 24 20:13:51 2026 +0000",
           "Tue Nov 17 19:52:17 2026 +0000",
           "Tue Nov 10 23:52:16 2026 +0000",
           "Tue Nov 3 22:37:16 2026 +0000",
@@ -8229,6 +8232,7 @@
           "scheduled data build",
           "scheduled data build",
           "scheduled data build",
+          "scheduled data build",
           "Add CDC CFA RT (respiratory tract) data source",
           "scheduled data build",
           " update gtrends",
@@ -8285,8 +8289,8 @@
       "id_length": "NA",
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-11-24 20:10:42.893451",
-      "last_modified": "2026-11-24 20:10:42.893451",
+      "created": "2026-11-27 18:09:06.930658",
+      "last_modified": "2026-11-27 18:09:06.930658",
       "vintage": {},
       "row_count": 24560,
       "entity_count": 0,
@@ -8777,8 +8781,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-11-24 20:10:42.82045",
-      "last_modified": "2026-11-24 20:10:42.82045",
+      "created": "2026-11-27 18:09:06.931658",
+      "last_modified": "2026-11-27 18:09:06.931658",
       "vintage": {},
       "row_count": 3848,
       "entity_count": 52,
@@ -9067,14 +9071,18 @@
       "sha512": "060f60664e3ac62aa292c4e565d2e625f0e68c89f777deb54726a574a5918bb81b96e8b66ff32b8834de25bea83ce41ac59d4411b0093c85c6741614ce0a0c59"
     },
     {
-      "bytes": 40884,
+      "bytes": 41476,
       "encoding": "IBM420_rtl",
-      "md5": "0f4ba871beed213b90e9e4ac7d33ad3d",
+      "md5": "5590e2bdd35844896a6c27fe2dd1c1ce",
       "format": "parquet",
       "name": "heat_risk",
       "filename": "heat_risk.parquet",
       "versions": {
         "hash": [
+          "a3b0f390e579e95187d517975df0c1d7c22486f0",
+          "715d2f3f9454306a54a3f4895959f86e7e6b5df8",
+          "89f06bf12b461fa8b2dce56bb97ea3a0f4dbc4d6",
+          "ba1eb7efac8d24b2b605f6352a352a4bff4300d8",
           "1486e365cdf0ccd30e7a139bb5bfa3237f28f6a0",
           "4d3f96bb70a14be4288771afb742fc05bbff3518",
           "5ba6469b5d2d33a43ab05ddbd78a7e02c666f520",
@@ -9554,6 +9562,10 @@
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
+          "GitHub Actions <actions@github.com>",
           "anshap32 <73296024+anshap32@users.noreply.github.com>",
           "GitHub Actions <actions@github.com>",
           "GitHub Actions <actions@github.com>",
@@ -9673,6 +9685,10 @@
           "danweinberger <daniel.weinberger@yale.edu>"
         ],
         "date": [
+          "Fri Nov 27 07:10:25 2026 +0000",
+          "Thu Nov 26 07:14:03 2026 +0000",
+          "Wed Nov 25 07:10:10 2026 +0000",
+          "Tue Nov 24 20:13:51 2026 +0000",
           "Tue Nov 24 07:10:12 2026 +0000",
           "Mon Nov 23 07:16:49 2026 +0000",
           "Sun Nov 22 07:10:30 2026 +0000",
@@ -9972,6 +9988,10 @@
           "Thu Mar 26 23:19:59 2026 -0400"
         ],
         "message": [
+          "scheduled daily data update",
+          "scheduled daily data update",
+          "scheduled daily data update",
+          "scheduled data build",
           "scheduled daily data update",
           "scheduled daily data update",
           "scheduled daily data update",
@@ -10281,8 +10301,8 @@
       "id_length": 5,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-11-24 18:24:22.617021",
-      "last_modified": "2026-11-24 18:24:22.617021",
+      "created": "2026-11-27 18:13:40.843898",
+      "last_modified": "2026-11-27 18:13:40.843898",
       "vintage": {},
       "row_count": 15545,
       "entity_count": 3109,
@@ -13415,16 +13435,16 @@
             "type": "string",
             "missing": 0,
             "table": {
-              "2026-11-25": 3109,
-              "2026-11-26": 3109,
-              "2026-11-27": 3109,
               "2026-11-28": 3109,
-              "2026-11-29": 3109
+              "2026-11-29": 3109,
+              "2026-11-30": 3109,
+              "2026-12-01": 3109,
+              "2026-12-02": 3109
             }
           },
           {
             "name": "value",
-            "duplicates": 15434,
+            "duplicates": 15400,
             "info": {
               "id": "value",
               "short_name": "Heat risk score",
@@ -13444,10 +13464,10 @@
             "time_range": [0, 4],
             "type": "float",
             "missing": 0,
-            "mean": 0.002247,
-            "sd": 0.038804,
+            "mean": 0.003602,
+            "sd": 0.052258,
             "min": 0,
-            "max": 1
+            "max": 1.1148
           },
           {
             "name": "forecast_day",
@@ -13478,7 +13498,7 @@
           }
         ]
       },
-      "sha512": "ec5c92a19fbd4b2e358ca978d1ea75e4980dd362dad6e343f0cfdc241c23c8d3b6a9c4ea04d20bb9c7c41f7e1d8f498a92ef26bfc339341b90a46abc98a4f487"
+      "sha512": "fd1585594c676655ef8aeb0566fff36798e3d6c6157a192afc50b288c773437efd0002d1ba2ba9fe565359725924256898c9f9d73e174c039992abc228dae6f9"
     },
     {
       "bytes": 7010,
@@ -13535,8 +13555,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-11-24 20:10:42.740449",
-      "last_modified": "2026-11-24 20:10:42.740449",
+      "created": "2026-11-27 18:09:06.931658",
+      "last_modified": "2026-11-27 18:09:06.931658",
       "vintage": {},
       "row_count": 745,
       "entity_count": 50,
@@ -13888,8 +13908,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-11-24 20:10:39.791417",
-      "last_modified": "2026-11-24 20:10:39.791417",
+      "created": "2026-11-27 18:09:06.933658",
+      "last_modified": "2026-11-27 18:09:06.933658",
       "vintage": {},
       "row_count": 93759,
       "entity_count": 52,
@@ -14303,8 +14323,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-11-24 20:10:41.716438",
-      "last_modified": "2026-11-24 20:10:41.716438",
+      "created": "2026-11-27 18:09:06.936658",
+      "last_modified": "2026-11-27 18:09:06.936658",
       "vintage": {},
       "row_count": 73426,
       "entity_count": 1955,
@@ -20151,8 +20171,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-11-24 20:10:41.85244",
-      "last_modified": "2026-11-24 20:10:41.85244",
+      "created": "2026-11-27 18:09:06.936658",
+      "last_modified": "2026-11-27 18:09:06.936658",
       "vintage": {},
       "row_count": 10225,
       "entity_count": 52,
@@ -20894,8 +20914,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-11-24 20:10:41.674438",
-      "last_modified": "2026-11-24 20:10:41.674438",
+      "created": "2026-11-27 18:09:06.934658",
+      "last_modified": "2026-11-27 18:09:06.934658",
       "vintage": {},
       "row_count": 10248,
       "entity_count": 52,
@@ -21598,8 +21618,8 @@
       "id_length": 5,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-11-24 20:10:41.154432",
-      "last_modified": "2026-11-24 20:10:41.154432",
+      "created": "2026-11-27 18:09:06.937658",
+      "last_modified": "2026-11-27 18:09:06.937658",
       "vintage": {},
       "row_count": 15710,
       "entity_count": 3142,
@@ -25065,8 +25085,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-11-24 20:10:39.843418",
-      "last_modified": "2026-11-24 20:10:39.843418",
+      "created": "2026-11-27 18:09:06.937658",
+      "last_modified": "2026-11-27 18:09:06.937658",
       "vintage": {},
       "row_count": 583,
       "entity_count": 53,
@@ -25408,8 +25428,8 @@
       "id_length": 0,
       "time": "time",
       "profile": "data-resource",
-      "created": "2026-11-24 20:10:39.728416",
-      "last_modified": "2026-11-24 20:10:39.728416",
+      "created": "2026-11-27 18:09:06.938658",
+      "last_modified": "2026-11-27 18:09:06.938658",
       "vintage": {},
       "row_count": 156,
       "entity_count": 52,
@@ -29356,35 +29376,7 @@
       "state": "unchanged"
     },
     "google_dma.parquet": {
-      "state": "changed",
-      "variables": {
-        "fips": {
-          "status": "present",
-          "same_type": true
-        },
-        "date": {
-          "status": "present",
-          "same_type": true,
-          "added_levels": [],
-          "dropped_levels": []
-        },
-        "gtrends_narcan": {
-          "status": "present",
-          "same_type": true
-        },
-        "gtrends_9mm": {
-          "status": "present",
-          "same_type": true
-        },
-        "gtrends_shotgun": {
-          "status": "present",
-          "same_type": true
-        },
-        "gtrends_heat_exhaustion": {
-          "status": "present",
-          "same_type": true
-        }
-      }
+      "state": "unchanged"
     },
     "heat_by_geography_and_source_state_year.parquet": {
       "state": "unchanged"
@@ -29401,8 +29393,8 @@
         "time": {
           "status": "present",
           "same_type": true,
-          "added_levels": ["2026-11-26", "2026-11-27", "2026-11-28", "2026-11-29"],
-          "dropped_levels": ["2026-11-21", "2026-11-22", "2026-11-23", "2026-11-24"]
+          "added_levels": ["2026-11-30", "2026-12-01", "2026-12-02"],
+          "dropped_levels": ["2026-11-25", "2026-11-26", "2026-11-27"]
         },
         "value": {
           "status": "present",

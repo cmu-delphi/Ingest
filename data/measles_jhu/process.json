@@ -5,34 +5,30 @@
     {
       "path": "ingest.R",
       "manual": false,
-      "last_run": "2026-11-24 18:22:39",
+      "last_run": "2026-11-27 18:12:13",
       "frequency": 0,
-      "run_time": 1.376,
+      "run_time": 0.836,
       "last_status": {
         "log": [],
         "success": true
       }
     }
   ],
-  "checked": "2026-11-17 19:51:45",
+  "checked": "2026-11-27 19:52:22",
   "check_results": {
-    "data/measles_jhu/standard/data_county.csv.gz": {
-      "data": "geography_dropped"
-    },
+    "data/measles_jhu/standard/data_county.csv.gz": [],
     "data/measles_jhu/standard/data_state.csv.gz": [],
-    "data/measles_jhu/standard/data.csv.gz": {
-      "data": "geography_dropped"
-    }
+    "data/measles_jhu/standard/data.csv.gz": []
   },
   "standard_state": {
     "./data/measles_jhu/measure_info.json": "4516a00fbe7ede189c6a2f4287deb71a",
-    "./data/measles_jhu/standard/data_county.csv.gz": "3c485eaf19fb7b60b6eadbc545047ff8",
-    "./data/measles_jhu/standard/data_state.csv.gz": "d502a7f4a0d8c3859567edf63622e186",
-    "./data/measles_jhu/standard/data.csv.gz": "1cd3e7e340e15ab8af9acd074a076420"
+    "./data/measles_jhu/standard/data_county.csv.gz": "87f387599cb01a22a3c5d87d24a18258",
+    "./data/measles_jhu/standard/data_state.csv.gz": "e1f2668f039de99fd1ea8d6f93bb4cea",
+    "./data/measles_jhu/standard/data.csv.gz": "f3307162be98782a3cf42a1d696deeb2"
   },
   "raw_state": {
     "raw/data_sources_by_state.csv.xz": "f0c360b67df6da6adfcad855d6885aab",
-    "raw/measles_county_all_updates_detailed.csv.xz": "7f6070ca51a673adf29711f7d30d3771",
-    "raw/Top_states_time_series.csv.xz": "c75ae544b355f021bc400e97fbd2961e"
+    "raw/measles_county_all_updates_detailed.csv.xz": "45fbd70efafacfb907a42272402da337",
+    "raw/Top_states_time_series.csv.xz": "609a232a6fc80b99d66ae429332c6917"
   }
 }

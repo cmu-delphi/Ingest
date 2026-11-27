@@ -8,7 +8,7 @@
   "description" : "An archive of estimated trend categories, probabilities of epidemic growth, and Rt, updated weekly for COVID-19, flu (seasonally), and RSV (seasonally).\n\nThis dataset only includes state-level estimates. For sub-state estimates see: https://data.cdc.gov/Center-for-Forecasting-and-Outbreak-Analytics/Epidemic-Trends-and-Rt-COVID-19-Influenza-and-RSV-/ahfs-x44r/about_data\n\nEstimates are based on emergency department visits reported to the National Syndromic Surveillance Program (NSSP), and generated using a model that includes nowcasting to adjust for incomplete reports on the most recent dates. See the visuals supported by these data, and more information about the data, models and methods at https://www.cdc.gov/cfa-modeling-and-forecasting/rt-estimates/index.html, and https://www.cdc.gov/respiratory-viruses/data/activity-levels.html.\n\nFor a semi-technical overview of the modeling methods used to generate these estimates see https://www.cdc.gov/cfa-behind-the-model/php/data-research/rt-estimates/index.html.\n\nNote: On June 1, 2026 the modeling methods used to generate these estimates changed.\n\nFor `as_of` dates prior to 2026-06-01, estimates were generated using a semi-mechanistic Bayesian model run using the R package EpiNow2. Models were run independently in each state. Source code is available at https://github.com/CDCgov/cfa-epinow2-pipeline.\n\nFor `as_of` dates after 2026-06-01, estimates were generated using a hierarchical generalized additive model (HGAM) in which data were spatially partially pooled. Methods details are available at https://www.cdc.gov/cfa-behind-the-model/php/data-research/rt-estimates/index.html",
   "diciBackend" : false,
   "displayType" : "table",
-  "downloadCount" : 2926,
+  "downloadCount" : 2955,
   "hideFromCatalog" : false,
   "hideFromDataJson" : false,
   "locked" : false,
@@ -20,12 +20,12 @@
   "publicationDate" : 1733523253,
   "publicationGroup" : 19710281,
   "publicationStage" : "published",
-  "rowsUpdatedAt" : 1795194656,
+  "rowsUpdatedAt" : 1795799316,
   "rowsUpdatedBy" : "w58h-w6da",
   "tableId" : 19710281,
   "totalTimesRated" : 0,
-  "viewCount" : 124139,
-  "viewLastModified" : 1795194455,
+  "viewCount" : 124602,
+  "viewLastModified" : 1795798976,
   "viewType" : "tabular",
   "approvals" : [ {
     "reviewedAt" : 1733523253,
@@ -364,31 +364,31 @@
         "item" : "0.9394",
         "count" : "196"
       }, {
-        "item" : "0.9820",
-        "count" : "195"
-      }, {
         "item" : "0.9652",
         "count" : "195"
       }, {
-        "item" : "0.9389",
-        "count" : "194"
+        "item" : "0.9820",
+        "count" : "195"
       }, {
         "item" : "0.9626",
         "count" : "194"
       }, {
-        "item" : "0.9551",
-        "count" : "193"
+        "item" : "0.9389",
+        "count" : "194"
       }, {
         "item" : "0.9816",
+        "count" : "193"
+      }, {
+        "item" : "0.9551",
         "count" : "193"
       }, {
         "item" : "0.9598",
         "count" : "192"
       }, {
-        "item" : "0.9509",
+        "item" : "0.9371",
         "count" : "192"
       }, {
-        "item" : "0.9371",
+        "item" : "0.9509",
         "count" : "192"
       }, {
         "item" : "0.9491",
@@ -437,22 +437,22 @@
         "item" : "0.9432",
         "count" : "192"
       }, {
-        "item" : "0.9239",
-        "count" : "191"
-      }, {
         "item" : "0.9242",
         "count" : "191"
       }, {
-        "item" : "0.9143",
-        "count" : "190"
+        "item" : "0.9239",
+        "count" : "191"
       }, {
         "item" : "0.9149",
         "count" : "190"
       }, {
-        "item" : "0.9166",
-        "count" : "188"
+        "item" : "0.9143",
+        "count" : "190"
       }, {
         "item" : "0.9097",
+        "count" : "188"
+      }, {
+        "item" : "0.9166",
         "count" : "188"
       }, {
         "item" : "0.9275",
@@ -464,7 +464,7 @@
         "item" : "0.9174",
         "count" : "186"
       }, {
-        "item" : "0.9240",
+        "item" : "0.924",
         "count" : "185"
       }, {
         "item" : "0.9340",
@@ -498,10 +498,10 @@
       "largest" : "3.5303",
       "null" : "106434",
       "top" : [ {
-        "item" : "1.0103",
+        "item" : "0.9956",
         "count" : "183"
       }, {
-        "item" : "0.9956",
+        "item" : "1.0103",
         "count" : "183"
       }, {
         "item" : "1.0090",
@@ -522,11 +522,14 @@
         "item" : "1.0128",
         "count" : "174"
       }, {
+        "item" : "1.0503",
+        "count" : "171"
+      }, {
         "item" : "1.0046",
         "count" : "171"
       }, {
-        "item" : "1.0503",
-        "count" : "171"
+        "item" : "0.9822",
+        "count" : "170"
       }, {
         "item" : "0.9940",
         "count" : "170"
@@ -534,19 +537,16 @@
         "item" : "1.0264",
         "count" : "170"
       }, {
-        "item" : "0.9822",
-        "count" : "170"
+        "item" : "0.9802",
+        "count" : "169"
       }, {
         "item" : "1.0328",
         "count" : "169"
       }, {
-        "item" : "0.9802",
+        "item" : "0.9787",
         "count" : "169"
       }, {
         "item" : "0.9866",
-        "count" : "169"
-      }, {
-        "item" : "0.9787",
         "count" : "169"
       }, {
         "item" : "1.0118",
@@ -555,7 +555,7 @@
         "item" : "1.0197",
         "count" : "168"
       }, {
-        "item" : "1.0058",
+        "item" : "1.0404",
         "count" : "168"
       } ],
       "smallest" : "0.6430",
@@ -721,13 +721,13 @@
     "tableColumnId" : 155815064,
     "cachedContents" : {
       "non_null" : "576845",
-      "largest" : "2026-11-19T14:35:13.485",
+      "largest" : "2026-11-20T17:05:47.322",
       "null" : "0",
       "top" : [ {
-        "item" : "2026-11-19T14:35:13.485",
+        "item" : "2026-11-20T17:05:47.322",
         "count" : "576845"
       } ],
-      "smallest" : "2026-11-19T14:35:13.485",
+      "smallest" : "2026-11-20T17:05:47.322",
       "count" : "576845",
       "cardinality" : "576845"
     },

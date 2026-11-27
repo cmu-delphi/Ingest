@@ -215,7 +215,7 @@
       "google_dma.parquet"
     ]
   },
-  "checked": "2026-11-24 20:13:11",
+  "checked": "2026-11-27 19:52:14",
   "check_results": {
     "data/bundle_injury_overdose/dist/county_opioid_by_source.parquet": {
       "measures": "missing_info: year"
@@ -275,7 +275,7 @@
     "./data/bundle_injury_overdose/dist/firearms_geography_source.parquet": "df2f7a6a055675cd14fa430a36f612a3",
     "./data/bundle_injury_overdose/dist/google_dma.parquet": "a73f80792c4965f2f00ca2eead972a33",
     "./data/bundle_injury_overdose/dist/heat_by_geography_and_source_state_year.parquet": "1f78bf7e51a3efc1dd69b7ba565b0d9b",
-    "./data/bundle_injury_overdose/dist/heat_risk.parquet": "0f4ba871beed213b90e9e4ac7d33ad3d",
+    "./data/bundle_injury_overdose/dist/heat_risk.parquet": "5590e2bdd35844896a6c27fe2dd1c1ce",
     "./data/bundle_injury_overdose/dist/medicaid_injury_overdose.parquet": "bf80e4cef9d51550878ee738b17c8ae5",
     "./data/bundle_injury_overdose/dist/overdose_by_demographics.parquet": "b242a0cccf78063e6ea1eae801c70b20",
     "./data/bundle_injury_overdose/dist/overdose_by_geography_and_source_county.parquet": "8c5b33836f14bd5b977fa40d2192380c",
